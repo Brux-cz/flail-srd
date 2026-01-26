@@ -1,0 +1,92 @@
+site_name: FLAIL SRD
+site_description: System Reference Document pro FLAIL - Old-school fantasy RPG
+site_author: Andre Novoa
+site_url: https://brux.github.io/flail-srd
+
+theme:
+  name: material
+  language: cs
+  palette:
+    - scheme: slate
+      primary: amber
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Prepnout na svetly rezim
+    - scheme: default
+      primary: amber
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Prepnout na tmavy rezim
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.integrate
+  icon:
+    logo: material/sword-cross
+
+plugins:
+  - search:
+      lang: cs
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Uvod: index.md
+  - Pravidla pro hrace:
+    - Filozofie a zakony: player/philosophy.md
+    - Povolani:
+      - Bard: player/classes/bard.md
+      - Septac kosti: player/classes/bone-whisperer.md
+      - Klerik: player/classes/cleric.md
+      - Hrdlorez: player/classes/cutthroat.md
+      - Druid: player/classes/druid.md
+      - Kutilek: player/classes/tinkerer.md
+      - Valecnik: player/classes/warrior.md
+      - Carodej: player/classes/wizard.md
+    - Inventar a vybava: player/inventory.md
+    - Zachranne hody: player/saves.md
+    - Boj: player/combat.md
+    - Najatci: player/hirelings.md
+    - Kampan: player/campaign.md
+  - Pravidla pro GM:
+    - Vedeni FLAILu: gm/running.md
+    - Hexcrawl: gm/hexcrawl.md
+    - Scenare vyprav: gm/quests.md
+    - Mista dobrodruzstvi: gm/adventure-sites.md
+    - Bestiar: gm/bestiary.md
+    - Unikatni predmety: gm/unique-items.md
+  - Zdroje:
+    - Mesta: resources/cities.md
+    - Vesnice: resources/villages.md
+    - Hospody: resources/inns.md
+    - Chramy a bohove: resources/temples.md
+    - NPC: resources/npcs.md
+    - Jmena: resources/names.md
+    - Ostatni: resources/misc.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/brux/flail-srd
+
+copyright: Copyright &copy; 2026 Games Omnivorous - FLAIL by Andre Novoa
