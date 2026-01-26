@@ -1,0 +1,132 @@
+english,czech,note
+# === POVOLÁNÍ (8) ===
+Bard,Bard,povolání - hudebník/kouzelník
+Bone Whisperer,Šeptač kostí,povolání - nekromantské vibes
+Cleric,Klerik,povolání - božský služebník
+Cutthroat,Hrdlořez,povolání - assassin/zloděj
+Druid,Druid,povolání - přírodní magie
+Tinkerer,Kutílek,povolání - vynálezce/mechanik
+Warrior,Válečník,povolání - bojovník
+Wizard,Čaroděj,povolání - arkánní magie
+
+# === HERNÍ MECHANIKY ===
+Hit Points,Body životů,zdraví postavy (zkratka BŽ)
+HP,BŽ,zkratka Body životů
+Damage,Poškození,mechanika útoku
+Attack,Útok,akce v boji
+Defense,Obrana,obranná hodnota
+Armor,Zbroj,ochranná výbava
+Save,Záchranný hod,hod na odolání
+Check,Hod na ověření,test schopnosti
+Skill,Dovednost,schopnost postavy
+Ability,Vlastnost,základní atribut
+Level,Úroveň,síla postavy
+Experience,Zkušenosti,body za postup
+
+# === POKER DICE SYSTÉM ===
+Push-your-luck,Riskovací mechanika,popis herního systému
+Poker dice,Pokerové kostky,d6 systém FLAIL
+Pair,Pár,kombinace 2 stejných kostek
+Two pairs,Dva páry,kombinace 2x2 stejné kostky
+Three of a kind,Trojice,kombinace 3 stejných kostek
+Full house,Full house,trojice + pár (ponechat anglicky)
+Four of a kind,Čtveřice,kombinace 4 stejných kostek
+Five of a kind,Pětice,kombinace 5 stejných kostek
+Sequence,Postupka,sekvence po sobě jdoucích hodnot
+Straight,Postupka,alternativní název pro sekvenci
+Roll,Hod,hod kostkou/kostkami
+Reroll,Přehození,opakovaný hod
+Keep,Ponechat,nechat si kostku
+Ones,Jedničky,hodnota 1 = poškození
+Sixes,Šestky,hodnota 6 = magické následky
+
+# === MAGIE ===
+Spell,Kouzlo,magická schopnost
+Cast,Seslat,použít kouzlo
+Magic,Magie,nadpřirozená síla
+Consequence,Následek,negativní efekt při šestkách
+Backlash,Zpětný úder,magický protiúder
+Mana,Mana,magická energie
+Cantrip,Trik,slabé kouzlo bez omezení
+
+# === VYBAVENÍ ===
+Gear,Výbava,veškeré předměty
+Equipment,Vybavení,alternativní název pro výbavu
+Inventory,Inventář,systém předmětů
+Item,Předmět,jednotlivý kus výbavy
+Weapon,Zbraň,útočný předmět
+1H,1R,jednoruční (one-handed)
+2H,2R,obouruční (two-handed)
+Shield,Štít,obranný předmět
+Potion,Lektvar,pitelný magický předmět
+Scroll,Svitek,jednorázové kouzlo
+Wand,Hůlka,magická zbraň
+Staff,Hůl,delší magická zbraň
+Ring,Prsten,magický šperk
+Amulet,Amulet,ochranný šperk
+Cloak,Plášť,oblečení
+Boots,Boty,obuv
+Gloves,Rukavice,ochrana rukou
+Helm,Přilba,ochrana hlavy
+Torch,Pochodeň,zdroj světla
+Rope,Lano,užitečný předmět
+Backpack,Batoh,úložný prostor
+Gold,Zlato,měna
+Coins,Mince,alternativní název pro měnu
+
+# === BOJ ===
+Combat,Boj,střetnutí
+Battle,Bitva,větší střetnutí
+Fight,Souboj,menší střetnutí
+Turn,Tah,kolo v boji
+Round,Kolo,časová jednotka boje
+Initiative,Iniciativa,pořadí v boji
+Melee,Boj zblízka,kontaktní boj
+Ranged,Boj na dálku,střelba/vrhání
+Wound,Zranění,poškození
+Heal,Léčit,obnovit zdraví
+Rest,Odpočinek,regenerace
+Death,Smrt,konec postavy
+Unconscious,V bezvědomí,neschopnost jednat
+Dying,Umírající,blízko smrti
+
+# === PŘÍŠERY A NPC ===
+Monster,Příšera/Netvor,nepřátelská bytost
+Creature,Tvor,obecná bytost
+Beast,Bestie,zvířecí příšera
+Demon,Démon,pekelná bytost
+Undead,Nemrtvý,oživlá mrtvola
+Skeleton,Kostlivec,kostrová příšera
+Zombie,Zombie,oživlá mrtvola
+Ghost,Duch,nehmotná bytost
+Dragon,Drak,létající ještěr
+Goblin,Goblin/Skřet,malá zlá bytost
+Orc,Ork/Skřet,válečná bytost
+Troll,Troll,regenerující příšera
+Giant,Obr,velká humanoidní bytost
+
+# === HERNÍ TERMÍNY ===
+Adventure,Dobrodružství,herní sezení/příběh
+Campaign,Kampaň,série dobrodružství
+Session,Sezení,jedno hraní
+Player,Hráč,člověk u stolu
+Character,Postava,herní alter ego
+PC,HP (Hráčská postava),player character
+NPC,NPC/Nehráčská postava,non-player character
+GM,Vypravěč/GM,game master
+Dungeon,Kobka/Dungeon,podzemní lokace
+Treasure,Poklad,odměna
+Loot,Kořist,nalezené předměty
+Quest,Úkol/Výprava,mise pro postavy
+Trap,Past,nebezpečí v dungeonu
+
+# === FLAIL SPECIFICKÉ ===
+Brawler,Rváč,styl hry - chaotický boj
+OSR,OSR,old-school renaissance (nepřekládat)
+Unfair,Neférový,charakteristika hry
+Unbalanced,Nevyvážený,charakteristika hry
+Unhinged,Šílený,charakteristika hry
+Card,Karta,fyzická karta vybavení
+Deck,Balíček,sada karet
+Draw,Líznout,vzít kartu
+Discard,Odhodit,zbavit se karty

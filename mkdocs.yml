@@ -1,7 +1,7 @@
 site_name: FLAIL SRD
 site_description: System Reference Document pro FLAIL - Old-school fantasy RPG
 site_author: Andre Novoa
-site_url: https://brux.github.io/flail-srd
+site_url: https://brux-cz.github.io/flail-srd
 
 theme:
   name: material
@@ -37,6 +37,18 @@ theme:
 plugins:
   - search:
       lang: cs
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      languages:
+        - locale: cs
+          default: true
+          name: Cesky
+          build: true
+        # Pripraveno pro anglickou verzi:
+        # - locale: en
+        #   name: English
+        #   build: true
 
 markdown_extensions:
   - tables
@@ -87,6 +99,6 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/brux/flail-srd
+      link: https://github.com/Brux-cz/flail-srd
 
 copyright: Copyright &copy; 2026 Games Omnivorous - FLAIL by Andre Novoa

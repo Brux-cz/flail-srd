@@ -1,0 +1,38 @@
+name_en,type,stats,effect_en,name_cz,effect_cz
+Blazing Edge,Weapon,TH 5 DMG 3,Major Hit: ignites,Planoucí ostří,Silný zásah: zapálí
+Blinding Reaver,Weapon,TH 6 DMG 4,Blinds on sequence,Oslepující drancovač,Oslepí při postupce
+Bloodfang,Weapon,TH 5 DMG 2,+DMG/made hit,Krvavý tesák,+POŠ/za zásah
+Buzzing Volt,Weapon,TH 6 DMG 2,2s cause +dmg,Bzučivý volt,Dvojky způsobí +poš
+Mage's Plight,Weapon,TH 5 DMG 3,Reroll 2 dice p/round,Mágova tíseň,Přehoď 2 kostky za kolo
+Saw Boomerang,Weapon,TH 5 DMG 2,Triplets effect,Pilový bumerang,Efekt trojice
+Hammer of O,Weapon,TH 6 DMG 2,Major Hit: stuns target,Kladivo Õ,Silný zásah: omráčí cíl
+Cinderline,Weapon,TH 6 DMG 2,Triplets effect,Popelnice,Efekt trojice
+Molten Fury,Weapon,TH 6 DMG 4,Ignores Defence,Roztavená zuřivost,Ignoruje Obranu
+Stormrider,Weapon,TH 5 DMG 4,+2 TH in storms,Jezdec bouře,+2 HZ v bouřích
+The Intimidator,Weapon,TH 8 DMG 4,Major Hit: On triplet forces a Morale save,Zastrašovač,Silný zásah: při trojici vynutí hod na Morálku
+Coral Whisper,Weapon,TH 5 DMG 2,Poker effect,Korálový šepot,Pokerový efekt
+Runeforge,Weapon,TH 6 DMG 2,Full-house effect,Runokovárna,Efekt full-house
+The Man Catcher,Weapon,TH 4 DMG 0,Immobilises target,Lapač mužů,Znehybní cíl
+Titanbreaker,Weapon,TH 7 DMG 4,Major Hit: +6 dmg vs Giants,Drtič titánů,Silný zásah: +6 poš proti Obrům
+Grim Skull,Amulet,,Force Morale saves,Ponurá lebka,Vynutí hody na Morálku
+Head Trophy,Item,,Mark to harvest spirit,Hlavová trofej,Označ pro sklizeň ducha
+Whip of Bones,Weapon,TH 6 DMG 2,Death Blow effect,Bič z kostí,Efekt Smrtícího úderu
+Bone Armour,Armor,A,,Kostěná zbroj,
+Amphibian Ring,Ring,,Breathe underwater,Obojživelný prsten,Dýchání pod vodou
+Dragonhide,Armor,A,Protection vs fire,Dračí kůže,Ochrana proti ohni
+Amulet of Fire,Amulet,,Half damage from fire,Amulet ohně,Poloviční poškození od ohně
+Amulet of Faith,Amulet,,+2 LUCK,Amulet víry,+2 ŠTĚSTÍ
+Helm of Mettle,Armor,A,Stack one condition,Přilba odvahy,Hromaď jeden stav
+Mace of Trial,Weapon,TH 6 DMG 4,Death Blow effect,Palcát zkoušky,Efekt Smrtícího úderu
+Oath Scutum,Armor,A,+1 CHA,Přísežný štít,+1 CHA
+Bird Talisman,Amulet,,Mark to fly,Ptačí talisman,Označ pro létání
+Mammal Furs,Armor,A,,Savčí kožešiny,
+Reptile Boots,Boots,,+2 DEX,Plazí boty,+2 OBR
+The Dragon Skull,Armor,A,+4 max HP,Dračí lebka,+4 max bž
+Wyrm Slayer,Weapon,TH 6 DMG 4,+1 TH vs Dragons,Drakobijec,+1 HZ proti Drakům
+Gone Girdle,Belt,,LUCK save to teleport,Zmizelý opasek,Záchrana ŠTĚSTÍ pro teleport
+Prismatic Ward,Amulet,,Protects vs one element,Prizmatická ochrana,Chrání proti jednomu živlu
+Rod of Morph,Weapon,TH 4 DMG 1,Major Hit effect,Hůl proměny,Efekt Silného zásahu
+The Blastbolt,Weapon,TH 6 DMG 4,Major Hit effect,Výbušný šíp,Efekt Silného zásahu
+Tinkerfist,Gloves,,Quick Craft -1 usage,Kutilská pěst,Rychlá výroba -1 použití
+Burden Bearer,Armor,A,Unlocks STR slots,Nosič břemen,Odemkne sloty SÍL
