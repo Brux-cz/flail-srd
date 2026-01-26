@@ -1,35 +1,35 @@
-# Kampan
+# Kampaň
 
-## Zkusenosti
+## Zkušenosti
 
-Postavy ziskavaji body zkusenosti (XP) za:
+Postavy získávají body zkušenosti (XP) za:
 
-- **Nalezeni pokladu:** 1 XP za 100 minci hodnoty
-- **Porazeni nepratei:** 1 XP za uroven prisery
-- **Dokonceni ukolu:** XP dle vyznamu
-- **Pruzkum novych mist:** 1 XP za vyznamne misto
+- **Nalezení pokladu:** 1 XP za 100 mincí hodnoty
+- **Poražení nepřátel:** 1 XP za úroveň příšery
+- **Dokončení úkolů:** XP dle významu
+- **Průzkum nových míst:** 1 XP za významné místo
 
-## Ziskavani novych urovni
+## Získávání nových úrovní
 
-Pro postup na dalsi uroven musi postava oznacit vsechna policka ve svem radku urovne. Policka se oznacuji za ruzne uspechy:
+Pro postup na další úroveň musí postava označit všechna políčka ve svém řádku úrovně. Políčka se označují za různé úspěchy:
 
-- Nalezeni unikatniho predmetu
-- Dokonceni osobniho cile
-- Preziti temer smrtelneho stretnuti
-- Vyznamne roleplay momenty
+- Nalezení unikátního předmětu
+- Dokončení osobního cíle
+- Přežití téměř smrtelného střetnutí
+- Významné roleplay momenty
 
-## Odchod do duchodu
+## Odchod do důchodu
 
-Po dosazeni **urovne 5** postava odchazi do duchodu a stava se vyznamnou NPC ve svete. Hrac si vytvori novou postavu urovne 1.
+Po dosažení **úrovně 5** postava odchází do důchodu a stává se významnou NPC ve světě. Hráč si vytvoří novou postavu úrovně 1.
 
-## Povest
+## Pověst
 
-Povest je skala od **-6** do **+6**. Akce postav ovlivnuji jejich povest:
+Pověst je škála od **-6** do **+6**. Akce postav ovlivňují jejich pověst:
 
 | Akce | Efekt |
 |------|-------|
-| Hrdinske ciny | +1 povest |
-| Zle ciny | -1 povest |
-| Smrt najatce | -1 povest |
+| Hrdinské činy | +1 pověst |
+| Zlé činy | -1 pověst |
+| Smrt najatce | -1 pověst |
 
-Povest ovlivnuje jak NPC reaguji na postavu.
+Pověst ovlivňuje jak NPC reagují na postavu.

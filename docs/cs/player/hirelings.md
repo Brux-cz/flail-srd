@@ -1,18 +1,18 @@
 # Najatci
 
-Najatci jsou NPC, kteri nasleduji hracske postavy za plat.
+Najatci jsou NPC, kteří následují hráčské postavy za plat.
 
-## Zakladni pravidla
+## Základní pravidla
 
 | Aspekt | Hodnota |
 |--------|---------|
-| **Prispevek** | 5 minci denne za bezneho najatce, vice za specialisty |
-| **Statistiky** | 4 bz, Hody 8, Moralka 7, HZ 4, POS 1 |
+| **Příspěvek** | 5 mincí denně za běžného najatce, více za specialisty |
+| **Statistiky** | 4 bz, Hody 8, Morálka 7, HZ 4, POS 1 |
 
-## Moralka
+## Morálka
 
-Pri nebezpeci hod k20 proti moralce. Pri neuspechu najatec utece nebo odmitne pokracovat.
+Při nebezpečí hoď k20 proti morálce. Při neúspěchu najatec uteče nebo odmítne pokračovat.
 
 ## Smrt
 
-Pokud najatec zemre, povest postavy klesne o 1.
+Pokud najatec zemře, pověst postavy klesne o 1.

@@ -1,28 +1,28 @@
-# Zachranne hody
+# Záchranné hody
 
-## Hazeni zachrannych hodu
+## Házení na záchranu
 
-Kdykoli postava zkousi riskantni akci, hodi k20 a pokusi se hodit pod prislusnou hodnotu vlastnosti.
+Kdykoliv postava provádí akci s šancí na neúspěch — a riskantními důsledky — musí hodit na záchranu. Záchrany se házejí proti příslušné vlastnosti. Hráči hodí k20. Pokud je výsledek roven nebo menší než příslušná vlastnost, jejich postava uspěje. Pokud je hod vyšší než vlastnost, musí nést důsledky svých činů.
 
-- **Hod 1** je vzdy **kriticky zasah** (nejlepsi uspech)
-- **Hod 20** je vzdy **kriticky neuspech** (nejhorsi selhani)
+- **Hod 1** je vždy **kritický zásah** (nejlepší úspěch)
+- **Hod 20** je vždy **kritický neúspěch** (nejhorší selhání)
 
-## Vyhoda a nevyhoda
+## Výhoda a nevýhoda
 
 | Typ | Pravidlo |
 |-----|----------|
-| **Vyhoda** | Hod dvakrat, vezmi lepsi vysledek |
-| **Nevyhoda** | Hod dvakrat, vezmi horsi vysledek |
+| **Výhoda** | Hoď dvakrát, vezmi lepší výsledek |
+| **Nevýhoda** | Hoď dvakrát, vezmi horší výsledek |
 
-## Protichudne hody
+## Protichůdné hody
 
-Kdyz se dva ucastnici snazi prekonat navzajem, oba hodi prislusny hod. Kdo uspeje a hodi vyssi cislo (ale stale pod vlastnosti), vyhrava. Pokud oba selzou, nikdo nevyhrava.
+Když se dva účastníci snaží překonat navzájem, oba hodí příslušný hod. Kdo uspěje a hodí vyšší číslo (ale stále pod vlastnosti), vyhrává. Pokud oba selžou, nikdo nevyhrává.
 
-## Dusledky selhani
+## Důsledky selhání
 
-Neuspech v hodu muze vest k:
+Neúspěch v hodu může vést k:
 
-- Ztrate akce
-- Obdrzeni stavu
-- Poskozeni
-- Jinemu negativnimu vysledku dle situace
+- Ztrátě akce
+- Obdržení stavu
+- Poškození
+- Jinému negativnímu výsledku dle situace
