@@ -2,10 +2,6 @@
 
 ## Filozofie FLAILu
 
-### Pravidlo nula
-
-Rozhodnuti maji prednost pred pravidly. Tahle prirucka pokryva jen tolik a herni pribeh zatlaci postavy do situaci, ktere tu NEJSOU plne reseny. V takovych situacich Vypravec (GM) prijde s resenim — jako vyjednat si hod kostkou s hraci nebo jim dovolit uspet za cenu (napr. 'muzes to udelat, ale musis se vzdat predmetu'). Nasleduj vedeni Vypravece.
-
 ### Zachranne hody: Hod pod
 
 Prvni zakladni mechanika je hodit d20, kdykoli postava zkousi riskantni akci, a snazit se hodit pod prislusnou hodnotu vlastnosti. Rika se jim Zachranne hody a zahrnuji kazdou predstavitelnou akci. Vlastnosti se deli na Silu, Obratnost, Charisma, Inteligenci a Stesti. Hod 1 je vzdy kriticky zasah, nejlepsi druh uspechu. Hod 20 je vzdy kriticky neuspech, nejhorsi druh selhani.
