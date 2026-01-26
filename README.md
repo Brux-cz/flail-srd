@@ -32,9 +32,22 @@ mkdocs serve   # http://127.0.0.1:8000
 
 ## Workflow prekladu
 
+### Běžné úpravy (opravy překlepů, vylepšení překladu)
+
 1. **Uprav** soubory v `docs/cs/`
 2. **Testuj** lokalne: `mkdocs serve`
 3. **Commitni** a **pushni**: zmeny se automaticky deployi na GitHub Pages
+
+### ⚠️ Aktualizace na novou verzi od autora
+
+**👉 Když přijde nová verze PDF od Andre Novoa:**
+
+1. **Otevři `WORKFLOW.md`** - kompletní návod tam!
+2. Použij staging branch pro testování
+3. Postupuj podle kroků v návodu
+
+📄 **[WORKFLOW.md](WORKFLOW.md)** - detailní návod krok za krokem
+📊 **[TEST_REPORT.md](TEST_REPORT.md)** - dokumentace testu workflow
 
 ## Verzovani
 
