@@ -43,6 +43,14 @@ Utocnik hazi hrst k6 (pocet urcuje zbran nebo schopnost). Kazda hozena **1** zpu
 - **Vyhoda:** pricti +1 k6 k hodu na zasah
 - **Nevyhoda:** odecti 1 k6 z hodu na zasah
 
+## Obkliceni (Flanking)
+
+*Nove pravidlo pridane ve verzi v1.0*
+
+Kdyz dva spojenci obklopuji nepritele z protilehlych stran (napr. jeden zpredu a jeden zezadu), kazdy z tech spojencených útočníků získává **Vyhodu** na sve hody na zasah proti tomuto cili.
+
+**Poznamka:** Obkliceni funguje pouze proti cilum velikosti Clovek nebo vetsi. Male tvory (napr. krysy) nelze obklicit.
+
 ## Zranitelnost
 
 Nekteri tvorove jsou zranitelni vuci urcitym typum poskozeni. Pri zasahu zranitelneho tvora zpusob dvojnasobne poskozeni.
