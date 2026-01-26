@@ -1,4 +1,4 @@
-# Valecnik 8888
+# Valecnik
 
 **Maximum bodu zivotu:** 14
 
