@@ -12,13 +12,13 @@ theme:
       accent: orange
       toggle:
         icon: material/brightness-4
-        name: Prepnout na svetly rezim
+        name: Přepnout na světlý režim
     - scheme: default
       primary: amber
       accent: orange
       toggle:
         icon: material/brightness-7
-        name: Prepnout na tmavy rezim
+        name: Přepnout na tmavý režim
   font:
     text: Roboto
     code: Roboto Mono
@@ -43,9 +43,9 @@ plugins:
       languages:
         - locale: cs
           default: true
-          name: Cesky
+          name: Česky
           build: true
-        # Pripraveno pro anglickou verzi:
+        # Připraveno pro anglickou verzi:
         # - locale: en
         #   name: English
         #   build: true
@@ -63,39 +63,39 @@ markdown_extensions:
       permalink: true
 
 nav:
-  - Uvod: index.md
-  - Pravidla pro hrace:
-    - Filozofie a zakony: player/philosophy.md
-    - Povolani:
+  - Úvod: index.md
+  - Pravidla pro hráče:
+    - Filozofie a zákony: player/philosophy.md
+    - Povolání:
       - Artificer (v1.0): player/classes/artificer.md
       - Bard: player/classes/bard.md
-      - Septac kosti: player/classes/bone-whisperer.md
+      - Šeptač kostí: player/classes/bone-whisperer.md
       - Klerik: player/classes/cleric.md
-      - Hrdlorez: player/classes/cutthroat.md
+      - Hrdlořez: player/classes/cutthroat.md
       - Druid: player/classes/druid.md
-      - Kutilek: player/classes/tinkerer.md
-      - Valecnik: player/classes/warrior.md
-      - Carodej: player/classes/wizard.md
-    - Inventar a vybava: player/inventory.md
-    - Zachranne hody: player/saves.md
+      - Kutílek: player/classes/tinkerer.md
+      - Válečník: player/classes/warrior.md
+      - Čaroděj: player/classes/wizard.md
+    - Inventář a výbava: player/inventory.md
+    - Záchranné hody: player/saves.md
     - Boj: player/combat.md
     - Najatci: player/hirelings.md
-    - Kampan: player/campaign.md
+    - Kampaň: player/campaign.md
   - Pravidla pro GM:
-    - Vedeni FLAILu: gm/running.md
+    - Vedení FLAILu: gm/running.md
     - Hexcrawl: gm/hexcrawl.md
-    - Scenare vyprav: gm/quests.md
-    - Mista dobrodruzstvi: gm/adventure-sites.md
-    - Bestiar: gm/bestiary.md
-    - Unikatni predmety: gm/unique-items.md
+    - Scénáře výprav: gm/quests.md
+    - Místa dobrodružství: gm/adventure-sites.md
+    - Bestiář: gm/bestiary.md
+    - Unikátní předměty: gm/unique-items.md
   - Zdroje:
-    - Mesta: resources/cities.md
+    - Města: resources/cities.md
     - Vesnice: resources/villages.md
     - Hospody: resources/inns.md
-    - Chramy a bohove: resources/temples.md
+    - Chrámy a bohové: resources/temples.md
     - NPC: resources/npcs.md
-    - Jmena: resources/names.md
-    - Ostatni: resources/misc.md
+    - Jména: resources/names.md
+    - Ostatní: resources/misc.md
 
 extra:
   social:
