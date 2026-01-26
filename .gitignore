@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+
+# Archive folder (regenerovatelné soubory)
+# archive.tar.gz je commitnutý v gitu pro snadné obnovení
+archive/
