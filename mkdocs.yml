@@ -67,6 +67,7 @@ nav:
   - Pravidla pro hrace:
     - Filozofie a zakony: player/philosophy.md
     - Povolani:
+      - Artificer (v1.0): player/classes/artificer.md
       - Bard: player/classes/bard.md
       - Septac kosti: player/classes/bone-whisperer.md
       - Klerik: player/classes/cleric.md
