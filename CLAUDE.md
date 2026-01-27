@@ -58,51 +58,13 @@ git add docs/cs/ && git commit -m "Fix" && git push
 - **Nepřekládat** názvy her, jména autorů
 - **Konzistentně** tykání/vykání (pravidla = vykání)
 
-### Aktivní glosář:
+### Glosář:
 
-| EN | CS |
-|----|-----|
-| roll-under | hod pod hodnotu |
-| save / saving throw | záchranný hod |
-| hit points (HP) | body životů (HP) |
-| swingy | rozkolísané |
-| d6, d20 | k6, k20 |
-| dungeon crawl | průzkum kobky |
-| hexcrawl | hexcrawl |
-| push your luck | riskovat |
-| GM / DM | Vypravěč / GM |
-| turn | tah |
-| round | kolo |
-| melee | boj na blízko |
-| ranged | boj na dálku |
+**📖 Před překladem vždy přečti:** `FLAIL_glossary.csv`
 
----
-
-## Správa glosáře
-
-### Jak to funguje:
-
-1. **Aktivní glosář** (výše) = schválené termíny, které MUSÍM používat
-2. **Glosář ke schválení** (`GLOSSARY_PENDING.md`) = nové návrhy čekající na review
-
-### Při revizi překladu:
-
-1. Když najdu nový termín, který by měl být v glosáři → přidám do `GLOSSARY_PENDING.md`
-2. Každý návrh obsahuje:
-   - **EN** = anglický termín
-   - **CS** = navrhovaný český překlad
-   - **Kontext** = kde se termín vyskytuje
-   - **Zdůvodnění** = proč volím tento překlad
-3. Po revizi upozorním uživatele na nové návrhy
-4. Uživatel schválí/upraví návrhy
-5. Schválené termíny přesunu do aktivního glosáře
-
-### Pravidla pro návrhy:
-
-- **Konzistence** = jeden termín = jeden překlad (žádné varianty)
-- **Česká RPG tradice** = preferovat zažité české termíny (záchranný hod, kolo, tah...)
-- **Nepřekládat** = vlastní jména, názvy her, anglicismy které se v CZ RPG komunitě běžně používají
-- **Vysvětlit** = u neobvyklých voleb vždy napsat proč
+- Obsahuje 200+ schválených termínů (English → Czech)
+- **MUSÍM** používat tyto překlady konzistentně
+- Nové termíny přidávám do CSV po schválení uživatelem
 
 ---
 
