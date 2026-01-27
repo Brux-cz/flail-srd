@@ -32,11 +32,11 @@ Hra nabízí nástroje pro rychlé generování obsahu podle potřeby, což umo�
 
 #### Hexcrawl
 
-Výchozí režim nechává postavy prozkoumávat svět zmapovaný na šestiúhelnících, z nichž většina obsahuje významné místo nebo památku. Přestože je možné pomocí této hry hrát meta-zápletky kampaně nebo mega-kobky, většina jejích nástrojů je navržena pro otevřené hexcrawly ve stylu pískoviště, které podporují rychlou, procedurální hru.
+Výchozí režim nechává postavy prozkoumávat svět zmapovaný na šestiúhelnících, z nichž většina obsahuje významné místo nebo památku. Přestože je možné pomocí této hry hrát meta-zápletky kampaně nebo mega-kobky, většina jejích nástrojů je navržena pro otevřené sandbox hexcrawly, které podporují rychlou, procedurální hru.
 
 #### Zacházej s hexy jako s místnostmi
 
-> Místnosti v kobce mohou být tak minimální jako „obsahuje příšeru" nebo „obsahuje tuto past a poklad". Přemýšlejte o hexech podobně. Hex s věží čaroděje lze popsat podobně, s překážkou k překonání („čaroděj něco chce!") a odměnou, jako je poklad nebo zápletka. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako postupují kobkou.
+> Místnosti v kobce mohou být tak jednoduché jako „obsahuje příšeru" nebo „je tu past a poklad". Přemýšlejte o hexech stejně. Hex s čarodějovou věží lze popsat podobně – s překážkou k překonání („čaroděj něco chce!") a odměnou, třeba pokladem nebo prozrazením cenné informace, která příběh posune vpřed. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako když postupují kobkou.
 
 #### Rychlé tempo
 
