@@ -58,7 +58,7 @@ git add docs/cs/ && git commit -m "Fix" && git push
 - **Nepřekládat** názvy her, jména autorů
 - **Konzistentně** tykání/vykání (pravidla = vykání)
 
-### Glosář:
+### Aktivní glosář:
 
 | EN | CS |
 |----|-----|
@@ -75,6 +75,34 @@ git add docs/cs/ && git commit -m "Fix" && git push
 | round | kolo |
 | melee | boj na blízko |
 | ranged | boj na dálku |
+
+---
+
+## Správa glosáře
+
+### Jak to funguje:
+
+1. **Aktivní glosář** (výše) = schválené termíny, které MUSÍM používat
+2. **Glosář ke schválení** (`GLOSSARY_PENDING.md`) = nové návrhy čekající na review
+
+### Při revizi překladu:
+
+1. Když najdu nový termín, který by měl být v glosáři → přidám do `GLOSSARY_PENDING.md`
+2. Každý návrh obsahuje:
+   - **EN** = anglický termín
+   - **CS** = navrhovaný český překlad
+   - **Kontext** = kde se termín vyskytuje
+   - **Zdůvodnění** = proč volím tento překlad
+3. Po revizi upozorním uživatele na nové návrhy
+4. Uživatel schválí/upraví návrhy
+5. Schválené termíny přesunu do aktivního glosáře
+
+### Pravidla pro návrhy:
+
+- **Konzistence** = jeden termín = jeden překlad (žádné varianty)
+- **Česká RPG tradice** = preferovat zažité české termíny (záchranný hod, kolo, tah...)
+- **Nepřekládat** = vlastní jména, názvy her, anglicismy které se v CZ RPG komunitě běžně používají
+- **Vysvětlit** = u neobvyklých voleb vždy napsat proč
 
 ---
 

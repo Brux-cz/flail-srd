@@ -12,7 +12,7 @@ Postavy jsou definovány pouze pěti hodnotami vlastností, čtyřmi unikátním
 
 Přestože je design postavy minimalistický, je tu dostatek prostoru pro personalizaci. Každé povolání má alespoň jednu vysoce přizpůsobitelnou dovednost, jako je kniha kouzel čaroděje, cech hrdlořezu, víra klerika nebo box s vychytávkami kutílka. To činí tvorbu postavy rychlou a zároveň umožňuje unikátní sestavy a různé herní styly v rámci každého povolání.
 
-#### Tlač na štěstí
+#### Riskuj
 
 Riziko a odměna jsou klíčové. Čím ambicióznější je akce, tím vyšší jsou sázky. Čarodějové mohou zesílit sílu kouzel, ale riskují selhání sesílání. Klerici mohou sesílat neomezeně, ale mohou rozhněvat svého boha. Druidové mohou zůstat ve zvířecí podobě, jak dlouho chtějí, ale riskují, že v takovém stavu zůstanou natrvalo. Válečníci mohou provádět mimořádné činy, přičemž odvážnější pokusy nesou tvrdší následky. Hra se řídí filozofií vysokého rizika a vysoké odměny.
 
@@ -22,11 +22,9 @@ Boj se podobá hraní pokeru. Hráči hází skupinu šestistěnných kostek a s
 
 #### Měřené nebezpečí
 
-Boj je rychlý a nemilosrdný, často se vyřeší během několika kol, což vyvolává dojem vysokého nebezpečí. Smrt je však vzácná. Postavy umírají pouze tehdy, pokud jejich body životů klesnou na nulu a následně hodí 8 na tabulce k8. Častěji postavy získávají jizvy nebo vyčerpávající stavy, které zanechávají trvalé stopy na jejich cestě. To udržuje boj napjatý a zároveň zajišťuje, že postavy nejsou neustále odstraňovány ze hry.
+Boj je rychlý a nemilosrdný, často se vyřeší během několika kol, což vyvolává dojem vysokého nebezpečí. Smrt je však vzácná. Postavy umírají pouze tehdy, pokud jejich body životů klesnou na nulu a následně hodí 8 na tabulce k8. Častěji postavy získávají jizvy nebo oslabující stavy, které zanechávají trvalé stopy na jejich cestě. To udržuje boj napjatý a zároveň zajišťuje, že postavy nejsou neustále odstraňovány ze hry.
 
 ### PRO VYPRAVĚČE
-
-#### Rychlé tempo
 
 #### Minimální příprava
 
@@ -38,13 +36,15 @@ Výchozí režim nechává postavy prozkoumávat svět zmapovaný na šestiúhel
 
 #### Zacházej s hexy jako s místnostmi
 
-Hra by měla hráčům dávat pocit pokroku a úspěchu. Místo toho, aby postavy setrvávaly v jediné kobce několik herních sezení, jsou postavy určeny k prozkoumání různých míst a hexů v jednom sezení, čímž se příběh neustále posouvá vpřed. Záměrem je herní zážitek, kde postavy cítí úspěch a hráči vidí, jak jejich činy tvarují svět.
+> Místnosti v kobce mohou být tak minimální jako „obsahuje příšeru" nebo „obsahuje tuto past a poklad". Přemýšlejte o hexech podobně. Hex s věží čaroděje lze popsat podobně, s překážkou k překonání („čaroděj něco chce!") a odměnou, jako je poklad nebo zápletka. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako postupují kobkou.
+
+#### Rychlé tempo
+
+Hra by měla hráčům dávat pocit pokroku a úspěchu. Místo toho, aby postavy setrvávaly v jediné kobce několik herních sezení, jsou určeny k prozkoumání různých míst a hexů v jednom sezení, čímž se příběh neustále posouvá vpřed. Záměrem je herní zážitek, kde se postavy cítí úspěšné a hráči vidí, jak jejich činy tvarují svět.
 
 #### Improvizace
 
 Místa jsou detailně popsána pouze tehdy, když je to relevantní. Pravidla nabízejí procedurální nástroje – tabulky střetnutí, generátory pokladů, vlastnosti hexů – pro vytváření obsahu v průběhu hry. Vypravěč je povzbuzován, aby se opíral o zpětnou vazbu hráčů, kladl otázky nebo dokonce nechal je řídit příběh. (Hráč: „Je toto město ovládáno cechem nebo nemrtvým zlobrem?" Vypravěč: „Co si myslíš TY, že je zajímavější?"). Tím, že náhodnost a spolupráce jsou v centru hratelnosti, bude se svět zdát dynamický a živý, neustále se vyvíjející překvapivými způsoby.
-
-> Místnosti v kobce mohou být tak minimální jako „obsahuje příšeru" nebo „obsahuje tuto past a poklad". Přemýšlej o hexech podobně. Hex s věží čaroděje lze popsat podobně, s překážkou k překonání („čaroděj něco chce!") a odměnou, jako je poklad nebo zápletka. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako postupují kobkou.
 
 ---
 
@@ -52,11 +52,11 @@ Místa jsou detailně popsána pouze tehdy, když je to relevantní. Pravidla na
 
 ### Pravidlo nula
 
-Rozhodnutí předcházejí pravidlům. Tato pravidlová příručka pokrývá jen tolik a herní příběh postavy dostane do situací, které zde NEJSOU plně ošetřeny. V těchto situacích Vypravěč vymyslí řešení, jako je vyjednání hodu kostkou s hráči nebo umožnění úspěchu za cenu (např. „můžeš to udělat, ale musíš se vzdát předmětu"). Následuj vedení Vypravěče.
+Rozhodnutí mají přednost před pravidly. Tato pravidlová příručka pokrývá jen tolik a herní příběh postavy dostane do situací, které zde NEJSOU plně ošetřeny. V těchto situacích Vypravěč vymyslí řešení, jako je vyjednání hodu kostkou s hráči nebo umožnění úspěchu za cenu (např. „můžete to udělat, ale musíte se vzdát předmětu"). Řiďte se Vypravěčem.
 
 ### Záchranné hody: Hoď pod
 
-První základní mechanika je hodit k20, kdykoli postava zkouší riskantní akci, a snažit se hodit pod příslušnou hodnotu vlastnosti. Říká se jim Záchranné hody a zahrnují každou představitelnou akci. Vlastnosti se dělí na Sílu, Obratnost, Charisma, Inteligenci a Štěstí. Hod 1 je vždy kritický zásah, nejlepší druh úspěchu. Hod 20 je vždy fumble, nejhorší druh selhání.
+První základní mechanika je hodit k20, kdykoli postava zkouší riskantní akci, a snažit se hodit pod příslušnou hodnotu vlastnosti. Říká se jim Záchranné hody a zahrnují každou představitelnou akci. Vlastnosti se dělí na Sílu, Obratnost, Charisma, Inteligenci a Štěstí. Hod 1 je vždy kritický zásah, nejlepší druh úspěchu. Hod 20 je vždy kritický neúspěch, nejhorší druh selhání.
 
 ### Boj: Hoď jedničky
 
@@ -64,7 +64,7 @@ Druhá základní mechanika je hodit hrst k6 v konfliktu a snažit se získat co
 
 ### Svět
 
-Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani rigidní lore – co existuje, je vytvořeno hraním. Hra se přiklání k drsnému, kyselému fantasy, kde divná kouzla, směšně epické meče a podivní tvorové jsou normou. Ať už to začíná v rozpadajícím se městě, nebezpečné pustině nebo ospalé vesnici, svět se bude vyvíjet prostřednictvím činů a představivosti postav.
+Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená mytologie – co existuje, je vytvořeno hraním. Hra se přiklání k drsnému, syrovému fantasy, kde divná kouzla, směšně epické meče a podivní tvorové jsou normou. Ať už to začíná v rozpadajícím se městě, nebezpečné pustině nebo ospalé vesnici, svět se bude vyvíjet prostřednictvím činů a představivosti postav.
 
 ### Čas
 
@@ -82,7 +82,7 @@ Pohyb se měří třemi poměrně abstraktními vzdálenostmi: **Blízko**, **Da
 
 ### Jazyk
 
-Pravidla jazyka jsou relevantní pouze pro rozluštění informací, ne pro každodenní komunikaci. Předpokládá se, že postavy spolu mohou mluvit a s prostými lidmi při cestování. Při setkání s mrtvými, exotickými nebo arkánními jazyky může Vypravěč vyžadovat hod INT, aby určil, zda postava dokáže přečíst nebo interpretovat informace.
+Pravidla jazyka jsou relevantní pouze pro rozluštění informací, ne pro každodenní komunikaci. Předpokládá se, že postavy spolu mohou mluvit a s prostými lidmi při cestování. Při setkání s mrtvými, exotickými nebo arkánními jazyky může Vypravěč vyžadovat záchranný hod na INT, aby určil, zda postava dokáže přečíst nebo interpretovat informace. Tyto záchranné hody by se měly používat primárně pro rozluštění neobvyklých nebo nejasných textů, ne pro běžnou komunikaci.
 
 ### Měna
 
@@ -94,11 +94,11 @@ Inventář hraje zásadní roli. Výbava má být používána, rozbíjena, opra
 
 ### Stavy
 
-Stavy jsou negativní efekty, které mají speciální inventářové karty, které musí postavy umístit do slotu inventáře dle výběru. Stavy se získávají z neúspěšných hodů, bezohledných akcí nebo neúspěchu v konfliktu.
+Stavy jsou negativní efekty, které mají speciální inventářové karty, které musí postavy umístit do slotu inventáře dle výběru. Stavy se získávají z neúspěšných hodů, bezohledných akcí nebo neúspěchu v konfliktu. Hráči jsou zodpovědní za sledování těchto karet a jejich efektů, stejně jako u používání výbavy.
 
 ### Sesílání kouzel
 
-Sesilatelům kouzel rozhodují, kolik energie vloží do svých kouzel. Efekty závisí na počtu použitých kostek a jejich součtu.
+Sesilatelé kouzel rozhodují, kolik energie vloží do svých kouzel. Efekty závisí na počtu použitých kostek a jejich součtu.
 
 **Příklad:** Kouzlo Levitující disk vytvoří disk s [KOSTKY] sloty inventáře, který vydrží [SOUČET] tahů; to znamená, že dvě kostky utracené na toto kouzlo s hozeným součtem osm vytvoří disk se dvěma sloty inventáře na osm tahů.
 

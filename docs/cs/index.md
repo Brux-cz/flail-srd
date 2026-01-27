@@ -46,9 +46,9 @@ Doufám, že ty taky.
 
 **Přizpůsobení** — Každé povolání má vysoce přizpůsobitelnou dovednost (kniha kouzel, cech, víra, vychytávky), což umožňuje unikátní sestavy.
 
-**Tlač na štěstí** — Vysoké riziko, vysoká odměna. Čarodějové riskují selhání sesílání, klerici hnějí bohy, druidové mohou zůstat zvířaty natrvalo.
+**Riskuj** — Vysoké riziko, vysoká odměna. Čarodějové riskují selhání sesílání, klerici hnějí bohy, druidové mohou zůstat zvířaty natrvalo.
 
-**Hazard** — Boj se podobá pokeru. Hráči hází skupinu d6 a spouštějí bonusy při párech, trojicích, full housech nebo postupkách.
+**Hazard** — Boj se podobá pokeru. Hráči hází skupinu k6 a spouštějí bonusy při párech, trojicích, full housech nebo postupkách.
 
 **Měřené nebezpečí** — Smrt je vzácná (jen při 8 na k8 po pádu na 0 HP). Častěji postavy získávají jizvy a stavy.
 
@@ -70,11 +70,11 @@ Doufám, že ty taky.
 
 ### Záchranné hody: Hoď pod
 
-První základní mechanika je hodit d20, kdykoliv postava zkouší riskantní akci, a snažit se hodit pod příslušnou hodnotu vlastnosti. Říká se jim Záchranné hody a zahrnují každou představitelnou akci. Vlastnosti se dělí na Sílu, Obratnost, Charisma, Inteligenci a Štěstí. Hod 1 je vždy kritický zásah, nejlepší druh úspěchu. Hod 20 je vždy kritický neúspěch, nejhorší druh selhání.
+První základní mechanika je hodit k20, kdykoliv postava zkouší riskantní akci, a snažit se hodit pod příslušnou hodnotu vlastnosti. Říká se jim Záchranné hody a zahrnují každou představitelnou akci. Vlastnosti se dělí na Sílu, Obratnost, Charisma, Inteligenci a Štěstí. Hod 1 je vždy kritický zásah, nejlepší druh úspěchu. Hod 20 je vždy kritický neúspěch, nejhorší druh selhání.
 
 ### Boj: Hoď jedničky
 
-Druhá základní mechanika je hodit hrstí d6 v konfliktu a snažit se získat co nejvíc jedniček. Tento systém se používá pouze v boji. Říká se mu Hod na zásah. Počet d6, které hráč hází, určuje jeho zbraň, relevantní dovednosti nebo omezení povolání, obvykle mezi 4-8. Pokud někdo hodí tři jedničky, okamžitě eliminuje protivníka, bez ohledu na to, jak silný je.
+Druhá základní mechanika je hodit hrstí k6 v konfliktu a snažit se získat co nejvíc jedniček. Tento systém se používá pouze v boji. Říká se mu Hod na zásah. Počet k6, které hráč hází, určuje jeho zbraň, relevantní dovednosti nebo omezení povolání, obvykle mezi 4-8. Pokud někdo hodí tři jedničky, okamžitě eliminuje protivníka, bez ohledu na to, jak silný je.
 
 ---
 
