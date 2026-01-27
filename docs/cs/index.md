@@ -4,6 +4,9 @@
 
 *Old-school fantasy rváč*
 
+> 📖 **[Originální anglická pravidla (PDF)](https://github.com/Brux-cz/flail-srd/raw/master/source/FLAIL_pravidla.pdf)**
+> 🌐 **[Oficiální web FLAIL](https://gamesomnivorous.com/flail/)**
+
 ---
 
 **Text a sazba:** Andre Novoa
