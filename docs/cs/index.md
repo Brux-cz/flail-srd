@@ -40,6 +40,34 @@ Doufám, že ty taky.
 
 ## FILOZOFIE FLAILU
 
+### PRO HRÁČE
+
+**Méně je víc** — Postavy definuje jen pět vlastností, čtyři dovednosti a inventář. Systém je intuitivní, ale udržuje hloubku.
+
+**Přizpůsobení** — Každé povolání má vysoce přizpůsobitelnou dovednost (kniha kouzel, cech, víra, vychytávky), což umožňuje unikátní sestavy.
+
+**Tlač na štěstí** — Vysoké riziko, vysoká odměna. Čarodějové riskují selhání sesílání, klerici hnějí bohy, druidové mohou zůstat zvířaty natrvalo.
+
+**Hazard** — Boj se podobá pokeru. Hráči hází skupinu d6 a spouštějí bonusy při párech, trojicích, full housech nebo postupkách.
+
+**Měřené nebezpečí** — Smrt je vzácná (jen při 8 na k8 po pádu na 0 HP). Častěji postavy získávají jizvy a stavy.
+
+### PRO VYPRAVĚČE
+
+**Rychlé tempo** — Dynamická a rychlá hra.
+
+**Minimální příprava** — Kobky max. 10 místností, procedurální nástroje, rychlé generování obsahu.
+
+**Hexcrawl** — Výchozí režim: otevřený svět na hexech, sandbox styl hraní.
+
+**Zacházej s hexy jako s místnostmi** — Postavy prozkoumají více míst za sezení, příběh se neustále posouvá vpřed.
+
+**Improvizace** — Detaily jen když jsou relevantní. Náhodné tabulky, spolupráce s hráči, dynamický svět.
+
+---
+
+## ZÁKLADNÍ MECHANIKY
+
 ### Záchranné hody: Hoď pod
 
 První základní mechanika je hodit d20, kdykoliv postava zkouší riskantní akci, a snažit se hodit pod příslušnou hodnotu vlastnosti. Říká se jim Záchranné hody a zahrnují každou představitelnou akci. Vlastnosti se dělí na Sílu, Obratnost, Charisma, Inteligenci a Štěstí. Hod 1 je vždy kritický zásah, nejlepší druh úspěchu. Hod 20 je vždy kritický neúspěch, nejhorší druh selhání.
