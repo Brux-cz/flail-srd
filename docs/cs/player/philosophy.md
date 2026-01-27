@@ -6,7 +6,7 @@
 
 #### Méně je víc
 
-Postavy jsou definovány pouze pěti hodnotami vlastností, čtyřmi unikátními dovednostmi a svým inventářem. To je vše. Hodnoty vlastností – Síla, Obratnost, Inteligence, Charisma a Štěstí – fungují stejně jako v tradičních RPG. Dovednosti jsou navrženy tak, aby strukturovaly klasické mechaniky, které hráči očekávají od svého zvoleného povolání. Inventář je intuitivní, s výbavou rozdělenou do tří zón – ruce, tělo a batoh – což podporuje kreativitu a dynamickou hru. Záměrem je soustředit se na hratelnost a zároveň udržet určitou hloubku.
+Postavy jsou definovány pouze pěti hodnotami vlastností, čtyřmi unikátními dovednostmi a svým inventářem. To je vše. Hodnoty vlastností – Síla, Obratnost, Inteligence, Charisma a Štěstí – fungují stejně jako v tradičních RPG. Dovednosti jsou navrženy tak, aby strukturovaly klasické mechaniky, které hráči očekávají od svého zvoleného povolání. Inventář je intuitivní, s výbavou rozdělenou do tří zón – ruce, tělo a brašna – což podporuje kreativitu a dynamickou hru. Záměrem je soustředit se na hratelnost a zároveň udržet určitou hloubku.
 
 #### Přizpůsobení
 
@@ -76,9 +76,11 @@ Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená m
 | **Tah** | 10 minut | Dost na prozkoumání místnosti nebo vyřešení střetnutí. Relevantní při průzkumu místa dobrodružství (dungeon crawl). |
 | **Hlídka** | 8 hodin | Dost na vstup nebo opuštění regionu (obvykle jeden hex) nebo prozkoumání lokace. Relevantní při cestování (hexcrawl). |
 
+> **Poznámka:** Pokud jsou v kouzlech, dovednostech nebo efektech zmíněna kola, měla by být považována za jednotlivá kola odebraná jedné postavě. Příklad: Kouzlo ovlivňující cíl po dobu tří kol znamená, že trvá tři kola; kostěná zeď trvající dvě kola znamená, že kouzelník má dvě kola, než kouzlo skončí. Během hry upravte podle potřeby.
+
 ### Pohyb
 
-Pohyb se měří třemi poměrně abstraktními vzdálenostmi: **Blízko**, **Daleko** a **Velmi daleko**. Platí pouze během boje nebo konfliktu a v ostatních částech hry nehrají téměř žádnou roli.
+Pohyb se měří třemi poměrně abstraktními vzdálenostmi: **Blízko**, **Vzdáleně** a **Daleko**. Platí pouze během boje nebo konfliktu a v ostatních částech hry nehrají téměř žádnou roli.
 
 ### Jazyk
 

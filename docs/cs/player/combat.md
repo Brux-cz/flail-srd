@@ -8,9 +8,9 @@ Na zacatku boje hod k20. Pricti OBR. Vyssi cislo jedna prvni. Pri remize hraci j
 
 | Vzdalenost | Popis |
 |------------|-------|
-| **Blizko** | Na dosah ruky, zbrane zblizka mohou zasahnout |
-| **Daleko** | Nekolik kroku pryc, strelne zbrane mohou zasahnout |
-| **Velmi daleko** | Na dohled, pouze specialni schopnosti mohou zasahnout |
+| **Blízko** | Na dosah ruky, zbraně na blízko mohou zasáhnout |
+| **Vzdáleně** | Několik kroků pryč, střelné zbraně mohou zasáhnout |
+| **Daleko** | Na dohled, pouze speciální schopnosti mohou zasáhnout |
 
 Postava se muze pohybovat z jedne vzdalenosti na jinou jako soucast sve akce.
 
