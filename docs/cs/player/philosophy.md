@@ -6,7 +6,7 @@
 
 #### Méně je víc
 
-Postavy jsou definovány pouze pěti hodnotami vlastností, čtyřmi unikátními dovednostmi a svým inventářem. To je vše. Hodnoty vlastností – Síla, Obratnost, Inteligence, Charisma a Štěstí – fungují stejně jako v tradičních RPG. Dovednosti jsou navrženy tak, aby strukturovaly klasické mechaniky, které hráči očekávají od svého zvoleného povolání. Inventář je intuitivní, s výbavou rozdělenou do tří zón – ruce, tělo a batoh – což podporuje kreativitu a dynamickou hru. Záměrem je soustředit se na hratelnost a zároveň udržet určitou hloubku.
+Postavy jsou definovány pouze pěti hodnotami vlastností, čtyřmi unikátními dovednostmi a svým inventářem. To je vše. Hodnoty vlastností – Síla, Obratnost, Inteligence, Charisma a Štěstí – fungují stejně jako v tradičních RPG. Dovednosti jsou navrženy tak, aby strukturovaly klasické mechaniky, které hráči očekávají od svého zvoleného povolání. Inventář je intuitivní, s výbavou rozdělenou do tří zón – ruce, tělo a brašna – což podporuje kreativitu a dynamickou hru. Záměrem je soustředit se na hratelnost a zároveň udržet určitou hloubku.
 
 #### Přizpůsobení
 
