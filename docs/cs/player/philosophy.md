@@ -80,7 +80,7 @@ Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená m
 
 ### Pohyb
 
-Pohyb se měří třemi poměrně abstraktními vzdálenostmi: **Blízko**, **Daleko** a **Velmi daleko**. Platí pouze během boje nebo konfliktu a v ostatních částech hry nehrají téměř žádnou roli.
+Pohyb se měří třemi poměrně abstraktními vzdálenostmi: **Blízko**, **Vzdáleně** a **Daleko**. Platí pouze během boje nebo konfliktu a v ostatních částech hry nehrají téměř žádnou roli.
 
 ### Jazyk
 
