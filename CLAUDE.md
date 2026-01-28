@@ -38,11 +38,13 @@ git add docs/cs/ && git commit -m "Fix" && git push
 ```bash
 git pull                    # Synchronizovat s remote
 cat FLAIL_glossary.csv      # Načíst glosář
+ls -lh source/              # Ověřit dostupnost zdrojových souborů
 ```
 
 - [ ] Zkontrolovat, že working directory je čistý
 - [ ] Stáhnout nejnovější změny z gitu
 - [ ] Načíst aktuální schválené překlady termínů
+- [ ] Ověřit, že `source/FLAIL_original_english.txt` existuje (anglický zdroj pravdy)
 
 #### FÁZE 2: IDENTIFIKACE (najít správný soubor)
 
@@ -77,11 +79,34 @@ cat FLAIL_glossary.csv      # Načíst glosář
 
 ⚠️ **Pokud nevím, který soubor:** ZEPTAT SE uživatele! Nehádej!
 
+---
+
+**💡 DŮLEŽITÉ - Zdroje anglického originálu:**
+
+V projektu jsou 2 zdroje anglického textu:
+
+1. **`source/FLAIL_original_english.txt`** (9849 řádků, 239 KB)
+   - 📖 **ZDROJ PRAVDY** - kompletní nestrukturovaný přepis celých pravidel
+   - ✅ Použij pro **OVĚŘENÍ**, že jsem ze screenshotu přečetl text správně
+   - ✅ Použij jako **REFERENCI** při porovnávání s českým překladem
+
+2. **Screenshot od uživatele**
+   - 👁️ Slouží k **IDENTIFIKACI** sekce a **VIZUÁLNÍMU** porozumění
+   - ⚠️ Může obsahovat OCR chyby, rozmazání, špatný kontrast
+   - ❌ NEPOUŽÍVAT jako konečnou referenci - vždy ověřit v txt souboru!
+
+**Workflow:**
+1. Screenshot → identifikuji nadpis/sekci → najdu v txt souboru → porovnám s českým překladem
+
+---
+
 #### FÁZE 3: POROVNÁNÍ (najít chyby)
 
 - [ ] Extrahovat originální anglický text ze screenshotu (doslovně)
-- [ ] Najít odpovídající část v překladu (podle nadpisů, struktury)
-- [ ] Porovnat větu po větě
+- [ ] **OVĚŘIT** v `source/FLAIL_original_english.txt` - zkontrolovat, že jsem ze screenshotu přečetl správně (OCR může udělat chyby!)
+- [ ] Použít SPRÁVNÝ anglický text z `FLAIL_original_english.txt` jako referenci (ne text ze screenshotu)
+- [ ] Najít odpovídající část v českém překladu (podle nadpisů, struktury)
+- [ ] Porovnat anglický originál (z txt souboru) vs český překlad větu po větě
 - [ ] Kontrola 7 kategorií chyb:
 
 | Kategorie | Co hledat | Příklady |
