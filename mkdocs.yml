@@ -66,6 +66,7 @@ nav:
   - Úvod: index.md
   - Pravidla pro hráče:
     - Filozofie a zákony: player/philosophy.md
+    - Tvorba postavy: player/character-creation.md
     - Povolání:
       - Artificer (v1.0): player/classes/artificer.md
       - Bard: player/classes/bard.md
