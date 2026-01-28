@@ -44,7 +44,7 @@ ls -lh source/              # Ověřit dostupnost zdrojových souborů
 - [ ] Zkontrolovat, že working directory je čistý
 - [ ] Stáhnout nejnovější změny z gitu
 - [ ] Načíst aktuální schválené překlady termínů
-- [ ] Ověřit, že `source/FLAIL_original_english.txt` existuje (anglický zdroj pravdy)
+- [ ] Ověřit, že `source/FLAIL_original_english_structured.md` existuje (anglický zdroj pravdy)
 
 #### FÁZE 2: IDENTIFIKACE (najít správný soubor)
 
@@ -83,30 +83,42 @@ ls -lh source/              # Ověřit dostupnost zdrojových souborů
 
 **💡 DŮLEŽITÉ - Zdroje anglického originálu:**
 
-V projektu jsou 2 zdroje anglického textu:
+V projektu jsou 3 zdroje anglického textu:
 
-1. **`source/FLAIL_original_english.txt`** (9849 řádků, 239 KB)
-   - 📖 **ZDROJ PRAVDY** - kompletní nestrukturovaný přepis celých pravidel
-   - ✅ Použij pro **OVĚŘENÍ**, že jsem ze screenshotu přečetl text správně
-   - ✅ Použij jako **REFERENCI** při porovnávání s českým překladem
+1. **`source/FLAIL_original_english_structured.md`** (266 KB, strukturovaný markdown) ⭐ **DOPORUČENO**
+   - 📖 **PRIMÁRNÍ ZDROJ PRAVDY** - strukturovaný markdown konvertovaný z PDF pomocí marker
+   - ✅ Zachovává strukturu (tabulky, nadpisy, seznamy, formátování)
+   - ✅ Snadná navigace podle nadpisů (např. `# BARD`, `## Combat`)
+   - ✅ Použij pro **OVĚŘENÍ** a **REFERENCI** při porovnávání s českým překladem
+   - 🔍 Grep funguje na nadpisy: `grep -n "^# BARD" source/FLAIL_original_english_structured.md`
 
-2. **Screenshot od uživatele**
+2. **`source/FLAIL_original_english_OLD.txt`** (9849 řádků, 239 KB) - **BACKUP**
+   - 📋 Původní nestrukturovaný přepis (záloha)
+   - ⚠️ Použij pouze pokud strukturovaný markdown selže
+
+3. **Screenshot od uživatele**
    - 👁️ Slouží k **IDENTIFIKACI** sekce a **VIZUÁLNÍMU** porozumění
    - ⚠️ Může obsahovat OCR chyby, rozmazání, špatný kontrast
-   - ❌ NEPOUŽÍVAT jako konečnou referenci - vždy ověřit v txt souboru!
+   - ❌ NEPOUŽÍVAT jako konečnou referenci - vždy ověřit ve strukturovaném markdown!
 
 **Workflow:**
-1. Screenshot → identifikuji nadpis/sekci → najdu v txt souboru → porovnám s českým překladem
+1. Screenshot → identifikuji nadpis/sekci → najdu ve strukturovaném markdown → porovnám s českým překladem
+
+**Výhody strukturovaného markdown:**
+- Zachování tabulek (důležité pro herní mechaniky)
+- Hierarchie nadpisů (snadnější navigace)
+- Grep podle struktury (`grep -n "^## " source/FLAIL_original_english_structured.md`)
+- Extrahované obrázky v `source/images/`
 
 ---
 
 #### FÁZE 3: POROVNÁNÍ (najít chyby)
 
 - [ ] Extrahovat originální anglický text ze screenshotu (doslovně)
-- [ ] **OVĚŘIT** v `source/FLAIL_original_english.txt` - zkontrolovat, že jsem ze screenshotu přečetl správně (OCR může udělat chyby!)
-- [ ] Použít SPRÁVNÝ anglický text z `FLAIL_original_english.txt` jako referenci (ne text ze screenshotu)
+- [ ] **OVĚŘIT** v `source/FLAIL_original_english_structured.md` - zkontrolovat, že jsem ze screenshotu přečetl správně (OCR může udělat chyby!)
+- [ ] Použít SPRÁVNÝ anglický text ze strukturovaného markdown jako referenci (ne text ze screenshotu)
 - [ ] Najít odpovídající část v českém překladu (podle nadpisů, struktury)
-- [ ] Porovnat anglický originál (z txt souboru) vs český překlad větu po větě
+- [ ] Porovnat anglický originál (ze strukturovaného markdown) vs český překlad větu po větě
 - [ ] Kontrola 7 kategorií chyb:
 
 | Kategorie | Co hledat | Příklady |

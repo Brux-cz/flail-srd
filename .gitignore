@@ -8,3 +8,6 @@ __pycache__/
 # Archive folder (regenerovatelné soubory)
 # archive.tar.gz je commitnutý v gitu pro snadné obnovení
 archive/
+
+# Extrahované obrázky z PDF (velké soubory, regenerovatelné)
+source/images/

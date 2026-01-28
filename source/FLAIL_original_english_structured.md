@@ -1,0 +1,4889 @@
+## **Andre Novoa**
+
+![](_page_0_Picture_1.jpeg)
+
+An old-school fantasy brawler
+
+![](_page_0_Picture_3.jpeg)
+
+![](_page_2_Picture_0.jpeg)
+
+An old-school fantasy brawler
+
+#### **Writing & Lay Out** by Andre Novoa
+
+**Art** by Brian Profilio (p. 60, 95), Justin McElroy (p. 4, 6, 16, 24, 25, 48, 50, 69, 83, 90), Stefan Poag (p. 47, 52, 57, 87, 92), Vault Crawler (p. 9, 40, 42, 51, 53, 54, 96, 110 and all character art), Diogo Barros (p. 88, 89, 116)
+
+> **Character Sheets** by Andre Novoa, Josiah Moore **Item Art** by Diogo Barros
+
+**Maps** by Kevin Cannon (p. 70, 74, 76), Dyson Logos (p. 80, 85, 119) **Playtest** by Diogo Nóvoa, Rita Nóvoa, Jota, João Malho, André Tavares, Mário Ponte, Gonçalo Luís, David Neves **Dungeon Checklist** based on Goblin Punch blog
+
+**Thank you** to Isaac Williams for teaching me how to make games, to Karl Druid for the feedback, to Adriana Oliveira for the love, to the playtesters for withstanding so many versions of this game, and to all Games Omnivorous fans for the constant support.
+
+This book was written to the sounds of free jazz, stoner rock, and space dub. Play FLAIL to that soundtrack. Or don't. It's your game now.
+
+#### **Copyright 2026 © All Rights Reserved Published by Games Omnivorous**
+
+This is the first beta digital version of the game (v0.1)
+
+![](_page_2_Picture_10.jpeg)
+
+# **Note from the author**
+
+I'm done with 300-page rulebooks and 35-page modules. Been there, done that — this is not what I'm looking for anymore for my gaming table. Don't get me wrong: many of those are very dear to me, and many have provided me with unforgettable moments over the years. Heck, I've even reworked some to fit my current play style. But overall, I've moved on. Mostly because I wasn't having fun with them anymore.
+
+These days I like to prepare little, play fast, and improvise a lot. I want my players to do the same, to shape the world alongside me, to surprise me as much as I surprise them. Some might say this drifts dangerously close to narrative gaming ('oh no! traitor!'), but I don't see it that way. For me, keeping things minimalist and improvisational is at the heart of the old-school (OSR) spirit. Give me one-page modules any day — dungeons I can run in two hours, that start and finish in a single session, yet still leave plenty of room for us to build on and take the fiction in unexpected, exciting directions. Throw me good bones: my players and I will give them flesh.
+
+I know there are games that already kinda do this. Games like Cairn and Knave. Or Black Hack and Mythic Bastionland to some extent. Indeed, there's no shortage of great old-school-inspired RPGs. Every year a new one comes out, building on the last and taking the genre in exciting directions. I've been playing them for over a decade now, and even worked on a few as a creator, editor or publisher — Mausritter and Vaults of Vaarn being the betterknown examples perhaps.
+
+But for years I've been chasing something that still wasn't quite there yet. A game that stays lean and fast, easy to pick up, easy to run, yet still gives players enough depth and chance for customisation that a bard or a wizard never feel the same. That game never quite showed up. So I built on the foundations of minimal prep, rules light, and onepage dungeons, adding just enough crunch and character depth to make each new party feel different and every character its own thing.
+
+That resolve became the heart of this project. A playtester once shouted, "This thing is Mausritter meets DCC!" and yeah, I think that's fair. It takes the chaos of DCC and mixes it with the simplicity and board-gameyness of Mausritter, while adding a good bit of character depth. Out of that collision came something else: a push-your-luck essence that hums beneath the entire game. Playing FLAIL feels a bit like gambling, pressing on when you probably shouldn't, risking everything for one more roll. It's a game that puts luck back at the centre of play in the true old-school spirit - or so I think, at least.
+
+The system uses a familiar roll-under save system, but combat is entirely new. I resurrected the traditional To Hit roll and turned it into a game of poker dice. Players roll a pool of d6s, triggering cool abilities and bonuses when they score pairs, triplets, sequences, etc. It's quick, swingy, and a little addictive. I've also removed hit point growth entirely; it never increases with level. It sounds cruel, but not really. Characters are fragile, yes, but they have more tools, tricks, and abilities than usual. I think this balance keeps the table alive; every encounter really does matters because it could go really wrong at any moment — but FLAIL is not exactly a *death buffet*.
+
+This is the game I've been chasing for years. It's fast, dangerous, and unpredictable. Every character feels different, every roll can wreck your plans, and somehow that's exactly what makes it work. I've been wanting to play it for years.
+
+I hope you do too.
+
+— Andre Novoa
+
+## TABLE OF CONTENTS:
+
+## Rules for the players
+
+#### The Philosophy of Flail................................... And Now the Law of Flail...... 6 1. CHARACTER CREATION 8 Bard...... 10 Bone Whisperer...... 14 Cleric.................................... Cutthroat.................................... Druid.................................... Tinkerer...... 30 Warrior...... 34 Wizard 38 2. INVENTORY & GEAR.................................... Inventory Slots.................................... Usage.................................... Conditions.................................... Weapons.................................... Armour......47 Gear 48 3 SAVES 50 Rolling Saves...... 50 Advantage & Disadvantage...... 50 Opposed Saves...... 50 Consequences of Failing...... 51 ..... 52 4. COMBAT. Initiative...... 52 Movement & Distances.................................... To Hit...... 53 Advantage or Disadvantage...... 54 Vulnerability...... 54 Fleeing...... 54 Death.................................... Recovering...... 55 **5. HIRELINGS**.................................... Allowance 56 Stats................................... Death.................................... Morale 56 6. CAMPAIGNING 58 Experience...... 58 Gaining New Levels...... 58 Retiring...... 58 Reputation...... 59
+
+### Guidelines for the GM
+
+62
+
+7. RUNNING FLAIL
+
+| Best PracticesAdventuring                                                                                 |                                                      |
+|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| 8. HEXCRAWL  Making a Hexcrawl  Running the Hexcrawl  Expanding the Campaign  Example: Sands of Rebellion | 64<br>68<br>69<br>70                                 |
+| 9. QUEST SCENARIOS                                                                                        | 72<br>73<br>74                                       |
+| 10. ADVENTURE SITES                                                                                       | 78<br>80<br>82<br>83                                 |
+| 11. BESTIARY<br>Creating Creatures<br>List of Creatures                                                   | 86                                                   |
+| 12. UNIQUE ITEMS                                                                                          | 98<br>98<br>99<br>00<br>102                          |
+| Animals                                                                                                   | 108<br>109<br>110<br>112<br>114<br>115<br>118<br>120 |
+
+## THE PHILOSOPHY
+
+### **Less is More**
+
+Characters are defined by just five attribute scores, four unique skills and their inventory. That's it. The attribute scores – Strength, Dexterity, Intelligence, Charisma and Luck – function just like in traditional RPGs. The skills are designed to structure classic mechanics that players expect from their chosen class. Inventory is intuitive, with gear divided into three zones – hands, body, and satchel – encouraging creativity and dynamic play. The ideas is to focus on gameplay while aiming to maintain a certain depth.
+
+### **Customisation**
+
+Though minimalist in character design, there is ample room for personalisation. Each class features at least one highly customisable skill, such as a wizard's spellbook, a cutthroat's guild, a cleric's faith, or a tinkerer's gadget box. This makes character creation quick while allowing unique builds and different playstyles within each class.
+
+![](_page_5_Picture_6.jpeg)
+
+### **Push Your Luck**
+
+Risk and reward are key. The more ambitious the action, the greater the stakes. Wizards can amplify spell power but risk miscasting. Clerics can cast indefinitely but might anger their god. Druids can remain in beast shape as long as they like, but risk staying in such state permanently. Warriors can perform extraordinary feats, with bolder attempts carrying harsher consequences. The game bears a highrisk, high-reward philosophy.
+
+#### **Gambling**
+
+Combat feels like playing poker. Players roll a pool of six-sided dice, triggering special bonuses when they hit combinations like pairs, triplets, full houses, or sequences. These combinations unlock unique effects tied to the character's skills and equipment. This keeps combat always intense, unpredictable and exciting. Every roll carries the potential for drama.
+
+### **Measured Danger**
+
+Combat is fast and ruthless, often resolving within a few rounds, giving the impression of high danger. However, death is rare. Characters only die if their hit points drop to zero and they subsequently roll an 8 on a d8 table. More commonly, characters take on scars or debilitating conditions, leaving permanent marks on their journey. This keeps combat tense while ensuring that characters are not constantly removed from play.
+
+FOR PLAYERS
+
+OF FLAIL
+
+### **Low-Prep**
+
+The game offers tools to quickly generate content as needed, allowing gameplay to drive the narrative. Adventures sites are concise – no more than ten rooms per dungeon – making them playable in a few hours. To begin a campaign, the GM needs only to draft a few hexes, generate some tables, prepare a simple dungeon, and let players find their own adventure, expanding the setting as the game progresses.
+
+## **Hexcrawling**
+
+The default mode has characters exploring a world mapped on hexagons, most of which contain a notable location or landmark. While it is possible to play meta-plot campaigns or mega-dungeons using this game, most of its tools are designed for sand-box, open-ended hexcrawls, fostering a fast-paced, procedural play.
+
+### **Treat Hexes like Rooms**
+
+Dungeon rooms can be as minimal as "it contains a monster" or "it holds this trap and treasure". Think of hexes similarly. A hex with a wizard tower can be described similarly, with an obstacle to overcome ("the wizard wants something!") and a reward, like a treasure or a hook. Uninterested players can move to a new hex, much like advancing through a dungeon.
+
+### **Fast Pace**
+
+The game should give players a sense of progress and achievement. Instead of lingering in a single dungeon for multiple sessions, characters are meant to explore various locations and hexes in a single session, moving the story forward steadily. The intention is a gameplay experience where characters feel accomplished and players see their actions shape the world.
+
+### **Improvisation**
+
+Locations are only detailed when relevant. The rules offer procedural tools – encounter tables, treasure generators, hex features – to create content as the game happens. The GM is encouraged to lean on players feedback, asking questions or even letting them steer the narrative. (Player: "Is this city controlled by a guild or an undead ogre?" GM: "What do YOU think is more interesting?"). By putting randomness and collaboration at the centre of gameplay, the world will feel dynamic and alive, always evolving in surprising ways.
+
+![](_page_6_Picture_11.jpeg)
+
+FOR THE GM
+
+## <span id="page-7-0"></span>AND NOW THE LAW OF FLAIL!
+
+## Rule Zero
+
+Rulings supersede rules. This rulebook only covers so much, and the in-game narrative will push characters to situations NOT fully addressed in here. In these situations, the Game Master (GM) will come up with a solution, like negotiating a dice roll with the players or allowing them to succeed for a cost (e.g. 'you can do this, but you must give up an item'). Follow the GM's lead.
+
+## Saves: Roll Under
+
+The first core mechanic is to roll a d20 whenever a character attempts a risky action, trying to roll under the relevant attribute score. These are called Saves, and encompass every imaginable action. The attributes are divided into Strength, Dexterity, Charisma, Intelligence and Luck. A roll of 1 is always a critical hit, the best kind of success. A roll of 20 is always a fumble, the worst kind of failure.
+
+## Combat: Roll 1s
+
+The second core mechanic is to roll a bunch of d6s when in conflict, trying to score as many 1s as possible. This system is used in combat only. It is called To Hit. The number of d6s a player gets to roll is determined by their weapon, any relevant skills or class restrictions, usually between 4-8. If someone rolls three 1s, they instantly eliminate the adversary, regardless of how strong they are.
+
+## The World
+
+The world of FLAIL is there to be shaped. There's no set map or rigid lore - what exists is what is created by playing. The game leans into a gritty, acid fantasy, where weird spells, ridiculously epic swords, and odd creatures are the norm. Whether it starts in a crumbling city, a hazardous wasteland or a sleepy village, the world will evolve through the characters' actions and imagination.
+
+![](_page_7_Picture_10.jpeg)
+
+## AND NOW THE LAW OF FLAIL!
+
+## Time
+
+Time is measured in three fundamental ways, each aligning with a key phase of the game:
+
+- **Round:** ten seconds long. Enough to take an action and make a move. Relevant in combat.
+- **Turn:** ten minutes long. Enough to explore a room, or deal with an encounter. Relevant in the exploration of an adventure site (typically dungeon crawling).
+- **Watch:** eight hours long. Enough to enter or leave a region (usually one hex) or exploring a location. Relevant when travelling (typically hexcrawling).
+
+**Note:** when rounds are mentioned in spells, skills or effects, these should be treated as individual rounds taken by one character. Example: a spell affecting a target for three rounds means it lasts three of their rounds; a wall of bones lasting two rounds means the caster can take two rounds before the spell ends. Adjust as needed organically during play.
+
+## Movement
+
+Movement is measured using three fairly abstract ranges: Near, Distant and Far-Away. These apply only during combat or conflict, and play almost no role in other parts of the game.
+
+## Language
+
+Language rules are only relevant for discerning information, not for everyday communication. It is assumed that characters can speak to each other and to commoners when travelling. When encountering dead, exotic, or arcane languages, the GM may call for an INT save to determine whether a character can read or interpret the information. These saves should be used primarily for deciphering unusual or obscure writings, and not for day to day communication.
+
+## Currency
+
+Currency is measured in coins. This generic system ensures compatibility with other games, and keeps things easy, so players can focus on adventuring rather than bookkeeping.
+
+### Inventory
+
+Inventory plays a vital role. Gear is meant to be used, broken, repaired, and cycled. Unique Items are powerful, but they can break just as well if used extensively. Players are responsible for rolling usage. The same applies for grub, ammo and other consumables.
+
+## Conditions
+
+Conditions are negative effects that have special inventory cards, which characters must place in an inventory slot of choice. Conditions are gained from failed rolls, reckless actions, or unsuccess in conflict. Players are responsible for tracking these cards and their effects, just as they do with usage.
+
+## Spellcasting
+
+Spellcasters decide how much power to channel into their spells. The effects depend on the number of dice used, and their rolled sum. For example, the Floating Disc spell creates a disc with [DICE] inventory slots that lasts [SUM] turns; this means that two dice spent of this spell with a rolled sum of eight creates a disc with two inventory slots for eight turns.
+
+## Searching for Secret Things
+
+When a player character searches for traps, secret doors or hidden rooms, the GM should roll on their behalf, keeping the result hidden. This keeps players uncertain whether a failure means they missed something or there's nothing to be found at all.
+
+## <span id="page-9-0"></span>1. CHARACTER CREATION
+
+## Class
+
+Roll d8 or choose a class. Each class is defined by five attributes, four unique skills, gear proficiency, maximum hit points and different starting gear. Pick up or print the respective character sheet and start filling it.
+
+| 1 | Bard           | 5 | Druid    |
+|---|----------------|---|----------|
+| 2 | Bone Whisperer | 6 | Tinkerer |
+| 3 | Cleric         | 7 | Warrior  |
+| 4 | Cutthroat      | 8 | Wizard   |
+
+## Attributes
+
+Attributes are the defining traits of characters. Each class usually has one or two main attributes, but all are important in different aspects of play. Roll 3d6 for each in order, keeping the two highest dice for a value between 2-12. Then, swap two attribute scores at will.
+
+- **Strength (STR):** used to resolve actions that involve physical prowess, like lifting and knocking things down, pulling other characters or dragging heavy objects. It influences inventory slots. It does NOT influence attacking.
+- **Dexterity (DEX):** used in actions that require agility, speed and quick reflexes. It is used to determine initiative. It does NOT influence attacking.
+- **Intelligence (INT):** used to resolve tasks that involve cerebral work, logic, studying, accessing knowledge and evaluating complex situations. It influences mana/spirit for spellcasters.
+- **Charisma (CHA):** used in actions that involve social interactions, strength of will and leadership. It influences many skills, like those of the Bard.
+- **Luck:** used in situations where the outcome is unclear, or to determine whether something or someone is present or intervenes against the character. It influences religious magic.
+
+## Hit Points
+
+Each class has a fixed maximum hit points, representing the damage a character can endure before life-threatening danger. Hit points do not increase with levels, and can only be boosted by magic items or rare circumstances that alter a character's physiology.
+
+## Starting Gear
+
+Each class has different starting gear as described in their respective page. Pick up the appropriate item cards and distribute them amongst body or satchel slots at will (see more on [page 44\)](#page-45-0).
+
+## Reputation
+
+Fill the zero dot. Characters start with a neutral reputation. Depending on in-game actions, this track can move up or down (see [page 59\)](#page-60-0).
+
+## Level
+
+Start at level 1. To go up, characters must gain experience points as described on the Campaigning chapter ([page 58\)](#page-59-0). Upon completing level 5, characters are retired from play and become notable Neutral Player Characters.
+
+## Finishing Touches
+
+Choose a name (or find one on [page 123](#page-124-0)). Roll an instant backstory (or come up with one), update the sheet accordingly, and refer it to the GM. Study the special skills.
+
+![](_page_9_Figure_21.jpeg)
+
+![](_page_9_Picture_22.jpeg)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+![](_page_10_Picture_0.jpeg)
+
+# BARD
+
+**Max Hit Points:** 9.
+
+**Weapon Specialty:** crossbow, dagger, short bow, short sword,
+
+and similar.
+
+**Main Item:** musical instruments. **Armour Proficiency:** basic armour.
+
+**Starting Gear:** grub, lantern, short sword, instrument, 4d6 coins.
+
+![](_page_11_Picture_6.jpeg)
+
+### **Instant Backstory, d6**
+
+- 1 Contortionist halfling who fled a circus troop with dreams of acting at Serenade Pavilion. Advantage in DEX saves for acrobatics, climbing, etc.
+- 2 Dwarf troll slayer with a knack for emotionally-stirring opera arias. Take harp as first instrument; add axes to weapon speciality (+1 TH vs Giants).
+- 3 Unusually tall youngling sent by the Temple of Eternal Chanting to find a sacred lost song. Start with one [divine prayer](#page-21-0) of choice ([Cleric](#page-19-0)).
+- 4 Son of a half-elf bird-keeper who accidentally swallowed a songbird and became a singer. Start with one bird [primal gift](#page-29-0) of choice [\(Druid\)](#page-27-0).
+- 5 Human street performer who dazzles audiences and picks their pockets with equal prowess. Start with [Pick Pocket talent \(Cutthroat](#page-23-0)).
+- 6 Human musical prodigy raised in an aristocratic milieu who fled home for a more exciting lifestyle. Start with +50 coins and a family heirloom.
+
+## Special Skills
+
+#### **Jack of All Trades**
+
+At each level, Bards can add a [Cutthroat thieving](#page-23-0)  [talent](#page-23-0), a [Tinkerer's gadget](#page-34-0) or a [Wizard spell](#page-41-0) of their choice to their repertoire. They may use each once per day. For spells, the max amount of mana spent equals the Bard's current level (miscasting follows the same rules that apply to Wizards).
+
+#### **Silver Tongue**
+
+Bards have advantage in CHA saves that involve persuasion, influence, or seducing.
+
+#### **Witness Me!**
+
+When Bards deal damage to an adversary in a To Hit roll while also rolling a triplet, they deal an extra d6 damage and their allies gain +1 To Hit buff in their next round of combat.
+
+#### **Musical Talents**
+
+Bards can add one instrument of choice to their repertoire at levels 1, 3 and 5. These unlock extra inventory slots reserved for instruments (always considered worn). Instruments usually take one inventory slot, but require two hands to play. To perform, Bards must carry the instrument, make a CHA save and roll on the instrument's table:
+
+- **Crit Hit:** choose any result from table.
+- **Success:** roll d4 in the instrument table.
+- **Fail:** roll d10 in the instrument table.
+- **Fumble:** roll d6+4 in the instrument table.
+
+On a fail or fumble, the instrument cannot be played again in the same combat or social situation. It is too embarrassing for the Bard.
+
+## Pippo Twisplegs. contortionist halfling -Advantage in DEX saves for acrobatics, etc
+
+![](_page_12_Picture_2.jpeg)
+
+## **Special Skills**
+
+Jack of All Trades: at each level, take a Cutthroat talent, Tinkerer gadget, or Wizard spell.
+
+Silver Tonque: advantage in CHA saves that involve social skills, like flirting, persuading or manipulating. Witness Me!: when rolling triplets on a To Hit, deal extra d6 damage and give allies +1 TH (next round).
+
+![](_page_12_Figure_7.jpeg)
+
+![](_page_12_Picture_8.jpeg)
+
+![](_page_12_Picture_9.jpeg)
+
+![](_page_12_Picture_10.jpeg)
+
+![](_page_12_Figure_11.jpeg)
+
+used today?
+
+## <span id="page-13-0"></span>Musical Instruments
+
+*Music is a mysterious craft – none can predict how the audience will react.*
+
+*A cursed instrument that everyone thought was gone*
+
+- 1 Stuns all adversaries within earshot.
+- 2 Stuns one chosen target.
+- 3 d6 damage to one chosen target.
+- 4 Stuns two random victims (allies included) within earshot.
+- 5-6 d4 damage to everyone within earshot. Roll individually for each target.
+- 7-8 d8 damage to everyone within earshot. Roll individually for each target.
+- 9-10 Stuns all allies within earshot.
+
+![](_page_13_Picture_11.jpeg)
+
+#### **Sizzling Castanets**
+
+*The heartbeat of the bardic lands* 
+
+- 1 Shoot d4 fire bolts dealing d6 damage each on any chosen targets.
+- 2 All adversaries dance wildly (counts as stunned) until the Bard stops playing.
+- 3 Same as 2, but to two chosen targets. On a fail to break the stun, target's feet catches fire.
+- 4 Same as 3, but to one chosen target.
+- 5-6 Castanets shoot d6 fire bolts to random targets for d6 damage each.
+- 7-8 Random ally dances violently in their next round and takes an Exhausted condition.
+- 9-10 All allies dance uncontrollably in their next round and take an Exhausted condition.
+
+#### **Thundering Drum of Reckoning**
+
+*An ancient drum said to harness the powers of storms*
+
+- 1 One chosen target is hit by a massive thunder dealing 3d6 damage.
+- 2 Up to two chosen targets are hit by lightning bolts dealing d6 damage.
+- 3 One chosen target is hit by a lightning bolt dealing d6 damage.
+- 4 One random target is hit by a lightning bolt dealing d6 damage.
+- 5-6 Random ally is hit by a massive thunder dealing 2d6 damage.
+- 7-8 Hailstone storm forms, causing d4 damage per round to all in combat. Lasts d4 rounds.
+- 9-10 Lightning arc forms between two random allies, forcing them to make an opposed STR save. Winner takes d4 damage; loser takes same damage as winner + 2d6 damage.
+
+**Note:** players are encouraged to create their own musical instruments. Come up with a name and table. Entries 1-4 should be good for the party, while the remaining entries ought to add chaos and randomness. Note that entries 5-10 can only be rolled if the Bard fails the CHA save to play the instrument.
+
+![](_page_13_Picture_31.jpeg)
+
+#### **The Bolstering Lute** *The obvious choice for the obvious bard*
+
+- 1 All allies gain +1 To Hit in their next round of combat.
+- 2 One chosen ally gains +2 To Hit in their next round of combat.
+- 3 One chosen ally causes +d6 damage in the next attack (if it hits).
+- 4 One random ally causes +d6 damage in the next attack (if it hits).
+- 5-6 One random adversary gains +1 To Hit in their next round.
+- 7-8 All adversaries gain +1 To Hit in their next round.
+- 9-10 All adversaries gain +2 To Hit in their next round.
+
+![](_page_14_Picture_8.jpeg)
+
+- 2 One random adversary must make a save, or instantly combust.
+- 3 A wall of fire encircles a chosen adversary. If crossed, deals 2d6 damage.
+- 4 One random adversary ignites in flames taking d4 damage per round.
+- 5-6 Invokes a rain of fire for d4 rounds, causing 2d6 damage per round to all in combat.
+- 7-8 Random ally must make a save. On a fail, they ignite in flames (d4 damage per round).
+- 9-10 Invokes a fireball causing 3d6 damage to all Nearby and 2d6 damage to those Distant.
+
+## **Long Crumhorn of Pandemonium**
+
+*No sound bard has ever dared to touch this* 
+
+- 1 Strongest adversary attacks two of its allies immediately.
+- 2 Two random adversaries attack each other.
+- 3 Random adversary attacks one of its allies.
+- 4 Random adversary commits an act of self-harm.
+- 5-6 Two random allies must attack each other.
+- 7-8 All allies must take a foolish action immediately.
+- 9-10 The location the Bard is in suffers a catastrophic event, like catching instant fire or flooding.
+
+#### **Skull Harp of the Abyss**
+
+*A demonic harp channelling the underworld's arcana*
+
+- 1 Abyssal rift opens beneath the feet of a chosen target, eating it.
+- 2 Portal releases a d6 level monster that is an ally until the end of combat.
+- 3 Two chosen targets are grappled by tendrils causing d8 necrotic damage.
+- 4 One chosen target is grappled by a tendril causing d8 necrotic damage.
+- 5-6 Two random targets (allies included) are pinned by shadowy tendrils, immobilising them.
+- 7-8 A colossal red rift emerges, spitting out a random creature of level 7 or above.
+- 9-10 An abyssal vortex manifests, drawing all towards it. Those who are Distant or Far must save, or are pulled Near it. Then, all those Near it must save or be consumed by it.
+
+![](_page_14_Picture_33.jpeg)
+
+# <span id="page-15-0"></span>BONE WHISPERER
+
+**Max Hit Points:** 12.
+
+**Weapon Specialty:** dagger, flail, scythe, short sword, and similar.
+
+**Main Item:** spirit lantern (always lit if spirit is not depleted).
+
+**Armour:** basic armour.
+
+**Starting Gear:** grub, spirit lantern, random scroll, weapon,
+
+3d6 coins.
+
+![](_page_15_Picture_7.jpeg)
+
+#### **Instant Backstory, d6**
+
+- 1 Human plague doctor accidentally possessed by a Lich, yet to reveal itself. Undead puppets roll Morale saves with advantage.
+- 2 Human vampire entombed alive during the Great Purge, seeking revenge on those responsible. May use [Bat Form](#page-29-0) gift [\(Druid](#page-27-0)).
+- 3 Human wizard who saw their family slain in the Hollow Massacre and turned to darker arcane arts. Start with one [Wizard spell](#page-41-0) of choice (use spirit to cast it).
+- 4 Lizardman who never takes their mask off and has no recollection of their upbringing. Start with a mask, and one [reptile primal gift](#page-29-0) of choice [\(Druid](#page-27-0)).
+- 5 Human gravedigger that saw one too many undead and eventually bonded with them. May summon their Undead Puppet at any time once per day.
+- 6 Shaman who took their life after an apocalyptic vision, but was resurrected by a superior being. Add +1 max spirit at each level.
+
+## Special Skills
+
+#### **Dark Arts**
+
+Bone Whisperers may learn two spells of choice per level. To cast, they must carry their lantern, spend a chosen total of spirit, and roll a number of d6s equal to the spirit spent. Maximum spirit is equal to INT. The spell effect varies depending on the number of [DICE] spent, and their rolled [SUM]. Spells always work, but bear risks. If one 6 is rolled, gain a Drained condition. On two 6s, roll on the side effects table. On three 6s, turn undead after casting the spell (retire the character).
+
+#### **Spirit Harvesting**
+
+Bone Whisperers regain 1 spirit for each sentient being that is killed Nearby. When Bone Whisperers slay a non-undead target themselves in a To Hit roll, they restore spirit equal to target's remaining hit points. If two pairs are rolled, they may summon
+
+their Undead Puppet. Whenever the Bone Whisperer is hit, the creature must succeed in a Morale save or crumbles in ash.
+
+#### **Animate Dead**
+
+Bone Whisperers can revive the dead by spending spirit equal to the target level, and making an INT save (with disadvantage for creatures of 7+ level). On a success, the target is raised as an undead ally with its original abilities for a number of watches equal to the Bone Whisperer level, after which they fade in smoke. On a fail, the target is raised, but acts on its accord.
+
+#### **Speak with the Dead**
+
+The Bone Whisperer can ask a fresh human corpse one yes-or-no question. Only one question per body is allowed.
+
+#### velka Shroude. Human vampire entombed alive may use Bat Form from Druid
+
+![](_page_16_Picture_2.jpeg)
+
+## **Special Skills** -
+
+Dark Arts: spend spirit to cast spells.
+
+Spirit Harvesting: recoup spirit and summon undead when slaying.
+
+![](_page_16_Figure_6.jpeg)
+
+![](_page_16_Figure_7.jpeg)
+
+|    | vuomu aheus   |    |
+|----|---------------|----|
+| 1  | Life drain    | 6  |
+| 2  | The sacrifice | 7  |
+| 3. |               | 8  |
+| 4. |               | 9  |
+| 5. |               | 10 |
+
+![](_page_16_Picture_9.jpeg)
+
+## <span id="page-17-0"></span>Dark Spells
+
+*Death is just another reagent.*
+
+- **Banshee Wail:** [DICE] targets make a Morale save; on a fail, they flee; on a fumble, they disintegrate.
+- **Blight:** cause [DICE] x 100 square feet of vegetation or crops to wither instantly.
+- **Bone Cage:** erupts from the ground with [SUM] hit points, encasing a medium-sized target.
+- **Bone Staff:** transforms a femur-sized bone into a Skull Staff with [DICE] TH and DMG, usable once.
+- **Carrion Swarm:** conjures a necro-swarm with hp equal to half [SUM], TH = current hp and DMG 2.
+- **Corpse Explosion:** causes a corpse within sight to explode dealing [SUM] damage to all Near it.
+- **Curse:** all saves rolled by one target of level [SUM] or less auto-fail for [DICE] rounds.
+- **Darkvision:** caster can see in darkness for [DICE] turns.
+- **Dark Pact:** caster may make an immediate attack after casting with extra 1 + [DICE] To Hit, but loses [SUM] hit points immediately after.
+- **Death Touch:** forces target of level [DICE] to save or be killed by a single touch.
+- **Grave Grasp:** ghastly hand emerges from the ground pinning/immobilising [DICE] targets.
+- **Instil Fear:** [DICE] targets cannot attack caster for [DICE] rounds.
+- **Life Drain:** forces a touched target to save or take [SUM] damage, restoring that many hp to caster.
+- **Phantom Steed:** conjures a skeletal warhorse that lasts [DICE] watches.
+- **Putrid Limb:** putrefies a touched limb if [SUM] is 8+; target cannot carry two-handed items and receives disadvantage if limb is required to attack (claws, hands, etc.).
+- **Skull Blast:** explodes on contact for [SUM] damage targeting everyone Near impact zone; can be cast from [SUM] x 10'.
+- **Shroud of Decay:** surrounds caster in a deathly aura for [DICE] rounds; everyone Near caster takes [DICE] necrotic damage at the start of their round.
+- **The Sacrifice:** necrotic wave emanates from caster for [SUM] damage to all within Distant range; can only be cast if [DICE] allies are in range.
+- **Tomb Seal:** magically seals a crypt or coffer lid for [SUM] x 10 years.
+- **Wall of Bones:** creates a wall around caster (and Nearby allies) with [SUM] hit points.
+
+![](_page_17_Picture_22.jpeg)
+
+## Side Effects, d10
+
+*Invoking the lords of death and darkness is not without risk.*
+
+- 1 **Ghastly Splendour:** the Bone Whisperer can immediately cast another spell for free.
+- 2 **Unexpected Summon:** the Bone Whisperer summons their puppet as if Spirit Harvesting.
+- 3 **Shards of Bone:** bone fragments spawn from the Bone Whisperer flying onto [DICE] random allies for [SUM] damage. DEX save for half damage.
+- 4 **Dreading Screeches:** all allies have disadvantage in their next attack.
+- 5 **Bad Revive:** a corpse or pile of bones Nearby (if possible) with [DICE] To Hit and [SUM] damage animates and attacks the Bone Whisperer.
+- 6 **Night Terrors:** rests do not heal the Bone Whisperer any hit points nor clear conditions for d6 days.
+- 7 **Dead on the Loose:** summons a Goliath Skeleton that attacks the party uncontrollably.
+- 8 **Disintegrate:** one random target (allies included) within Distant range of the Bone Whisperer must make a save or crumbles in ashes.
+- 9 **The Friend:** random ally within Distant range becomes undead. Ally is allowed one LUCK save to negate it. On a fail, the Bone Whisperer assumes control of the character as an undead creature.
+- 10 **Dark Deed:** immediately roll on the Death table.
+
+## Undead Puppets
+
+*Loyal. Tireless. Rotting. Serving with what's left.*
+
+#### **GHOUL**
+
+- **Level 1-2:** 6 hp | Saves 6 | Morale 10 Attack: TH 4, DMG 2 (bite)
+- **Level 3-4:** gains +2 TH, +1 DMG
+- **Level 5:** *Major Hit: force target to make a save or die immediately.*
+
+#### **CARCASS DOG**
+
+- **Level 1-2:** 4 hp | Saves 4 | Morale 8 | Attack: TH 4, DMG 1 (bite)
+- **Level 3-4:** summon d4 dogs, instead of just one dog.
+- **Level 5:** dogs explode on command, dealing d6 damage to anyone Near impact zone.
+
+#### **SKELETON**
+
+- **Level 1-2:** 6 hp | Saves 6 | Morale 9 Attack: TH 5, DMG 2 (grapple)
+- **Level 3-4:** gains +4 Morale.
+- **Level 5:** gains +4 hit points.
+
+#### **WRAITH**
+
+- **Level 1-2:** 5 hp | Saves 12 | Morale 8 Attack: TH 5, DMG 2 (touch)
+- **Level 3-4:** *Major Hit: restores 5 hp to Bone Whisperer (life-draining).*
+- **Level 5:** *Death Blow: invokes another wraith.*
+
+#### **MUMMY**
+
+- **Level 1-2:** 7 hp | Saves 8 | Morale 11 Attack: TH 5, DMG 2 (choke)
+- **Level 3-4:** *Any Hit: target must save; on a fail, they take 2 extra damage.*
+- **Level 5:** *Major Hit: entangles target in mummy rags (counts as immobilised).*
+
+**Note:** choose one at character creation to summon when Spirit Harvesting. Puppets gain new stats/skills when the Bone Whisperer advances to the corresponding level.
+
+# <span id="page-19-0"></span>CLERIC
+
+**Max Hit Points:** 12.
+
+**Weapon Specialty:** depends on religion. **Main Item:** holy symbol (depends on religion).
+
+**Armour:** depends on religion.
+
+**Starting Gear:** grub, torches, holy symbol, weapon, d6 coins.
+
+![](_page_19_Picture_5.jpeg)
+
+### **Instant Backstory, d6**
+
+- 1 Human sacristan whose temple was purged by the king after a fraudulent succession. Start with +1 LUCK and Helm of Mettle [\(see page 105\)](#page-106-0).
+- 2 Dwarf apostate who adopted a new cult after being charred alive by a witch. Start with -1 CHA, and one prayer of choice from another religion.
+- 3 Human orphan raised by martial monks who vowed to erect a temple in pagan lands. TH 5, DMG 2 when attacking bare-handed.
+- 4 Elf shaman who received Godly visions, leading them to a life of devotion. Start with darkvision and [Listen \(Cutthroat\);](#page-23-0) cannot equip iron.
+- 5 Human shipped to a temple by his mother after she witnessed a supposed miracle. Start with -1 LUCK; ignore first 6 when performing a Miracle Call.
+- 6 Human warrior who turned pious after a divine apparition revealed a secret atop a tree. Start with one basic [combat talent](#page-37-0) of choice [\(Warrior](#page-35-0)).
+
+## Special Skills
+
+#### **Lay on Hands**
+
+Clerics can heal other characters by spending a round touching them, and making a LUCK save. On a success, they recover a number of hit points equal to d6 + current level of the Cleric. On a fumble, they suffer consequences as per the Cleric's religion. (Lay on Hands is a Divine Prayer for fumbling purposes.)
+
+#### **Miracle Call**
+
+Once per session, Clerics can beg their God to perform a miracle. They must speak one wish aloud, thematically appropriate for their deity. Then, roll d6s equal to the number of words used in verbalising the wish. The miracle always occurs, but the Cleric must roll for God's Wrath for each 6 rolled. The GM is encouraged to interpret the wish in unexpected ways.
+
+#### **Celestial Aid**
+
+If Clerics roll a full-house in a To Hit roll (regardless of hitting the adversary), their God appears, bestowing divine assistance. Choose one:
+
+- **Holy Ray:** cause d20 damage to one target.
+- **Full Bless:** heal self OR all allies to full health.
+- **Litany of Clarity:** reset fumble range.
+
+#### **Divine Prayers**
+
+Clerics have access to all prayers of their religion. To cast, they must be carrying (or wearing) their holy symbol and make a LUCK save. On a success, the prayer takes effect. On a fail, the prayer falters and the chance of fumbling is increased by 1 until a long rest is made. On a fumble, roll for God's Wrath. (Ex: after three failed prayers, a fumble occurs on a roll of 17–20 instead of just 20.)
+
+#### Marn Thornwick, warrior who witnessed an apparition - has Raw Force (combat talent)
+
+![](_page_20_Picture_2.jpeg)
+
+**Fumble Range** 
+
+## Special Skills
+
+Lay on Hands: make a LUCK save to heal other characters.
+
+Miracle Call: beg deity for a spectacular miracle, once per session. **Celestial Aid:** take a bonus when rolling a full-house on a To Hit roll.
+
+![](_page_20_Picture_6.jpeg)
+
+![](_page_20_Figure_7.jpeg)
+
+Religion: Deitu: order of the Tul God of verdant Grove Nature Worn: quick to ready Stashed: spend one action to equip
+
+### Divine Prayers Animal Growth created Food Entangle 4 Neutralise Poison Purify Food Speak With Plants
+
+## <span id="page-21-0"></span>Religions
+
+*Iconoclasts say worship is just bribery with incense - but is it?*
+
+#### **Brotherhood of Saint Mendicant**
+
+Popular in cities and feared by merchants, its priests lead an ascetic life
+
+**Weapons:** club, quarterstaff, sling, whip.
+
+**God:** Sheezuz, God of Justice – Baby revered through asceticism and offerings by fearing nobles.
+
+**Holy Symbol:** small wooden cross. **Armour:** no armour, helmet or boots.
+
+**Lay on Hands:** on a fumble, ally 'loses' d10 coins or a random item is confiscated.
+
+#### **Divine Prayers:**
+
+- **Cure Disease:** removes Diseased condition; use only [LEVEL] times per session.
+- **Cure Wound:** removes Injured condition; use only [LEVEL] times per day.
+- **Detect Greed:** everyone Nearby carrying 30+ coins starts to glow.
+- **Finger of Death:** eliminate a blasphemous, opulent target; target is allowed a save.
+- **Silence:** all sound within Distant range stops for [LEVEL] rounds.
+- **Turn Undead:** up to [LEVEL] undead creatures Nearby must save, or flee and take d6 damage.
+
+#### **Crusade of the Mutton Chalice**
+
+For a thousand years they've searched the Woolly Frail
+
+**Weapons:** mace, maul, warhammer.
+
+**God:** Meh, Mutton of Knowledge – sustained by mysticism,
+
+its clerics vowed to unearth Its relics.
+
+**Holy Symbol:** tunic with mutton crest (may be placed atop body armour).
+
+**Armour:** all armour.
+
+**Lay on Hands:** on a fumble, 1-in-6 chance that ally is permanently
+
+transformed into a mutton.
+
+#### **Divine Prayers:**
+
+- **Bless:** [LEVEL] allies Nearby get +1 To Hit in their next round of combat.
+- **Commune:** ask God a yes-or-no question; use only [LEVEL] times per session.
+- **Holy Shield:** [LEVEL] allies Nearby gain a radiant energy shield with 2d4 hit points.
+- **Locate Object:** sense the location of a previously-touched object.
+- **Quest:** command someone of same (or inferior) level to perform a specific task.
+- **Recall:** mark location; may teleport to these coordinates within [LEVEL] + 2 turns.
+
+**Note:** replace any reference to [LEVEL] for the cleric's current level.
+
+![](_page_21_Picture_32.jpeg)
+
+#### <span id="page-22-0"></span>**Cult of the Shadow Demon**
+
+Its priests all hail from the Temple of Shadows in Mount Gloom
+
+**Weapons:** flail, morningstar, spiked chain.
+
+**God:** Zor´Vol, Lord of Chaos – demon appeased through sacrifices and hedonism.
+
+**Holy Symbol:** horned helmet (may be used as armour).
+
+**Armour:** all armour.
+
+**Lay on Hands:** on a fumble, ally must roll on the God's Wrath table.
+
+#### **Divine Prayers:**
+
+**• Blight:** [LEVEL] adversaries Nearby receive a -1 penalty To Hit in their next round.
+
+**• Cause Fear:** forces a Morale save on a target of level [LEVEL] + 2 (or less).
+
+**• Conjure Demon:** lasts one turn; hp = d6 + [LEVEL], TH = d3 + [LEVEL], DMG = [LEVEL].
+
+**• Curse:** all saves rolled by chosen target automatically fail for [LEVEL] rounds.
+
+**• Darkness:** creates an aura of darkness around the caster for up to [LEVEL] turns.
+
+**• Striking:** magically enchants weapon for +1 TH/+[LEVEL] DMG for one round.
+
+#### **Order of the Verdant Grove**
+
+Protectors of nature, guardians of animal life
+
+**Weapons:** crossbow, dagger, longbow, short bow, spear, quarterstaff.
+
+**God:** Tul, God of Nature – takes the form of wild animals and demands nature to be protected.
+
+**Holy Symbol:** oak leaf medallion. **Armour:** basic or light armour.
+
+**Lay on Hands:** on a fumble, ally is entangled by spontaneous vines for d4 rounds.
+
+#### **Divine Prayers:**
+
+- **Animal Growth:** enlarges one touched animal; lasts [LEVEL] turns.
+- **Create Food:** creates [LEVEL] grub item cards.
+- **Entangle:** conjures vines and roots that restrain up to [LEVEL] targets for [LEVEL] rounds.
+- **Neutralise Poison:** removes Poisoned condition; use only [LEVEL] times per day.
+- **Purify Food:** purifies up to [LEVEL] grub upon touching them.
+- **Speak with Plants:** may gather intel on events up to [LEVEL] days in the past.
+
+## God's Wrath, d10
+
+*Invoking the Gods is only for those primed to atone.* 
+
+- 1 **Focus Break:** lose next round of combat. 6 **Stiffening Contrition:** cannot move for d6 rounds.
+- 2 **Repentance:** self-inflict d4 damage. 7 **Atonement:** self-inflict d8 damage.
+- 3 **Divine Silence:** cannot cast more prayers today. 8 **Zealotry:** must attack nearest ally immediately.
+- 4 **Praying Hands:** cannot carry weapons today. 9 **Blinding Light:** cannot see for d6 rounds.
+- 5 **Penitent Donation:** discard one random item. 10 **Divine Calling:** roll the on Death Table.
+
+![](_page_22_Picture_34.jpeg)
+
+![](_page_22_Picture_35.jpeg)
+
+# <span id="page-23-0"></span>CUTTHROAT
+
+**Max Hit Points:** 10.
+
+**Weapon Specialty:** blowgun, crossbow, dagger, short sword,
+
+and other small weapons.
+
+**Main Item:** guild sigil (depends on guild). **Armour Proficiency:** basic armour.
+
+**Starting Gear:** grub, thieves' tools, guild sigil, two weapons,
+
+4d10 coins.
+
+![](_page_23_Picture_7.jpeg)
+
+#### **Instant Backstory, d6**
+
+- 1 Son of a deceased human clockmaker, raised by a thieving guild for their innate talents. May use [Quick Craft \(Tinkerer\)](#page-31-0) once per session.
+- 2 Halfling wizard apprentice who infiltrated Shadow Arcanum to steal scrolls for their master. Start with two random [Wizard spells](#page-41-0) (use LUCK as mana).
+- 3 Human street urchin who stole a powerful wizard ring and is now hunted by its master. Start with a random magic ring.
+- 4 Dark elf who was exiled from Ghoulgate City for rescuing a human child. Start with one [Bone Whisperer spell](#page-17-0) of choice (use STR as spirit) and a little hireling.
+- 5 Loyal gnome, once royal dragon egg tamer, now falsely accused of regicide. Start with a dragon egg and The Dragon Skull [\(see page 107](#page-108-0)).
+- 6 Human pirate whose crew was cursed to undeath, seeking a way to break the spell. Start with a +2d20 coins and a monkey familiar.
+
+## Special Skills
+
+#### **Mark of the Guild**
+
+Cutthroats start each session with a number of guild tokens equal to their level. As long as their sigil is worn, these can be spent to perform special actions. If Cutthroats score a critical hit or Death Blow, they recoup one spent token.
+
+#### **Darkvision**
+
+Cutthroats can seen in the dark.
+
+#### **Opportunistic Strike**
+
+When Cutthroats roll two pairs on a To Hit roll, they can make a new attack immediately.
+
+#### **Thieving Talents**
+
+Cutthroats start with five talents, as per their guild. Talents grant advantage on the appropriate save when the action is attempted. When going up a
+
+level, Cutthroats can take a new talent.
+
+- **Acrobatics:** DEX save (includes climbing).
+- **Appraise:** INT save; learns of item value.
+- **Disguise:** CHA save; GM does the roll, revealing success only when applicable.
+- **Disable Trap:** DEX save; must use tools.
+- **Forge Papers:** INT save; GM does the roll, revealing success only when applicable.
+- **Hide in Shadows:** DEX save; cutthroat cannot be hit until they show themselves.
+- **Listen:** LUCK save.
+- **Pick Lock:** DEX save; must use tools.
+- **Pick Pocket:** DEX save.
+- **Read Languages:** INT save; rare and dead languages included.
+- **Search:** INT save; locate hidden doors, compartments, traps or objects.
+- **Sneak Silently:** DEX save.
+
+## vīcx 'coinclutch' vell. Human street urchin who stole a magic ring
+
+![](_page_24_Picture_2.jpeg)
+
+## **Special Skills**
+
+Mark of the Guild: spend tokens for special guild actions; recoup a token on a critical hit or Death Blow.
+
+Darkvision: always see in the dark.
+
+**Opportunistic Strike:** make a new attack immediately when rolling two pairs on a To Hit roll.
+
+**Thieving Talents:** receive advantage to appropriate attribute when performing the respective action.
+
+![](_page_24_Figure_8.jpeg)
+
+## <span id="page-25-0"></span>Cutthroat's Guilds
+
+*The choice of guild is one not made lightly.*
+
+#### **Crimson Cloak Society**
+
+An assassin's guild whose members wear a dark red cape
+
+**Starting Talents:** disguise, hide in shadows, listen, pick lock, sneak silently. **Guild Sigil:** crimson coin.
+
+## Spend Guild Tokens to:
+
+- **Backstabbing:** gain +2 To Hit when attacking an unaware target from behind.
+- **Camouflage:** remain completely invisible until making an abrupt or loud action.
+- **Deathly Surprise:** take a free combat round, before rolling initiative.
+- **Evasive Manoeuvres:** downgrade one hit taken (e.g. major hit to minor hit).
+- **Handle Poison:** create a concoction that kills a human if imbibed.
+- **Silent Dispatch:** immediately slay a vulnerable (stunned, prone, etc) target.
+- **Swifty Feet:** take two full actions in a single round of combat.
+
+#### **The Shadow Arcanum**
+
+Guild of esoteric thieves specialised in the occult
+
+**Starting Talents:** appraise, forge papers, hide in shadows, listen, read languages. **Guild Sigil:** eye ring that blinks.
+
+#### Spend Guild Tokens to:
+
+- **Cheat Death:** roll d4 on the Death Table, instead of d8.
+- **Familiar:** ask favour from a creature of the night (cat, owl, bat, etc).
+- **Hocus Pocus:** memorise a witnessed spell; roll LUCK to cast it later (same DICE as original).
+- **Mystic Disguise:** create an illusory doppelganger; lasts one turn.
+- **Necrotic Blade:** inflict an additional d6 damage on a successful To Hit.
+- **Shadow Step:** teleport between two shadows within Distant range.
+- **Occult Knowledge:** identify the exact properties of one magic item.
+
+![](_page_25_Picture_25.jpeg)
+
+![](_page_25_Picture_26.jpeg)
+
+#### **The Justice League**
+
+Union of burglars & pickpockets who steal from the aristocracy
+
+**Starting Talents:** acrobatics, pick lock, pick pocket, search, sneak silently. **Guild Sigil:** hand-shaped brooch.
+
+![](_page_26_Picture_3.jpeg)
+
+#### Spend Guild Tokens to:
+
+- **Endless Purse:** carry any number of coins (ignore slots) until the end of the session.
+- **Escape Route:** remove self from combat immediately without being followed.
+- **Not today:** ignore an Injured condition when receiving it.
+- **Pick the Lock:** pick any lock without rolling (excludes magically-sealed locks).
+- **Pick the Rich:** steal an item from a rich nobleman, aristocrat or clergyman.
+- **True Believer:** take a hireling for free who is dedicated to the cause (once per town).
+- **Wealth Radar:** gather intel on a Unique Item owned by a noble (once per town).
+
+#### **The Octopus Nexus**
+
+Tentacular network of covert agents & master spies
+
+**Starting Talents:** disguise, forge papers, listen, search, sneak silently. **Guild Sigil:** tentacle cloak clasp.
+
+![](_page_26_Picture_15.jpeg)
+
+#### Spend Guild Tokens to:
+
+- **Cypher:** encode message in any document that only a chosen character will understand.
+- **Double Agent:** a minor NPC is revealed to be an undercover Octopus, ready to assist.
+- **Espionage:** determine the exact whereabouts of a person or object.
+- **Forgery:** learn the handwriting or signature of an NPC by merely observing it.
+- **Infiltration:** extract information from a location without leaving any trace.
+- **Inception:** plant an idea in the mind of any minor NPC (within reason).
+- I**nterrogate:** ask a question to any minor NPC; the GM must answer truthfully.
+
+![](_page_26_Picture_24.jpeg)
+
+# <span id="page-27-0"></span>DRUID
+
+**Max Hit Points:** 13.
+
+**Weapon Specialty:** axe, bows, club, mace, quarterstaff, sling, spear.
+
+**Main Item:** none.
+
+**Armour Proficiency:** no armour.
+
+**Starting Gear:** grub, torches, weapon, herb,
+
+random animal companion, d6 coins.
+
+![](_page_27_Picture_7.jpeg)
+
+#### **Instant Backstory, d6**
+
+- 1 Human raised by a feral wolf pack in the remote Pinecone Peaks. Start with two mammal primal gifts, +1 DEX, and a wolf companion.
+- 2 Elf child lost in a mystical fog, returning years later with forgotten druidic knowledge. May heal self or others d4 hit points when surrounded by nature, twice per day.
+- 3 Half-giant raised by ancient treefolk who took an oath to protect the forest. Start with +2 STR; may cast [Speak with Plants](#page-22-0) prayer [\(Cleric\)](#page-19-0).
+- 4 Human botanist who cultivated a baby sentient carnivorous plant. Start with plant as companion (hp, TH, dmg equal to Druid level + 3).
+- 5 Elf mushroom-picker marked by a forest fey that etched mysterious tattoos on them. Tattoos glow faintly in the presence of unknown magic items.
+- 6 Dryad masquerading as human to escape a dying forest, seeking to revive it. May standstill and camouflage as plant at will.
+
+## Special Skills
+
+#### **Primal Gifts**
+
+Druids start with two primal gifts from any animal kingdom. When going up a level, they gain two new gifts of choice. Each gift can be activated once per day, without requiring a save, and last for a number of turns up to the Druid's current level. They cannot be accumulated with shapeshifting.
+
+#### **Animal Handling**
+
+Druids can befriend, tame or mount wild animals by making a CHA save. If the animal matches the kingdom with the most primal gifts, roll with advantage. On a success, the animal follows the Druid and responds to basic orders. This does not grant the Druid the ability to speak with it nor control it telepathically. If the animal is put in a dangerous situation, it must pass a Morale save or runs away.
+
+### **Shapeshifting**
+
+Druids can spend a round to shapeshift into a beast from the animal kingdom in which they have the most primal gifts. If tied, roll randomly. When the Druid reverts to human form, they must make a % roll (d100). There is a chance of remaining in animal shape permanently equal to three times the number of rounds taken as beast (ex: three rounds = 9% chance). If that occurs, retire the character. Otherwise, they revert with the same hit points they had before shifting.
+
+#### **Nature Adept**
+
+Druids can manipulate small amounts of fire, water, earth or air by making a CHA save, but on a fail take a Drained condition. Druids never get lost in the environments connected to the animal kingdoms in which they hold the most Primal Gifts.
+
+#### caelir Fogdrift. Elf with lost druidic knowledge - Heal d4 hp when in the wild
+
+![](_page_28_Picture_2.jpeg)
+
+## **Special Skills**
+
+**Primal Gifts:** take two per level; can be activated once per day. **Animal Handling:** make a CHA save to tame wild animals.
+
+Shapeshifting: take on the beast shape of the dominant kingdom.
+
+Nature Adept: control small amounts of fire, water, earth or air.
+
+## **Animal Companion**
+
+Species: froq ribbert.
+
+Name:
+
+Bonus/Skill: warns of danger
+
+![](_page_28_Figure_10.jpeg)
+
+## **Primal Gifts**
+
+## Mammal
+
+- Herbivore
+- Hamster Form Bloodhound Smell
+- Cheetah Velocity
+  - Pack Mentality
+- Reptile
+- Infrared Vision
+- Camouflage Viper's Agility
+- Regeneration
+- Crocodile Skin
+- Bird
+- Falcon's Grace
+- C Eagle Sight Pigeon Mail
+- Parakeet Form Incubator
+
+#### **Amphibian**
+
+- Toxic Secretion
+- Slimy Skin ○ Gecko Form
+- Frog Leap Sticky Grip
+
+#### Fish
+
+- Water Breathing
+- Pufferfish Form Natural Swimmer
+- ) Bubble Breath Fel Weave
+
+## <span id="page-29-0"></span>Primal Gifts
+
+*The wild gives freely - if one knows how to ask.*
+
+#### **Mammal**
+
+- **Herbivore:** leaves and plants satiate hunger like food/grub.
+- **Hamster Form:** transform into a small hamster.
+- **Bloodhound Smell:** gain keen sense of smell.
+- **Cheetah Velocity:** always attack first in combat.
+- **Pack Mentality:** gain +1 To Hit if there's an ally Nearby.
+
+![](_page_29_Picture_8.jpeg)
+
+#### **Reptile**
+
+- **Infrared Vision:** see in the dark.
+- **Camouflage:** advantage in hiding; remain invisible if still.
+- **Viper's Agility:** make two attacks per round (second has disadvantage).
+- **Regeneration:** spend one round to restore 4+d4 hit points.
+- **Crocodile Skin:** gain Defence 2.
+
+![](_page_29_Picture_15.jpeg)
+
+#### **Bird**
+
+- **Falcon's Grace:** advantage on DEX saves.
+- **Eagle Sight:** can see Far-Away as if Near.
+- **Pigeon Mail:** spend turn asking a bird to take message to a known location.
+- **Parakeet Form:** transform into a parakeet.
+- **Incubator:** spend turn sitting on a bird egg to make a chick hatch as a follower.
+
+![](_page_29_Picture_22.jpeg)
+
+#### **Amphibian**
+
+- **Toxic Secretion:** when hit in melee, cause 2 damage on attacker.
+- **Slimy Skin:** imposes -1 To Hit penalty on adversaries.
+- **Gecko Form:** transform into a small gecko.
+- **Frog Leap:** may perform giant leaps.
+- **Sticky Grip:** advantage to climbing surfaces.
+
+#### **Fish**
+
+- **Water Breathing:** may breathe underwater.
+- **Pufferfish Form:** transform into a pufferfish.
+- **Natural Swimmer:** swim twice as fast, never requiring a save.
+- **Bubble Breath:** spit a floating bubble, able to carry a small item to the surface.
+- **Eel Weave:** squeeze through small spaces when underwater.
+
+![](_page_29_Picture_36.jpeg)
+
+**Note:** gifts last a number of turns up to current level.
+
+## Beast Shape
+
+*The boundary between person and beast has always been thin.*
+
+#### **GRIZZLY BEAR**
+
+*Some lessons are best taught by clawing someone in half.*
+
+18 hp | Defence 2 | Mov A
+
+- **Beak:** TH 6, DMG 4. *Death Blow: eat target; go without grub for d6 days.*
+- **Claw:** TH 7, DMG 3. *Any hit: on a four-number sequence, deal an extra d10 damage.*
+
+![](_page_30_Picture_7.jpeg)
+
+#### **GREEN ANACONDA**
+
+*Known to give formidable hugs.*
+
+20 hp | Defence 0 | Mov A
+
+- **Bite:** TH 7, DMG 4. *Any hit: on three pairs, cause an additional 2d6 damage.*
+- **Constriction:** TH 8, DMG 2. *Any Hit: constrict target; target may save at the start of their round to break free, or takes d4 damage and loses the round; may attack new targets while constricting up to two others.*
+
+![](_page_30_Picture_13.jpeg)
+
+*When you can't fly, run hard.* 17 hp | Defence 1 | Mov A
+
+![](_page_30_Picture_15.jpeg)
+
+- **Trample:** TH 7, DMG 4. *Any hit: on a four-number sequence, run over two Nearby targets for d10 damage.*
+- **Beak:** TH 7, DMG 3. *Major Hit: causes an immediate Morale save on ally of target.*
+
+#### **GIANT SALAMANDER**
+
+*Poison is nature's way of setting boundaries.* 15 hp | Defence 0 | Mov A
+
+![](_page_30_Picture_20.jpeg)
+
+- **Acid spit:** TH 6, DMG 3. *Any hit: give target a poison token; target dies on third token.*
+- **Bite:** TH 7, DMG 4. *Death Blow: may revert to human without making the % roll as usual.*
+
+#### **HAMMERHEAD SHARK**
+
+*Knows only the language of bite marks.*
+
+![](_page_30_Picture_25.jpeg)
+
+- **Bite:** TH 8, DMG 5. *Any hit: on triplets, deal an additional d10 damage.*
+- **Tail slam:** TH 6, DMG 3. *Special: can hit two Nearby targets in the same attack.*
+
+![](_page_30_Picture_28.jpeg)
+
+**Important:** do not forget that a % roll must be made when reverting back to human.
+
+# <span id="page-31-0"></span>TINKERER
+
+**Max Hit Points:** 9.
+
+**Weapon Specialty:** bows, blowgun, dagger, hand axe, short sword,
+
+and similar.
+
+**Main Item:** sparkle of life (insert on construct).
+
+**Armour:** basic, light armour.
+
+**Starting Gear:** grub, lantern, weapon, basic armour, sparkle of life,
+
+gadget belt, 6d6 coins.
+
+![](_page_31_Picture_8.jpeg)
+
+- 1 Gnome inventor that fled Ingenious Point due to a contraption gone horribly wrong. Start with an additional 3 construct points.
+- 2 Gnome engineer who replaced his failing heart with clockwork gear of his own invention. Immune to Exhausted conditions; must oil heart regularly.
+- 3 Halfling thief from the City of Shadows who stole a construct and learned the tinkerer's trade. Start with a [thieving talent](#page-23-0) of choice [\(Cutthroat](#page-23-0)).
+- 4 Dwarf wrestler with an interest for clockwork and all things mechanical. Add battle axes to weapon specialty, and +2 max hit points.
+- 5 Former bard gnome who lost their voice and built a construct to communicate. The construct starts with speech and a built-in bard instrument of choice.
+- 6 Halfling smith that was struck by lightning, awakening in them a talent for invention. Start with Buzzing Volt ([see page 102](#page-103-0)); take half damage from electrical sources.
+
+## Special Skills
+
+#### **Resourcefulness**
+
+Tinkerers only mark usage on gear on 5-6 (instead of 4-6). They can repair usage on non-magical items by making a DEX save and marking usage on an item that shares similar materials.
+
+#### **Quick Craft**
+
+Tinkerers can cobble together a contraption or trap by spending one turn. They must discard appropriate items to use as components, declare the intention with the invention and roll DEX. On a success, the invention works as declared. On a fumble, it works against the player characters.
+
+**• Discard 3:** roll DEX with disadvantage
+
+**• Discard 4:** roll DEX.
+
+**• Discard 5:** roll DEX with advantage.
+
+**• Discard 6:** roll DEX with double advantage.
+
+#### **Gadget Belt**
+
+Tinkerers start with a belt holding four gadgets of choice, one of each available type (see next page). When advancing a level, they may add a new gadget of any type to their belt. To launch a gadget, Tinkerers must mark usage on their belt. Whenever they roll a triplet on a successful To Hit roll, they can release one for free.
+
+#### **Construct Companion**
+
+Tinkerers have a construct ally. At each level, they unlock five construct points to spend on improvements, including at first level. It is only possible to spend two points on the same improvement per level. The Tinkerer controls the construct at will, who regards them as their master. The construct only comes to life if the sparkle of life item card is in one of its inventory slots.
+
+![](_page_31_Picture_28.jpeg)
+
+## Gimble cogheart. Gnome with clockwork heart – immune to Exhausted conditions, but must oil heart regularly
+
+![](_page_32_Picture_2.jpeg)
+
+## Special Skills
+
+**Resourcefulness:** only mark usage on 5-6; repair items by rolling DEX and marking usage on other items. **Quick Craft:** put together an invention/trap by discarding appropriate items and making a DEX save. **Gadget Belt:** start with four gadgets of choice; add one additional gadget per level advancement. **Construct Companion:** assemble a construct; it responds to commands and sees its master as an ally.
+
+![](_page_32_Figure_5.jpeg)
+
+Control Utility Damage Support O Buzzsaw Disk C Flash Bomb ○ Liquid Rope Adren. Booster Clockwork Tov Miniature Drill Flash paste Fire Spitter Sticky Net ○ Signal Flare Healing Injector ○ Goo Blast ○ Repair Drone ○ Spider Scout Shock Bolas Oil Slicker Retract. Shield Repulsor Blast
+
+## Construct Build
+
+*When magic fails, bolts and rivets endure.*
+
+| Improvement       | Cost in points            |
+|-------------------|---------------------------|
+| +1 TH             | 1 (max 8)                 |
+| +1 DMG            | 1 (max 5)                 |
+| +1 Inventory Slot | 1 (max 10; starts with 1) |
+| +2 hp             | 1 (max 20)                |
+| +1 Defence        | 1 (max 3)                 |
+| +1 Saves          | 1 (max 16; starts at 6)   |
+| Camouflage        | 3                         |
+| Climbing          | 3                         |
+| Darkvision        | 3                         |
+| Frog Leaping      | 3                         |
+| Illumination      | 3                         |
+| Hovering          | 4                         |
+| Swimming          | 4                         |
+| Speech            | 5                         |
+
+<sup>\*</sup> The improvements that do not read +1 means gaining such ability permanently.
+
+Tinkerers can restore their constructs two hit points by spending a turn working on them and marking usage on two other appropriate items. They must roll a DEX save. On a fail, the action is wasted entirely. Alternatively, they can discard one item to restore four hit points immediately without making a save.
+
+### **Breaking Down**
+
+A construct that loses all its hit points is broken, and loses one improvement of the player's choice permanently. Tinkerers must spend a number of days equal to the construct's hit points to put it back together. Each point restored costs 100 coins in parts and components.
+
+#### **Reassembling**
+
+A Tinkerer can drop one construction point permanently to reshape their construct entirely. Each pointed moved to another improvement costs 100 coins in spare parts and components.
+
+#### **Shape & Inventory**
+
+A construct's inventory is divided into two areas: carried and stashed. Carried items are ready to use, while stashed items require one action to be retrieved. The player decides their construct's exact shape, size, movement (walking, rolling, sliding), and how it carries or stores items. Some constructs may have limbs and hands, while others may unorthodox shapes with gear fixed onto them. Draw a sketch of the construct to bring it to live.
+
+#### **Attacking**
+
+Constructs have a TH and DMG value. Their method of attack is up to the player's imagination. A construct can only wield weapons whose TH is equal to or below the construct's own TH value. DMG is either that of the weapon or the construct's score.
+
+#### **Saves**
+
+Use this value whenever the construct is required to make any attribute save. **Fixing**
+
+![](_page_33_Picture_16.jpeg)
+
+![](_page_33_Picture_17.jpeg)
+
+[Scan me for a](https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG)  [printable](https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG)  [construct sheet](https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+#### **Examples of Constructs**
+
+Level 5, 14 hp, Saves 7, TH 7, DMG 5 Defence 3, Inventory slots 3. *A beast made to battle, not carry*
+
+Level 5, 6 hp, Saves 7, TH 4, DMG 2, Hovering, Camouflage, Inventory slots 9. *A flying machine made to carry, not battle*
+
+Level 5, 10 hp, Saves 8, Dark Vision, Camouflage, Climbing, Hovering, Speech, Inventory slot 1. *An explorer device made to scout and report*
+
+## <span id="page-34-0"></span>Gadgets
+
+*If it sparks, whirs, or explodes, it's probably working.*
+
+#### **Damage Gadgets**
+
+- **Buzzsaw Disk:** hit a target for d6 damage. On a 6, it ricochets onto another random target.
+- **Clockwork Toy:** walks erratically for one round, then explodes for d8 damage.
+- **Fire Spitter:** shoots a burst of flame in a cone, dealing d4 damage on up two targets Nearby.
+- **Goo Blast:** attach on target; goes off in its next round for d8 damage to all Nearby.
+- **Shock Bolas:** hit any target for d4 electrical damage. On a 4, target is stunned.
+
+#### **Control Gadgets**
+
+- **Flash Bomb:** all creatures Nearby must save or go blind until their next round ends.
+- **Magnetic Orb:** all metal within Distant range is drawn to it.
+- **Sticky Net:** shoot it within Distant range; target can save in their round to break free.
+- **Smoke Screen:** fills room with smoke, facilitating stealth and obscuring vision.
+- **Repulsor Blast:** all Nearby must save or are pushed to Distant range.
+
+#### **Utility Gadgets**
+
+- **Liquid Rope:** advantage to climbing; liquid hardens for two minutes before dissolving.
+- **Miniature Drill:** creates small hole in walls, doors or locks.
+- **Signal Flare:** launches a bright light into the skies.
+- **Spiderbot Scout:** moves silently and emits flashes if it registers movement.
+- **Oil Slicker:** disperses slippery and flammable oil onto a Nearby surface.
+
+#### **Support Gadgets**
+
+- **Adrenaline Booster:** removes Injured or Exhausted condition temporarily for two turns.
+- **Flash Paste:** rapidly seals crack or leak, holding for one turn.
+- **Healing Injector:** heals d4 hit points when injected.
+- **Repair Drone:** restores any construct within Distant range d4 hit points.
+- **Retractable Shield:** absorbs up to six damage from a single attack before shattering.
+
+![](_page_34_Picture_26.jpeg)
+
+# <span id="page-35-0"></span>WARRIOR
+
+**Max Hit Points:** 14.
+
+**Weapon Specialty:** all weapons.
+
+**Main Item:** none.
+
+**Armour Proficiency:** all armour.
+
+**Starting Gear:** grub, torches, weapon, basic armour,
+
+helmet, 3d6 coins.
+
+![](_page_35_Picture_7.jpeg)
+
+#### **Instant Backstory, d6**
+
+- 1 Dwarf priest searching for a holy hammer to save their hometown Stonehall Deep. May cast [Bless and Locate Object](#page-21-0) prayers [\(Cleric\)](#page-19-0) once per day.
+- 2 Half-orc that survived a pitiless village-raid by a devious goblin clique. Start with +1 STR, +2 hit points and a showing loathe for goblins.
+- 3 Half-ogre born under dubious circumstances with a profound inability to conjugate verbs correctly. Convert any amount of INT into hit points.
+- 4 Human squire who saw their master slayed by a Troll and took an oath of revenge. Start with a random [Legendary Weapon](#page-103-0) (from deceased master); +2 TH vs Trolls.
+- 5 Human exile from a distant kingdom, seeking to reclaim their lost throne. Start with +50 coins and a signet ring (+1 CHA).
+- 6 Halfling gladiator champion from End's Meet who found a map to an ancient arena in a defeated rival. Start with a map and +2 CHA.
+
+## Special Skills
+
+## **Extraordinary Feat**
+
+Once per combat, Warriors can attempt a deed, like severing the head of a monster, or swinging from a chandelier to knock down an adversary. They must describe their goal, negotiating with the GM a set difficulty and a proportional consequence for failing. Then, they roll a d20, adding their STR attribute plus current level. If the set difficulty is beaten, they succeed. On a fail, they must take the negotiated consequence.
+
+- **Easy:** 15-20. Minor consequences, like marking usage on an item.
+- **Average:** 20-25. Severer consequences, like taking one or two conditions.
+- **Mighty:** 25-30. Major consequences, like rolling on the Death Table.
+
+#### **Weathered**
+
+Once per session, Warriors can ignore one condition (excludes magical or cursed conditions).
+
+#### **Heavy Lifting**
+
+Warriors have advantage in STR saves that involve physical force, such as knocking down doors or dragging weighty objects.
+
+#### **Combat Talents**
+
+Warriors gain one talent per level. At first level, they must choose a basic one. Upon advancing further levels, Warriors can either select a new basic talent from a different tree, or advance within a previously chosen one by selecting an expert talent. A master talent may only be gained if the corresponding expert skill has already been unlocked.
+
+#### Oggle Oggle. Half-ogre not very smart converted 3 INT points into HP
+
+![](_page_36_Picture_2.jpeg)
+
+## **Special Skills**
+
+**Extraordinary Feat:** once per combat, attempt an extraordinary deed by beating a difficulty set by the GM. **Weathered:** once per session, ignore one condition of choice, excluding magical or cursed conditions.
+
+**Heavy Lifting:** advantage on STR saves that involve brute force.
+
+Combat Talents: choose one combat talent per level, advancing in one or more trees accordingly.
+
+![](_page_36_Figure_7.jpeg)
+
+## <span id="page-37-0"></span>Combat Talents
+
+![](_page_37_Figure_1.jpeg)
+
+![](_page_38_Figure_0.jpeg)
+
+# <span id="page-39-0"></span>WIZARD
+
+**Max Hit Points:** 8.
+
+**Weapon Specialty:** crossbow, dagger, quarterstaff, short sword,
+
+wand, and similar. **Main Item:** spellbook.
+
+**Armour Proficiency:** no armour.
+
+**Starting Gear:** grub, torches, spellbook, weapon, random essence (see potions), 2d10 coins.
+
+![](_page_39_Picture_6.jpeg)
+
+#### **Instant Backstory, d6**
+
+- 1 Human apprentice of [OooOozey Oozzeborne,](#page-44-0) mutated after gulping a brew of slime mucus. May ooze through gaps in which a human child could fit into.
+- 2 Halfling cook with a flair for alchemy who found a mysterious ring in their late father's vault. Start with a random magic ring, and -1 STR.
+- 3 Human scribe buried in volcanic ash during an eruption, who mysteriously re-emerged at dawn. Start with +2 LUCK; take half damage from fire sources.
+- 4 Merfolk masquerading as human who found a grimoire in the ocean and is searching for its master. May breathe underwater; heal d6 hit points in water.
+- 5 Human ex-thief who embraced wizardry after stealing a secret spellbook. May use one [Shadow Arcanum](#page-25-0) [\(Cutthroat\)](#page-23-0) guild ability per session.
+- 6 Dwarf runesmith seduced by arcane powers, consequently exiled from Frost Beard Mountain. Start with an expert [Brawler Mauler talent of choice](#page-37-0) [\(Warrior](#page-35-0)); add axes to weapon speciality.
+
+## Special Skills
+
+#### **Master Spellbook**
+
+Wizards choose a Master to apprentice under, starting with three random spells, plus two of their choice from their Master's repertoire. When going up a level, they may add two spells to their spellbook, including one from their Master's list.
+
+To cast, Wizards must carry their spellbook, spend a chosen total of mana, and roll a number of d6s equal to the mana spent. The spell effect varies depending on the number of [DICE] spent, and their rolled [SUM]. The mana pool equals INT + current level, resetting with a long rest. Spells always work, but bear risks. If one 6 is rolled, they gain a Drained condition. On two 6s, roll on the side effects table. On three 6s, they gloriously die after casting the spell.
+
+#### **Read Magic**
+
+Wizards can make an INT save to cast a spell from an arcane writing of any source, or identify the exact properties of magic items. They can also learn spells from other spellbooks by spending downtime (between sessions) studying them and making an INT save. On a success, they may swap one spell for the new one.
+
+### **Alchemy**
+
+Wizards can mix potions for one less ingredient than usual.
+
+#### **Arcane Resonance**
+
+If Wizards roll a pair while spellcasting, they recover mana of the same value of the pair (ex: a pair of 3s recoups 3 mana).
+
+## Luroka of the Mucus Brew. Apprentice of Oozzeborne - may ooze through small gaps
+
+![](_page_40_Picture_2.jpeg)
+
+## — Special Skills
+
+Master Spellbook: spend mana to cast spells.
+
+Read Magic: make INT save to learn or cast from arcane sources.
+
+Alchemy: mix potions for one less ingredient than usual.
+
+![](_page_40_Figure_7.jpeg)
+
+![](_page_40_Figure_8.jpeg)
+
+| - opomboom      |           | `  |
+|-----------------|-----------|----|
+| 1 Floating Disc | 6         | 11 |
+| 2 Hold Monste   | r 7       | 12 |
+| 3 Polymorph     | 8         | 13 |
+| 4 Ooze Form (n  | naster) 9 | 14 |
+| 5 Blob Army (ma | ster) 10  | 15 |
+
+## <span id="page-41-0"></span>Wizard Spells, d20
+
+#### *Reality is optional.*
+
+- **Charm:** forces target of level [SUM] or less to save or become suggestive to [DICE] basic orders.
+- **Counterspell:** negates spell by a magic-user of level [DICE] or less; may act out of combat order.
+- **Dispel Magic:** cancels the effects of spells or items for [DICE] rounds.
+- **Energy Barrier:** creates aura around caster (and those Near) for [DICE] rounds with [SUM] hit points.
+- **Featherfall:** slows down the rate of falling [DICE] targets or objects.
+- **Fly:** caster or ally gains the ability to fly for [DICE] rounds.
+- **Floating Disc:** creates a disc with [DICE] inventory slots; lasts [SUM] turns.
+- **Hold Person:** renders a character of level [DICE] or less immobile for [DICE] rounds.
+- **Hold Monster:** renders a creature of level [SUM] or less immobile for [DICE] rounds.
+- **Knock:** opens sealed doors, gates, chests, and similar from a distance of [DICE] x 3'.
+- **Magic Missile:** deals [SUM] damage to one single target within Distant range.
+- **Mirror Image:** creates [DICE] illusory doppelgangers of caster; illusions are dispelled if hit.
+- **Polymorph:** morphs ally into [SUM]: (1-4) hamster, (5-8) chicken, (9-12) bear, (13-16) giant spider,
+- (16-19) prismatic slug, (20+) monster of choice; change lasts [DICE] turns, causing twice [DICE] damage when ally reverts to human.
+- **Read Languages:** identifies and reads languages for [DICE] turns.
+- **Sleep:** causes deep slumber to [DICE] targets of combined level [SUM] or less; any harm or excessive noise breaks the spell.
+- **Shield:** invokes an energy shield on self or ally with half [SUM] hit points.
+- **Telekinesis:** caster may move an object within [SUM] x 10'.
+- **Teleport:** caster may teleport between two places within [SUM] x 10'.
+- **The Eye:** conjure a telepathically-linked, remote eye; lasts [DICE] turns.
+- **Time Stop:** caster can perform [DICE] 1 extra rounds immediately.
+
+![](_page_41_Picture_23.jpeg)
+
+## Side Effects, d10
+
+*Tinkering with the arts of the arcane has its perils.*
+
+- 1 **'Master?':** an astral projection of the Wizard's master materialises and slaps them in the face, disappointed.
+- 2 **Rainbow Show:** a display of coloured vapours materialises around the Wizard, making them the target of attacks in the adversaries next round of combat.
+- 3 **Tentacles:** a tentacle grows on the Wizard's back. After going up a level, the Wizard learns to manipulate it as an extra limb: use one body slot as an extra hand. If the Wizard gains a second tentacle, use a satchel slot as another extra hand yet. Should the Wizard gain a third tentacle, they become a polypus humanoid. Retire the character if such occurs.
+- 4 **The Eye:** the Wizard's body sprouts an extra eye: (1) forehead, (2) chest, (3) palm, (4) nape of the neck. If the Wizard develops more than two new eyes, they get a penalty To Hit equal to the number of eyes. It becomes too confusing to see straight.
+- 5 **Acid Event:** d6+1 holes open in the Wizard's body squirting jets of acid. Each does 1 point of damage to the Wizard and to all targets Nearby. If the Wizard survives three of these events, they become immune to acid.
+- 6 **Rough Skin:** the Wizard's skin hardens like a tortoise shell. They gain +1 Defence, but must take an Exhausted condition after every demanding physical tasks. If the Wizard gains a second rough skin, they gain another additional +1 Defence, but must take two Exhausted conditions.
+- 7 **Crab Claw:** one of the Wizard's arms is reshaped into a giant claw; the process takes d6 days. The Wizard can only use one arm slot from now on, but the claw counts as TH 5, DMG 3 weapon. If the Wizard gets a second claw, they can no longer use arm slots, but can make two attacks per round with their claws. If they get a third claw, it bursts through the head or torso – the Wizard is dead.
+- 8 **Polymorph Anomaly:** a random ally is transformed into: (1) toad, (2) mosquito, (3) chicken, (4) bear, (5) gorilla, (6) dragon. Effect lasts a number of turns equal to caster level.
+- 9 **Oops Portal:** an extraplanar portal cracks open from within the chest of the Wizard, shooting a random monster of twice caster level from it and then folding onto itself.
+
+![](_page_42_Picture_11.jpeg)
+
+## Wizard Masters
+
+*Every great wizard starts as someone's terrible apprentice.*
+
+#### **Flakumeg, the Flame Whisperer**
+
+Legendary pyromancer that keeps folk warm in the Frostlands
+
+Level 6 | 10 hp | Saves 16 | Morale 13 | Mana 20 | Human
+
+**• Emberspire Rod:** TH 5, DMG 2. *Any hit: on two pairs, shoots a firebolt onto any target for d6 damage.*
+
+#### Known spells:
+
+- **Fireball:** causes [SUM] damage to all Near impact zone; can be cast from [SUM] x 10'.
+- **Firebolt:** shoot [DICE] bolts onto [DICE] targets; allocate each dice in damage to one target.
+- **Flame:** conjures a small flame in caster's hand that lasts [DICE] turns.
+- **Rain of Fire:** causes [SUM] damage to all Near targeted area for [DICE] rounds; can be cast from [SUM] x 10'; spell ends if caster is hit or takes other actions.
+- **Wall of Fire:** causes [SUM] damage to anyone that crosses it; lasts [DICE] rounds.
+
+#### **Û-Kraal, the Shadow Manipulator**
+
+Powerful sorcerer who dwells unseen across shadows
+
+Level 7 | 12 hp | Saves 13 | Morale 16 | Mana 22 | Dark Elf
+
+**• Nightcoil Staff:** TH 6, DMG 2. *Any hit: may immediately move into any shadow within eyesight.* 
+
+#### Known spells:
+
+- **Black Threshold:** conjures a shadow portal for [DICE] rounds; all that enters is lost upon its closure.
+- **Devour Light:** all light within [SUM] x 10' is immediately extinguished.
+- **Grasping Dark:** [DICE] weak targets become immobilised by living shadows.
+- **Shadow Walk:** caster may walk through one solid object (wall, door, etc.) and takes twice [SUM] damage afterwards.
+- **Stolen Silhouette:** erase the shadow on any target for [SUM] hours.
+- **Umbral Exile:** target of level [DICE] disappears in shadows for [DICE] rounds, then reemerges.
+
+![](_page_43_Picture_23.jpeg)
+
+<span id="page-44-0"></span>![](_page_44_Picture_0.jpeg)
+
+#### **OooOozey Oozzeborne, Ruler of Oozes**
+
+Formidable mage from the hot Swamps that researches slime Level 7 | 13 hp | Saves 17 | Morale 15 | Mana 22 | Human-Ooze
+
+**• Slimesceptre:** TH 6, DMG 2. *Any hit: may cast a spell immediately as a free action.*
+
+### Known spells:
+
+- **Assimilate Filth:** caster can absorb nearby sludge, corpses or refuse to regain half [SUM] mana.
+- **Blob Army:** conjures [SUM] mind-controlled mini oozes (1hp, spit corrosive acid TH 2, DMG 1); disperse if caster is hit or takes other actions.
+- **Jellification:** forces target of level [DICE] to save or be turned into a squishy gelatinous mass.
+- **Gelatine Mess:** conjures a Gelatinous Cube (see bestiary) that acts on its own will for [DICE] turns.
+- **Gooey Grasp:** target of level [SUM] or less is immobilised by thick sludge.
+- **Ooze Form:** caster takes the form of a living ooze for [DICE] turns.
+
+#### **Choo-Choo, Master of Deceit**
+
+Famous illusionist that lives in City of Shadows
+
+Level 8 | 15 hp | Saves 19 | Morale 12 | Mana 30 | Halfling
+
+**• Shadowfang Dagger:** TH 5, DMG 3. *Any hit: may cast a spell immediately as a free action.*
+
+#### Known spells:
+
+- **Colour Spray:** invokes a display of smoke that imposes a -1 To Hit penalty for [DICE] rounds.
+- **French Drop:** makes [DICE] coins appear.
+- **Masquerade:** caster may be perceived as another person of their choice for [DICE] turns.
+- **Invisibility:** renders an immobile target/object invisible for [DICE] turns.
+- **Phantasmal Force:** summons a controllable illusory creature with [SUM] hp, [DICE] TH and DMG.
+- **Ventriloquism:** makes caster voice appear to come from another person or object for [SUM] rounds.
+
+## <span id="page-45-0"></span>2. INVENTORY & GEAR
+
+## Inventory Slots
+
+Every character has the same number of slots, divided into three main areas: hands, body and satchel. Depending on where they are, the items are considered to be carried, worn or stashed. Items usually take one slot, but bulkier ones may take more slots. It is not possible to carry more items than available slots.
+
+![](_page_45_Picture_3.jpeg)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+![](_page_45_Figure_5.jpeg)
+
+- **Adornment:** special slot that can only be used for rings, amulets, and similar. These are considered worn. Cannot be filled with conditions.
+- **Hands:** items carried in the main and off hands. Two-handed items take both slots. These are considered to be carried and may be used at any time.
+- **Satchel:** items placed on the satchel are stashed. During conflict, they can be retrieved at the cost of one action – swap a carried item for a stashed one. There are two slots that only become available if characters have the respective STR score.
+
+## <span id="page-46-0"></span>Usage
+
+Items have usage dots, usually three. When all are marked, the item cannot be used until repaired. Dots on armour and weapons can be cleared for 20% of their original price. Dots on grub, ammunition, torches and similar items are not cleared; new ones must be purchased.
+
+- **Weapons & Ammunition:** after a fight, roll d6 for each item that was used. On 4-6, mark a usage dot.
+- **Armour:** mark usage to downgrade or negate hits, as per the armour rules.
+- **Main Item:** do not roll usage. These items should be always available. If, for some reason, the item is lost or broken, the character must quest for a suiting replacement.
+- **Grub:** mark usage after eating.
+- **Light sources:** mark usage every six turns.
+- **Other gear:** if used in a way that could harm it, roll d6. On 4-6, mark usage.
+
+**Note:** characters without worn items are still dressed in any way the player wishes. The body slots are an abstract currency that limits the quantity of gear characters can wear for gameplay and conflict purposes. Players can negotiate with the GM how their characters are wearing or carrying an item.
+
+## Conditions
+
+Conditions are negative effects that characters get through adventuring. Like gear, they come in inventory cards and take up inventory slots. When receiving a condition, players must place it in the slot of their choice. If there are no empty slots, they must discard an item.
+
+- **Effects:** conditions can have ongoing effects like imposing disadvantage.
+- **Clearing:** these cards can only be removed when their clear requirement is met.
+- **Dying:** if all slots are covered with conditions regardless of their type – the character dies.
+
+List of basic conditions:
+
+- **Drained:** gained when performing mentallytasking actions, like spellcasting.
+- **Exhausted:** gained when taking demanding physical tasks.
+- **Injured:** gained when receiving 6+ damage in a single hit or from a failed save.
+- **Persistent Injury:** gained from rolling on the Death Table, or from other in-game conditions where severer consequences apply.
+- **Poisoned:** gained when poisoned.
+- **Starved:** gained when going without food for two days. Take one extra starved condition for each two days that pass thereon after.
+
+## Drained **Clear:** After long rest *-1 INT* Poisoned **Clear:** Seek medical healing *Take another Poisoned condition each dawn*
+
+![](_page_46_Figure_22.jpeg)
+
+Exhausted
+
+*Disadvantage on all physical tasks*
+
+**Clear:** 
+
+![](_page_46_Figure_23.jpeg)
+
+![](_page_46_Figure_24.jpeg)
+
+Sample Conditions
+
+### <span id="page-47-0"></span>Weapons
+
+- **To Hit (TH):** number of dice rolled to try to hit an adversary – class skills and restrictions may confer bonuses or impose penalties.
+- **Damage (DMG):** amount of damage it can cause, depending on the To Hit roll. Players do not roll for damage – see Combat chapter [\(page 52\)](#page-53-0).
+
+![](_page_47_Picture_3.jpeg)
+
+![](_page_47_Picture_4.jpeg)
+
+| Type         | TH | DMG | Range         | Slots      | Cost |
+|--------------|----|-----|---------------|------------|------|
+| Axe, Battle  | 6  | 4   | Near          | Two-handed | 40   |
+| Axe, Hand    | 4  | 3   | Near, Distant | One-handed | 10   |
+| Club         | 4  | 2   | Near          | One-handed | 4    |
+| Dagger       | 4  | 3   | Near          | One-handed | 8    |
+| Flail        | 5  | 4   | Near          | One-handed | 20   |
+| Garrotte     | 4  | 3   | Near          | Two-handed | 2    |
+| Mace         | 5  | 4   | Near          | One-handed | 18   |
+| Maul         | 6  | 3   | Near          | Two-handed | 25   |
+| Morningstar  | 5  | 3   | Near          | One-handed | 15   |
+| Polearm      | 4  | 5   | Near          | Two-handed | 40   |
+| Quarterstaff | 5  | 2   | Near          | Two-handed | 5    |
+| Scythe       | 6  | 2   | Near          | Two-handed | 16   |
+| Spiked Chain | 4  | 4   | Near          | One-handed | 14   |
+| Sword, Great | 6  | 5   | Near          | Two-handed | 50   |
+| Sword, Short | 5  | 3   | Near          | One-handed | 15   |
+| Warhammer    | 6  | 4   | Near          | Two-handed | 35   |
+| Whip         | 4  | 2   | Near          | One-handed | 4    |
+
+![](_page_47_Picture_6.jpeg)
+
+Note: improvised weapons (rocks, sticks, torches) and bare-handed fighting is TH 3, DMG 2. On STR 12+, the GM may rule it as TH 4, DMG 3.
+
+## **Missile**
+
+| Type            | TH | DMG | Range             | Slots         | Cost |
+|-----------------|----|-----|-------------------|---------------|------|
+| Blowgun         | 5  | 2   | Near, Distant     | One-handed    | 10   |
+| Bow, Long       | 6  | 4   | Distant, Far Away | Two-handed    | 40   |
+| Bow, Short      | 5  | 3   | Near, Distant     | Two-handed**  | 25   |
+| Crossbow        | 5  | 4   | Near, Distant     | Two-handed**  | 35   |
+| Darts           | 4  | 2   | Near, Distant     | One-handed    | 1    |
+| Quiver          |    |     |                   | One-slot      | 5    |
+| Sling           | 4  | 2   | Near, Distant     | One-handed    | 2    |
+| Spear           | 5  | 4   | Near, Distant     | One-handed*** | 20   |
+| Throwing Knives | 4  | 3   | Near, Distant     | One-handed    | 10   |
+
+<sup>\*</sup> All bows require that a quiver is worn.
+
+<sup>\*\*</sup> Short bows and crossbow only take one inventory slot, but still require two hands to shoot; the off-hand must be free.
+
+<sup>\*\*\*</sup> Spears take two inventory slots, but are one-handed. A 1-slot item may be placed atop the spear while carried to represent this.
+
+## <span id="page-48-0"></span>Armour
+
+Items that count as armour are marked with an A . Characters can mark usage on any worn piece of armour to negate one 1 from a To Hit roll made against them. They may mark the same piece or multiple pieces any number of times in the same round to negate as many 1s as they wish.
+
+#### **Defence vs Armour**
+
+Adversaries do not use armour. Instead, they have a Defence value, which reduces the damage taken by the shown value on any attack. Defence refers to this flat damage reduction. Some items/ skills may grant characters a Defence score too.
+
+| Type         | Materials              | Usage | Slots | Cost |
+|--------------|------------------------|-------|-------|------|
+| Basic Armour | Leather, Hide          | 3     | 1     | 40   |
+| Light Armour | Scale mail, Chain mail | 4     | 1     | 80   |
+| Heavy Armour | Plate mail             | 6     | 2     | 200  |
+| Shield       | Wood, Metal            | 2     | 1     | 10   |
+| Helmet       | Metal                  | 2     | 1     | 20   |
+
+#### **Types of Damage**
+
+Armour only protects against physical damage. It is useless against fire, electricity, acid, magic and similar. If a character faces a situation where armour could help reduce damage from a source other than a To Hit roll, they may mark one usage to halve the damage or two usage to negate it entirely.
+
+#### **Armour Proficiency**
+
+Each class has a list of proficient armour. If using other types, the character gets disadvantage on all physical tasks. All classes may use shields and helmets without penalty. Characters can only wear one piece of each type – it is not allowed to use two helmets or two body armours.
+
+![](_page_48_Picture_9.jpeg)
+
+## <span id="page-49-0"></span>Gear
+
+Gear is not tied to specific rules. It allows characters to perform actions which would otherwise be impossible – like spying from afar without a spyglass, or climbing a mountain without appropriate gear. It is part of a player's duty to negotiate with the GM how items can confer situational advantages. Similarly, the GM may impose disadvantage when items are used in unconventional manners. Some examples to use as inspiration:
+
+- **Bedroll:** recover additional hit points when resting.
+- **Compass:** advantage to not getting lost in the wilderness.
+- **Fishing gear:** disadvantage to fetch an item from the bottom of the lake.
+- **Herbs & spices:** mark usage and roll LUCK to recover all or some hit points.
+- **Maps:** place 2d6 new hexes on the map (in hexcrawl campaigns).
+- **Medical healing:** remove one Injured or Diseased condition.
+- **Pickaxe:** advantage to digging.
+- **Portable stove:** roll INT to generate a grub inventory card.
+
+**Note:** use blank item cards for gear and conditions that come up during play.
+
+#### **Optional rule**
+
+The GM can ask for LUCK rolls to determine whether a character is in the possession of pocketsized ordinary items, like dice, coins, or a piece of chalk. Think of it as something the character forgot about in a seldom-used pocket.
+
+#### **Scarcity**
+
+Villages and small settlements typically offer only basic items, such as simple tools, rough clothing, and other essentials. Specialised equipment must be sought in cities.
+
+![](_page_49_Picture_15.jpeg)
+
+| Travelling (hexcrawling) | Cost |
+|--------------------------|------|
+| Bear trap                | 20   |
+| Bedroll                  | 4    |
+| Cage, small              | 10   |
+| Compass                  | 30   |
+| Cooking pots             | 5    |
+| Fishing gear             | 8    |
+| Maps                     | 150  |
+| Shovel                   | 5    |
+| Spyglass                 | 100  |
+| Tent                     | 25   |
+|                          |      |
+
+| Exploration (dungeon crawling) | Cost |
+|--------------------------------|------|
+| Caltrops                       | 5    |
+| Chain                          | 5    |
+| Crowbar                        | 6    |
+| Flask, Empty                   | 4    |
+| Flask, Oil                     | 8    |
+| Flint & Steel                  | 1    |
+| Grappling hook                 | 8    |
+| Hammer                         | 5    |
+| Iron spikes                    | 3    |
+| Ladder, collapsible            | 18   |
+| Lantern                        | 15   |
+| Manacles                       | 14   |
+| Marbles                        | 2    |
+| Mirror                         | 12   |
+| Net                            | 5    |
+| Pickaxe                        | 7    |
+| Rope                           | 1    |
+| Ten-foot pole                  | 6    |
+| Torches                        | 5    |
+| Thieves' tools                 | 25   |
+
+#### **Marketplace, d6**
+
+*Roll when characters enter a new town*
+
+|   | Situation   | Prices          |
+|---|-------------|-----------------|
+| 1 | War         | Tripled         |
+| 2 | Plague      | Doubled         |
+| 3 | Bad Harvest | Food tripled    |
+| 4 | Marauders   | Weapons doubled |
+| 5 | Peace       | Normal          |
+| 6 | Abundance   | Half            |
+
+| Miscellaneous            | Cost |
+|--------------------------|------|
+| Bell                     | 5    |
+| Book                     | 50   |
+| Chemicals (dose)         | 4d10 |
+| Clothing, Poor           | 10   |
+| Clothing, Lush           | 100  |
+| Games (dice, cards, etc) | 10   |
+| Herbs & spices           | 12   |
+| Hourglass                | 80   |
+| Incense                  | 8    |
+| Ink, quill & paper       | 10   |
+| Lockbox                  | 25   |
+| Microscope               | 250  |
+| Musical instrument       | 2d20 |
+| Perfume                  | 22   |
+| Smoking pipe             | 20   |
+| Telescope                | 350  |
+|                          |      |
+
+| Lodging & Recovery          | Cost |
+|-----------------------------|------|
+| Alcohol (beer, wine, etc)   | 1    |
+| Lodging, Cheap              | 10   |
+| Lodging, Extravagant        | 50   |
+| Magical healing (very rare) | 1000 |
+| Medical healing             | 200  |
+| Grub (inc. water)           | 2    |
+| Stables                     | 5    |
+
+| Vehicles               | Cost |
+|------------------------|------|
+| Cart (10-slots)        | 100  |
+| Wagon (20-slots)       | 500  |
+| Dog (2-slots)          | 10   |
+| Donkey (6-slots, slow) | 30   |
+| Horse (4-slots, fast)  | 100  |
+
+#### **Transport**
+
+*Typically when hexcrawling* 
+
+| Type    | Speed p/ day | Cost p/ hex |
+|---------|--------------|-------------|
+| Airship | 3 hexes      | 100         |
+| Boat    | 1 hex        | 10          |
+| Cart    | 1 hex        | 10          |
+| Chariot | 2 hexes      | 30          |
+| Ship    | 2 hexes      | 20          |
+| Wagon   | 1 hex        | 20          |
+
+## <span id="page-51-0"></span>3. SAVES
+
+Characters may attempt any actions they wish, except class-specific skills like spellcasting or shapeshifting. Each class has a set of skills that enhances certain actions, or increase their chance of success, while also possibly conferring penalties to others. Saves are mostly used outside of combat.
+
+## Rolling Saves
+
+Whenever a character takes an action with a chance of failure – and risky consequences – they must make a save. Saves are made against the relevant attribute. Players roll d20. If the result is equal to or less than the relevant attribute, their character succeeds. If the roll is higher than the attribute, they must take consequence for their actions.
+
+- **Strength:** knocking doors down, lifting prison bars, carrying an obelisk, dragging another character.
+- **Dexterity:** climbing sheer surfaces, jumping across a pit, tinkering with delicate objects, swimming, catching a flying object.
+- **Intelligence:** recalling important information, searching for hidden doors, reading and interpreting languages, discerning the architecture of a building.
+- **Charisma:** rallying folk to a cause, hiring and retaining hirelings, manipulating or seducing other characters.
+- **Luck:** determining how fortunate or ill-fated a situation is, meeting the right person at the right time, avoiding a rogue arrow.
+
+## Advantage & Disadvantage
+
+Characters may have advantage or disadvantage to perform actions depending on skills, gear, class restrictions, or situational advantages during play ("I have already been to this city and know some folk!"). The GM is free to add an advantage or disadvantage whenever it seems fitting.
+
+- **Advantage:** roll two dice and take the lowest score.
+- **Disadvantage:** roll two dice and take the highest score.
+
+**Note:** in the (unlikely) event that a character has both advantage and disadvantage in the same action, they cancel each other out. If a character has more than one advantage or disadvantage, roll three dice and take the best or worst result, respectively. No matter how many stack up, the maximum a player rolls are three dice.
+
+### Opposed Saves
+
+If two characters declare the same or a contradictory action, both make saves. The lowest successful roll wins.
+
+![](_page_51_Picture_16.jpeg)
+
+## <span id="page-52-0"></span>Consequences of Failing
+
+Failing a save does not necessarily mean the action fails, but rather that there is a cost for moving forward. There are three main outcomes. The GM will assess and choose the most fitting outcome.
+
+- **Action fails:** nothing else happens.
+- **Action costs:** the action succeeds, but there is a cost for its success.
+- **Action fails + costs:** the action fails, and there is a cost for its failure. The GM is encouraged to use this when a character fumbles.
+
+#### The costs may include:
+
+- **Waste time:** nothing bad happens except that a round, turn or watch goes by, causing depletion of resources, like torches or grub.
+- **Risk encounter:** character draws attention to themselves or their allies, risking an encounter.
+- **Take condition:** character receives an appropriate condition. For instance: failing a running save to escape combat could result in taking an Exhausted condition.
+- **Take damage:** character takes an appropriate amount of damage. For instance: failing a climb save could result in taking d4 or d6 damage from the fall.
+- **Mark usage:** mark usage on an item. Example: failing to pick a lock could mean marking usage on the thieves' tools.
+- **Discard item:** discard an item from the inventory. Example: failing to open a door using a crowbar could mean it broke and the item is discarded.
+
+![](_page_52_Picture_12.jpeg)
+
+#### **Saving Throws**
+
+Saving throws are special saves that characters must make when surprised by harmful situations without having the opportunity to take the initiative, such as traps, falling debris, or exposure to poison. On a fail, the GM chooses the appropriate cost. On a success, the character moves on unscathed.
+
+- **Dexterity:** area effects, traps, collapsing floors, falling debris.
+- **Strength:** ingestion of poison, exposure to acid, gasses, disease, and similar.
+- **Charisma:** resistance to tricks, manipulation and illusions.
+
+## <span id="page-53-0"></span>4. COMBAT
+
+First, the order of combat is determined. Then, each intervenient may make a move and take one action in their round. Actions can be used to attack an adversary, cast a spell, fetch a stashed item, aid an ally, make a second move or any other reasonable action. Combat is designed to be fast and deadly, so avoiding it might be best course of action.
+
+## Initiative
+
+Characters roll a DEX save. Those who succeed act before adversaries, those who fail act after. This order is maintained throughout the combat.
+
+**Surprise:** if a side surprises the other, ignore the initiative roll. They simply attack first.
+
+*"If it's near, hit it. If it's far, make it near."*
+
+- Garruk Marn, the Fighter
+
+## Movement & Distances
+
+Movement and distances are tracked via three abstract ranges: Near, Distant and Far-Away. These are used to calculate the relative positions of all characters in relation to one another. Some weapons are only effective when Near, whilst others are better when Distant.
+
+- **Near:** melee weapons; some ranged weapons work. Less than 30' away.
+- **Distant:** ranged weapons. More than 30' away.
+- **Far-Away:** only certain weapons work, like long bows. Circa 200' away.
+
+![](_page_53_Picture_12.jpeg)
+
+<span id="page-54-0"></span>![](_page_54_Picture_0.jpeg)
+
+## To Hit
+
+Characters roll a number of d6s as indicated by their weapon's TH, modified by any class skills or restrictions, and try to score as many 1s as possible. If the rules mention, for example, "+1 To Hit" this means that characters roll an additional d6. Similarly, a "-2 To Hit" means rolling two less d6s.
+
+**Important:** each class has specialty weapons – if using any other, characters have a -1 To Hit.
+
+- **Minor Hit:** when one 1 is rolled, the adversary loses hit points equal to weapon damage (minus their defence value).
+- **Major Hit:** when two 1s are rolled, the adversary loses hit points equivalent to double weapon damage (minus their defence value).
+- **Death Blow:** when three+ 1s are rolled, the adversary is instantly eliminated and removed from play!
+- **Fail:** when no 1s are rolled.
+- **Fumble:** when two or more 6s are rolled without any 1s being rolled, characters hit an ally with d8 damage OR mark usage on a carried item. They choose. (When an adversary fumbles, the GM determines an appropriate consequence.)
+
+**Note:** if a player character receives a Death Blow, they are not outright killed. Instead, their hit points drop to zero and they must roll on the Death Table. Good luck.
+
+**Important:** whenever an attack has a special effect like Any hit, Major Hit or Death Blow (for example, the Druid's beast shape or most of the creatures in the bestiary), that effect occurs in addition to default combat consequences. 'Any hit' means the effect occurs with a Minor Hit, Major Hit or Death Blow.
+
+#### **Poker Dice**
+
+Certain skills and Legendary Weapons have effects that are triggered when 'poker results' are rolled in To Hit rolls.
+
+- **Pair:** two dice show the same number.
+- **Triplet:** three dice with the same number.
+- **Poker:** four dice show the same number.
+- **Full-house:** a combination of a pair and a triplet in the same roll.
+- **Sequence:** a series of consecutive numbers in the same roll.
+
+<span id="page-55-0"></span>![](_page_55_Picture_0.jpeg)
+
+## Advantage or Disadvantage
+
+Characters may have advantage or disadvantage, depending on gameplay circumstances ("I have the high ground!"). The GM is free to rule it whenever it seems fitting. Advantage confers +1 To Hit, while disadvantage imposes a -1 To Hit penalty.
+
+**Dual wielding:** characters make a second To Hit, but have disadvantage on both attacks.
+
+**Attributes:** if the GM wants to add further nuance to characters, they may rule that those with 13+ DEX have a base advantage to ranged attacks, and those with 13+ STR have a base advantage to melee attacks. Conversely, a DEX or STR score of 7- confers a base disadvantage to attacking.
+
+## Vulnerability
+
+Those that attempt to target a vulnerable character or adversary have advantage in their To Hit. Vulnerable characters or adversaries may make a save at the start of their round. On a success, they recover and can take their round normally. On a fail, apply these effects:
+
+- **Prone:** spend round getting up. Next round act normally.
+- **Immobilised:** the round is wasted (repeat save next round). Treat paralysed or grappled similarly.
+- **Stunned:** the round is wasted (repeat save next round with advantage).
+- **Blinded:** may take one action (no movement), but any To Hit rolls have a -2 penalty. Repeat save next round.
+
+**Note:** sleeping targets can be eliminated outright (no roll required).
+
+### Fleeing
+
+Characters may flee combat by making a DEX save, unless they are slower than their opponents. On a fail, adversaries can immediately make an extra To Hit roll against them.
+
+## <span id="page-56-0"></span>Death
+
+If a character loses all their hit points OR receives a fourth Injured condition, they must roll a d8 on the Death table. If outside of combat, they roll immediately. If it occurs during battle, they are put aside, wait for combat to resolve and then roll. Should the entire party die, all characters are presumed dead.
+
+- 1 **Near Death Experience:** get up with max hit points restored and +1 to one attribute of choice.
+- 2 **Knocked Out:** recover immediately with d4 hit points.
+- 3 **Unconscious:** out for d3 hours.
+- 4 **Hurt:** disadvantage on all saves for the remainder of the session.
+- 5 **Scarred:** loses 1 CHA permanently.
+- 6 **Horrible Wound:** gain a Persistent Injury condition. Cannot be removed from inventory, unless by miracle or magic cure.
+- 7 **Maimed:** either left or right hand inventory slot is rendered useless - mark it with an X. Cannot use two-handed objects. To recover, must find an artificial arm.
+- 8 **Dead!**
+
+**Note:** Injured conditions are not removed by rolling on the Death Table. Characters must meet their clear requirements. Any Injuries beyond the fourth always trigger a Death Table roll.
+
+## Recovering
+
+There are three ways characters can rest and recover. Recovering restores hit points and removes conditions as follows:
+
+- **Short rest:** spend one turn resting to restore d4 hit points.
+- **Long rest:** spend one watch eating and earning some sleep to restore d4+4 hit points.
+- **Full rest:** spend a week in a safe and familiar environment to restore all hit points and remove most long-term conditions.
+
+## COMBAT EXAMPLE
+
+**GM:** The two of you reach the shattered chapel. Candles still burn at the altar, the air reeks of blood and iron. A figure moves — a knight in rusted plate, helm dented, dragging a long sword: "You trespass on sacred ground."
+
+**Tess:** Oh, we're definitely running.
+
+**Rook:** No, wait — look at that blade. That's relicforged steel. Worth more than our lives.
+
+**Tess:** (sighs) Fine. I'm covering you. I draw my shortbow.
+
+**GM:** The knight rises slowly, joints shrieking in the silence. You've got the drop. What do you do?
+
+**Rook:** I rush in and swing my axe at his leg — try to drop him before he can bring that sword around.
+
+**GM:** Roll to hit. Your axe has TH 5.
+
+**Rook:** (rolls 5 dice) 1, 1, 3, 4, 6. Two 1s!
+
+**GM:** Major Hit. Your axe bites into the greaves with a crunch. What's your weapon's DMG?
+
+**Rook:** 4.
+
+**GM:** Majors cause double weapon damage — 8 total. Sparks spray as the knight collapses to one knee, black oil spilling from the joints.
+
+**Tess:** I loose an arrow at his head. TH 5. (rolls) 1, 3, 4, 4, 6 — one 1.
+
+**GM:** Minor Hit. The arrow punches through the visor. He lets out a scream, then swings wildly. Rook, I will allow you a DEX save to dodge that sword, due to the arrow.
+
+**Rook:** (rolls) 12 — fail.
+
+**GM:** It's a big sword (rolls 6 dice). 1, 1, 1, 4, 5, 6.
+
+DEATH BLOWWWWWWWWW!
+
+**Rook:** I immediately mark usage on my helmet to downgrade it to a Major Hit FFS.
+
+**Tess:** I drop the bow and snatch up a burning candle from the floor. I jam it toward his open visor — fire in the face tends to ruin anyone's day.
+
+**GM:** Risky but clever — roll a DEX save to see if you can hold your nerve that close.
+
+**Tess:** (rolls) 7 — success.
+
+**GM:** The wax splashes across his helm. Flames bloom under the visor. The knight shrieks, staggering back. The smell of burning pitch fills the air as the relic blade clatters to the stone floor. The chapel falls silent once again.
+
+## <span id="page-57-0"></span>5. HIRELINGS
+
+Characters may attempt to hire retainers to join them in their travels and expeditions. In villages or small settlements, roll d20 twice to determine which types are available. On 15-20, no one is available. If the same number is rolled twice, the price of the allowance is halved. In big cities, all hirelings are available.
+
+## Allowance
+
+Hirelings must receive their allowance at the moment they are hired and at the start of each subsequent gaming session. If there are no funds available, the hireling goes away.
+
+## Stats
+
+Hirelings start with 6hp, a score of 6 in all attributes, and eight inventory slots, which can be used as any character would. They are not equipped unless otherwise noted. When the character who hired them goes up a level, so do they. At each level, hirelings gain 1 point to three attributes of choice, plus 1 to their max hp.
+
+|    | Type        | Ability                                                                                                                    | Allowance |
+|----|-------------|----------------------------------------------------------------------------------------------------------------------------|-----------|
+| 1  | Acolyte     | Their master may perform an extra Miracle Call per session.<br>Only follows a Cleric.                                      | 0 coins   |
+| 2  | Armourer    | May clear one usage dot on any armour item once per day.                                                                   | 100 coins |
+| 3  | Apprentice  | Starts with a random Wizard spell. Gains a new one at each level.<br>Their mana pool equals INT. Only hireable by Wizards. | 200 coins |
+| 4  | Blacksmith  | May clear one usage dot on any weapon once per day.                                                                        | 100 coins |
+| 5  | Cook        | Produces a grub inventory card if given appropriate ingredients.                                                           | 50 coins  |
+| 6  | Cutpurse    | Starts with 8 DEX, plus Pick Lock and Pick Pocket talents.                                                                 | 80 coins  |
+| 7  | Flagbearer  | While carrying the flag, rational adversaries of inferior level must<br>roll Morale or flee the scene.                     | 50 coins  |
+| 8  | Guide       | Characters cannot get lost when hexcrawling.                                                                               | 150 coins |
+| 9  | Healer      | May cure d6 hit points a number of times equal to their level per day.                                                     | 150 coins |
+| 10 | Knight      | Starts with +2hp, plus a sword and shield.                                                                                 | 200 coins |
+| 11 | Picker      | Brings one grub inventory card per day when in the wilderness.                                                             | 80 coins  |
+| 12 | Porter      | May stack item cards atop three previously occupied slots.                                                                 | 100 coins |
+| 13 | Torchbearer | Never runs out of torches.                                                                                                 | 50 coins  |
+| 14 | Scholar     | Can read dead and exotic languages.                                                                                        | 250 coins |
+
+## Death
+
+If a character dies, its respective player may resume play by recasting their hireling as a level 1 character of their chosen class, retaining any attributes scores and max hp the hireling had at that time.
+
+## Morale
+
+Whenever a hireling is put under a potentially harmful situation, or does not receive a share of loot from a recent expedition, or is not fed properly, their patron must make a CHA save. On a fail, the hireling flees, taking all carried and stashed gear with them.
+
+![](_page_58_Picture_0.jpeg)
+
+## <span id="page-59-0"></span>6. CAMPAIGNING
+
+FLAIL assumes a maximum level 5 for characters, which is usually reachable in around 15 sessions of play. Player characters start at level 1. This does not mean longer campaigns cannot be played, but rather that a renovation of cast is encouraged, in this way populating the setting or world as the game evolves.
+
+## Experience
+
+To go up a level, characters must obtain a number of experience points equal to their current level. For instance, at level 4, a character must gain four points to advance to level 5. Points are typically earned individually, but in cases like questing or influencing, they may be granted to the entire party if all contribute. Points can be obtained by:
+
+- **Looting:** retrieving a Unique Item from a hidden or remote location.
+- **Killing:** dealing the final blow to a level 7+ creature.
+- **Questing:** completing a mission ([see Quest](#page-73-0)  [Scenarios\)](#page-73-0) for an NPC.
+- **Influencing:** eliminating/thwarting a faction OR helping it accomplish its goal.
+- **Surviving:** committing a fabulously foolish blunder and somehow surviving it, leaving the GM with no alternative but to award an experience point.
+
+#### **Optional: hardcore mode**
+
+To go up a level, players cannot repeat the same 'method' of earning an experience point until they reach a new level.
+
+### Gaining New Levels
+
+When advancing, characters immediately restore all hit points, remove conditions that require a short or long rest to clear, and may try to raise two attributes by beating their current base value on a d20 roll – item bonuses do not count for this purpose. Skills that grant new spells, gadgets, instruments, talents and similar only take effect after the character spends downtime in a city, or another appropriate location, between sessions.
+
+## Retiring
+
+When a character reaches level 6, they are retired from play. Should the game continue, the GM is encouraged to cast them in subsequent sessions as notable NPCs.
+
+| Bone<br>Whisperer | Builds a skull tower or necropolis,<br>ruling the land and the dead within<br>its borders (usually one hex). |
+|-------------------|--------------------------------------------------------------------------------------------------------------|
+|                   |                                                                                                              |
+
+| Cleric | Erects a temple. The player can<br>choose four locations where their<br>religion has gained traction. |
+|--------|-------------------------------------------------------------------------------------------------------|
+|--------|-------------------------------------------------------------------------------------------------------|
+
+|           | Takes over their guild or establish a |
+|-----------|---------------------------------------|
+| Cutthroat | new one. The player can choose a      |
+|           | city for its base of operations.      |
+
+|       | Retires to appropriate biome to     |
+|-------|-------------------------------------|
+| Druid | become the protector of life within |
+|       | its borders.                        |
+
+| Tinkerer | Establishes a workshop and may<br>invent a new construct improve<br>ment. The player can choose a city<br>for its location. |
+|----------|-----------------------------------------------------------------------------------------------------------------------------|
+|----------|-----------------------------------------------------------------------------------------------------------------------------|
+
+| Warrior | Takes over a castle and becomes a<br>baron, ruling the land within its bor |
+|---------|----------------------------------------------------------------------------|
+|         | ders (usually one hex).                                                    |
+
+**Wizard** Builds a tower, becomes a master and new apprentices flock in. The player can choose the location of the tower.
+
+![](_page_59_Picture_23.jpeg)
+
+*"No one tells you the tavern stories only get worse when you stop making them."*
+
+- Ultrar, the Third
+
+## <span id="page-60-0"></span>Reputation
+
+Reputation is measured via a bar from -6 to 6. Characters start at zero. This represents an ordinary person with no social impact. Whenever a character does a popular deed, they increase the value by 1. Whenever they do something unpopular, they decrease it by 1. The GM decides when an action qualifies for this.
+
+**• Famous:** characters become famous when their reputation reaches 6. Famous characters are expected to solve social unrest, do heroic actions and no longer have the option of anonymity.
+
+**• Infamous:** characters become infamous when reputation drops to -6. Infamous characters are persecuted by the authorities, suspected of mischievous conduct and framed for wrongdoings.
+
+#### **Examples of popular deeds**
+
+- Rescuing someone notable
+- Saving a village
+- Doing right by the authorities
+- Paying taxes to the King
+- Returning a lost object of value
+- Slaying a dangerous creature
+
+#### **Examples of unpopular deeds**
+
+- Killing innocent folk
+- Burning down a temple
+- Deceiving the authorities
+- Theft and robbery
+- Backstabbing a prominent noble
+- Desecrating tombs
+
+From the moment a character is famous or infamous, all subsequent deeds are rewarded with a token. (Ex: a character with 6 reputation that does two popular deeds gains two famous tokens.) Players can only hold two tokens at once and may spend them to gain benefits. Use the examples below as inspiration.
+
+#### **Spending famous tokens**
+
+- Having free lodging and food in town
+- Being easily received by local authorities
+- Getting a referral from the local priest
+- Hiring a retainer for free a loyal virtuous one
+- Receiving a rare gift
+
+#### **Spending infamous tokens**
+
+- Reaching out to the underworld for rumours
+- Receiving help from a cult or thieves' guild
+- Hiring a retainer for free a pesky vicious one
+- Instilling fear, hindering folks from attacking
+- Forcing rivals to lose at gambling on purpose
+
+#### **Things to consider…**
+
+Once famous or infamous, characters only stop being seen as such when returning to reputation zero. However, they only gain tokens if their reputation stays at -6 or 6. Reputation points should only be given once/twice per session, so that they take some time to become relevant in play.
+
+![](_page_60_Picture_33.jpeg)
+
+*"Need help with that? Lemme see. No, wait, lemme see. Why you running?"*
+
+- Specialised smith with a very dubious reputation
+
+![](_page_61_Picture_0.jpeg)
+
+![](_page_62_Picture_0.jpeg)
+
+## <span id="page-63-0"></span>7. RUNNING FLAIL
+
+## Best Practices
+
+- **There are always ways to break the game**, whether it's a spell that creates an overpowered loophole with a skill, or a magic sword that shares a dubious synergy with another item, or anything in between. This can ruin the fun for everyone. Do not allow it. Nerf at will.
+- **This game is now yours.** Use what you like, discard what you don't. Rip it apart, put it back together. These rules are not designed to cover every imaginable situation; some aspects have been kept vague to allow for improvisation. Adjust one of the existing tools as needed when this occurs, or create a new one. Keep track of it for later use.
+- **Present paths, not destinations.** Always give players choices. Let them decide what to do and where to go. Their decisions shape the world and drive the story forward. Don't push them down a single path. Options should bear risks and rewards. Encourage creativity and let their choices bring the game to life.
+- **Set difficulty based on the situation**, not just mechanics. If something is truly impossible, no roll can make it happen. When players take actions that make sense, let it happen. But when danger looms, make sure they know. Telegraph the risks. Let them decide if they want to face the challenge or find another way. And don't worry if they kill a dragon with a single roll. There's always a bigger dragon.
+- **Ask for saves when characters take brash or potentially dangerous actions**, as a result of a player's choice. Set the stakes before they commit. Negotiate consequences if possible. 'You really wanna do that? Sure, but if you fail you're gonna take two conditions.' Go back to [page 51](#page-52-0) for a list of potential consequences.
+
+- **Reward ingenuity.** When players are smart, brave, and follow good leads, give them the rewards they've earned. Don't hold back after they face real dangers and succeed. Rewards can come in many forms—treasure, coins, powerful items, valuable knowledge, or new clues that push the story forward. Let their victories feel meaningful.
+- **Inventory cycling.** Characters are defined by only by four skills and their inventory. Skills evolve but don't change at a fundamental level. For the game to stay exciting, it's the inventory that must change. Strict usage limits and costly repairs ensure gear cycles, pushing players to adapt to new items, strategies, and playstyles. Even magic items wear down and are expensive to repair, ensuring gear circulation.
+
+#### **GM Tracker Sheet**
+
+To manage time and exploration, FLAIL uses different time scales. Use the tracker sheet to keep tabs on these units and manage resources, especially light sources and food.
+
+- **Overland travel:** measured in watches; a watch is eight hours long and is mostly used for moving between hexes when hexcrawling.
+- **Dungeon exploration:** usually measured in turns; a turn is around ten minutes long, enough for a major action, like exploring a room, disarming a trap, or fighting a monster.
+- **Combat:** measured in rounds; a round is about ten seconds long, enough for taking one movement and an action.
+
+![](_page_63_Picture_14.jpeg)
+
+## <span id="page-64-0"></span>Adventuring
+
+There are three main ways in which a game of FLAIL is designed to be played.
+
+#### **1. Hexcrawling**
+
+Hexcrawling is the default mode for campaign play – a series of connected adventures throughout various gaming sessions. In a hexcrawl, the game world is represented by a map divided into hexes, most of which contain a notable location or landmark.
+
+This mode is built upon a sandbox-style experience, where the boundaries of the game world are fluid, as both the GM and players build the setting as they explore. Unlike scripted adventures, a hexcrawl gives players the freedom to make meaningful choices about where to go and what to do next. The driving motto is to draw a story out of the players, not enforce one upon their characters. The world doesn't need to have every detail mapped out. Instead, start small and flesh out locations as they become relevant. Random encounter tables, event generators, and a range of other tools allow for the creation of gameable situations on the fly. Try to incorporate players ideas and feedback as much as possible. This will help in worldbuilding while also making players feel accomplished.
+
+Over time, a hexcrawl-based campaign can grow into a living, breathing world. Villages might flourish or fall into ruin based on player actions. Powerful factions can rise or be overthrown. The environment itself may change due to natural or supernatural forces. Players might stumble upon rumours of far-off lands or ancient evils, leading them to seek out new regions. This ongoing process allows for deep world-building while maintaining a sense of spontaneity. GM and players know that every decision can ripple out and shape the world in unexpected ways.
+
+This is the basic mode for campaigns in FLAIL. Find more on the next page.
+
+#### **2. Quest Scenarios**
+
+Quest Scenarios, designed for a more focused gameplay, are ideal for one-shot sessions. While typically formatted as hexmaps, these are self-contained worlds to where the characters are thrown into with a specific goal, such as retrieving an artifact, escaping a natural disaster, or stopping a villainous plan. The GM provides a clear objective to the players, and the game is all about whether they succeed or fail. Quest Scenarios allow for experimentation with new characters and mechanics without long-term commitment. See [page 72](#page-73-0) for more.
+
+#### **3. Dungeon Crawling**
+
+Dungeon crawling is a versatile mode that can be used in ongoing hexcrawls or as standalone adventures. It focuses on the in-depth exploration of a specific location, typically underground, like caves, ancient ruins, or labyrinthine dungeons. Players navigate enclosed environments filled with traps, hidden passages, and puzzles with the aim of looting treasure, defeating powerful adversaries, or solving a mystery hidden in the depths. Dungeons can be used to flesh out locations within hexcrawls, or to be played as one-off adventures. On [page 78,](#page-79-0) there are tools to generate Adventure Sites for dungeon crawling sessions.
+
+#### **Compatibility**
+
+Another way to use FLAIL is to play whatever oldschool oriented campaign or module you feel like. It is simple to adapt such modules to the rules of FLAIL; it mostly will come down to adapting monster stats and magic spells.
+
+![](_page_64_Picture_13.jpeg)
+
+*"Wanna go to Lankhmar? Cause I'll go to Lankhmar. Heard the thieves run the temples there now."*
+
+- Dreg of Hollowmere
+
+## <span id="page-65-0"></span>8. HEXCRAWL
+
+Use these guidelines to create the starting hexcrawl for your campaign. If you're playing a oneshot or single session, see '[Quest Scenarios](#page-73-0)'.
+
+#### **The Hexcrawl Toolbox**
+
+Check out the Hexcrawl Toolbox, both the online app or the physical boxset. It allows you to build a hexcrawl in five minutes with 150 hex-tiles to pick from.
+
+![](_page_65_Picture_4.jpeg)
+
+[Take me to the](https://gamesomnivorous.com/pages/flail-tools)  [online hexcrawl](https://gamesomnivorous.com/pages/flail-tools)  [app immediately](https://gamesomnivorous.com/pages/flail-tools)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+#### **1. Fill hexes**
+
+Print a blank hex-flower with 19 hexes. Fill 12 with a location or landmark (or choose from the Hexcrawl Toolbox). Write one or two lines for each, treating them as if they were dungeon rooms: an 'ancient ruin' does not need more than a brief description, an obstacle to overcome (monster, trap, riddle) and a reward, such as treasure. Use the tables on the right to inspire yourself. Leave the other hexes blank. These are useful to enforce travel rules, and wilderness survival.
+
+#### **2. Adventure Sites**
+
+Expand one or two locations/landmarks into Adventure Sites using the tools in [page 78](#page-79-0) – or choose a compatible module you like. How many depend on the number of hours you envision for the starting session of your campaign.
+
+**Note:** most groups spend ten minutes per hex as they deal with encounters or make plans. A 19-hex map will take around three hours to be explored. Each detailed site should generate an additional one or two hours of play.
+
+#### **3. Rumours**
+
+Create a table of d6 rumours and introduce them to players at the start of the game. Rumours drive exploration and often turn into quests or adventure hooks. Let players find their own adventure. Use the table in the next page to inspire yourself.
+
+- Entries 1-3 should be true
+- Entries 4-5 should partially true
+- Entry 6 should be false
+
+#### **4. Events**
+
+Create a list of d4 events. Events are something that may tip the scales in the region or impact characters in a significant way, like a shift in power or a natural disaster. Be upfront about these to the players. Use the table as inspiration to create more.
+
+#### **5. Factions**
+
+Create two factions, using the table as a guide. Give each a clear goal with a significant impact on the region, and a key resource. If there are player characters belonging to a thieves' guild or religious order, think about how the factions can interact with these (see [page 67](#page-68-0)).
+
+#### **6. Encounters**
+
+Create a table of d8 encounters. Use them to populate the wilderness, create adversity, and spice up locations not detailed in step 2. Combine creatures from the bestiary, with faction encounters and groups of people travelling.
+
+#### **7. Treasure**
+
+Mark four hexes as bearing legendary treasure. If successfully explored, reward characters with a Unique Item ([page 98\)](#page-99-0). Reward the exploration of other locations with coin or mundane wealth.
+
+![](_page_65_Figure_25.jpeg)
+
+## <span id="page-66-0"></span>Locations, d20
+
+*Roll d20 on each column or pick combinations*
+
+|    | Location    | Biome     | Condition   | Key Feature       | Occupant           |
+|----|-------------|-----------|-------------|-------------------|--------------------|
+| 1  | Tower       | Desert    | Abandoned   | Arcane runes      | Death cult         |
+| 2  | Megalith    | Desert    | Blessed     | Clockwork         | Thieves guild      |
+| 3  | Graveyard   | Steppes   | Ransacked   | Magically-sealed  | Bandit troop       |
+| 4  | Tavern      | Steppes   | Haunted     | Golden tilework   | Deserter clique    |
+| 5  | Temple      | Mountains | Ancient     | Cosmic portal     | Assassin guild     |
+| 6  | Pyramid     | Mountains | Twisted     | Flame beacon      | Bard society       |
+| 7  | Ruins       | Pastoral  | Desecrated  | Lightning rod     | Royal army         |
+| 8  | Castle      | Pastoral  | Collapsed   | Primal masonry    | Merchant guild     |
+| 9  | Shrine      | Pastoral  | Levitating  | Dark clouds       | Religious order    |
+| 10 | Obelisk     | Pastoral  | Overgrown   | Odd burrows       | Pirate crew        |
+| 11 | City        | Forest    | Decadent    | Hidden tunnels    | Knight's circle    |
+| 12 | Fort        | Forest    | Doomed      | Windmills         | Healing order      |
+| 13 | Village     | Forest    | Forbidden   | Pulsating orb     | Construct society  |
+| 14 | Tombs       | Forest    | Flooded     | Floating crystals | Illegal fight club |
+| 15 | Observatory | Swamp     | Cursed      | Deep well         | Mercenary band     |
+| 16 | Library     | Swamp     | Forgotten   | Warden sphynx     | Mad scientist      |
+| 17 | Bazaar      | Jungle    | Futuristic  | Octopus statue    | Artifact dealers   |
+| 18 | Mine        | Jungle    | Enlarged    | Obsidian          | Mighty wizard      |
+| 19 | Monastery   | Tundra    | Quarantined | Colossal eye      | Circus troupe      |
+| 20 | Monument    | Tundra    | Burning     | Warning flags     | Random monster     |
+|    |             |           |             |                   |                    |
+
+## Landmarks, d20
+
+*Roll d20 on each column or pick combinations*
+
+|    | Landmark   | Biome     | Condition   | Key Feature       | Occupant          |
+|----|------------|-----------|-------------|-------------------|-------------------|
+| 1  | Lake       | Desert    | Glowing     | Fumaroles         | Undead horde      |
+| 2  | Volcano    | Desert    | Radioactive | Ancient glyphs    | Dire animals      |
+| 3  | Lagoon     | Steppes   | Freezing    | Luminous fungi    | Wandering spirits |
+| 4  | Sinkhole   | Steppes   | Smouldering | Giant footprints  | Dragon cult       |
+| 5  | Cave       | Mountains | Toxic       | Dead dragon       | Flamingos         |
+| 6  | Waterfalls | Mountains | Infested    | Lava veins        | Troll twins       |
+| 7  | Canyon     | Pastoral  | Curative    | Boiling pools     | Runaway witch     |
+| 8  | Geyser     | Pastoral  | Magnetic    | Sunken ruins      | Goblin tribe      |
+| 9  | Tree grove | Pastoral  | Echoing     | Carved totems     | Necromancer       |
+| 10 | Crater     | Pastoral  | Humming     | Primitive fossils | Insane construct  |
+| 11 | Fissure    | Forest    | Blighted    | Valued minerals   | Druid circle      |
+| 12 | Stones     | Forest    | Crystalised | Bone piles        | Dodo birds        |
+| 13 | Tar pit    | Forest    | Petrified   | Spider webs       | Hermit oracle     |
+| 14 | Butte      | Forest    | Enchanted   | Skeletal carcass  | Smuggling clique  |
+| 15 | Plateau    | Swamp     | Ethereal    | Giant ant nests   | Mutant clan       |
+| 16 | Quarry     | Swamp     | Corrupted   | Primeval altar    | Phantom knights   |
+| 17 | Oasis      | Jungle    | Fractured   | Floating rocks    | Barbarian horde   |
+| 18 | Farmland   | Jungle    | Charred     | Antique relics    | Fire imps         |
+| 19 | Lair       | Tundra    | Bleeding    | Broken columns    | Friendly dragon   |
+| 20 | Tunnel     | Tundra    | Prismatic   | Giant coprolites  | Random monster    |
+|    |            |           |             |                   |                   |
+
+## Rumours, d20
+
+#### *Pick or roll d20 six times to create a d6 table*
+
+- A talking goose was spotted in the wild, laying eggs of gold.
+- A cursed well grants wishes but takes a life in return.
+- An ancient sorcerer has been buried alive and will reward those who unbury him.
+- A thieves' guild buried the king's ransom in this area, before being caught and killed.
+- A group of shapeshifters is infiltrating local noble families.
+- A healer in these parts can cure any disease in exchange for d6 dragon teeth.
+- A coven of witches is brewing the World's End.
+- A hidden treasure map can be found tattooed on the back of a notorious pirate.
+- A haunted battlefield is rumoured to contain lost relics from a forgotten war.
+- A beloved local priest is actually an immortal necromancer, raising undead.
+- A local farmer swears their pig is an oracle.
+- A hermit claims to know the true heir to the kingdom.
+- A monstrous creature prowls the region, demanding sacrifices every full moon.
+- A local temple is in truth a front for the most feared assassin's guild in the world.
+- A local ruler secretly feeds their subjects to the [MONSTER].
+- A sacred place can grant visions of the future if approached on a moonless night.
+- A demon-possessed artifact is corrupting the land, causing reverse gravity vortices.
+- The shrine of a forgotten deity conceals a holy artifact that can reshape the world.
+- A local baron is secretly gathering an army of mercenaries for a rebellion.
+- Ancient law proclaims whoever slays the [MONSTER] has a claim to the Throne.
+
+## Events, d20
+
+#### *Pick or roll d20 four times to create a d4 table*
+
+- **Bad Omen:** dark cloud follows party for d6 days pouring intense rain on them.
+- **River Blight:** an evil wizard steals all the rivers, leaving only stinking mud pits.
+- **Throne War:** d12 x 100 soldiers invade the region, starting in a random outer hex.
+- **Petrification Wave:** turns living creatures to stone; spreads to new hex every d3 days.
+- **Phantom Ship:** hunting a random character to take to the ethereal realm.
+- **Rain of Fire:** sets random hex ablaze, leaving behind strange mineral deposits.
+- **Spreading Wildfire:** burns random hex, spreading to d3 hexes per day.
+- **Fog of Madness:** renders everyone hostile and erratic; spreads to new hex each day.
+- **Insect Exodus:** migration between two random hexes, wreaking havoc in its path.
+- **Holy Pilgrimage:** convoy carrying sacred statue begins crossing the hexcrawl.
+- **Eternal Night:** mysterious darkness falls on the entire region lasting d6 days.
+- **Meteorite Crash:** falls in random hex, opening a portal that spits out monsters.
+- **The Passage:** convoy with notable prisoner starts crossing the map in outer hex.
+- **The Proving:** local leaders start rounding up people to send on a monster hunt.
+- **Twilight Bloom:** mysterious flowers bloom in random hex, attracting rare creatures.
+- **Caravan Bazaar:** thousands of traders converge in a random hex.
+- **Famine:** poor harvest and hunting see food in high demand.
+- **Temporal Rift:** all life starts to age drastically in a random hex.
+- **Forbidden Ritual:** cultists gather in a random hex to summon a powerful entity.
+- **Spectral Grounds:** spirits emerge in a random hex, claiming it as their domain.
+
+## <span id="page-68-0"></span>Factions, d20
+
+*Pick or roll d20 on each column to generate starting factions*
+
+|    | Faction            | Resource                 | Goal                             |
+|----|--------------------|--------------------------|----------------------------------|
+| 1  | Religious order    | Important prisoner       | Unearth a powerful artifact      |
+| 2  | Thieves guild      | Legendary Weapon         | Perform a perilous ritual        |
+| 3  | Occult society     | Captive wizard           | Corrupt a sacred relic           |
+| 4  | Royal guard        | Mind-controlled beast    | Slay the leader of other faction |
+| 5  | Dark cult          | Magic floating orb       | Open an inter-dimensional portal |
+| 6  | Witch conclave     | Cache of gold            | Build a formidable contraption   |
+| 7  | Mercenary company  | Powerful magic ring      | Revive a mummified deity         |
+| 8  | Rebel insurgents   | Tome of dark magic       | Unleash a deadly curse           |
+| 9  | Merchant guild     | Crystal clairvoyant ball | Awaken a dormant beast           |
+| 10 | Pirate crew        | Hatching dragon egg      | Free themselves from a curse     |
+| 11 | Knightly order     | Treasure map             | Raise an undead army             |
+| 12 | Secret inquisition | Royal decree             | Construct a magical fortress     |
+| 13 | Smugglers ring     | Mighty potion            | Trigger a natural disaster       |
+| 14 | Beastmaster clan   | Sacred forgotten relic   | Forge a sentient weapon          |
+| 15 | Arcane academy     | Lost technology          | Resurrect a fallen hero          |
+| 16 | Undead legion      | Alchemical formula       | Appease a mythical beast         |
+| 17 | Bounty hunters     | Stolen construct         | Forge a dark alliance            |
+| 18 | Wizard cabal       | Sealed demon heart       | Render themselves immortal       |
+| 19 | Shadow assassins   | Cursed blood gem         | Banish an immortal foe           |
+| 20 | Exiled royalty     | Spellbound elemental     | Usurp the throne                 |
+
+Factions represent forces that exert influence over a number of hexes or even the entire map. Players can interact with them in various way – such as hindering their progress, assisting them, or striking deals. Generate two factions using the table above and complete them by using the following guidelines:
+
+- **Name:** give each faction a unique, memorable name.
+- **Homebase:** choose one hex as each faction's base.
+- **Goal:** ask how the goal can be accomplished, what is still missing, its ultimate purpose, and where it might be accomplished. Tie some answers to locations on the map.
+- **Competition:** have each faction compete for one hex and think why.
+
+### **The Ancient Awakening**
+
+*Wizard Cabal*
+
+**Homebase:** twisted tower **Resource:** a stolen construct **Goal:** revive a mummified deity
+
+- *How?* Via a magic rite performed by 12 mages
+- *What's missing?* One scroll (lost in ancient ruins)
+- *Where?* Rite must occur in a forgotten temple
+- *Purpose?* Resurrect their ancient master
+
+### **Advances**
+
+#### **Sisters of the Veil**
+
+*Witch Conclave*
+
+**Homebase:** dark church **Resource:** hatching dragon egg **Goal:** open an inter-dimensional portal
+
+- *How?* Via a dark ritual under the full moon
+- *What's missing?* One sister (stuck in a temple)
+- *Where?* Ritual must occur in ancient ruins
+- *Purpose?* Avenge fallen sisters
+
+#### **Advances**
+
+![](_page_68_Picture_24.jpeg)
+
+## <span id="page-69-0"></span>Running the Hexcrawl
+
+#### **Basics**
+
+Start the party in a hex of your choosing. Exploration is divided into three watches per day (morning, afternoon, evening) of eight hours each.
+
+#### **Crossing a hex**
+
+It takes two watches to move from one hex into another. Fast vehicles or mounts reduce this to one watch, while slow vehicles or rough terrain (such as rivers, cliffs, or flooded lands) add an extra watch. Roll 2d6 when moving into a new hex and apply the appropriate result.
+
+| 2-5 | Roll encounter.                   |
+|-----|-----------------------------------|
+| 6-9 | Nothing occurs.                   |
+| 10  | Lost! Watch is wasted.            |
+| 11  | Bad trail! Move into another hex. |
+| 12  | Roll Event.                       |
+
+#### **Exploring a location**
+
+If a hex has a location, characters may wish to explore it. Exploration takes a watch, though possibly longer depending on the players' approach. If the location has not been detailed as an Adventure Site, consider the following practices:
+
+- **Description:** improvise tactile details and come up with an obstacle or interaction (example: 'this Ancient Ruin has a sealed door covered in glyphs,' or 'the wizard inside this Tower needs to strike a deal'). Use player reactions or ask questions, then expand on their feedback.
+- **City, Village, Temple:** expand any of these locations following the procedures in the [Resources chapter.](#page-109-0) They can be used on the fly.
+- **Encounters:** roll encounters to flesh out location occupants or generate conflict. Adversity leads to adventure.
+- **Treasure:** choose a treasure as reward for exploring the location; it may give ideas as to why this place is relevant.
+- **Rumours:** flesh out the location by making it the subject of a known rumour.
+
+#### **Gathering supplies**
+
+Characters may spend a watch gathering food and consumables (like natural medicine, reagents, wood for arrows, etc.). Roll d6. On a success, they find d6 supplies. On a 1, roll encounter.
+
+| Biome                     | Success, d6 |
+|---------------------------|-------------|
+| Jungle, Forest            | 2-6.        |
+| Pastoral, Steppes, Swamps | 3-6.        |
+| Mountains                 | 4-6.        |
+| Desert, Ocean             | 5-6.        |
+
+#### **Making camp**
+
+Characters must rest one watch per day or take an Exhausted condition.
+
+#### **Reactions**
+
+When coming across a creature or folk whose reaction is uncertain, use the following table.
+
+| 2-5 | Attacks immediately   |
+|-----|-----------------------|
+| 6-9 | Hostile, but…         |
+| 10  | Can be bargained with |
+| 11  | Friendly, but…        |
+| 12  | Helpful               |
+
+#### **Morale**
+
+When an adversary is outmatched at the start of their round, they must make a Morale save. On a fail, they flee or surrender.
+
+#### **Weather**
+
+Roll 2d6 for weather each day. Adjust the result to the biome (Ex: Unpleasant in a Desert is a heat wave; in Mountains, icy winds, etc.)
+
+- 2 **Catastrophic:** outside of shelter, roll all saves with disadvantage.
+- 3-5 **Unpleasant:** extra watch to cross.
+- 6-8 **Typical:** uneventful.
+- 9-11 **Agreeable:** characters have advantage on first save of the day.
+- <sup>12</sup> **Perfect:** gathering supplies is always successful.
+
+## <span id="page-70-0"></span>Expanding the Campaign
+
+When all (or most) hexes have been explored, it is time to expand the current hexcrawl. Follow these procedures, namely in-between sessions:
+
+- **Hexes:** add 12 new hexes to the current map, repeating step 1 ([page 64\)](#page-65-0).
+- **Adventure Sites:** detail more locations as per step 2 ([page 78](#page-79-0)).
+- **Quest Scenarios:** alternatively, send characters on quests ([page 72](#page-73-0)) by having an NPC hire them for a mission.
+- **Faction progression:** if characters did not hinder a faction, roll d6. On 4-6, the faction advances one step closer in its goal. After three advances, it succeeds. Adjust the campaign accordingly, adding the appropriate consequences and changes to the world. Then, remove the faction from play. They have 'won'.
+- **New factions:** create new factions as you expand the map with new hexes.
+- **Encounters:** swap some encounters out for new ones to keep exploration unpredictable.
+- **Rumours:** swap some of the rumours, focusing on the ones that interest the party as the campaign evolves.
+- **Events:** update the events table with new ones if all have been triggered.
+
+The world is generated as the game is played. This design encourages the GM and players to create an evolving world by combining multiple hexcrawls (or expanding the original one), sending players to new regions (adding the respective hexes), detailing more adventure locations and progressing the factions. Keep track of the map. The setting is formed while players play the game.
+
+#### **Retired Characters**
+
+Characters are designed to retire upon completing level 5. They become important NPCs. Play can continue in the same world/setting by having the players roll new characters, incorporating retried ones as key NPCs and carrying on.
+
+![](_page_70_Picture_13.jpeg)
+
+# <span id="page-71-0"></span>SANDS of REBELLION
+
+![](_page_71_Picture_2.jpeg)
+
+#### **The Sand Vipers**
+
+*Rebel Insurgents*
+
+**Homebase:** ruins of Zarathune **Resource:** kidnapped prince heir **Goal:** usurp the throne
+
+- *How?* Swap the Sultan for a puppet prince
+- *What's missing?* A bigger army
+- *Where?* Assault the city of Thul-Zurein
+- *Purpose?* Control trading routes
+
+#### **Advances**
+
+**Homebase:** Towers of Caelatessa **Resource:** stolen construct
+
+**Goal:** turn desert into a lush green jungle
+
+- *How?* Build and deploy advanced constructs
+- *What's missing?* Gnorbitt's machine *• Where?* All desert hexes in the map
+- *Purpose?* Create a sanctuary for exotic flora
+
+#### **Advances**
+
+**The Botanists** *Arcane Academy*
+
+![](_page_71_Picture_18.jpeg)
+
+#### **1: Ruins of Zarathune**
+
+Once a holy monastery, now the base of the Sand Vipers. Spearheaded by an idealist gnome illusionist, who has the prince of Thul-Zurein under a spell. Wishes to free the region of the Sultan's grasp.
+
+#### **2: The Plateau**
+
+Exhausting and dangerous climb to the top, where a green oasis thrives. Giant Rocs nest here to hatch their young. Their eggs are worth 50 coins each.
+
+#### **3: Toxic Quagmire**
+
+Noxious gases seep from deep fissures, forming large pressurized methane pockets. On the verge of eruption. Home to a Giant Mud Crab.
+
+#### **4: Sacred Oasis**
+
+Chants can be heard from afar, as pilgrims flock to its waters. Roll d4 if bathed in: (1) +1 to random attribute, (2) +1 to max hit points, (3) cures all hit points, (4) gives Poisoned condition.
+
+#### **5: Royal Pyramids**
+
+Looted tombs accessed through tunnels inscribed with hieroglyphs depicting old lineages and rulers. Two chests full of coins remain hidden in a secret chamber. Opening it may release a curse.
+
+#### **6: The Mountain Keep**
+
+Fortress occupied by a band of dwarf mercenaries that hold a Legendary Weapon. Can be swayed to join any cause, for the right price.
+
+#### **7: Gnorbitt's Tomb**
+
+Network of tunnels in the mountain's belly. Within lies the tomb of Gnorbitt (see *[Tomb of 1,000 Gears](https://www.drivethrurpg.com/en/product/553105/https://www.drivethrurpg.com/en/product/553105/tomb-of-1-000-gears)*).
+
+#### **8: Spire of Slimes**
+
+Home to OooOozey Oozzeborne, Ruler of Oozes. Slowly raising a slime army. Needs the yolk of a roc egg and the claw of a mud crab to complete the summoning. Will trade for a Unique Item.
+
+#### **9: Arcane Obelisk**
+
+Inscribed with four wizard spells. Each takes one watch to transcribe and one week to learn.
+
+#### **10: City of Thul-Zurein**
+
+A wondrous hub of power and trade controlled by a corrupted Sultan. His firstborn is a captive of the Sand Vipers, who are plotting to usurp the throne. See *Festering Sewers* ([page 80](#page-81-0)).
+
+#### **11: Haunted Treasury**
+
+Cursed by ghosts of a fallen king's army in command of a Djinn. Some speak of legendary treasure buried within. The Djinn may bargain it for one life and OooOozey Oozzeborne's wand.
+
+#### **12: Towers of Caelatessa**
+
+Home to the Botanists, led by a lizard wizard devoted to a chaotic nature deity. Guarded by walking carnivorous plants. The Botanists possess a stolen construct and seek to replicate it.
+
+#### **Events, d4**
+
+- 1 **Crew of Sand Pirates invade Caelatessa**. Imprisons the Botanists' lizard leader.
+- 2 **Dragon takes Gnorbitt's Tomb as its lair**. The machines are now its hoard.
+- 3 **The Great Worm invades Zarahtune!** The rebels flee to a new hex.
+- 4 **Quagmire erupts!** All adjacent hexes risk a Poisoned condition.
+
+#### **Rumours, d6**
+
+- 1 The Sand Vipers hold the prince hostage.
+- 2 Gnorbitt's tomb has wondrous machines.
+- 3 The Djinn wants to strike a deal.
+- 4 The Sacred Oasis has curative properties.
+- 5 The Botanists are ruled by a King Construct.
+- 6 The Sultan is a Sand Viper agent.
+
+#### **Encounters, d8**
+
+- 1 **Pilgrims**, on their way to the Oasis.
+- 2 **Caravan**, transporting valuable spices.
+- 3 **Dwarf Mercenary**, stalking merchants.
+- 4 **Botanists**, carrying lost technology.
+- 5 **Sand Vipers**, rallying folk to the cause.
+- 6 **Locust Swarm**, devouring all in its path.
+- 7 **Roc**, carrying elephant in its talons.
+- 8 **Great Worm of the Sands**, hunting.
+
+## <span id="page-73-0"></span>9. QUEST SCENARIOS
+
+Quest Scenarios are designed for an action-packed one-shot, where characters have a clear objective and time to complete it.
+
+#### **1. Theme**
+
+Pick a core objective from the table, define it further by answering the related question, and create a key twist using those listed as inspiration. Make the quest time-sensitive: a good one-shot adventure has a sense of urgency to keep the players on track. Anywhere between one and two weeks is a good guide.
+
+#### **2. Build a map**
+
+Print a blank grid containing 20~25 hexes. Fill half of them with a location or landmark (or pick tiles from the Hexcrawl Toolbox). Write one or two lines for each as you would for a regular hexcrawl, using the tables on the [Hexcrawl chapter](#page-65-0) to generate content. Link some of them to the quest's goal.
+
+#### **3. Encounters**
+
+Create a table of d6 encounters. Link a few with the theme of the quest. Examples: if the goal is to stop a ritual, add a wandering cultist in search of a missing ingredient; if the goal is to transport goods, add a rival merchant gang; if the goal is to find a particular location, add a pirate bearing a treasure
+
+#### **4. Events (optional)**
+
+Create a thematic table of events with custom rules. These can range from events that happen every day to others that are triggered like in a normal hexcrawl. Examples: if the goal is to stop a ritual, add events that advance it; if the goal is to save a village, add events that advance the village's doom.
+
+#### **5. Special rules (optional)**
+
+Add a custom set of rules that makes the scenario unique. Examples: on a natural disaster scenario, design rules for when a hex is affected by it; on a hunt quest, create rules for when a marked location is explored. Check the pre-made Quest Scenarios for inspiration.
+
+#### **6. Treasure**
+
+Mark between three and six locations as bearing legendary treasure. If explored successfully, reward players with a Unique Item [\(page 98](#page-99-0)).
+
+#### **7. The Quest**
+
+Give players the quest, and play to see if they are successful.
+
+![](_page_73_Picture_16.jpeg)
+
+#### **Running Scenarios**
+
+Define a starting hex for the characters. Run the scenarios like regular hexcrawls, except for the custom events and special rules. Since this mode of play does not suggest to expand locations into Adventure Sites, simply narrate the location's content and use players reactions – or ask them questions – and build on their feedback. Remember that these locations do not need more than an overall description, an obstacle, possibly an encounter and some sort of reward.
+
+## <span id="page-74-0"></span>List of Themes
+
+*These entries should be read across the same line*
+
+| Objective                                 | Question                                                                                                                                   | Twist                                                                                                |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| Find someone that is<br>hiding on the map | Who? (1) convict bard, (2) runaway fugitive,<br>(3) fabled blacksmith, (4) runaway thief,<br>(5) famous assassin, (6) exiled wizard        | Add impersonators to the encoun<br>ters; add extreme weather to the<br>events                        |
+| Rescue someone<br>within the map          | Who? (1) lost priest, (2) rich son, (3) royalty,<br>(4) kidnapped baby, (5) cursed scholar,<br>(6) very wealthy merchant                   | Does not necessarily want to be<br>rescued; target is being held cap<br>tive by powerful adversaries |
+| Escort someone<br>between two locations   | Who? (1) the King, (2) prisoner, (3) oracle,<br>(4) captured monster, (5) cursed knight,<br>(6) foreign spy                                | Escorted person is actually<br>someone else; add faction looking<br>to kidnap them                   |
+| Find a specific<br>treasure or object     | What? (1) legendary weapon, (2) magic ring,<br>(3) powerful amulet, (4) lost scroll,<br>(5) mythical armour, (6) ancient mask              | The location of the object is<br>unknown; add rivals also looking<br>for it                          |
+| Find a particular<br>location in the map  | Which? (1) antique shrine, (2) foetid dungeon,<br>(3) secured prison, (4) old treasury, (5) royal<br>tombs, (6) cursed vaults              | Add events for stuff that might be<br>happening in it; the location is<br>slowly collapsing          |
+| Plunder a location                        | Which? (1) giant tower, (2) forsaken temple,<br>(3) haunted caves, (4) sewers, (5) abandoned<br>fortress, (6) shady tavern                 | Players do not know where the<br>location is; add a supernatural<br>entity also looking for it       |
+| Stop a ritual from<br>occurring           | Which? (1) invoking monster, (2) opening<br>portal, (3) raising undead army, (4) ascension<br>of dark god                                  | Add events that advance the ritual;<br>landscape is changed by the<br>events                         |
+| Escape a natural<br>disaster              | What? (1) volcano, (2) earthquake, (3) tsunami,<br>(4) wildfire, (5) arcane tornado, (6) massive<br>landslide                              | Add events triggered by the nat<br>ural disaster; landscape is<br>changed by the events              |
+| Chase and slay<br>a monster               | What? (1) dragon, (2) cyclops, (3) chimera,<br>(4) unicorn, (5) floating oculus, (6) hydra                                                 | The monster is growing; locals do<br>not want the beast to be killed                                 |
+| Eliminate a target                        | Who? (1) warlord, (2) evil priest, (3) rival thief,<br>(4) eccentric mage, (5) possessed ruler,<br>(6) the queen                           | Target is protected by loyalists or<br>monster; target has multiple iden<br>tities                   |
+| Save village from<br>eminent disaster     | Danger? (1) invasion, (2) natural disaster, (3)<br>evil ruler, (4) dark cult, (5) monster,<br>(6) the plague                               | Add events that advance the dis<br>aster; provide moral dilemmas to<br>the players                   |
+| Transport goods<br>between two locations  | What? (1) contraband, (2) rigged bomb,<br>(3) sentient legendary sword, (4) a shitton of<br>gold bars, (5) cursed artifact, (6) holy relic | Freight cargo between hexes<br>amid a warzone; characters are<br>unaware of what the content is      |
+
+#### **Pre-made Quest Scenarios**
+
+The Hexcrawl Toolbox includes four play ready Quest Scenarios: Escort the King (revisited in this rulebook), Escape Volcano Island, Desert Tomb Raiders and Stop the Aliens. Check them out for free.
+
+![](_page_74_Picture_5.jpeg)
+
+[Scan me for](https://drive.google.com/drive/folders/1SFy-https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG)  [play-ready](https://drive.google.com/drive/folders/1SFy-https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG) [Quest Scenarios](https://drive.google.com/drive/folders/1SFy-https://drive.google.com/drive/folders/1SFy-Xh2pprjkCBo5Ju33UisLDpefh9cG)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+# <span id="page-75-0"></span>Curse of the Dreadmarsh Witch
+
+*The Quest: gather five ingredients and brew an elixir to lift a curse.* 
+
+Characters didn't just steal any cat; they took Mirelda the Dreadmarsh Witch's beloved familiar – and then sold it to Kazmora, the Collector (facepalm). The witch has, of course, cursed them with the Dreadmarsh Blight, which is slowly twisting their bodies into reflections of the swamp itself—bones creaking like old trees, skin cracking like dried mud, and voices gurgling like the bog's depths. Their only hope is to gather five rare ingredients and brew a cleansing elixir. Can they succeed before they're fully made into creatures of the swamp?
+
+**Note:** players should know which ingredients they need and where they are. But not necessarily how to get them or how to brew them.
+
+![](_page_75_Picture_4.jpeg)
+
+Each dawn roll mutation. Each character must make a STR save. On a fail, they take the respective condition. On six conditions, they turn into a Bog Monster. The elixir clears all conditions.
+
+#### **Mutations, d6**
+
+- 1 **Jelly Legs:** -2 DEX; take an additional watch to move to new hex.
+- 2 **Tentacle Arm:** gain one extra slot to carry gear (items placed atop this card count as carried).
+- 3 **Bog Breath:** disadvantage to speak, cast prayers and all rolls that involve verbal communication.
+- 4 **Brittle Bones:** take an Injured condition each time damage is taken.
+- 5 **Big Fungi Pustules:** produce one grub inventory card per day.
+- 6 **Leecheart:** each failed save of any kind causes 1 point of damage.
+
+#### **1: Mirelda's Hut**
+
+Mirelda, conspiring and brewing potions in her cauldron, circled by four Walking-Skull Spiders. The elixir only works if brewed here.
+
+#### **2: Ancient Ruins**
+
+Generate a five-room dungeon with a trap, puzzle, obstacle, encounter and treasure (see [page 78\)](#page-79-0).
+
+#### **3: Carcass**
+
+Remains of a primeval beast. Its fangbone is an *ingredient.*
+
+#### **4: The Turrets**
+
+Antique tombs hiding the Wraith Collector (TH 6, DMG 4; *Special: +2 TH vs ghosts*).
+
+#### **5: The Shipwreck**
+
+Hides treasure and a scroll detailing a ritual of cleansing at the skull altar. Roll encounter.
+
+#### **6: Crocodile Temple**
+
+Guarded by twin Tyrant Crocodiles. Inside is treasure and the Bog Village leader, trapped helplessly.
+
+#### **MIRELDA, THE WITCH**
+
+*Grumpy, vengeful, mourning* Level 7 | 17 hp | Saves 17 | Defence 1 Mov A | Morale 18 | Mana 18 | Human
+
+**• Hagsweep:** TH 7, DMG 3.
+
+**• Skull Wand:** TH 5, DMG 2. *Major Hit: may cast two spells as a free action immediately.* 
+
+**Known spells**: charm, fly, hold person, life drain, skull blast.
+
+#### **ROT ABOMINATION**
+
+*From decay, it multiplies* Level 9 | 30 hp | Saves 14 | Defence 2 Mov A | Morale 15 | Monstrosity
+
+**• Rotting Touch:** TH 8, DMG 5. *Major Hit: gives one random Mutation.*
+
+**Special:** when hit, sloughs off d3 **Minions** (5hp, TH 4, DMG 2).
+
+#### **7: The Fungi Overgrowth**
+
+Rife with psychoactive spores. Characters who inhale them must make a STR save or take a mutation. A slice of the fungi is an *ingredient.*
+
+#### **8: Bog Village**
+
+Inhabited by swamp folk who will trade a blood petal for rescuing their leader from the Crocodile Temple. The blood petal is an *ingredient.* 
+
+#### **9: Skull Altar**
+
+Performing the ritual of cleansing here removes two mutations. A living sacrifice must be offered to the altar.
+
+#### **10: Spider Tree**
+
+Covered in sticky, adherent webbing and nested by four Walking-Skull Spiders. The eye of a spider is an *ingredient.* 
+
+#### **11: Haunted Obelisk**
+
+Spells cast against the obelisk release a number of Wraiths equal to the mana/spirit spent. Wraith dust is an *ingredient.*
+
+#### **Encounters, d6**
+
+- 1 **Harvester** (level 5 Druid), looking for an ingredient as well.
+- 2 **d6 Wraiths**, hovering back to the Obelisk, dissolving into its surface as they draw near.
+- 3 d4 **Swamp Folk**, looking for their leader or preparing a raid on the Crocodile Temple.
+- 4 d4 **Walking-Skull Spiders**, spying for their master Mirelda.
+- 5 **Bog Monster**, with jelly limbs, tentacle, terrible breath, fungi boils, etc.
+- 6 **The Rot Abomination**, haunting.
+
+#### **WALKING-SKULL SPIDER**
+
+*Tight webs woven with hollow eyes* Level 3 | 9 hp | Saves 8 | Defence 0 Mov A | Morale 9 | Undead
+
+**• Terror Webs:** TH 5, DMG 2. *Any hit: on two pairs, immobilises target in webbing.*
+
+<span id="page-77-0"></span>![](_page_77_Figure_0.jpeg)
+
+#### **Events - the King's Moods, d6**
+
+- 1 **Disease:** the King is ill; needs to procure medical healing or dies in 2d3 days.
+- 2 **Boredom:** the King needs entertainment, and is very loud about it.
+- 3 **Change of Heart:** the King demands to travel another route with immediate effect.
+- 4 **Doppelganger:** the King's exiled twin appears and tries to take His Majesty's place.
+- 5 **Presage:** crows menacingly swarm the skies; the King demands a church to pray in. 6 **Royal Duel:** a pretender to the throne appears and demands a duel against the King.
+
+#### **1: The Great Lake**
+
+The Yellow Serpent sleeps deep in its waters. Its scales are the ultimate alchemist's prize.
+
+#### **2: Decrepit Church**
+
+Necromancer recently moved in. Wants corpses. The dead wander at night. Often, too far.
+
+#### **3: Ancient Ruins**
+
+Improvise a five-room dungeon with an obstacle, trap, puzzle, encounter and treasure (see [page 78](#page-79-0)).
+
+#### **4: Huge Turtle**
+
+Can be bargained with to take the party all the way up north. Ghosts of the drowned swim nearby.
+
+#### **5: Ghostly Shipwreck**
+
+Treasure inside, guarded by a Giant Crab.
+
+#### **6: Frozen Lake**
+
+High-chance that the ice cracks if too much gear is carried, leading to a freezing death!
+
+#### **7: Winterholme Town**
+
+Villagers welcome their King. A nice place to rest.
+
+#### **8: Flooded Ruins**
+
+Improvise a five-room dungeon with an obstacle, trap, puzzle, encounter and treasure (see [page 78](#page-79-0)).
+
+#### **YELLOW LAKE SERPENT**
+
+*Doesn't like skinny-dippers* Level 8 | 35 hp | Saves 14 | Defence 1 Mov F | Morale 12 | Reptile
+
+**• Bone-breaking Grip:** TH 8, DMG 4. *Major Hit: gives an Injured condition.*
+
+#### **OVERGROWN MOSS BEAR**
+
+*A sight none truly wish to witness* Level 6 | 22 hp | Saves 11 | Defence 2 Mov A | Morale 15 | Beast
+
+**• Claws:** TH 7, DMG 3. *Any hit: on a triplet, causes d6 damage to another target Nearby.*
+
+#### **9: Enchanted Caves**
+
+Generate a random cave (see [page 84\)](#page-85-0).
+
+#### **10: The Inn**
+
+A less-nice place to rest. A pretender to the throne has bribed the owner to stall the King. A hired assassin arrives in 2d6 hours.
+
+#### **11: Twisted Tower**
+
+Home to Isolde, the Alchemist (level 7 Wizard), brewing strange elixirs. Will trade Yellow Serpent scales for a Unique Item.
+
+#### **12: The Royal Castle**
+
+You're safe!
+
+#### **Encounters, d6**
+
+- 1 **Forest Bandits** (2d4 cutthroats), wanting to rob the King to distribute amongst the poor.
+- 2 **Circus Troupe** (led by level 4 Bard), seeking to impress the King and be paid well for it.
+- 3 **Undead Horde** (3d6 Skeletons), roving around in search of the Decrepit Church.
+- 4 **Goat-Demon**, wanting to strike a devil's bargain with the King.
+- 5 **Overgrown Moss Bear**, looking incredibly hungry after a long sleep.
+- 6 **The Majestic Anti-Deer**, the King really wants its trophy antlers, 'Please, thank you'.
+
+#### **GOAT-DEMON**
+
+*Drives the hardest bargains* Level 5 | 18 hp | Saves 11 | Defence 2 Mov A | Morale 8 | Demon
+
+**• Bone Flute:** TH 4, DMG 1. *Any hit: all within earshot must save or fall asleep.*
+
+### **THE MAJESTIC ANTI-DEER**
+
+*Its antlers ground out anti-magic* Level 9 | 40 hp | Saves 18 | Defence 3 Mov A | Morale 17 | Beast
+
+**• Antler Charge:** TH 9, DMG 4. *Any hit: on two pairs, becomes immune to magic until next round.*
+
+## <span id="page-79-0"></span>10. ADVENTURE SITES
+
+Use these guidelines to flesh out a dungeon, wizard tower or cave to populate a campaign world with or play as a one-shot instead of Quest Scenarios for a more dungeon-crawling oriented session. Adventure Sites are designed to be played between one and two hours.
+
+## Dungeons
+
+*Roll five d6s to determine a general theme*
+
+|   | Flavour   | Type      | Location                | Key Feature       | Creatures |
+|---|-----------|-----------|-------------------------|-------------------|-----------|
+| 1 | Enchanted | Crypts    | Beneath a busy city     | Arcane glyphs     | Undead    |
+| 2 | Festering | Vaults    | Hidden in old temple    | Bone-coated walls | Oozes     |
+| 3 | Haunted   | Tombs     | Inside a deep well      | Toxic vapours     | Reptiles  |
+| 4 | Misty     | Catacombs | Within a black fortress | Cobweb shroud     | Giants    |
+| 5 | Broken    | Sewers    | Under a ruined castle   | Dripping ceilings | Insects   |
+| 6 | Cursed    | Cellar    | Below an ancient ruin   | Hanging chains    | Demons    |
+
+#### **1. Map**
+
+Create a backstory with hooks for the players. Draw or find an unkeyed map with 8-12 rooms that fits the theme. Alternatively, draw ten squares on a piece of paper, spacing them across the page. Connect them with lines, ensuring at least three have multiple connections to create varied paths for exploration.
+
+#### **2. Encounters & Treasure**
+
+Create a d6 encounter table. Whenever a room is entered, roll d6. On a 6, roll a random encounter. On a 1, roll a random treasure.
+
+- **Entries 1-3:** weak foes. One matching the theme creatures, one related to the key feature, and a random the third (robbers, rivals, etc).
+- **Entries 4-5:** average foes. One matching the rolled theme, the other random.
+- **Entry 6:** strong adversary, matching the creatures rolled in theme.
+
+|   | Treasure                |
+|---|-------------------------|
+| 1 | d100 coins              |
+| 2 | Weapon (page 46)        |
+| 3 | Magic Scroll (page 109) |
+| 4 | Armour (page 47)        |
+| 5 | Potion (page 110)       |
+| 6 | Unique Item (page 98)   |
+
+#### **3. Keying areas**
+
+Key ten areas. Identify prominent rooms, corridors, or dead-ends, numbering them from one to ten, one being the entrance and ten the big finale. Stock each area with one of the following concepts, repeating the one that feels more appropriate:
+
+- **Something to steal:** choose a Unique Item ([page 98\)](#page-99-0) as the key reward of the dungeon. Add a complication to secure it, like a trap, encounter or small puzzle.
+- **Something that probably won't be found:** a weird magic item, spellbook, or a cache of gold tucked away in a secret room that is hard to spot.
+- **Something the characters can kill:** weak encounter matching the rolled theme (can be already in the encounters table).
+- **Something that can kill the characters:** a strong adversary (can be the same from encounters table). Offer the players a chance to flee or side-step.
+- **Someone to meet:** talking statue, ghost, rival gang, lost wizard, goblin prisoner. Someone the players can interact or bargain with.
+- **Puzzle to play with:** roll on the table.
+- **Obstacle to overcome:** roll on the table.
+- **Trap to avoid:** roll on the table.
+- **Odd anomaly:** roll on the table.
+
+#### **Puzzle, d10**
+
+- <span id="page-80-0"></span>Three levers in neutral position. Arrange in up-down-down position to open a door.
+- Doorknob only unlocks if turned by an undead creature.
+- Chest made of glass is glued to the bottom of a well, containing a key made of salt.
+- Crystal key hangs from a high-ceiling, tangled in thick webs. It will break easily.
+- Electrified chamber. Touching the floor or walls while carrying/wearing metal causes d8 damage.
+- Two statues point in random directions. Turn them to face the door to unlock it.
+- Door with four unlocked keyholes. All of them must be locked to open the door.
+- Walls riddled with invisible ink. Heat must be used to reveal a hidden message.
+- Four paintings depicting the four seasons. Arrange them in order to reveal a passage.
+- Fountain with green liquid within. Everyone present must drink to move forward.
+
+#### **Obstacle, d10**
+
+- Passage is obstructed by a massive entanglement of thorny roots.
+- Locked door. The key is hidden somewhere in the dungeon's entrance or first room.
+- Tunnel or passageway filled with water, dwelled by a territorial marine creature.
+- Bridge that lights in flames as characters cross it.
+- Steep crevice with a molten lava river, fuming with hot fumaroles, and an unstable wooden bridge.
+- Ritual occurring as characters enter the room. Must be stopped to continue.
+- Large pit dividing the room swarming with undead creatures below.
+- Vertical sheer surface. Forces a steep climb into the next room.
+- Collapsed ceiling and debris. Hard to pass through with a full inventory.
+- Magnetic ceiling. Characters with metal objects are violently pulled towards it.
+
+#### **Trap, d10**
+
+- Tripwire activates a barrage of arrows that shoot from the wall.
+- False slab triggers a rolling boulder that descends in high speed.
+- Fake door is spring-loaded to release a massive bludgeoning weapon.
+- Deadly spike pit, concealed by a trapdoor, lies just beyond a short crevice.
+- Coins shine inside a giant glass orb. Within is actually a Gelatinous Cube.
+- Door to the next room bears a snake-shaped knob with a hidden poison needle.
+- Three medusa statues looking away. One of them comes to life if stared at.
+- Treasure chest with a rigged lock. Opening it triggers a swinging axe from the ceiling.
+- Ancient statue with gemstone eyes. Will attack if gems are removed.
+- Shelves with dusty tomes. Opening them releases trapped evil spirits.
+
+#### **Anomaly, d12**
+
+| 1 | Overgrown with odd fungi.       | 7  | Signs of recent explosion.    |
+|---|---------------------------------|----|-------------------------------|
+| 2 | Pile of clean skeletal remains. | 8  | Walls dripping odd liquid.    |
+| 3 | Unnaturally warm/cold.          | 9  | Antique mosaic tile floor.    |
+| 4 | Roots bursting out of walls.    | 10 | Deeply cracked floor/ceiling. |
+| 5 | Cluster of harmless insects.    | 11 | Screeches of unseen beings.   |
+| 6 | Floor covered in slick algae.   | 12 | Rhythmic dripping sounds.     |
+
+## <span id="page-81-0"></span>THE FESTERING SEWERS OF THUL-ZUREIN
+
+![](_page_81_Figure_1.jpeg)
+
+#### **What's happening?**
+
+The vibrant city of Thul-Zurein, a haven for travelers, hides a dark secret beneath its bustling streets. While merchants trade spices and camel herders pass by, whispers of a sinister pact echo in the alleys, claiming that the Sultan is feeding the city's denizens to a monster lurking in the sewers. Rumors speak of untold riches amidst the stinking waters and toxic fumes. Are you foolish enough to brave down there?
+
+#### **Encounters, d6**
+
+- 1 d4 **Ghouls**, wandering aimlessly
+- 2 **Toxic gases** (gives Poisoned condition)
+- 3 **Bandit**, looking for the cache (#7)
+- 4 **Mummy**, seeking to end its own curse
+- 5 **Prismatic Slug**, wanting for a meal
+- 6 The **Lich King**, prowling for souls
+
+*Rolled theme: festering, sewers, beneath a busy city, toxic vapours, undead.* 
+
+#### **1: Entrance**
+
+*Sewer-filled alleys reek of refuse and toxic vapours.*
+
+- Roll d6 for which entrance is used.
+- d4 **Sea Snakes** prowl the canals, hunting prey.
+- Make a **STR save** for each turn spent within the sewer waters. On a fail, take a Nauseated condition (clear: throw up and lose 1 STR until the next day). *(Obstacle to overcome)*
+
+#### **2: Abandoned Quarters**
+
+ *A lovely rainbow trail disappears into a tight crawlspace, glowing faintly.*
+
+- Characters of average build must leave behind stashed items to squeeze through.
+- A **Unique Item** is tucked behind barrels. *(Something to steal)*
+- A **Prismatic Slug** nests here. Not even the Lich King wants to deal with this.
+
+#### **3: Dead-End**
+
+*Echoing whispers, a corpse lies on the floor.*
+
+- **Ghost of a victim** harvested by the Lich King wanders about. Reveals the Sultan's secret, if their body is buried.
+- **Secret:** the Sultan is sacrificing denizens to the Lich King in exchange for a Ring of Youth. The Lich is using the souls of the citizens to forge the ring, but the victims' bodies are being twisted into ghouls to expand his undead army. The Sultan is unaware of this tragedy. *(Someone to meet)*
+
+#### **4: Ghoul Barracks**
+
+ *Ghoulish sounds echo all around.*
+
+• d4 **Ghouls** in each room, roaming aimlessly awaiting instructions. *(Something the characters can kill)*
+
+#### **5: Skeleton Statues**
+
+*Two symmetrical statues of crowned skeletons rise amidst the fumes.*
+
+- The **statutes' hands** (marked with a star) point north and south. If rotated to point to the secret door in the corridor, the door will open. *(Puzzle to play with)*
+- **Faint screams** can be hard coming from the Chamber of Souls through the walls.
+
+#### **6: Giant Toadstools**
+
+*A corpse rots amidst an overgrown fungi garden.*
+
+- If cut, the **fungi release toxins.** STR save or take Poisoned condition. *(Odd anomaly)*
+- The **corpse** bears a dagger, rope, pick-axe, improvised mask, and 2d20 coins.
+
+#### **7: Bandit Hideout**
+
+*Door is locked.* 
+
+- **Abandoned stash** of rusty weapons, counterfeit coins (INT save to appraise) and makeshift cots.
+- **Cache of coins** (6d100) concealed under a false floor slab by bandits, before they were captured and harvested by the Lich King. *(Something that probably won't be found)*
+
+#### **8: Chamber of Souls**
+
+*Human bones coat the walls, encircling an imposing throne made of skulls.* 
+
+- The **Lich King** is wearing a crown, harvesting two victims, their spirits writhing in agony. The victims' souls feed into a reliquary that is used to empower the ring. *(Something that can kill the characters)*
+- **Crown**: those who wear it may control weak undead creatures, but take d8 damage per turn, turning into a Lich King themselves if their hit points drop below zero.
+
+#### **9: Necro-Workshop**
+
+*A ring hovers, suspended by dark energy.*
+
+• The **Ring of Eternal Youth** is nearly complete! Prevents aging while worn, but each time it is removed, the wearer ages d10 years instantly. Worth 600 coins to the right buyer. *(Something to steal)*
+
+#### **10: Royal Gaol**
+
+*Locked door; screams for help come from within.*
+
+- **Turning the doorknob** releases a ghostly hand that siphons 2d4 hit points, transferring them to the Lich King, if still alive. *(Trap to avoid)*
+- Inside, **captured citizens** await their fate, unaware they are to be sacrificed for the Sultan's greed. They will turn into allies immediately if promised freedom.
+
+## <span id="page-83-0"></span>Wizard Towers
+
+*Roll four d10s to determine a general theme*
+
+|    | Shape               | Occupant     | Reaction             | Goal              |
+|----|---------------------|--------------|----------------------|-------------------|
+| 1  | Giant Clocktower    | Pyromancer   | Kill characters      | Rule the world    |
+| 2  | Crystal Protrusion  | Cryomancer   | Trick characters     | Raise army        |
+| 3  | Arcane Obelisk      | Conjurer     | Befriend characters  | Open portal       |
+| 4  | Forsaken Lighthouse | Illusionist  | Hire characters      | Spread curse      |
+| 5  | Hollow Tree         | Warlock      | Help characters      | Invoke monster    |
+| 6  | Twisted Spire       | Necromancer  | Lure characters      | Craft magic item  |
+| 7  | Enchanted Windmill  | Sorcerer     | Imprison characters  | Unleash cataclysm |
+| 8  | Glass Turret        | Thaumaturge  | Teleport characters  | Raise disciples   |
+| 9  | Stonework Tower     | Chronomancer | Transform characters | Perform ritual    |
+| 10 | Bone Keep           | Geomancer    | Steal characters     | Be left alone     |
+
+#### **1. Generate wizard**
+
+Create a wizard by setting their level between 6 and 10 (only high-level mages have their own towers), as well as hit points (10-20), saves value, morale, and mana (20-30). Choose five fitting spells for them, and a name.
+
+#### **3. Façade**
+
+Pick a façade and check the numbers showing on each floor, which represent the general type of the floor. Then, roll a d4 for each individually to determine the exact nature of the floor. Finally, write a couple of key features or prominent objects that characters can find or interact with in each floor.
+
+- 1 **Chamber:** (1) bedroom, (2) demon jail, (3) shrine, (4) games room.
+- 2 **Hall:** (1) armoury, (2) treasury, (3) sepulchre, (4) dining hall.
+- 3 **Lab:** (1) construct workshop, (2) medicine lab, (3) magic items studio, (4) potions brewery.
+- 4 **Library:** (1) spellbooks, (2) weird inventions, (3) cookbooks, (4) occult tomes.
+- 5 **Gallery:** (1) paintings, (2) statues, (3) trophies, (4) cabinet of curiosities.
+- 6 **Leisure:** (1) arboretum, (2) dream lounge, (3) music chamber, (4) reptilarium.
+
+#### **2. Build tower**
+
+Roll a handful of d6s (between four and six depending on how many levels you want) and stack them atop each without looking. Roll a d4 and add it to the top of the stack. This is the tower.
+
+#### **4. Top floor**
+
+Check the number rolled on the d4 that tops the stack. The top floor is an:
+
+![](_page_83_Figure_17.jpeg)
+
+rolled for each floor to determine the type of gallery, chamber, etc.
+
+floor another chamber and the top floor an eldritch lookout.
+
+## <span id="page-84-0"></span>The Spire of Illusions **PINETTI, THE ILLUSIONIST**
+
+*Virtuoso of trickery, known for bending reality* Level 7 | 20 hp | Saves 16 | Defence 0 Mov A | Morale 14 | Mana 24 | Halfling
+
+*carried, user can make a LUCK save to reflect spells back with twice the power, but must roll on the Wizard's side-effects table.*
+
+**Known spells**: invisibility, magic missile, minor illusion, mirror image, phantasmal force.
+
+**• Mirrorheart Wand:** TH 6, DMG 2. *Special: while* 
+
+![](_page_84_Picture_5.jpeg)
+
+#### **Top Floor**
+
+*Birds flutter, trapped in a crackling field of energy.*
+
+• A **light-prism beacon** powers the 4th floor studio by harnessing static electricity.
+
+#### **4th Floor**
+
+*Cluttered magic items studio with flickering lights and humming tools.*
+
+- The **Mirrorheart Wand** is almost complete! Every save the characters fail in the tower fuels its completion. It needs six fails, as it draws power from misfortune.
+- **Pinetti stands invisible**, waiting for the wand to be completed.
+
+#### **3rd Floor**
+
+*Illusory rainforest swarming with colourful reptiles and hanging fruits.*
+
+- 2d4 **Chameleon Geckos** stare threateningly. Disperse in smoke when hit.
+- Three **phantom mangos**: LUCK save if eaten. On a success, increase max hit points by 1.
+
+#### **2nd Floor**
+
+*Gallery lined with glass cases displaying trophies and medals.* 
+
+- Awards from renowned **magical competitions**, half of them are illusions.
+- **Lifting a real trophy** (50-50 chance) causes d3 electrical damage. STR save to avoid.
+
+#### **1st Floor**
+
+*Cosy bedroom smelling of lavender.*
+
+- Under the bed is a **bogus wand**: DEX save to release a harmless bubble.
+- **Mirror** nearby only reflects back spellcasters and those who make a CHA save.
+
+![](_page_84_Picture_25.jpeg)
+
+## <span id="page-85-0"></span>Caves
+
+*Roll five d6s to determine a general theme*
+
+|   | Flavour   | Type    | Location             | Key Feature          | Creatures |
+|---|-----------|---------|----------------------|----------------------|-----------|
+| 1 | Dark      | Lair    | Dormant volcano      | Freezing fog         | Reptiles  |
+| 2 | Hidden    | Cavern  | Primeval mountain    | Warm lava tubes      | Amphibian |
+| 3 | Mystic    | Grotto  | Verdant sinkhole     | Flooded to the waist | Birds     |
+| 4 | Forgotten | Hollows | Precarious cliffside | Overgrown with roots | Insects   |
+| 5 | Infested  | Burrow  | Rugged canyon        | Crystalized veins    | Giants    |
+| 6 | Haunted   | Mines   | Abyssal chasm        | Stalactite-ridden    | Dragons   |
+
+#### **1. Layout**
+
+Drop a handful of d6s onto a page. Draw a circle around each die as well as lines connecting them. The circles represent chambers, whereas the lines are tunnels. Ensure that at least two chambers have two tunnels to create multiple exploration paths. Connect two non-adjacent chambers to form a longer tunnel. Draw a map if you wish.
+
+- **Entry:** the die closest to the edge of paper is the entrance.
+- **Core:** the die closest to the centre of the page is the largest chamber.
+- **Hidden:** a die landing off the paper represents a secret chamber, accessible through rougher passages (roll twice on step 3). It bears lost treasure in addition to other features.
+- **Cluster:** dice landing close to each other, sharing the same number, form a clustered area.
+
+### **2. Stocking chambers**
+
+Use the numbers on each die to determine the content of the chamber. Write one line expanding the rolled result.
+
+- 1 **Treasure:** (1) buried chest, (2) weapons cache, (3) spellbook (4) Unique Item.
+- 2 **Vestiges:** (1) bone altar, (2) makeshift shelter, (3) burial mound, (4) warding totem.
+- 3 **Obstacle:** roll or choose a fitting dungeon obstacle [\(page 79\)](#page-80-0).
+- 4 **Weak encounter:** pick or create a weak creature matching the rolled theme.
+- 5 **Average encounter:** pick or create an average creature matching the rolled theme.
+- 6 **Strong encounter:** pick or create a powerful creature matching the rolled theme.
+
+### **3. Dangerous tunnels**
+
+When characters walk into a tunnel, roll d6. On 5-6, roll another d6 for an encounter:
+
+- 1 **Hazard**: (1) ceiling collapses, (2) sudden flood, (3) igniting gas draft, (4) covered pitfall.
+- 2 **Wandering monster:** random encounter with a creature matching the rolled theme.
+- 3 **Odd anomaly:** roll or choose a fitting dungeon anomaly ([page 79\)](#page-80-0).
+- 4 **Corpse:** (1) coins and torches, (2) climbing gear, (3) monster skull, (4) random weapon.
+- 5 **Markings:** (1) cave art, (2) primitive hands, (3) ancient prophecy, (4) beastly footprints.
+- 6 **Eerie sounds:** (1) growling, (2) distant drumming, (3) screeching echo, (4) whispers.
+
+# <span id="page-86-0"></span>Grotto OF THE FROST SALAMANDERS
+
+![](_page_86_Picture_1.jpeg)
+
+### **Chamber A**
+
+*Scattered bones shrouded by a chilling mist.*
+
+**• Vestiges:** INT save to discern the bones once formed an altar; reassembling it invokes a spirit that answers one question.
+
+#### **Chamber B**
+
+*Hissing and shifting shapes lurk among the ice.* 
+
+**• Weak encounter:** 2d4 Frost Salamanders protect their eggs.
+
+#### **FROST SALAMANDERS**
+
+*Colder than ice* Level 3 | 9 hp | Saves 10 | Defence 0 Mov A | Morale 8 | Amphibian
+
+**• Freezing Spit:** TH 5, DMG 2.
+
+#### **Chamber C**
+
+*Traces of human presence, suspicious stone mound.*
+
+**• Treasure:** chest with d100x6 coins is buried beneath the mound.
+
+#### **Chamber D**
+
+*Wet croaks echo through the thawing walls.*
+
+- **Average encounter:** a Glacier Bullfrog watches, its tongue flicking.
+- A human corpse lies on the floor, frozen. Hidden amongst the remains is a random weapon, a lantern and a pouch with 3d6 coins.
+
+#### **GLACIER BULLFROG**
+
+*Colder than ice*
+
+Level 6 | 20 hp | Saves 12 | Defence 1 Mov A | Morale 12 | Amphibian
+
+- **Frosbite Tongue:** TH 6, DMG 4. *Death Blow: freezes target to eat later.*
+- **Frozen Croak:** TH 7, DMG 2. *Major Hit: all in combat must save or cannot move next round.*
+
+#### **Chamber E**
+
+*A vertical ice-covered wall divides the grotto.* 
+
+**• Obstacle:** DEX save to climb or descend the slippery surface.
+
+## <span id="page-87-0"></span>11. BESTIARY
+
+Use creatures to generate adversity. The ones listed here serve mostly as inspiration for creating new adversaries for the characters. When a creature lists Any hit, Major Hit, or Death Blow in an attack, that effect occurs in addition to the default combat consequences, unless otherwise noted. Any hit means the effect occurs with a Minor Hit, Major Hit or Death Blow. Adversaries can make one attack per round unless specified differently.
+
+Breakdown of adversary stats:
+
+- **level:** their overall power. Particularly relevant for certain spells or effects.
+- **hp:** the amount of hit points they have. Remove from play if it reaches zero.
+- **Saves:** if an effect requires an adversary to make a save (of any kind except Morale), they must roll equal or under the listed value to succeed.
+- **Defence:** subtract the shown value from any damage taken.
+- **Movement:** slow (S) adversaries must choose between moving or taking an action per round; fast (F) adversaries can make two moves and take an action in the same round; those that are average (A) act similarly to player characters.
+
+- **Morale:** should any effect ask of an adversary to make a Morale save, they must roll equal or under the listed value to succeed.
+- **Type:** type may be relevant for certain spells, magic items or special skills.
+- **Attacks:** adversaries can have various attacks. The GM should not use the same twice in a row.
+- **TH:** amount of d6s the adversary uses to roll a To Hit.
+- **DMG:** amount of damage the adversary can make.
+- **Special:** unusual or unique trait of the adversary.
+
+### Creating Creatures
+
+*Use as baseline to stat your own creatures*
+
+|          | Level | hp     | Saves | Defence | TH  | DMG |
+|----------|-------|--------|-------|---------|-----|-----|
+| Weak     | 1-3   | 5-15   | 6-8   | 0       | 4-5 | 1-2 |
+| Average  | 4-6   | 15-25  | 9-12  | 1-2     | 6-7 | 3-4 |
+| Strong   | 7-9   | 25-35  | 12-15 | 2-3     | 8-9 | 5-6 |
+| God-like | 10    | 35-100 | 15-18 | 4       | 10+ | 7+  |
+
+After the base stats, consider adding unique features to a creature. Examples include, but are not limited to:
+
+- **Different types of attacks** with variable TH and DMG values.
+- **Multiple attacks** per round, especially for stronger creatures.
+- An interesting **Major Hit** effect.
+- A special **Death Blow** that replaces forcing a Death Table roll.
+
+- **Additional effects** when sequences, pairs, or triplets are rolled on a successful hit.
+- Original **conditions**, such as Terrified, Coveredin-Slime, and others. Use blank condition cards.
+- Special **immunities** like only being harmed by fire or magic.
+
+#### **Hardcore mode**
+
+If you wish to make FLAIL particularly deadly for the characters, raise all creatures' TH by 1.
+
+**HARPY**
+
+**WEAK:**
+
+**COCKATRICE**
+
+**STRONG:**
+
+<span id="page-88-0"></span>*Melodies that don't make friends* Level 2 | 6 hp | Saves 8 | Defence 0 Mov A | Morale 10 | Human-bird
+
+**• Song:** TH 5, DMG 2. *Death Blow: instead of killing, takes control of target for one round.*
+
+*Everyone is petrified of it* Level 7 | 20 hp | Saves 12 | Defence 0 Mov A | Morale 13 | Bird
+
+**• Beak:** TH 8, DMG 4. *Death Blow: instead of killing, gives target Petrified condition.*
+
+### **BLOOD VULTURE**
+
+*Lured by the smell of fresh blood* Level 2 | 8 hp | Saves 6 | Defence 0 Mov A | Morale 9 | Bird
+
+**• Blood-sucking:** TH 5, DMG 1. *Major Hit: latches onto target, causing 2 damage per round.*
+
+#### **ROC**
+
+*Has been seen carrying elephants* Level 8 | 35 hp | Saves 14 | Defence 1 Mov F | Morale 15 | Bird
+
+**• Beak:** TH 8, DMG 4.
+
+**• Talons:** TH 9, DMG 5. *Death Blow: instead of killing, carries target away to feed its chicks.* 
+
+**Special:** makes two attacks per round; first with
+
+beak, then with talons.
+
+#### **AVERAGE:**
+
+#### **GRIFFON**
+
+*Can spot a mouse a mile away* Level 6 | 25 hp | Saves 11 | Defence 1 Mov F | Morale 12 | Bird
+
+**• Beak:** TH 6, DMG 3.
+
+**• Lion Claws:** TH 7, DMG 4. *Any hit: on three pairs, causes an extra d8 damage.*
+
+#### **PHOENIX**
+
+*Dreads ash-sweepers more than predators* Level 5 | 15 hp | Saves 13 | Defence 0 Mov F | Morale 11 | Bird
+
+**• Fiery Wings:** TH 7, DMG 3. **• Talons:** TH 5, DMG 3.
+
+**PTERODACTYL**
+
+**Special:** if killed, bursts in flames for d10 damage to all Nearby; reawakens in two turns.
+
+*Often hunts in coordinated packs* Level 4 | 17 hp | Saves 12 | Defence 1 Mov A | Morale 12 | Dinosaur
+
+**• Claws:** TH 7, DMG 3.
+
+![](_page_88_Picture_29.jpeg)
+
+## Annoyingly Large Insects
+
+#### **GIANT CENTIPEDE**
+
+*Creeps silently, bites with toxic precision* Level 2 | 12 hp | Saves 9 | Defence 1 Mov A | Morale 8 | Insect
+
+**• Bite:** TH 5, DMG 2. *Major Hit: paralyses target for d4 rounds.*
+
+#### **BIG RED SCORPION**
+
+*Moves like a butterfly, stings like a bee* Level 3 | 13 hp | Saves 9 | Defence 1 Mov A | Morale 8 | Insect
+
+**• Venomous Sting:** TH 5, DMG 2. *Major Hit: gives Poisoned condition.*
+
+**• Pincers:** TH 5, DMG 4.
+
+#### **KILLER BEE**
+
+*Swarm in packs, sting as one* Level 1 | 6 hp | Saves 6 | Defence 0 Mov A | Morale 7 | Insect
+
+**• Sting:** TH 4, DMG 2.
+
+### **LOCUST SWARM**
+
+*Descends in clouds, devours all in its path* Level 1 | 7 hp | Saves 8 | Defence 0 Mov F | Morale 10 | Insect
+
+**• Bite:** TH = its current hp, DMG 2.
+
+#### **SWARMING FIRE ANTS**
+
+*Dissolves a body in d4 minutes* Level 2 | 7 hp | Saves 8 | Defence 0 Mov F | Morale 11 | Insect
+
+**• Claws:** TH = its current hp, DMG 2. *Death Blow: slays target in eating frenzy (ignore Death Table).*
+
+![](_page_89_Picture_18.jpeg)
+
+*Eights legs, eight eyes, eight ways to die* Level 6 | 16 hp | Saves 12 | Defence 2 Mov A | Morale 8 | Insect
+
+**• Bite:** TH 7, DMG 3. *Death Blow: instead of killing, ensnares target in silk-webbing cocoon.* 
+
+### **RUST MONSTER**
+
+*Very much into heavy metal* Level 5 | 20 hp | Saves 13 | Defence 1 Mov A | Morale 12 | Insect
+
+**• Antennae:** TH 6, DMG 2. *Major Hit: eats metal item carried or worn by target.*
+
+**Special:** mark usage on any metal item that touches the Rust Monster.
+
+### **STRONG:**
+
+*Hides in the foliage to deliver death* Level 8 | 30 hp | Saves 14 | Defence 3 Mov A | Morale 15 | Insect
+
+**COLOSSAL PRAYING MANTIS**
+
+**• Razor Claws:** TH 8, DMG 5. *Major Hit: clutches target for 2 damage per round until freed.* 
+
+## **GOD-LIKE:**
+
+#### **GREAT WORM OF THE SANDS**
+
+*The desert's mouth, swallows armies whole* Level 10 | 75 hp | Saves 18 | Defence 4 Mov F | Morale 17 | Insect
+
+**• Gaping Mouth:** TH 10, DMG 5. *Any hit: on three pairs, burrows and creates a quicksand pit, forcing all Nearby to save or fall within. Death Blow: consumes target whole and all those Nearby (ignore Death Table), unless they make a successful DEX save.*
+
+![](_page_89_Picture_33.jpeg)
+
+![](_page_89_Picture_34.jpeg)
+
+#### **WEAK: STRONG:**
+
+## *Shocks more than just curiosity* Level 2 | 8 hp | Saves 8 | Defence 0
+
+**ELECTRIC EEL**
+
+Mov A | Morale 8 | Fish
+
+**• Electrical Discharge:** TH 5, DMG 2. *Any hit: each 2 rolled causes one extra damage.* 
+
+#### **SEA SNAKE**
+
+*One bite, the venom spreads* Level 1 | 6 hp | Saves 9 | Defence 0 Mov A | Morale 7 | Reptile
+
+**• Venomous Bite:** TH 4, DMG 2. *Major Hit: gives Poisoned condition.*
+
+#### **GREAT WHITE SHARK**
+
+*The apex predator of the seas* Level 7 | 28 hp | Saves 12 | Defence 1 Mov F | Morale 14 | Fish
+
+**• Bite:** TH 8, DMG 4.
+
+#### **LEVIATHAN**
+
+*The seas bow before its wrath* Level 9 | 45 hp | Saves 14 | Defence 2 Mov A | Morale 16 | Fish?
+
+- **Bite:** TH 8, DMG 5.
+- **Crushing Coils:** TH 8, DMG 4. *Any hit: on three pairs, summons a massive wave turning any boats in its wake.*
+
+#### **AVERAGE:**
+
+*Don't spill blood in these rivers* Level 2 | 7 hp | Saves 8 | Defence 0 Mov F | Morale 10 | Fish
+
+**PIRAÑA SHOAL**
+
+**• Bites:** TH = its current hp, DMG 3. *Death Blow: eats target alive (ignore Death Table).*
+
+#### **SIREN**
+
+*Killer tunes*
+
+Level 4 | 10 hp | Saves 8 | Defence 0 Mov A | Morale 10 | Humanoid
+
+- **Bite:** TH 6, DMG 2.
+- **Luring Song:** TH 6, DMG 3. *Death Blow: instead of killing, pulls target under the sea.*
+
+#### **GIANT CRAB**
+
+*Pincers as hard as iron* Level 6 | 22 hp | Saves 13 | Defence 2 Mov A | Morale 14 | Crustacean
+
+**• Pincers:** TH 7, DMG 4. *Any hit: on a full-house, grabs another target dealing d4 damage.* 
+
+![](_page_90_Picture_27.jpeg)
+
+*Sucks the soul out of sailors* Level 10 | 60 hp | Saves 16 | Defence 2 Mov F | Morale 18 | Gastropod
+
+- **Tentacles:** TH 8, DMG 3. *Special: can make d4 attacks per round. Death Blow: target is eaten alive (ignore Death Table).*
+- **Ink Spray:** TH 10, DMG 4. *Any hit: on three pairs, sprays black ink on two other targets for d6 damage.*
+
+![](_page_91_Figure_0.jpeg)
+
+*Colder than death, fiercer than the longest winter* Level 10 | 85 hp | Saves 17 | Defence 4 | Mov F | Morale 17 | Dragon
+
+- **Ice Breath:** TH 10, DMG 7. *Major Hit: gives a Frozen condition (clear: spend one watch by fire).*
+- **Talons:** TH 8, DMG 6. *Special: can make two attacks per round.*
+
+**Special:** only takes a Death Blow on fours 1s; two or three 1s inflict a Major Hit.
+
+![](_page_91_Picture_5.jpeg)
+
+*Its breath rivals the fury of the mightiest volcano* Level 10 | 50 hp | Saves 18 | Defence 3 | Mov F | Morale 15 | Dragon
+
+- **Scorching Breath:** TH 9, DMG 7. *Major Hit: causes d8 damage to two other targets Nearby. Death Blow: target burns to ash immediately (ignore Death Table).*
+- **Tail Swipe:** TH 8, DMG 5. *Major Hit or Death Blow: cause d6 damage to two other Nearby targets.*
+
+**Special:** immune to fire.
+
+90
+
+![](_page_92_Picture_0.jpeg)
+
+*Draws drakes and wyrmlings to its lair as servants* Level 10 | 70 hp | Saves 18 | Defence 4 | Mov F | Morale 12 | Dragon
+
+- **Fire Breath:** TH 9, DMG 7. *Any hit: on three pairs, does d10 damage to all Nearby targets.*
+- **Talons:** TH 8, DMG 7. *Death Blow: may make a new attack immediately.*
+
+**Special:** only takes a Death Blow on a five-number sequence.
+
+#### **STORM THUNDER SERPENT**
+
+*Electrifies the battlefield, literally* Level 10 | 60 hp | Saves 16 | Defence 3 | Mov F | Morale 10 | Dragon
+
+- **Electrified Wings:** TH 10, DMG 6. *Major Hit: generates an electrical storm causing all within Distant range d6 electrical damage.*
+- **Talons:** TH 9, DMG 5. *Any hit: on a full-house, may make another attack immediately.*
+
+**Special:** only takes a Death Blow on three 1s plus one pair.
+
+#### **EARTH ELEMENTAL**
+
+*Firm believer in a sedimentary lifestyle* Level 6 | 22 hp | Saves 10 | Defence 2 | Mov A | Morale 12 | Elemental
+
+- **Slam:** TH 7, DMG 4. D*eath Blow: causes minor quake, knocking down down all within Distant range.*
+- **Rock Boulders:** TH 6, DMG 3. *Any hit: on a triplet, target must save or take an extra d4 damage.*
+
+#### **FIRE ELEMENTAL**
+
+*Always the hottest one in the room*
+
+Level 6 | 20 hp | Saves 13 | Defence 0 | Mov A | Morale 13 | Mana 8 | Elemental
+
+**• Fiery Touch:** TH 6, DMG 3. *Any hit: on a pair of 4s, sets target ablaze causing d4 damage per round.*
+
+**Special:** may cast Firebolt once per round as a free action. When spellcasting: on one 6, loses d6 hit points; on a pair of 6s, loses d8 hit points; on a triplet of 6s, self-extinguishes.
+
+#### **WATER ELEMENTAL**
+
+*Hydration has never been so deadly* Level 7 | 20 hp | Saves 12 | Defence 0 Mov A | Morale 10 | Elemental
+
+- **Slam:** TH 7, DMG 4.
+- **Drowning Embrace:** TH 7, DMG 2. *Major Hit: engulfs target for d4 damage per round.*
+
+**Special:** regenerates 2d6 hit points at the start of its round if there is water in the area.
+
+#### **DJINN**
+
+*Do not rub the wrong lamp* Level 8 | 30 hp | Saves 15 | Defence 2 Mov A | Morale 14 | Mana 14 | Elemental
+
+- **Scimitar:** TH 6, DMG 4. *Major Hit: make another attack immediately.*
+- **Whirlwind:** TH 8, DMG 3. *Any hit: on a fivenumber sequence, engulfs target in wind for d4 damage per round until Djinn is harmed.*
+
+**Special:** may cast one spell per round as a free action: Charm, Mirror Image, Teleport, Time Stop. When spellcasting: on one 6, loses d6 hit points; on a pair of 6s, loses d10 hit points; on a triplet of 6s, self-desintegrates.
+
+![](_page_93_Picture_20.jpeg)
+
+![](_page_94_Picture_1.jpeg)
+
+### **APE MAN**
+
+*'Does that thing have four arms?'* Level 5 | 20 hp | Saves 10 | Defence 1 Mov F | Morale 10 | Giant
+
+**• Punch:** TH 6, DMG 3. *Any hit: on a full-house, crushes ground, forcing all Nearby to save or fall prone.*
+
+**Special:** makes two attacks per round.
+
+#### **OGRE**
+
+*Strong body, feeble brains* Level 6 | 22 hp | Saves 8 | Defence 1 Mov A | Morale 15 | Giant
+
+**• Spiked Club:** TH 6, DMG 4.
+
+**• Goblin Throwing:** TH 8, DMG 2. *Any hit: on a triplet, the goblin hits the target with a knife for d6 damage.*
+
+**Special:** has d4 goblin servants.
+
+#### **CYCLOPS**
+
+*One eye, twice the spite* Level 7 | 28 hp | Saves 11 | Defence 1 Mov A | Morale 14 | Giant
+
+**• Massive Club:** TH 7, DMG 3.
+
+**• Tossing:** TH 7, DMG 4. *Any hit: on two pairs, tosses target onto another giving both an Injured condition.*
+
+#### **TROLL**
+
+*Keeps regenerating, much to its own surprise* Level 8 | 32 hp | Saves 12 | Defence 0 Mov A | Morale 16 | Giant
+
+**• Bone Club:** TH 7, DMG 3. *Major Hit: on two pairs, deals an extra d4 damage.*
+
+**• Claws:** TH 8, DMG 4.
+
+**Special:** regenerates d8 hit points at the start of its round, unless hit by fire or acid.
+
+#### **COW OF DOOM**
+
+*Muuuuuuuuuuuuuuuuuuuuuu* Level 1 | 10 hp | Saves 7 | Defence 0 Mov A | Morale 7 | Monster
+
+**• Mooing:** TH 4, DMG 2.
+
+**Special:** if killed, explodes in a burst of larvae
+
+dealing d6 damage to all Nearby.
+
+#### **GOBLIN**
+
+*Smells fear. Also smells awful*  Level 1 | 8 hp | Saves 5 | Defence 0 Mov A | Morale 7 | Humanoid
+
+**• Club:** TH 4, DMG 2. **• Scimitar:** TH 5, DMG 3.
+
+**Special:** has darkvision.
+
+#### **AVERAGE:**
+
+#### **FLAYED UNICORN**
+
+*Sparkles on the inside* Level 5 | 18 hp | Saves 10 | Defence 0 Mov A | Morale 13 | Monster
+
+**• Bleeding Horn:** TH 7, DMG 2. *Major Hit: impales target for extra d4 damage.*
+
+**• Hooves:** TH 6, DMG 3.
+
+**Special:** immune to magic; if hit by a Minor Hit, may save to teleport and dodge the attack.
+
+#### **YETI**
+
+*Big, white and easily offended* Level 6 | 22 hp | Saves 9 | Defence 2 Mov A | Morale 10 | Monster
+
+**• Claws:** TH 7, DMG 4.
+
+**Special:** suffers double damage from any fire or heated source.
+
+#### **CHIMERA WEAK:**
+
+*WTF, is that a lion, a goat or a snake?* Level 8 | 30 hp | Saves 14 | Defence 1 Mov A | Morale 16 | Myth
+
+**• Snake Bite:** TH 6, DMG 2. *Any hit: forces target to make a save or take a Poisoned condition.*
+
+**STRONG:**
+
+**• Lion Claws:** TH 7, DMG 3.
+
+**• Death Bleats:** TH 7, DMG 2. *Major Hit: all within Distant range must save or go deaf for d4 turns.*
+
+**Special:** makes two attacks per round.
+
+#### **MEDUSA**
+
+*Never lost a staring contest* Level 7 | 23 hp | Saves 13 | Defence 1 Mov A | Morale 15 | Myth
+
+**• Petrifying Gaze:** TH 7, DMG 4. *Major Hit: target must save or takes a Petrified condition.*
+
+**• Snake Hair:** TH 6, DMG 3.
+
+**Special:** turns to stone if gazing upon herself.
+
+![](_page_95_Picture_31.jpeg)
+
+#### **MINOTAUR**
+
+*Never lost a staring contest* Level 7 | 28 hp | Saves 14 | Defence 2 Mov A | Morale 16 | Myth
+
+**• Great Axe:** TH 7, DMG 5.
+
+**• Horns:** TH 7, DMG 4. *Major Hit: impales target dealing extra d6 damage unless target makes a STR save.* 
+
+**• Trampling Charge:** TH 8, DMG 3. *Any hit: on a five-number sequence, also tramples the nearest target for d6 damage. Repeat if roll is 5-6.* 
+
+#### **WEAK:**
+
+*Amalgamation of gooey matter* Level 2 | 8 hp | Saves 7 | Defence 0 Mov A | Morale 7 | Ooze
+
+**BLACK PUDDING**
+
+**• Pseudopod:** TH 4, DMG 2. *Any hit: on a triplet, latches onto prey for 2 damage per round; target must save in their round to break free.*
+
+**Special:** only harmed by fire or magic.
+
+## **FLOATING OCULUS**
+
+**STRONG:**
+
+*'Is it looking at me?'* Level 9 | 30 hp | Saves 14 | Defence 1 Mov A | Morale 15 | Ooze
+
+- **Psychic Gaze:** TH 8, DMG 2. *Death Blow: instead of killing, assumes control of target.*
+- **Laser Beam:** TH 8, DMG 5. *Any hit: on three pairs, beam ricochets onto a new target for d6 damage. Repeat if damage rolled is 5-6.*
+
+#### **GREEN SLIME**
+
+*Leaps in a corrosive embrace* Level 2 | 6 hp | Saves 8 | Defence 0 Mov A | Morale 8 | Ooze
+
+**• Pseudopod:** TH 4, DMG 2. *Major Hit: corrodes one metal item worn by target.*
+
+**Special:** if slain, splits into two smaller slimes (2hp each).
+
+#### **AVERAGE:**
+
+#### **GELATINOUS CUBE**
+
+*'Are those coins floating?'* Level 6 | 18 hp | Saves 13 | Defence 1 Mov S | Morale 15 | Ooze
+
+**• Paralysing Touch:** TH 6, DMG 3. *Major Hit: engulfs target for 3 acid damage per round.*
+
+**Special:** only digests organic matter.
+
+#### **PRISMATIC SLUG**
+
+*'Aww… what's that beautiful trail of colour?'* Level 6 | 22 hp | Saves 10 | Defence 0 Mov S | Morale 13 | Ooze
+
+- **Touch:** TH 6, DMG 3.
+- **Acid Spit:** TH 7, DMG 4. *Major Hit: blinds target.*
+
+**Special:** if killed, explodes in a rainbow burst; all Nearby must save or go blind for two turns.
+
+![](_page_96_Picture_26.jpeg)
+
+#### **WEAK:**
+
+#### **PIT VIPER**
+
+*Sssssslithersssss in ssssssilence* Level 2 | 7 hp | Saves 8 | Defence 0 Mov A | Morale 8 | Reptile
+
+**• Bite:** TH 4, DMG 2.
+
+#### **GIANT LIZARD**
+
+*A tongue quicker than its prey* Level 3 | 14 hp | Saves 12 | Defence 0 Mov A | Morale 9 | Reptile
+
+**• Venomous Tongue:** TH 5, DMG 2. *Major Hit: gives a Poisoned condition.*
+
+#### **AVERAGE:**
+
+#### **TYRANT CROCODILE**
+
+*Ancient hunger with one too many teeth* Level 6 | 18 hp | Saves 12 | Defence 2 Mov A | Morale 12 | Reptile
+
+**• Bite:** TH 7, DMG 3. *Any hit: on a triplet, performs a death roll for an extra d8 damage.* 
+
+#### **VELOCIRAPTOR**
+
+*Hunts in synchronised packs* Level 4 | 15 hp | Saves 14 | Defence 1 Mov F | Morale 14 | Reptile
+
+**• Bite:** TH 7, DMG 4. *Any hit: on a four-number sequence, hides in foliage to ambush later on.*
+
+## **ABYSSAL PYTHON**
+
+*None long for its embrace* Level 7 | 30 hp | Saves 9 | Defence 0 Mov A | Morale 8 | Reptile
+
+**• Bite:** TH 8, DMG 4.
+
+**• Constriction:** TH 9, DMG 2. *Any hit: constricts target causing 2 damage per round; target may save at the start of their round to break free; may attack new targets while constricting up to two others.*
+
+#### **BASILISK**
+
+*More than meets the eye* Level 7 | 25 hp | Saves 12 | Defence 0 Mov A | Morale 10 | Reptile
+
+**• Petrifying Gaze:** TH 8, DMG 2. *Major Hit: target must save or takes a Petrified condition.* 
+
+**• Bite:** TH 7, DMG 4.
+
+#### **GOD-LIKE:**
+
+**STRONG:**
+
+#### **HYDRA**
+
+*Cut one head, four more give you the stare* Level 10 | 10 hp per head (x5) | Saves 15 Defence 2 | Mov A | Morale 17 | Reptile
+
+**• Bite:** TH 8, DMG 5. *Special: makes a number of attacks per round equal to its remaining heads.*
+
+**• Poison Breath:** TH 7, DMG 2. *Special: hits all targets Nearby. Any hit: gives Poisoned condition.*
+
+![](_page_97_Picture_28.jpeg)
+
+**WEAK:**
+
+#### **BONE RAT SWARM**
+
+*Squeak, Squeak, Clank, Clank…* Level 1 | 8 hp | Saves 4 | Defence 0 Mov A | Morale 10 | Undead
+
+**• Bite:** TH = its current hp, DMG 3.
+
+#### **GHOUL**
+
+*Often in hunger-driven packs* Level 1 | 10 hp | Saves 5 | Defence 0 Mov A | Morale 16 | Undead
+
+**• Bite:** TH 4, DMG 2.
+
+#### **SKELETON**
+
+*Bones that refuse to rest* Level 2 | 8 hp | Saves 6 | Defence 0 Mov A | Morale 15 | Undead
+
+**• Sword:** TH 5, DMG 3 or **• Axe:** TH 4, DMG 3 or **• Bow:** TH 5, DMG 2.
+
+**AVERAGE:**
+
+#### **MUMMY**
+
+*Wrapped in ancient grudges* Level 6 | 17 hp | Saves 8 | Defence 1 Mov S | Morale 16 | Undead
+
+**• Choke:** TH 7, DMG 3.
+
+**Special:** curses those who slay it (To Hit rolls have disadvantage until next dawn).
+
+#### **WRAITH**
+
+*Passes through walls, strikes from shadows* Level 4 | 10 hp | Saves 12 | Defence 0 Mov A | Morale 13 | Ghost Undead
+
+**• Drain Life:** TH 5, DMG 3. *Major Hit: recovers hit points equal to damage done.*
+
+**Special:** only harmed by magic, fire or electricity.
+
+#### **FLAMESKULL**
+
+*Literally a skull on fire* Level 7 | 25 hp | Saves 13 | Defence 0 Mov A | Morale 15 | Mana 12 | Undead
+
+**• Fire Ray:** TH 7, DMG 2. *Major Hit: cast a spell as a free action (Magic Missile, Fireball, Rain of Fire).*
+
+**STRONG:**
+
+**Special:** only harmed by magic or holy water.
+
+#### **GOLIATH SKELETON**
+
+*Grins at piercing weapons* Level 8 | 30 hp | Saves 12 | Defence 2 Mov A | Morale 15 | Undead
+
+- **Heavy Maul:** TH 8, DMG 4. *Any hit: on three pairs, inflicts d6 damage on two Nearby targets.*
+- **Punch:** TH 6, DMG 4.
+
+#### **LICH KING**
+
+*Always served by 2d6 skeletons* Level 9 | 35 hp | Saves 14 | Defence 1 Mov A | Morale 15 | Undead
+
+- **Scepter:** TH 8, DMG 5. *Any hit: every pair rolled revives a fallen skeleton ally.*
+- **Stare of Death:** TH 9, DMG 3. *Death Blow: kills and raises fallen character as an undead ally.*
+
+#### **VAMPIRE**
+
+*Never met a neck it didn't like* Level 7 | 25 hp | Saves 13 | Defence 0 Mov A | Morale 8 | Undead
+
+**• Bite:** TH 8, DMG 5. *Major Hit: gives Turned condition (gain one extra Turned condition each dawn; on the fourth condition, turn into a vampire. Clear: only by sacred exorcism).*
+
+**Special:** may turn into a bat once per day; dissolves under intense light.
+
+## <span id="page-99-0"></span>12. UNIQUE ITEMS
+
+Unique Items are powerful items that characters find by delving into dungeons and similar. It is also possible to trade or acquire them, at the GM's discretion, but experience points are only awarded by retrieving them from a hidden or remote location.
+
+Unique Items can be used by any class, but armour and weapon restrictions still apply. For example, a Bard would take a -1 TH penalty for wielding The Intimidator, but Molten Fury or the Serpent's Dance is probably fine. Use common sense to determine whether a certain class has a penalty for using a legendary weapon or a unique piece of armour. Negotiate with the players if needed.
+
+The only exception is Set Items. These are specifically designed for certain classes. Set Items are groups of equippable gear that, when worn or carried together unlock new abilities or boost skills. On pages [104-107](#page-105-0), there are example sets. Use them as inspiration to create more.
+
+## Usage
+
+Characters must roll usage for each weapon used after combat, or mark it immediately if the items requires it. Dots on items that don't require usage can be marked when used oddly or as a cost of a failed save. To clear usage dots, characters must find a specialised smith, wizard or alchemist, and pay 25% of its value per dot.
+
+### Value
+
+To determine the value of these items, use the following guide:
+
+- **One-handed weapons:** 3d10 x 10 coins. **• Two-handed weapons:** 4d10 x 10 coins.
+- **Armour:** 4d20 + 300 coins.
+- **Shields and headgear:** d10 x 10 coins.
+- **Rings, amulets, and similar:** 3d10 x 10 coins.
+
+## **CREATING UNIQUE ITEMS**
+
+To create a new Unique Item of your own, use the following ideas as inspiration. Unique Items often bend rules in favour of the characters, like bypassing class restrictions or conferring them bonuses.
+
+- Improve TH by 1.
+- Improve DMG by 1.
+- Extra usage dots to improve durability.
+- Bypass class restrictions (weapon specialty or armour proficiency).
+- Thematic Major Hit or Death Blow effects.
+- +1 to an attribute of choice.
+- +1 or 2 to max hit points.
+- Resistance to certain elements.
+- Advantage in certain actions.
+- Access to magic spells.
+
+![](_page_99_Picture_24.jpeg)
+
+[Scan me for](https://gamesomnivorous.com/pages/flail-tools)  [the Item Card](https://gamesomnivorous.com/pages/flail-tools)  [Studio](https://gamesomnivorous.com/pages/flail-tools)
+
+more at [gamesomnivorous.com](http://gamesomnivorous.com)
+
+At gamesomnivorous.com, you'll find a free online [Item Card Studio](https://gamesomnivorous.com/pages/flail-tools) featuring pre-made templates that make it incredibly easy to create your own custom items. Check it out.
+
+![](_page_99_Picture_28.jpeg)
+
+*"If you didn't steal it yourself, is it even unique?"*
+
+- Slink, the Unremarked
+
+## Amulets, Rings and Similar
+
+- **Amulet of Wyrm:** mark usage to breathe fire on any Nearby targets for 2d6 damage to each.
+- **Beast Charm:** mark usage to transform into a random beast as per Shapeshifting (Druid).
+- **Gambler's Coin:** mark usage to roll any save; heads is a critical hit, tails is a fumble.
+- **Guardian Angel:** mark to negate one hit entirely; shatters when all usage is marked.
+- **Lucky Charm:** +2 LUCK.
+- **Ring of Blasphemy:** choose prayer from any Cleric religion; cast it while wearing.
+- **Sacrifice Charm:** lose d6 hit points to force a target to reroll their last action.
+- **Scarab Pendant:** gain Defence 2 between sunset and sunrise.
+- **Spellpin:** determine a random Wizard spell; mark usage to cast it using up to three dice.
+- **Spirit Sustainer:** mark usage to summon an ally Ghoul; unmark usage by slaying a hostile Undead.
+- **The Eye:** once per day, comes to life as a telepathically-linked eye that lasts up to six turns.
+- **The Horseshoe:** d10 coins appear when its carrier rolls a Major Hit.
+
+![](_page_100_Figure_13.jpeg)
+
+## Body Gear & Shields
+
+- **Bad-Ass Bandana:** +1 to all attributes.
+- **Mustache Helm:** counts as helmet; advantage to CHA saves in social interaction.
+- **Thinking Cap:** choose one Wizard spell; mark usage to cast it (use LUCK as mana) while wearing.
+
+![](_page_101_Picture_4.jpeg)
+
+![](_page_101_Picture_5.jpeg)
+
+![](_page_101_Picture_6.jpeg)
+
+- **Black Leotard:** mark usage to transform into a black cat for d4 turns.
+- **Mummy Rags:** when taking a Major Hit, wearer may mark usage to summon an ally Mummy.
+- **Paladin's Might:** counts as body armour; cast one chosen prayer from any religion (Cleric) while worn.
+- **Snake Scale Mail:** counts as body armour; mark usage to Shapeshift (Druid) into Anaconda.
+- **Tunic of Hope:** once per day, reroll any To Hit or failed save.
+- **Warding Cape:** mark usage to negate a Drained condition.
+
+![](_page_101_Picture_13.jpeg)
+
+- **Ramming Shoes:** mark usage to cast Knock spell; [DICE] equals usage left.
+- **Spiked Boots:** usable as carried weapon TH 5, DMG 3.
+- **The Moccasins:** +2 CHA, -1 DEX.
+
+![](_page_102_Picture_3.jpeg)
+
+- **Hovering Shield:** counts as shield; may be placed on slot reserved for rings, amulets, etc.
+- **Shield of Bones:** counts as shield; mark usage to cast Wall of Bones; [DICE] equals usage left.
+- **Stormchaser:** counts as shield; mark usage to deal d8 electrical damage to attacker.
+
+![](_page_102_Picture_7.jpeg)
+
+- **Power Belt:** increase DMG by 1 on all carried melee weapons.
+- **Quiver of Holding:** only mark usage on 6.
+- **Robo Limb:** place in satchel slot with another item on top; item counts as carried.
+- **Steady Gloves:** increase TH of attacks with bows by 1.
+- **The Scryglass:** whatever its carrier whispers will be seen by another target peeking through it.
+
+![](_page_102_Picture_13.jpeg)
+
+## <span id="page-103-0"></span>Legendary Weapons
+
+When a weapon lists Any hit, Major Hit, or Death Blow in an attack, that effect occurs in addition to the default combat consequences. Any hit means the effect occurs with a Minor Hit, Major Hit or Death Blow. (E.g. Serpent's Dance: if the attack hits and any two pairs are rolled, the wielder deals an extra d6 damage).
+
+#### **One-slot:**
+
+- **Blade of Swarm:** TH 3, DMG 3. *Special: +1 TH for every adversary Nearby (max. 10).*
+- **Blazing Edge:** TH 5, DMG 3. *Major Hit: sets target ablaze for an extra 2 fire damage per round.*
+- **Blinding Reaver:** TH 6, DMG 4. *Any hit: on a four-number sequence, blinds target.*
+- **Bloodfang:** TH 5, DMG 2. *Special: gains +1 DMG for every consecutive hit in combat (resets on a miss).*
+- **Buzzing Volt:** TH 6, DMG 2. *Any hit: each 2 rolled causes an extra point of electrical damage.*
+- **Celestial Star:** TH 5, DMG 2. *Special: while carried, user is immune to magic.*
+- **Cinderline:** TH 6, DMG 2. *Any hit: on a triplet, creates trail of fire that causes d4 damage to crossers.*
+- **Crimson Moon:** TH 6, DMG 3. *Major Hit: bleeds target, causing d4 damage per round.*
+- **Coral Whisper:** TH 6, DMG 4. *Any hit: on a poker, summons an ally Water Elemental.*
+- **Doombringer:** TH 8, DMG 5. *Special: every round carried does d6 damage to wielder.*
+- **Fate's Mulligan:** TH 4, DMG 3. *Special: may re-roll two dice from the To Hit roll once per round.*
+- **Fleshbinder:** TH 5, DMG 2. *Death Blow: gives a permanent +1 to wielder's max hit points.*
+- **Gravetide Grasp:** TH 6, DMG 2. *Any hit: on three pairs, pins target with ghastly skeletal hands.*
+- **Hunter's Bow:** TH 6, DMG 4. *Special: +2 TH vs a previously marked target.*
+- **Lifeleech:** TH 6, DMG 3. *Special: restores hit points equal to damage inflicted.*
+- **Mage's Plight:** TH 5, DMG 3. *Any hit: target loses d10 mana (Wizards only).*
+- **Mindpiercer:** TH 7, DMG 4. *Special: on a miss, deals d4 psychic damage to wielder.*
+- **Molten Fury:** TH 6, DMG 4. *Special: bypasses adversary Defence.*
+- **Phantom's Veil:** TH 5, DMG 4. *Special: while carried, user is invisible when standing still.*
+- **Royal Vanguard:** TH 6, DMG 3. *Special: all hirelings hired by wielder have +3 to Morale.*
+- **Runeforge:** TH 6, DMG 2. *Any hit: on a full-house, etches rune on target for 3d10 damage in the next hit.*
+- **Sanguine Seax:** TH 5, DMG 3. *Any hit: wielder can deal extra d6 damage at the cost of 3 hit points.*
+- **Saw Boomerang:** TH 6, DMG 3. *Any hit: on a triplet, deals d8 damage to two new targets.*
+- **Serpent's Dance:** TH 5, DMG 3. *Any hit: on two pairs, deal extra d4 damage.*
+- **Shadowfang:** TH 4, DMG 3. *Special: +2 TH when wielded in darkness.*
+- **Soul Harvester:** TH 6, DMG 3. *Any hit: on a triplet, store 1 soulshard; spend 3 shards to heal d8 hit points.*
+- **Stormrider:** TH 5, DMG 4. *Special: +2 TH under windy or stormy conditions.*
+- **The Frostbite:** TH 5, DMG 3. *Major Hit: target freezes after finishing its next round.*
+- **The Man Catcher:** TH 4, DMG 0. *Any hit: immobilises target; disadvantage to break loose.*
+- **The Piercer:** TH 7, DMG 2. *Death Blow: arrow moves to a new chosen target, dealing d8 damage.*
+
+#### **Two-slot:**
+
+- **Hammer of Õ:** TH 6, DMG 2. *Major Hit: stuns target.*
+- **Night Reaper:** TH 6, DMG 3. *Special: +2 TH vs Undead.*
+- **The Intimidator:** TH 8, DMG 4. *Major Hit: on a triplet, forces a Morale save on target.*
+- **Titanbreaker:** TH 7, DMG 4. *Major Hit: roll an additional d6 damage on big/giant targets.*
+- **Troll Slayer:** TH 7, DMG 5. *Special: after being hit, target can no longer regenerate.*
+
+![](_page_104_Figure_0.jpeg)
+
+![](_page_104_Figure_1.jpeg)
+
+![](_page_104_Figure_2.jpeg)
+
+![](_page_104_Figure_3.jpeg)
+
+![](_page_104_Figure_4.jpeg)
+
+![](_page_104_Figure_5.jpeg)
+
+![](_page_104_Figure_6.jpeg)
+
+![](_page_104_Figure_7.jpeg)
+
+![](_page_104_Figure_8.jpeg)
+
+![](_page_104_Figure_9.jpeg)
+
+![](_page_104_Figure_10.jpeg)
+
+![](_page_104_Figure_11.jpeg)
+
+![](_page_104_Figure_12.jpeg)
+
+![](_page_104_Figure_13.jpeg)
+
+![](_page_104_Figure_14.jpeg)
+
+## <span id="page-105-0"></span>The Jester's Might - **Bard Item Set**
+
+- **Cap-n-Bells:** may use LUCK to cast spells from scrolls.
+- **Cummerbund:** mark usage to automatically pass a CHA save that involves social interaction.
+- **Prismatic Tights:** counts as armour; mark usage to deflect a hostile spell.
+- **Turnshoes:** +1 CHA.
+
+![](_page_105_Picture_6.jpeg)
+
+![](_page_105_Picture_7.jpeg)
+
+![](_page_105_Picture_8.jpeg)
+
+![](_page_105_Picture_9.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** 'Witness Me!' now causes an extra d4 damage.
+- **Three items:** gain advantage to 'Charm Monster'.
+- **Four items:** at the start of combat, weak adversaries must make a Morale save or flee in dread.
+
+## Morgave's Osseous Dominion - **Bone Whisperer Item Set**
+
+- **Grim Skull:** counts as helmet; forces adversaries to roll Morale on Major Hits.
+- **Head Trophy:** mark usage to deal d6 damage to one target, harvesting an equal amount of spirit.
+- **Whip of Bones:** TH 6, DMG 2. *Death Blow: resurrects slain target as undead ally for one day.*
+- **Bone Armour:** counts as body armour; if user slays a vertebrate level 3+ creature, clear one usage.
+
+![](_page_105_Figure_19.jpeg)
+
+![](_page_105_Figure_20.jpeg)
+
+![](_page_105_Picture_21.jpeg)
+
+![](_page_105_Picture_22.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** +2 to max spirit.
+- **Three items:** long rests restore d6 spirit.
+- **Four items:** summon a ghoul or skeleton once per day, at no cost.
+
+be carried
+
+## <span id="page-106-0"></span>Aetheria's Divine Aegis - **Cleric Item Set**
+
+- **Amulet of Faith:** +2 LUCK.
+- **Helm of Mettle:** counts as helmet; may stack one condition atop it.
+- **Mace of Trial:** TH 6, DMG 4. *Death Blow: force ally of target to save or crumble in ash.*
+- **Oath Scutum:** counts as shield; +1 CHA.
+
+![](_page_106_Picture_5.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** choose two Celestial Aid bonuses instead of one only.
+- **Three items:** increase level of all prayers by 1.
+- **Four items:** radiate a glowing aura that grants Defence 2.
+
+## Veil of the Shadow's Embrace - **Cutthroat Item Set**
+
+- **Cloak of Shades:** always act first in combat.
+- **Hexknife:** TH 5, DMG 3. *Special: mark usage and make a LUCK save to nullify a cast spell.*
+- **Mind Eye Belt:** +2 INT.
+- **Phantom Ring:** mark usage to teleport within Far Away range.
+
+![](_page_106_Picture_15.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** +1 DEX, +1 LUCK.
+- **Three items:** gain a new talent of choice.
+- **Four items:** on a four-number sequence in a To Hit roll, cast any Wizard spell using up to three dice.
+
+## **Faeloria's Circle of Life** - **Druid Item Set**
+
+- **Amphibian Ring:** wearer can breathe underwater.
+- **Bird Talisman:** mark usage to gain the ability to fly for d6 hours.
+- **Mammal Furs:** counts as body armour.
+- **Reptile Boots:** +2 DEX
+
+![](_page_107_Picture_5.jpeg)
+
+![](_page_107_Picture_6.jpeg)
+
+![](_page_107_Picture_7.jpeg)
+
+![](_page_107_Picture_8.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** +1 CHA.
+- **Three items:** +4 to max hit points.
+- **Four items:** take two extra primal gifts.
+
+## VerENthus' Clockwork Harmonia - **Tinkerer Item Set**
+
+- **Nightseers:** grants darkvision.
+- **The Blastbolt:** TH 6, DMG 4. *Major Hit: spawns an explosion for d6 damage on all Near target.*
+- **Tinkerfist:** Quick Craft costs one less usage; may be tucked under hand-item cards.
+- **Burden Bearer:** counts as body armour; unlock inventory slots reserved for higher STR.
+
+![](_page_107_Figure_18.jpeg)
+
+![](_page_107_Picture_19.jpeg)
+
+![](_page_107_Picture_20.jpeg)
+
+![](_page_107_Picture_21.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** +1 DEX.
+- **Three items:** gain three extra construct points.
+- **Four items:** treat two stashed items as if they are carried or worn.
+
+## <span id="page-108-0"></span>Dragonkin Ascension of King Ryzeel - **Warrior Item Set**
+
+- **Amulet of Fire:** take half damage from fire sources.
+- **The Dragon Skull:** counts as shield; +4 max hit points.
+- **Wyrm Slayer:** TH 6, DMG 4. *Special: +1 TH vs Dragons.*
+- **Dragonhide:** counts as body armour; works against fire damage.
+
+![](_page_108_Picture_5.jpeg)
+
+![](_page_108_Picture_6.jpeg)
+
+![](_page_108_Picture_7.jpeg)
+
+![](_page_108_Figure_8.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** cast Fireball by marking usage on any set items; [DICE] equals marked usage.
+- **Three items:** +2 TH vs Dragons.
+- **Four items:** dragon wings sprout from the plate, allowing wearer to hover.
+
+## Zeltharion's Arcane Legacy - **Wizard Item Set**
+
+- **Gone Girdle:** if hit, roll LUCK to teleport to avoid hit.
+- **Prismatic Ward:** choose one element (fire, ice, lightning, etc.); take half damage from it.
+- **Rod of Morph:** TH 4, DMG 1. *Major Hit: transforms target into a chicken.*
+- **Robes of Insight:** +2 INT.
+
+![](_page_108_Picture_18.jpeg)
+
+![](_page_108_Picture_19.jpeg)
+
+![](_page_108_Picture_20.jpeg)
+
+![](_page_108_Picture_21.jpeg)
+
+#### **Wear/carry items to unlock bonuses:**
+
+- **Two items:** +4 to max mana.
+- **Three items:** energy vortex shrouds wearer, grating Defence 2.
+- **Four items:** may transform into mist once per day for up to two turns.
+
+## <span id="page-109-0"></span>13. RESOURCES
+
+## Animals
+
+Characters can attempt to befriend animals. This requires four saves over one week (once every two days). Players may choose which attribute to use, representing different methods (brute force with STR, leadership with CHA, playfulness with DEX, etc). Failing one save makes the animal go away. Bone Whisperer and Wizard animals are considered familiars, becoming telepathically-linked with each other. Animals have base 4hp, 6 to all attributes, and can perform basic natural tasks, besides conferring a bonus or skill.
+
+| Animal | Bonus / Skill                                                               |
+|--------|-----------------------------------------------------------------------------|
+| Bat    | Can map out underground areas using echolocation.                           |
+| Cat    | Brings one grub card once per day (probably a gutted rat).                  |
+| Dog    | Locates buried items within Distant range.                                  |
+| Monkey | Has a DEX score of 8, plus two Cutthroat talents of choice.                 |
+| Owl    | Keeper gains +1 INT.                                                        |
+| Parrot | Can replicate any previously heard voice.                                   |
+| Raven  | Brings a random shiny metallic item once per day.                           |
+| Pigeon | Delivers written notes to known locations.                                  |
+| Rat    | Always knows the quickest route out of confined spaces or tunnels.          |
+| Snake  | 6hp, Venomous Bite: TH 4, 2 DMG. Major Hit: immobilises target with poison. |
+| Spider | Can silently disable a mechanical trap once per day.                        |
+| Wolf   | 12hp, Bite: TH 5, DMG 3.                                                    |
+
+## Disease
+
+When in contact with a disease, the character must make a STR save. On a fail, they take the respective condition (use a blank inventory card if needed) and follow its procedures. If a character contacts with the same disease again, roll with advantage. Use these as inspiration to design more diseases.
+
+| Disease          | Effect                                      | Clear                      |
+|------------------|---------------------------------------------|----------------------------|
+| Black Death      | Die in seven days                           | Procure medical healing    |
+| Chicken Pox      | Cannot wear armour, boots or helmet         | Procure medical healing    |
+| Cursed Blood     | Healing spells have no effect               | Drink vampire tears        |
+| Bulging Eyes     | Can only see Nearby                         | Procure medical healing    |
+| Dungeon Fever    | Disadvantage to DEX when underground        | Spend one week outside     |
+| Frostbite        | Cannot use hand slots                       | Procure medical healing    |
+| Ghoul's Curse    | 5% chance of instant death (roll each dawn) | Kill three ghouls          |
+| Lycanthropy      | Turn into a werewolf in three days          | Bathe in holy water        |
+| Mummy Rot        | One limb will rot in four days              | Undergo embalming ritual   |
+| Plague of Boils  | Take an extra d4 damage when hit            | Procure medical healing    |
+| Scarab Hunger    | Only insects satisfy the appetite           | Eat a giant insect         |
+| Solar Affliction | Sun exposure causes 2 damage per round      | Spend full day in the dark |
+| The Smells       | Attracts all monsters within Far Away range | Attend thermal baths       |
+
+## <span id="page-110-0"></span>Magic Scrolls
+
+Characters may try to cast spells from scrolls by making an INT save, representing their ability to interpret arcana. Scrolls are powerful and proportionally dangerous. On a fail, the character takes the respective consequences. The scroll vanishes after usage, regardless of being successfully cast or not. They are typically priced 100+d100 coins
+
+- **INT 10-:** roll with disadvantage.
+- **INT 11-14:** roll normally.
+- **INT 15+:** roll with advantage.
+
+**Optional:** if a character is successful, they may have advantage to cast from the exact same scroll in the future, regardless of their INT score.
+
+| Scroll            | Success                                                                   | Failure                                                                     |
+|-------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Abyssal Pit       | Conjures an dark hole beneath a target's feet                             | The pit appears under a random ally                                         |
+| Animate Dead      | Raises a dead target as an undead ally for d6<br>turns                    | Target is raised but acts on its own<br>will and interest                   |
+| Astral Leech      | Caster drains 2d6 hit points from a chosen<br>target                      | A spectral leech sucks caster's soul,<br>devouring 2d6 hit points from them |
+| Command           | Order a target to perform one action, verbal<br>ised by two words         | Caster performs the declared action<br>themselves instead                   |
+| Conjure Elemental | Invokes a controllable Elemental for d6 turns,<br>which then disperses    | Invokes a rogue Elemental that cannot<br>be controlled                      |
+| Cure Wounds       | Restores target d10 hit points                                            | Inflicts d6 damage on the target                                            |
+| Death Scroll      | Eliminates a chosen target                                                | Kills an ally of the caster                                                 |
+| Fear              | One target flees hysterically                                             | Caster develops a permanent phobia<br>vs the target's type (-2 TH forever)  |
+| Fireball          | Does 3d6 damage to all Near impact; can be<br>launched from Far Away      | Explodes in caster's hands instead,<br>dealing 3d6 damage all Nearby        |
+| Gaseous Form      | Caster becomes insubstantial and shapeless<br>for up to six turns         | 25% chance of caster remaining<br>forever in this state                     |
+| Hold Monster      | Forces one creature to save or become help<br>lessly immobile             | Affects the caster instead, lasting one<br>turn                             |
+| Mage Hand         | Conjures a spectral hand capable of perform<br>ing one task               | Caster must take three Drained condi<br>tions                               |
+| Magic Missile     | Launches an energy dart that causes 2d6<br>damage to a chosen target      | The missile lands on another random<br>target (allies included)             |
+| Mind Control      | Control chosen target for d4 rounds                                       | Target controls caster instead                                              |
+| Shield            | Invokes an energy shield on self or ally with<br>2d6 hit points.          | The energy shield is cast on a random<br>adversary instead                  |
+| Teleport          | Caster teleport between two places of choice<br>within 100'               | Caster is teleported to a place 100<br>miles away                           |
+| Time Stop         | Caster may perform two extras rounds imme<br>diately                      | Caster ages d100 years instantly                                            |
+| Truth             | Forces a target to speak the truth for one<br>minute (GM may use a timer) | Caster spills out their darkest secrets<br>and those of their allies        |
+|                   |                                                                           |                                                                             |
+
+## <span id="page-111-0"></span>Potions
+
+*Only the very fool or the very wise have the nerve to mix*
+
+To create potions, characters must mix between three and five ingredients using different reagents – mixing the same reagents creates a bland goo. Then, the GM randomly rolls a potion from the respective table. From that moment on, every time the same ingredients are mixed, characters get the potion previously rolled, representing they have learned a recipe. Potions usually have three usages dots. Mark usage each item they are drank.
+
+|           | Ingredients    |             |              |                 |             |
+|-----------|----------------|-------------|--------------|-----------------|-------------|
+| Chemicals | Acid           | Arsenic     | Quicksilver  | Saltpetre       | Vitriol     |
+| Essences  | Basilisk Venom | Dragon Bile | Kraken Ink   | Mermaid Tear    | Slime Mucus |
+| Extracts  | Goblin Earwax  | Lich Dust   | Ogre Fat     | Phoenix Feather | Troll Fart  |
+| Herbs     | Belladonna     | Mandrake    | Mugwort      | Valerian        | Wolfsbane   |
+| Remains   | Cyclops Eye    | Giant's Toe | Griffon Claw | Hydra Scale     | Wraith Dust |
+
+Use these ingredients and the potions on the right as inspiration to create more. If characters find or hire an alchemist, they may learn three recipes. The GM should roll three potions and determine the ingredients needed for them.
+
+- **Chemicals:** can be purchased in big cities for 4d10 coins per dose.
+- **Herbs:** can be foraged in the wilderness.
+- **Essences, extracts & remains:** must be procured through adventuring.
+
+**Note:** the GM can openly tell the players the exact effects of potions, if they wish. Through playtesting, it was funnier to allow characters to discover a potion's properties through adventuring. Note that weak potions can have undesired effects, thus if the first option is used, we advise removing them from play.
+
+![](_page_111_Picture_9.jpeg)
+
+#### <span id="page-112-0"></span>**Weak Potions, d12**
+
+*By mixing three ingredients*
+
+- **Boost Shot:** +2 STR for one day.
+- **Potion of Healing:** cures d6 hit points.
+- **Slippery Perspiration:** grants Defence 1 for one day.
+- **Brain Lift:** +1 INT for one day.
+- **Potion of Agility:** +1 DEX for one day.
+- **Power Tonic:** +1 TH for the duration of one entire combat.
+- **Underwater Breathing:** grants underwater breathing for one turn.
+- **Sweet Fragrance:** +1 CHA for one day.
+- **Prismatic Serum:** drinker's hair turns into a random colour. Forever.
+- **Phobos Mix:** drinker gains fear of a random creature type.
+- **Blend of the Buffoon:** -d4 LUCK for one day.
+- **Fool's Mix:** -2 DEX for one day.
+
+#### **Strong Potions, d12**
+
+*By mixing four ingredients*
+
+- **Potion of Reflexes:** drinker can make three attacks in one round of combat. Lasts one round.
+- **Tonic of Faith:** drinker can choose any one future roll to succeed in.
+- **Elixir of Might:** +4 DMG for the duration of one entire combat.
+- **Supreme Superglue:** glues anything together forever.
+- **Potion of Mana:** restores 2d4 mana instantly (Wizards only).
+- **Mind Mixture:** grants advantage to INT for d6 turns.
+- **Fake Death:** drinker dies for 30min; returns to life unharmed after that.
+- **Restorative Brine:** heals all hit points.
+- **Passion Tonic:** two characters become infatuated with each other.
+- **Cerebral Link:** drinker may spellcast like a Wizard for two turns. Max mana equals INT score.
+- **Potion of Partial Invisibility:** drinker becomes invisible except their gear/clothes for two turns.
+- **Radiant Aura:** grants Defence 3 for one day.
+
+#### **Mighty Potions, d10**
+
+*By mixing five ingredients*
+
+- **Brute Force:** +2 TH for the duration of one entire combat.
+- **Clairvoyant Mix:** drinker can see into d4 remote locations of choice. Lasts one turn.
+- **Gaseous Form:** drinker assumes a vaporous form for up to six turns.
+- **Mindwipe Brew:** drinker forgets all that happened in the last two days.
+- **Rejuvenescent Tincture:** removes a persistent Injury condition.
+- **Elixir of Life:** revives a person who died in the last 24 hours.
+- **Potion of the Mosquito:** drinker turns into a fly for six turns.
+- **Telepathic Drops:** drinker may speak with another character remotely no matter the distance.
+- **Tongue of Babel:** grants the ability to understand every language, including animals and monsters.
+- **Potion of Invisibility:** drinker becomes invisible, gear included, for up to six turns.
+
+## <span id="page-113-0"></span>Runes
+
+*Powerful, moody, often with an agency of their own.* 
+
+Runes can be embedded into an appropriate weapon, granting it a special effect. Each weapon can hold only one rune and they cannot be used on Legendary Weapons, unless the characters quest to find a specialised crafter or bladesmith. Runes count as Unique Items for the purposes of gaining experience points. When a weapon is lost, discarded or damaged, the rune can be removed and stored safely.
+
+#### **Tempest Stormbrands**
+
+*Their power harvested from the thunder that breaks against the Stormy Mountains.*
+
+**Crafted by:** Korren Thunderhame, legendary dwarven smith raised in Deephelm Chasm. **Appropriate for:** warhammer, maul, sledgehammer, and similar.
+
+- **Static Surge:** on the first hit each combat, deal an extra d4 electrical damage; on 4, deal more d4.
+- **Shocks:** *Any hit: each 2 rolled causes an extra point of electrical damage.*
+- **Electrical Chain:** *Major Hit: on a full-house, d3 adversaries take 4 damage in a current of electricity.*
+- **Deep Static:** *Death Blow: target electro-discharges remaining hit points in damage amongst its allies.*
+
+#### **Sunshards of the Sands**
+
+*Many say the shards are cast from the remains of a Sun God.* 
+
+**Crafted by:** Zu-Muku-Sank, mythical undead forger of the Undying Sands.
+
+**Appropriate for:** shamshir, scimitar, tulwar, and similar.
+
+- **Desert Resilience:** mark usage on weapon to re-roll two dice for an Extraordinary Feat.
+- **Desert Mirage:** *Any hit: on a triplet, wielder becomes intangible smoke until their next round.*
+- **Glassfire Blade:** *Major Hit: on two pairs, weapon glows white-hot and gets +2 TH in the next round.*
+- **Djinn Pact:** *Death Blow: invoke an ally Djinn that lasts d6 days.*
+
+#### **Tectonic Marks of the Peaks**
+
+*Quarried from the faultline that awoke the Third Grand Quake.*
+
+**Crafted by:** Lithos Earthbender, the last geomancer-smith of the Stone Peaks.
+
+**Appropriate for:** battle axe, warpick, poleaxe, and similar.
+
+- **Stone Skin:** mark usage on weapon to receive Defence 2 for two rounds.
+- **Tremors:** *Any hit: on a five-number sequence, force a Morale save on all adversaries.*
+- **Earthquake:** *Major Hit: on a full-house, force all in combat to save or be knocked prone.*
+- **Seismic Wrath:** *Death Blow: create a ground fissure that forces all in its path to save or fall into.*
+
+**Note:** use coins, seeds or coloured tokens from board games to represent a rune and place it atop the respective weapon item card when it is embedded.
+
+#### **Glacial Frostgems**
+
+*Must be set deep within frost, then take years to thaw.* 
+
+**Crafted by:** Eira Frostforge, frost-obsidian carver from the Boreal Frostlands.
+
+**Appropriate for:** mace, morningstar, flail, and similar.
+
+- **Ice Shard:** mark usage on weapon to release a flying shard on any target for 2d6 damage.
+- **Blizzard's Fury:** *Any hit: on a pair of 4s, summon a shield of ice that imposes a -1 To Hit for two rounds.*
+- **Frozen Ground:** *Any hit: on a triplet, all non-flyers become stuck for two rounds, except self.*
+- **Frostbite:** *Major Hit: on two pairs, target must make a save or freezes still at the end of their next round.*
+
+#### **Cindersouls of Mount Gloom**
+
+*Each eruption begins with Dravak laughing in the forge.*
+
+**Crafted by:** Dravak Flameshaper, dragokin metalwright who casts in the molten veins of Mount Gloom. **Appropriate for:** claymore, zweihander, flamberge, and similar.
+
+- **Flame Blade:** once per day, ignite flame on the blade for +2 DMG for d4 rounds.
+- **Molten Metal:** bypasses 2 points of Defence on any target.
+- **Fire Bolts:** *Any hit: each pair rolled releases a fire bolt for d4 damage to any target of choice.*
+- **Inferno Burst:** *Death Blow: may invoke a rain of fire that deals 4d4 damage to all Nearby, but self.*
+
+#### **Venomshard Fangs**
+
+*Bred from the skinshed of blackoils and swamp vapour.*
+
+**Crafted by:** Selvyn Coilhand, master naga bowyer of the Vyle Marshes.
+
+**Appropriate for:** crossbow, long bow, short bow.
+
+- **Slow Toxin:***Any hit: on a triplet, target becomes Slow.*
+- **Marking:** *Major Hit: target must save at the end of their next round; on a fail, dies.*
+- **Petrification:** *Major Hit: on two pairs, target must save or becomes Paralysed for d3 rounds.*
+- **Poison Explosion:** *Death Blow: all Near target must save or fall unconscious.*
+
+Runes are unpredictable, some say sentient even, with moods of their own. At the GM's discretion, a % roll may be made after each combat in which a rune has been used (or once per day, if more suitable). On a result of 10% or less, the rune acts on its own:
+
+#### **Rune Moods, d6**
+
+- 1 **Grows Attached:** brands itself onto the character, granting them its effect as a natural skill.
+- 2 **Split Personality:** splits into two; a second random rune of the same family appears.
+- 3 **Seeks Horizon:** flies onto the skies like a comet and doesn't look back.
+- 4 **Smokes Out:** fades in smoke.
+- 5 **Rejects Bond:** breaks the weapon it is currently embedded onto.
+- 6 **Takes Offense:** explodes dealing d10 damage to all Nearby.
+
+## <span id="page-115-0"></span>Cities
+
+*Roll six d20s to determine a general theme*
+
+|    | Origin Story               | Main Defence               | Notable Feature            |
+|----|----------------------------|----------------------------|----------------------------|
+| 1  | Nomadic camp turned city   | Gigantic walls & ballistae | Floating central bazaar    |
+| 2  | Mythic battleground ruins  | Enchanted frog moat        | Lush hanging gardens       |
+| 3  | Religious pilgrimage site  | Blinding light beacons     | Colossal clock-tower       |
+| 4  | Trade crossroads           | Poisoned cloud vents       | Rooftops with beehives     |
+| 5  | Centre of antique empire   | Invisible energy fields    | Grand colosseum            |
+| 6  | Built atop meteor crater   | Boiling oil dispensers     | Waterfall terraces         |
+| 7  | Reclaimed necropolis       | Massive sentient vines     | Sky-piercing leaning spire |
+| 8  | Arcane catastrophe site    | Charmed [MONSTER]          | Aqueduct walls             |
+| 9  | Titan's graveyard          | Patrolling constructs      | Ivy-draped rooftops        |
+| 10 | World's first library      | Lava-filled trenches       | Water canal streets        |
+| 11 | Founded to guard relic     | Massive bone walls         | Sacred central plateau     |
+| 12 | Magic leyline convergence  | Sonic deterrent towers     | Two giant windmills        |
+| 13 | Antique frontier outpost   | Acid-spraying nozzles      | Central glass pyramid      |
+| 14 | Ruins of an ancient cult   | Rotating blade walls       | Levitating obelisk         |
+| 15 | Burial site of cursed king | Lightning-charged walls    | Ornate snake gates         |
+| 16 | Fabled hero's birthplace   | Eternal flame moat         | Hulking frog statute       |
+| 17 | Sanctuary for refugees     | Explosive rune traps       | Public monster menagerie   |
+| 18 | Survivors of cataclysm     | Shifting maze walls        | Eternal flame fountain     |
+| 19 | Sacred frog swamp          | Flame-throwing turrets     | All buildings are pink     |
+| 20 | Mage's failed experiment   | Domesticated dragon        | Red cobblestone streets    |
+
+#### **1. Create a name**
+
+Think of an appropriate name, combining any two theme outputs. Say the rolls included 'dragonkin matriarchy' and 'every resident has a twin' – The City of the Dragon Twins; the rolls included 'shifting maze walls' and 'all buildings are pink' – Pink-Maze Port.
+
+#### **2. Lay cards**
+
+Pick up a standard deck of cards. Take out the Ace of Heats. This structure is always present. Separate each suit and shuffle it individually, creating four piles. Then, keep on drawing cards from any pile, placing them face-up on the gaming table. The cards represent locations in the city, the spaces between them are streets. Lay them out as you wish. Create thematic districts by placing cards of the same suit next to each other. Orthogonally placed cards convey a neatly organized city,
+
+whereas randomly displayed ones convey a chaotic mess of alleyways. Cards placed atop each other represent structures cluttered atop each other. The number of cards dictates how big the city is:
+
+**• Small cities:** 20 cards **• Average cities:** 30 cards **• Metropolis:** 40+ cards
+
+#### **3. Stocking buildings**
+
+Check the tables two pages below. Each suit represents a category, each number corresponds to a location within that category. Improvise details as characters explore the city, taking note of their details. Roll d4 for variants of the location.
+
+#### **4. Remember the city**
+
+Once you built a city, take note of it. This city is now part of the world. Characters know what the city has and offers, so they might return.
+
+<span id="page-116-0"></span>
+
+| Government                 | Industry / Trade            | Oddity                       |
+|----------------------------|-----------------------------|------------------------------|
+| Eternal child ruler        | Dragon scale weaving        | Everyone wears a mask        |
+| Apocalyptic cult tyranny   | Rare spices & healing herbs | Music from unseen sources    |
+| Crime guilds consortium    | Skilled mercenaries         | Cats are considered sacred   |
+| Sacred monk congress       | Arcane items & spellbooks   | Unintelligible language      |
+| Eye wizards' conclave      | Wine and luxury foods       | Buildings relocate nightly   |
+| Anarchist commune          | Exotic pets import-export   | Ghosts walk the streets      |
+| Representative democracy   | Precious gems & minerals    | Every resident has a twin    |
+| Merchant oligarchy         | Sentient plant breeding     | Animals outnumber people     |
+| Warlock dictatorship       | Weird musical instruments   | Residents cast no shadows    |
+| Ageless elder council      | Astral tourism              | Plants glow softly at night  |
+| Oracle-guided monarchy     | Exquisite wooden furniture  | All food is in grayscale     |
+| Construct technocracy      | Improved weapons            | None speak aloud in public   |
+| Shapeshifter cabal         | Counterfeit magic items     | Fish swim through the air    |
+| Ancient Ent parliament     | Pattern-shifting rugs       | Gambling is compulsory       |
+| Ironclad knight roundtable | Clockwork & gadgets         | Sudden swarms of insects     |
+| Pharaonic theocracy        | Magic scrolls & riddles     | All fires burn green         |
+| Solar priesthood           | Enchanted armour & robes    | Adhered to monotheism        |
+| Dragonkin matriarchy       | All things sport            | Everyone speaks in rhymes    |
+| Pirate king autocracy      | Poetry                      | Live beetles act as currency |
+| Undead lord regency        | Esoteric & erotic scrolls   | Eyes turn silver at dusk     |
+
+#### **What is happening?** *Roll d6 when entering a new town*
+
+(1) War: all prices doubled, (2) Plague: medicine scarcity, (3) Bad Harvest: food prices tripled,
+
+(4) Eminent raid: invaders come in d6 days, (5) Peace: all is calm, (6) Abundance: all prices halved.
+
+### Taverns
+
+*Roll four d10s to determine a name and menu*
+
+|    | Name 1         | Name 2   | Specialty Meal                  | Drinks              |
+|----|----------------|----------|---------------------------------|---------------------|
+| 1  | The Drunken    | Duck     | Electric eel gumbo (\$)         | Stormbrewer ale     |
+| 2  | The Golden     | Griffin  | Crab legs tom yum (\$)          | Celestial tea       |
+| 3  | The Broken     | Goose    | Fire-grilled snake skewers (\$) | Stonebreaker stout  |
+| 4  | The Laughing   | Dagger   | Barbecue lizard ribs (\$)       | Frostfang pale ale  |
+| 5  | The Howling    | Minotaur | Honey-glazed frog legs (\$\$)   | Goldenhoof lager    |
+| 6  | The Crooked    | Moon     | Cactus flower tempura (\$\$)    | Abyssal rum         |
+| 7  | The Jagged     | Kraken   | Bat wings with hot dip (\$\$)   | Phoenix Fire rotgut |
+| 8  | The Whispering | Crown    | Fake dragon meatballs (\$\$)    | Troll Blood stout   |
+| 9  | The Dancing    | Cauldron | Levitating quail pie (\$\$\$)   | Dragonspine red ale |
+| 10 | The Boiling    | Anchor   | Kraken ink pasta (\$\$\$)       | Serpent's venom     |
+
+#### **Hearts - Civic Buildings**
+
+- **Stadium:** (1) gladiator arena, (2) naval wars, (3) mage duels, (4) animal races.
+- **Bathhouse:** (1) healing spa, (2) ritual cleansing, (3) hot springs, (4) mud baths.
+- **Barracks:** (1) royal army, (2) city guards, (3) mercenary quarters, (4) militia training.
+- **Museum:** (1) cryptid skulls, (2) lost civilizations, (3) arcane idols, (4) ancient maps.
+- **Courthouse:** (1) crime trials, (2) magical tribunal, (3) guild arbitration, (4) civil bonds.
+- **Hospital:** (1) holy healers, (2) alchemical remedies, (3) mage medics, (4) leper house.
+- **Theatre:** (1) dog circus, (2) opera house, (3) shadow puppetry, (4) mystical illusions.
+- **Library:** (1) public archives, (2) ancient history, (3) exotic books, (4) dead languages.
+- **Sanctuary:** (1) saint's reliquary, (2) pilgrim's site, (3) mausoleum, (4) meditation maze.
+- J **University:** (1) divination, (2) thaumaturgy, (3) natural sciences, (4) plastic arts.
+- Q **Monument:** (1) mythic war, (2) city's founder, (3) geometric, (4) martyrs memorial.
+- K **Temple:** (1) goddess of war, (2) god of fertility, (3) sun goddess, (4) god of the seas.
+- A **Seat of power:** structure inspired by rolled notable feature and/or government.
+
+#### **Diamonds - Commercial Buildings**
+
+- **Street vendor:** (1) remedial herbs, (2) street barber, (3) food wagon, (4) tattoo artist.
+- **Small shop:** selling (inferior) goods matching the rolled industry/trade.
+- **Souvenir shop:** (1) snow globes, (2) miniature temple, (3) city's tunic, (4) local pottery.
+- **Alchemist lab:** (1) magic potions, (2) energy drinks, (3) explosives, (4) antidotes.
+- **Tavern:** roll random tavern (see previous page); a legit establishment.
+- **Large workshop:** (1) glassworks, (2) leather tannery, (3) textile mill, (4) blacksmith.
+- **Auction house:** (1) confiscated items, (2) high-end art, (3) mighty potions, (4) relics.
+- **Grand shop:** selling (superior) goods matching the rolled industry.
+- **Exotic dealer:** (1) rare spices, (2) foreign books, (3) monster parts, (4) bizarre pets.
+- J **Moneylender:** (1) debt collector, (2) safe deposits, (3) coin loans, (4) exchange office.
+- Q **Guildhall:** (1) cartographers, (2) merchant, (3) explorers, (4) artisans (rolled industry).
+- K **Grand bazaar:** rolled industry + weapons + food + advanced gear + attire.
+- A **Grand port:** shipyard + docks + warehouses + taverns + ships.
+
+![](_page_117_Picture_28.jpeg)
+
+![](_page_117_Picture_29.jpeg)
+
+#### **Spades - Underworld**
+
+- <span id="page-118-0"></span>**Street vendor:** (1) psych drugs, (2) fortune telling, (3) potion samples, (4) cursed items.
+- **Brothel:** (1) fae night-club, (2) pleasure cult, (3) masquerade den, (4) luxury courtesans.
+- **Gambling den:** (1) alligator pit, (2) card games, (3) beetle races, (4) spectral horse races.
+- **Secret parlour:** (1) blackmail deals, (2) covert pacts, (3) informants, (4) bribery trades.
+- **Thieves souk:** (1) enhanced tools, (2) climbing gear, (3) poisons, (4) superior daggers.
+- **Shrine:** (1) chthonic deity, (2) god of chance, (3) goddess of death, (4) patron of thieves.
+- **Tavern:** roll random tavern (see previous page); a shady illegal tavern.
+- **Underworld pit:** (1) death duels, (2) cock fights, (3) monster duels, (4) construct fights.
+- **Safehouse:** (1) stolen magic swords, (2) hideout, (3) stolen magic scrolls, (4) coin press.
+- J **Black Market Auction:** four random Unique Items ([page 98\)](#page-99-0) at inflated prices.
+- Q **Darksmith:** (1) ritual dirks, (2) cursing blades, (3) illegal bows, (4) venomous flails.
+- K **Sanctum:** (1) necro-guild, (2) cursed relic vaults, (3) summoning hall, (4) sacrifice altar.
+- A **Guild headquarters:** (1) assassins, (2) thieves, (3) smugglers, (4) mercenaries.
+
+#### **Clubs - Residential Buildings**
+
+- **Slums:** (1) rat infested, (2) made of ship parts, (3) built on stilts, (4) atop sacred ruins.
+- **Enclave:** (1) refugees, (2) foreigners, (3) working-class, (4) quarantined sick.
+- **Houseboats:** (1) floating shanties, (2) fishermen, (3) traders' docks, (4) odd riverfolk.
+- **Tenements:** (1) overcrowded, (2) run down, (3) crime-ridden, (4) haunted by spirits.
+- **Inn:** (1) flea-ridden, (2) bustling tavern inn, (3) traveller lodge, (4) lavish noble retreat.
+- **Townhouses:** (1) guild artisans, (2) skilled labourers, (3) tradesmen, (4) adventurers.
+- **Townhouses:** (1) merchants, (2) scholars, (3) scribes, (4) retired adventurers.
+- **Monastery:** (1) ascetic friars, (2) belligerent order, (3) pilgrim wardens, (4) herb healers.
+- **Keep:** (1) exiled prince, (2) retired knight, (3) spymaster, (4) disgraced hero.
+- J **Villa:** (1) wealthy merchant, (2) bankrupt aristocrat, (3) retired general, (4) crime lord.
+- Q **Tower:** (1) elderly wizard, (2) alchemist, (3) famous artist, (4) eccentric inventor.
+- K **Palace:** inhabited by ruler matching the rolled theme OR richest NPC in the city.
+- A **Castle:** inhabited by ruler matching the rolled theme OR military commander.
+
+![](_page_118_Picture_28.jpeg)
+
+![](_page_118_Picture_29.jpeg)
+
+## Villages
+
+*Roll three d10s to determine a general theme*
+
+|    | Local Ruler    | Peculiarity                 | What's Wrong With This Village?             |
+|----|----------------|-----------------------------|---------------------------------------------|
+| 1  | Halfling bard  | Everyone is related         | Children are missing. Where are they?       |
+| 2  | Human thief    | It is always pouring        | Ruler must be overthrown. Why, when?        |
+| 3  | Dwarf knight   | Villagers never leave, ever | Crops are weirdly dying. Who did this?      |
+| 4  | Elf druid      | Everyone avoids the well    | The relics are gone! Who took them?         |
+| 5  | Necromancer    | All food tastes terribly    | People are seeing visions. Is this a curse? |
+| 6  | Gnome tinkerer | Everyone wears pink         | A blue plague spreads. What's the cure?     |
+| 7  | Human mage     | Teeming with mini pigs      | Animals are vanishing. Is it a monster?     |
+| 8  | Orcish warrior | No one ever seems to age    | Slowly sinking. Can you stop this?          |
+| 9  | King gizzard   | Doors are never locked      | Glyphs on buildings. What do they mean?     |
+| 10 | Lizard wizard  | Same painting in all houses | The well has dried. Who did this?           |
+
+#### **1. Create a name**
+
+Invent a fitting name, or roll two d10s on the table.
+
+#### **2. Layout**
+
+Print a generic village map and choose locations on it to represent the tavern, ruler's residence, chapel, local shop, market and a 'unique building'. Place a die atop each of these showing the appropriate number from 1 to 6, as per the table below.
+
+#### **3. Key buildings**
+
+When characters visit one of these locations, roll d4 to determine its appearance or specific details. Improvise accordingly. Example: if
+
+|    | Name 1 | Name 2 |
+|----|--------|--------|
+| 1  | Stone  | Hollow |
+| 2  | Red    | Creek  |
+| 3  | Wind   | Vale   |
+| 4  | Oak    | Haven  |
+| 5  | Iron   | Field  |
+| 6  | Wolf   | Ridge  |
+| 7  | Silver | Watch  |
+| 8  | Mist   | Ford   |
+| 9  | Dark   | Cliff  |
+| 10 | Green  | Grove  |
+|    |        |        |
+
+characters go to the building with a die showing 3 (chapel), roll d4 to determine its deity or cult.
+
+- 1 **Tavern:** roll random tavern ([see page 155\)](#page-116-0).
+- 2 **Ruler home:** (1) clocktower, (2) crumbling keep, (3) old mausoleum, (4) forsaken convent.
+- 3 **Chapel:** (1) local patron, (2) new-fangled religion, (3) monotheistic cult, (4) ancient deity.
+- 4 **Local shop:** (1) for local people, (2) blacksmith, (3) herbs dealer, (4) exploration gear.
+- 5 **Market:** (1) counterfeit attire, (2) fresh produce, (3) fish & meats, (4) livestock.
+- 6 **Unique:** (1) leaning tower, (2) ancient statue, (3) brewery/distillery, (4) columbarium.
+
+| 4. Exploring houses                    |   | Who Lives here? | What Do They Want?        |
+|----------------------------------------|---|-----------------|---------------------------|
+| If characters enter a house,           | 1 | Carpenter       | To find a loved one       |
+| roll two d6s to generate ideas.        | 2 | Farmer          | To acquire an object      |
+|                                        |   | Mason           | To help the characters    |
+| 5. Remember the village                |   | Smith           | To hire the characters    |
+| Take note of this village.             | 5 | Butcher         | To rob the characters     |
+| This is now part of the setting/world. | 6 | Healer          | To solve a pressing issue |
+
+![](_page_120_Figure_0.jpeg)
+
+## <span id="page-121-0"></span>Temples
+
+*Roll five d20s to determine a general theme*
+
+|    | Shape     | Material  | Peculiarity     | Focus Worship    | Function    |
+|----|-----------|-----------|-----------------|------------------|-------------|
+| 1  | Pyramid   | Tilework  | Levitating      | Ancient book     | Sacrifices  |
+| 2  | Dome      | Bones     | Cracked         | Brain in jar     | Pilgrimage  |
+| 3  | Pagoda    | Gold      | Choral statues  | Deity statue     | Prayers     |
+| 4  | Mosque    | Crystal   | Crumbling       | Crystal skull    | Reliquary   |
+| 5  | Cone      | Glass     | Tilted          | Glowing gem      | Rituals     |
+| 6  | Shrine    | Copper    | Arcane glyphs   | Skeletal finger  | Blessings   |
+| 7  | Church    | Wood      | Web-covered     | Pulsating orb    | Offerings   |
+| 8  | Tholos    | Mud       | Glowing         | Bloody mantle    | Oracle      |
+| 9  | Henge     | Rocks     | Bird-infested   | Meteorite shard  | Sanctuary   |
+| 10 | Ziggurat  | Marble    | Humming         | Dog mummy        | Meditation  |
+| 11 | Obelisk   | Brick     | Bleeding walls  | Beating heart    | Timekeeping |
+| 12 | Arch      | Sandstone | Frigid aura     | Frozen flower    | Revivals    |
+| 13 | Tree      | Ice       | Floating stones | Broken helm      | Atonement   |
+| 14 | Monolith  | Clay      | Living vines    | Bleeding chalice | Mourning    |
+| 15 | Maze      | Obsidian  | Flaming stairs  | Weeping idol     | Healing     |
+| 16 | Cathedral | Basalt    | Melting walls   | Frog terrarium   | Trials      |
+| 17 | Tower     | Iron      | Rotating spire  | Floating quill   | Sacraments  |
+| 18 | Torus     | Gemstone  | Insect-ridden   | Rat throne       | Teaching    |
+| 19 | Cube      | Limestone | Overgrown       | Cursed crown     | Shelter     |
+| 20 | Sphere    | Cloth     | Eternal flame   | Lava lamp        | Worship     |
+|    |           |           |                 |                  |             |
+
+#### **1. Create a name**
+
+Create a name by combining theme results. Say these included dome, bones, levitating, book and sacrifices – The Levitating Dome of a Thousand Bones, where the Book demands Sacrifices. Be creative and bold.
+
+#### **2. Flesh out**
+
+Roll d10 to determine who is in charge. Think of how that fits into the theme, particularly the focus of worship and the function of the temple. Then, roll d10 for an event when characters arrive.
+
+#### **3. Determine deity**
+
+Roll a random God next page and adjust the results to create a cohesive concept. Alternatively, temples can be odd unique shrines, or serve already established deities in the current setting, like those of Clerics.
+
+|    | Who Is In Charge?      | What Is Going On?                                    |
+|----|------------------------|------------------------------------------------------|
+| 1  | Enlightened sisterhood | The temple has been seized by an assassin's guild.   |
+| 2  | Cunning bard           | The focus of worship was stolen by bandits.          |
+| 3  | Pious wizard           | Arcane symbols have appeared on the walls.           |
+| 4  | Belligerent monk order | A rival cult has replaced the focus of worship.      |
+| 5  | Pacifist priest sect   | The head of the temple has been kidnaped.            |
+| 6  | Sorcerer conclave      | A mysterious illness is spreading within the temple. |
+| 7  | Occult cult            | Hidden vaults were discovered beneath the temple.    |
+| 8  | Ascetic brotherhood    | An interdimensional portal is slowly opening inside. |
+| 9  | Spiritual construct    | The temple is under siege by a mass of heretics.     |
+| 10 | Secret society         | The focus of worship started emitting odd sounds.    |
+
+## Gods
+
+*Roll five d20s to determine a deity*
+
+|    | Domain     | Divine Form | Holy Symbol | Core Ritual   | Main Clerics |
+|----|------------|-------------|-------------|---------------|--------------|
+| 1  | Nature     | Baby        | Moon        | Dancing       | Monks        |
+| 2  | Time       | Lizard      | Sun         | Sacrifices    | Sisters      |
+| 3  | War        | Construct   | Compass     | Meditation    | Children     |
+| 4  | Love       | Elf         | Sword       | Praying       | Eunuchs      |
+| 5  | Death      | Woman       | Oak leaf    | Burning       | Knights      |
+| 6  | Thievery   | Fish        | Flower      | Offerings     | Nomads       |
+| 7  | Chaos      | Toad        | Coin        | Feasting      | Missionaries |
+| 8  | Commerce   | Wolf        | Chalice     | Sports        | Sorcerers    |
+| 9  | Joy        | Mutton      | Cross       | Chanting      | Girls        |
+| 10 | Justice    | Snake       | Hourglass   | Fighting      | Orphans      |
+| 11 | Fertility  | Eye         | Feather     | Smiling       | Blinded      |
+| 12 | Harvest    | Gnome       | Tree        | Cleansing     | Elders       |
+| 13 | Wisdom     | Dog         | Orb         | Body painting | Widows       |
+| 14 | Travel     | Ooze        | Book        | Hunting       | Giants       |
+| 15 | Knowledge  | Skeleton    | Hand        | Knitting      | Halflings    |
+| 16 | Darkness   | Halfling    | Hammer      | Running       | Scribes      |
+| 17 | Arts       | Snail       | Bell        | Drinking      | Bakers       |
+| 18 | Underworld | Dwarf       | Horns       | Smoking       | Botanists    |
+| 19 | Sea        | Hippo       | Thunder     | Crying        | Goblins      |
+| 20 | Trickery   | Cat         | Fire        | Sleeping      | Beekeepers   |
+
+#### **1. Create a name**
+
+Roll d4 to determine how many syllables the God's name has. Then, roll d10 in each column. Example: the d4 roll was 3, so it has three syllables. The d10 rolls were 2, 6 and 10. The God's name is Kazardus.
+
+| 1  | Az  | Jed | Rin | Ath  |
+|----|-----|-----|-----|------|
+| 2  | Ka  | Syl | Vin | Mal  |
+| 3  | Ro  | Tha | Zur | Lek  |
+| 4  | Thu | Lor | Mir | Dor  |
+| 5  | Mun | Kel | Fen | Tis  |
+| 6  | Pu  | Zar | Los | Ven  |
+| 7  | Zor | Vol | Ten | Ras  |
+| 8  | Ge  | Nim | Sal | Kas  |
+| 9  | Meh | Fen | Orl | Nas  |
+| 10 | Fa  | Arl | Dus | Ghul |
+
+#### **2. Massage the results**
+
+Make sense of it. Say the results were Harvest, Lizard, Bell, Running and Children. We are now
+
+before Kazardus, the Lizard of Harvest, whose temples are tended by children carrying bells and, is worshipped through ritual running for bountiful crops. Or Chaos, Toad, Hammer, Burning, Warriors. We have Fa'arl, the Toad of Chaos, whose clerics are warriors carrying burning hammers, often pillaging temples of other faiths.
+
+#### **3. Doctrine**
+
+If needed, choose or roll a d10 to determine a doctrine or the central tenet of the deity's religion.
+
+## **4. Remember the Gods**
+
+Take note, as these Gods are now part of the setting or world.
+
+|    | Doctrine, d10 |
+|----|---------------|
+| 1  | Asceticism    |
+| 2  | Pacifism      |
+| 3  | Militarism    |
+| 4  | Mysticism     |
+| 5  | Communism     |
+| 6  | Debauchery    |
+| 7  | Hedonism      |
+| 8  | Materialism   |
+| 9  | Animism       |
+| 10 | Fatalism      |
+
+## <span id="page-123-0"></span>NPCs
+
+#### *Roll d66 for each column*
+
+|    | Quirk                       | Wants…                        | Gives…                     |  |  |  |
+|----|-----------------------------|-------------------------------|----------------------------|--|--|--|
+| 11 | Covered in glowing tattoos  | Their sister to be rescued    | Spellbook with four spells |  |  |  |
+| 12 | Wears mismatched clothes    | Sell a fake magic item        | Legendary Weapon           |  |  |  |
+| 13 | Has small bird on shoulder  | Revenge on a local thief      | Unique Item                |  |  |  |
+| 14 | Hums constantly             | Wants to get rid of curse     | Suit of Armour             |  |  |  |
+| 15 | Covered in silver jewellery | Escort to far away city       | Warhorse                   |  |  |  |
+| 16 | Has a nervous twitch        | The party to join a rebellion | Chest full of coins        |  |  |  |
+| 21 | Carries a broken sword      | Ingredients for a potion      | Magic amulet or ring       |  |  |  |
+| 22 | Talks with big gestures     | Deliver a letter far away     | Their pet companion        |  |  |  |
+| 23 | Always chewing something    | A party for a monster hunt    | Ancient sword              |  |  |  |
+| 24 | Missing their front teeth   | Recover stolen heirloom       | Bag of stolen gold         |  |  |  |
+| 25 | Never takes off helmet      | Settle debt with dodgy folk   | Random magic scroll        |  |  |  |
+| 26 | Has magnificent beard       | Repair a hidden construct     | Giant lucky pearl          |  |  |  |
+| 31 | Wears oversized goggles     | Help in robbing a shop        | Big bold promise           |  |  |  |
+| 32 | Hisses when speaking        | Find healer for injured child | Bag of precious stones     |  |  |  |
+| 33 | Has jar of pickled eyeballs | Recover stolen wagon          | Counterfeit royal crown    |  |  |  |
+| 34 | Laughs nervously            | Find fungi in cursed forest   | Custom weapon              |  |  |  |
+| 35 | Covered in soot             | Rescue stolen family sword    | Recipe for mighty potion   |  |  |  |
+| 36 | Covers face with bird mask  | Find their missing child      | Old treasure map           |  |  |  |
+| 41 | Hair braided with bones     | Party to join pirate crew     | Keys to important place    |  |  |  |
+| 42 | Wears an eye patch          | Recover stolen livestock      | Dungeon map fragment       |  |  |  |
+| 43 | Whispers, even if shouting  | Rescue a trapped miner        | Pouch of rare herbs        |  |  |  |
+| 44 | Only eats raw food          | Escort to a sacred site       | Local ruler's dark secret  |  |  |  |
+| 45 | Has a tail, keeps it hidden | Locate their missing goat     | Hug                        |  |  |  |
+| 46 | Wears a clearly fake crown  | Deliver message to a spy      | Intel on hidden treasure   |  |  |  |
+| 51 | Keeps flipping a coin       | Recover lost dwarven helm     | Experimental elixir        |  |  |  |
+| 52 | Eyes glow faintly           | Fetch rare herbs for a cure   | Musical instrument         |  |  |  |
+| 53 | Smells of troll dung        | Destroy a cursed ring         | Purse with 100 coins       |  |  |  |
+| 54 | Walks backwards             | Find flock of missing birds   | Letter of safe passage     |  |  |  |
+| 55 | Carries jar of fireflies    | Recover stolen locket         | Favour owed by a faction   |  |  |  |
+| 56 | Talks to invisible friend   | End curse of petrified royal  | Living frog talisman       |  |  |  |
+| 61 | Refuses to make eye contact | Safety from bounty hunters    | Blessing of good fortune   |  |  |  |
+| 62 | Draped in layers of scarfs  | Kill beast in their barn      | Scandalous spicy rumour    |  |  |  |
+| 63 | Has unusually deep voice    | Help to protect sacred tree   | Small golden fish          |  |  |  |
+| 64 | Wears belt with tiny skulls | Guard their home overnight    | Beautiful painting         |  |  |  |
+| 65 | Both eyebrows are scorched  | Reclaim shield from dragon    | Cursed ring                |  |  |  |
+| 66 | Keeps sneezing loudly       | Escort halfling with a letter | Oracular pink mini-pig     |  |  |  |
+|    |                             |                               |                            |  |  |  |
+
+**Ancestry, d20:** (1-8) Human, (9-10) Elf, (11-12) Dwarf, (13-14) Gnome, (15-16) Halfling, (17) Half-elf, (18) Half-orc, (19) Lizardman, (20) Merfolk.
+
+**Class, d8:** (1) Bard, (2) Bone Whisperer, (3) Cleric, (4) Cutthroat, (5) Druid, (6) Tinkerer, (7) Warrior, (8) Wizard.
+
+## <span id="page-124-0"></span>Names
+
+*Roll d12 for each column (name + surname)*
+
+|    |           | Roll d12 for each column (name + surname) |    |            |              |
+|----|-----------|-------------------------------------------|----|------------|--------------|
+|    | Human     |                                           |    | Elf        |              |
+| 1  | Alda      | Hollowmere                                | 1  | Phelorna   | Omabella     |
+| 2  | Brant     | Redmarsh                                  | 2  | Arryn      | Ulafaren     |
+| 3  | Harl      | Brinefield                                | 3  | Filaurel   | Aerindhel    |
+| 4  | Tessa     | Duskholm                                  | 4  | Lathlaeril | Wynoral      |
+| 5  | Mira      | Farrowell                                 | 5  | Tannyll    | Thindorien   |
+| 6  | Torren    | Greyharrow                                | 6  | Methild    | Faerothyl    |
+| 7  | Jarl      | Wicklow                                   | 7  | Haeldir    | Ashalriel    |
+| 8  | Derin     | Pickleshit                                | 8  | Aeson      | Thethanthra  |
+| 9  | Sarn      | Harthollow                                | 9  | Ariawyn    | Vaunlaurel   |
+| 10 | Nora      | Broadlake                                 | 10 | Jorildyn   | Morlaeril    |
+| 11 | Benn      | Mirehaven                                 | 11 | Eldrin     | Thaelrun     |
+| 12 | Kel       | Snotbound                                 | 12 | Tamnaeth   | Lorynhael    |
+|    | Dwarf     |                                           |    | Gnome      |              |
+| 1  | Thrain    | Ironyoke                                  | 1  | Pimwick    | Gearwhistle  |
+| 2  | Brokkir   | Grudgebiter                               | 2  | Taelo      | Lobblepebble |
+| 3  | Gundrik   | Stonegrin                                 | 3  | Brindle    | Mirthlock    |
+| 4  | Maeldun   | Rockbottom                                | 4  | Fessit     | Coppernock   |
+| 5  | Korgrim   | Underbellow                               | 5  | Oriwyn     | Cogspitter   |
+| 6  | Durven    | Browbeard                                 | 6  | Pelno      | Fiddlemane   |
+| 7  | Helgaer   | Anvilwise                                 | 7  | Grella     | Fidgethatch  |
+| 8  | Rundal    | Orecleaver                                | 8  | Nibbin     | Gemblebemble |
+| 9  | Skeldor   | Stubbornhelm                              | 9  | Vaskel     | Fizzlespitz  |
+| 10 | Baleric   | Coalchewer                                | 10 | Rillo      | Puddlemight  |
+| 11 | Thorlun   | Hammerholt                                | 11 | Tinkra     | Bilnobetill  |
+| 12 | Granmir   | Aleforge                                  | 12 | Elmin      | Borkump      |
+|    |           |                                           |    |            |              |
+|    | Halfling  |                                           |    | Weird      |              |
+| 1  | Pippo     | Littleman                                 | 1  | Orrilak    | Zrunn        |
+| 2  | Pipin     | Underbough                                | 2  | Morxil     | Kethraxx     |
+| 3  | Pip       | Teapot                                    | 3  | Yilgra     | Vauloch      |
+| 4  | Pipsey    | Bittybrook                                | 4  | Õ          | of Drimoth   |
+| 5  | Pipet     | Thumbsaddle                               | 5  | Xu-xuth    | Pallun       |
+| 6  | Pipra     | Shortwick                                 | 6  | Vrezka     | de la Xevric |
+| 7  | Pipinessa | Twobreakfast                              | 7  | Grthnkt    | Morloch      |
+| 8  | Pim       | Shortfurrow                               | 8  | Tzurn      | Veyrith      |
+| 9  | Peepa     | Buttonwillow                              | 9  | Ruunva     | von Thruven  |
+| 10 | Pryn      | Littlebarrel                              | 10 | Khelvorith | Quorix       |
+| 11 | Pineelly  | Nibbletuck                                | 11 | Aelxuun    | Lazeth       |
+| 12 | Prodo     | Smallweather                              | 12 | Ghral'eth  | Orvask       |
+|    |           |                                           |    |            |              |
+
+## <span id="page-125-0"></span>Carousing
+
+*Roll 2d20 to find out how the party wakes up\**
+
+- **'No way'!** The tavern is now the characters' property.
+- **Shiny Surprise!** Random character wakes up with a new Unique Item.
+- **Gambling Spree!** Random character wakes up with 250 coins in their stash.
+- **Giddy-up!** Each character gained a new warhorse mount.
+- **Knight in Shining Armour!** Random character wakes up in a new suit of armour.
+- **Egg-cellent Win!** Random character won a hatching dragon egg in a card game.
+- **Fame!** The party wakes up as heroes, having no idea why. Each gains +d3 Reputation.
+- **Unexpected Allies!** A notorious criminal gang claims the party as their new leaders.
+- **The Heir!** Random character holds a royal decree naming them heir to a distant throne.
+- **Best Friend Forever!** The character with the highest CHA gained a random hireling.
+- **Glittering Prizes!** Each character gained d20 x 10 coins.
+- **Stolen Relic!** Random character wakes up with a Unique Item belonging to local ruler.
+- **The Favour!** A powerful noble owes the party a favour but they don't know why.
+- **Secret Admirer!** Random character finds a love letter and a purse with 100 coins.
+- **Companion!** The party gained a new random animal follower.
+- **Riches to Rags!** Half of the party (random) lost all coin; the other half doubled theirs.
+- **Unfinished Business!** A random character is challenged to a duel by a brutal fighter.
+- **New Identity!** Party wakes up in full disguise with no memory of who they're hiding from.
+- **Fake Marriage!** A random character is now married to a very ugly NPC.
+- **Ink and Regret!** A random character has a new tattoo, described by another player.
+- **Marked!** Random character wakes up with a glowing sigil in their hand that attracts the undead.
+- **Royal Worry!** Random character wakes up wearing the King's crown; royal guards are closing in.
+- **Bad Stool!** Each character takes a (food) Poisoned condition.
+- **Cursed!** A random character wakes up as a frog. Lasts only d4 days, but no one knows it.
+- **The Bounty!** The party is wanted for a capital crime they can't remember.
+- **Pay Up!** The party now owes 2,000 coins to a local noble. They expect it in 10 days.
+- **Don't ask!** A random character contracted a random disease.
+- **Fire!** The party is accused of burning down the town's most important building.
+- **Bar Brawl!** All characters take two Injured conditions.
+- **Behind Bars!** The party wakes up locked up in the local jail.
+- **Demon Pact!** Everyone gains +1 to all attributes, but must burn a temple in 7 days or die.
+- **Shamefully Robbed!** Each character wakes up with two random items less.
+- **Gambling 'Depths'!** Each character lost all their pocket coins.
+- **Honey Glazed!** Two random characters wake up coated in honey inside a bear cave.
+- **Wrong Place, Wrong Time!** The party wakes up in another city d6 days later.
+- **Buried Alive!** Characters wake up inside coffins beneath the ground.
+- **WTF!** The party wakes up bare bones inside a dragon cave; the dragon is there.
+- **Shanghaied!** The party wakes up inside a pirate ship in the *Bottled Sea*.
+- **Brutal Bender!** Each character must roll on the Death Table.
+
+<sup>\*</sup> Like any wild night, this table can change lives forever. Use with moderation.
+
+|  |  | 125 |
+|--|--|-----|
