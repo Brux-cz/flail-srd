@@ -76,7 +76,7 @@ Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená m
 | **Tah** | 10 minut | Dost na prozkoumání místnosti nebo vyřešení střetnutí. Relevantní při průzkumu místa dobrodružství (dungeon crawl). |
 | **Hlídka** | 8 hodin | Dost na vstup nebo opuštění regionu (obvykle jeden hex) nebo prozkoumání lokace. Relevantní při cestování (hexcrawl). |
 
-> **Poznámka:** Pokud jsou v kouzlech, dovednostech nebo efektech zmíněna kola, měla by být považována za jednotlivá kola odebraná jedné postavě. Příklad: Kouzlo ovlivňující cíl po dobu tří kol znamená, že trvá tři kola; kostěná zeď trvající dvě kola znamená, že kouzelník má dvě kola, než kouzlo skončí. Během hry upravte podle potřeby.
+> **Poznámka:** Pokud jsou v kouzlech, dovednostech nebo efektech zmíněna kola, měla by být chápána jako individuální kola dané postavy. Příklad: Kouzlo ovlivňující cíl po dobu tří kol znamená, že trvá tři z jejich kol; kostěná zeď trvající dvě kola znamená, že sesilatel může odehrát dvě svá kola, než kouzlo skončí. Během hry upravte podle potřeby.
 
 ### Pohyb
 
