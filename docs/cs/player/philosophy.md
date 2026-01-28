@@ -36,7 +36,7 @@ Výchozí režim nechává postavy prozkoumávat svět zmapovaný na šestiúhel
 
 #### Zacházej s hexy jako s místnostmi
 
-> Místnosti v kobce mohou být tak jednoduché jako „obsahuje příšeru" nebo „je tu past a poklad". Přemýšlejte o hexech stejně. Hex s čarodějovou věží lze popsat podobně – s překážkou k překonání („čaroděj něco chce!") a odměnou, třeba pokladem nebo prozrazením cenné informace, která příběh posune vpřed. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako když postupují kobkou.
+> Místnosti v kobce mohou být tak jednoduché jako „obsahuje příšeru" nebo „je tu past a poklad". Přemýšlejte o hexech stejně. Hex s čarodějovou věží lze popsat podobně – s překážkou k překonání („čaroděj něco chce!") a odměnou, třeba pokladem nebo háčkem. Nezainteresovaní hráči se mohou přesunout do nového hexu, podobně jako když postupují kobkou.
 
 #### Rychlé tempo
 
