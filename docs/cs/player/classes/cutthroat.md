@@ -1,99 +1,99 @@
-# Hrdlorez
+# Hrdlořez
 
-**Maximum bodu zivotu:** 10
+**Maximum bodů životů:** 10
 
-**Specializace zbrani:** foukacka, kuse, dyka, kratky mec a dalsi male zbrane.
+**Specializace zbraní:** foukačka, kuše, dýka, krátký meč a další malé zbraně.
 
-**Hlavni predmet:** znak cechu (zavisi na cechu).
+**Hlavní předmět:** znak cechu (závisí na cechu).
 
-**Zdatnost zbroje:** zakladni zbroj.
+**Zdatnost zbroje:** základní zbroj.
 
-**Pocatecni vybava:** jidlo, zlodejske nacini, znak cechu, dve zbrane, 4k10 minci.
+**Počáteční výbava:** jídlo, zlodějské náčiní, znak cechu, dvě zbraně, 4k10 mincí.
 
 ---
 
-## Okamzity pribeh
+## Okamžitý příběh
 
-| k6 | Pribeh |
+| k6 | Příběh |
 |----|--------|
-| 1 | Syn zesnuleho lidskeho hodinare, vychovany zlodejskym cechem pro sve vrozene talenty. *Smi pouzit Rychle remeslo (Kutilek) jednou za sezeni.* |
-| 2 | Pulcicky ucen carodeje, ktery infiltroval Stinove arkanum, aby ukradl svitky pro sveho mistra. *Zacni se dvema nahodnými kouzly Carodeje (pouzij STESTI jako manu).* |
-| 3 | Lidsky poulicni tulak, ktery ukradl mocny carodejsky prsten a nyni je loven jeho majitelem. *Zacni s nahodnym magickym prstenem.* |
-| 4 | Temny elf, ktery byl vyhnan z Ghulích bran za zachranu lidskeho ditete. *Zacni s jednim kouzlem Septace kosti dle vyberu (pouzij SIL jako ducha) a malym najancem.* |
-| 5 | Lojalni gnom, kdysi kralovsky krotitel dracich vajec, nyni falesne obvineny z kralovrazdy. *Zacni s dracim vejcem a Draci lebkou.* |
-| 6 | Lidsky pirat, jehoz posadka byla prokleta k nemrtvosti, hledajici zpusob jak zlomit kouzlo. *Zacni s +2k20 mincemi a opicim familiarem.* |
+| 1 | Syn zesnulého lidského hodináře, vychovaný zlodějským cechem pro své vrozené talenty. *Smí použít Rychlé řemeslo (Kutílek) jednou za sezení.* |
+| 2 | Půlčický učeň čaroděje, který infiltroval Stínové arkánum, aby ukradl svitky pro svého mistra. *Začni se dvěma náhodnými kouzly Čaroděje (použij ŠTĚSTÍ jako manu).* |
+| 3 | Lidský pouliční tulák, který ukradl mocný čarodějský prsten a nyní je loven jeho majitelem. *Začni s náhodným magickým prstenem.* |
+| 4 | Temný elf, který byl vyhnán z Ghúlích bran za záchranu lidského dítěte. *Začni s jedním kouzlem Šeptače kostí dle výběru (použij SÍL jako ducha) a malým najatcem.* |
+| 5 | Loajální gnom, kdysi královský krotitel dračích vajec, nyní falešně obviněný z královraždy. *Začni s dračím vejcem a Dračí lebkou.* |
+| 6 | Lidský pirát, jehož posádka byla prokleta k nemrtvosti, hledající způsob jak zlomit kouzlo. *Začni s +2k20 mincemi a opičím familiárem.* |
 
 ---
 
-## Specialni dovednosti
+## Speciální dovednosti
 
-### Znameni cechu
+### Znamení cechu
 
-Hrdlorezove zacinaji kazde sezeni s poctem **cechovních zetonu** rovnym jejich urovni. Dokud je jejich znak nosen, mohou byt utraceny k provedeni specialnich akci.
+Hrdlořezové začínají každé sezení s počtem **cechovních žetonů** rovným jejich úrovni. Dokud je jejich znak nošen, mohou být utraceny k provedení speciálních akcí.
 
-Pokud Hrdlorezove ziskaji kriticky zasah nebo Smrtici uder, **obnovi jeden utraceny zeton**.
+Pokud Hrdlořezové získají kritický zásah nebo Smrtící úder, **obnoví jeden utracený žeton**.
 
-### Videni ve tme
+### Vidění ve tmě
 
-Hrdlorezove vidi ve tme.
+Hrdlořezové vidí ve tmě.
 
-### Oportunisticky uder
+### Oportunistický úder
 
-Kdyz Hrdlorezove hodi **dva pary** v hodu na zasah, mohou okamzite provest novy utok.
+Když Hrdlořezové hodí **dva páry** v hodu na zásah, mohou okamžitě provést nový útok.
 
-### Zlodejske talenty
+### Zlodějské talenty
 
-Hrdlorezove zacinaji s peti talenty dle sveho cechu. Talenty poskytuji **vyhodu na prislusny hod** pri pokusu o akci. Pri postupu na vyssi uroven si Hrdlorezove mohou vzit novy talent.
+Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují **výhodu na příslušný hod** při pokusu o akci. Při postupu na vyšší úroveň si Hrdlořezové mohou vzít nový talent.
 
-| Talent | Vlastnost | Poznamka |
+| Talent | Vlastnost | Poznámka |
 |--------|-----------|----------|
-| Akrobacie | OBR | vcetne splhani |
-| Oceneni | INT | zjisti hodnotu predmetu |
-| Prevlek | CHA | Vypravec hazi, odhali uspech pouze kdyz je relevantni |
-| Zneskodneni pasti | OBR | musi pouzit nacini |
-| Padelovani dokumentu | INT | Vypravec hazi, odhali uspech pouze kdyz je relevantni |
-| Schovani ve stinech | OBR | hrdlorez nemuze byt zasazen dokud se neukaze |
-| Naslouchani | STESTI | |
-| Otevreni zamku | OBR | musi pouzit nacini |
-| Kapesni kradez | OBR | |
-| Cteni jazyku | INT | vcetne vzacnych a mrtvych jazyku |
-| Hledani | INT | nalezeni skrytych dveri, prihradek, pasti nebo predmetu |
-| Tichy pohyb | OBR | |
+| Akrobacie | OBR | včetně šplhání |
+| Ocenění | INT | zjistí hodnotu předmětu |
+| Převlek | CHA | Vypravěč hází v tajnosti; výsledek odhalí jen když je to podstatné |
+| Zneškodnění pasti | OBR | musí použít náčiní |
+| Padělování dokumentů | INT | Vypravěč hází v tajnosti; výsledek odhalí jen když je to podstatné |
+| Schování ve stínech | OBR | hrdlořez nemůže být zasažen dokud se neukáže |
+| Naslouchání | ŠTĚSTÍ | |
+| Otevření zámku | OBR | musí použít náčiní |
+| Kapesní krádež | OBR | |
+| Čtení jazyků | INT | včetně vzácných a mrtvých jazyků |
+| Hledání | INT | nalezení skrytých dveří, přihrádek, pastí nebo předmětů |
+| Tichý pohyb | OBR | |
 
 ---
 
-## Cechy Hrdlorezu
+## Cechy Hrdlořezů
 
-*Volba cechu neni ucinena lehkovazne.*
+*Volba cechu není učiněna lehkovážně.*
 
-### Spolecnost krvaveho plaste
+### Společnost krvavého pláště
 
-*Zabijecky cech, jehoz clenove nosi tmave rudy plast.*
+*Zabijácký cech, jehož členové nosí tmavě rudý plášť.*
 
-- **Pocatecni talenty:** prevlek, schovani ve stinech, naslouchani, otevreni zamku, tichy pohyb
-- **Znak cechu:** karminova mince
-- **Utratit zetony pro:** Utok zezadu (+2 HZ na nevedomy cil zezady), Maskovani (neviditelny dokud neudela nahlou akci), Smrtici prekvapeni (volne kolo boje pred iniciativou), Uhybne manevry (snizi jeden zasah), Prace s jedem, Ticha likvidace, Rychle nohy (dve akce v jednom kole)
+- **Počáteční talenty:** převlek, schování ve stínech, naslouchání, otevření zámku, tichý pohyb
+- **Znak cechu:** karmínová mince
+- **Utratit žetony pro:** Útok zezadu (+2 HZ na nevědomý cíl zezadu), Maskování (neviditelný dokud neudělá náhlou akci), Smrtící překvapení (volné kolo boje před iniciativou), Úhybné manévry (sníží jeden zásah o stupeň), Práce s jedem (vytvoř jed, který zabije člověka po vypití), Tichá likvidace (okamžitě zabij zranitelný cíl - omráčený, ležící atd.), Rychlé nohy (dvě akce v jednom kole)
 
-### Stinove arkanum
+### Stínové arkánum
 
-*Cech esoterickych zlodeju specializovanych na okultno.*
+*Cech esoterických zlodějů specializovaných na okultno.*
 
-- **Pocatecni talenty:** prevlek, naslouchani, hledani, tichy pohyb, cteni jazyku
-- **Znak cechu:** mrkajici ocni prsten
-- **Utratit zetony pro:** Osalit smrt (hod k4 misto k8 na tabulce Smrti), Familiar, Hokus pokus (zapamatuj viděne kouzlo), Mysticky prevlek, Nekroticka cepel (+k6 poskozeni), Stinovy krok (teleport mezi stiny), Okultní znalosti
+- **Počáteční talenty:** převlek, naslouchání, hledání, tichý pohyb, čtení jazyků
+- **Znak cechu:** mrkající oční prsten
+- **Utratit žetony pro:** Ošálit smrt (hoď k4 místo k8 na tabulce Smrti), Familiár (požádej o laskavost noční tvor - kočku, sovu, netopýra atd.), Hokus pokus (zapamatuj viděné kouzlo; hoď ŠTĚSTÍ pro jeho seslání se stejnými KOSTKAMI), Mystický převlek (vytvoř iluzorního dvojníka; trvá jedno kolo), Nekrotická čepel (+k6 poškození), Stínový krok (teleportuj se mezi dvěma stíny v Dalekém dosahu), Okultní znalosti (zjisti přesné vlastnosti jednoho magického předmětu)
 
 ### Liga spravedlnosti
 
-*Unie lupiču a kapsaru, kteri kradou aristokracii.*
+*Unie lupičů a kapsářů, kteří kradou aristokracii.*
 
-- **Pocatecni talenty:** akrobacie, otevreni zamku, kapesni kradez, hledani, tichy pohyb
-- **Znak cechu:** broz ve tvaru ruky
-- **Utratit zetony pro:** Bezedny mesec, Unikova cesta, Ne dnes (ignoruj stav Zraneny), Otevrit zamek (bez hodu), Okrast bohate, Verny nasledovnik, Radar bohatstvi
+- **Počáteční talenty:** akrobacie, otevření zámku, kapesní krádež, hledání, tichý pohyb
+- **Znak cechu:** brož ve tvaru ruky
+- **Utratit žetony pro:** Bezedný měšec (nenos mince ve slotech do konce sezení), Úniková cesta (opusť boj okamžitě bez pronásledování), Ne dnes (ignoruj stav Zraněný při jeho obdržení), Otevřít zámek (bez hodu; nevztahuje se na magicky zapečetěné), Okrást bohaté (ukradni předmět bohatému šlechtici, aristokratovi nebo duchovnímu), Věrný následovník (získej zdarma oddaného najatce; jednou za město), Čich na bohatství (zjisti info o Unikátním předmětu šlechtice; jednou za město)
 
-### Octopus Nexus
+### Nexus chobotnice
 
-*Chapadlovita sit tajnych agentu a mistru spionaze.*
+*Chapadlovitá síť tajných agentů a mistrů špionáže.*
 
-- **Pocatecni talenty:** prevlek, padelovani dokumentu, naslouchani, hledani, tichy pohyb
-- **Znak cechu:** chapadlova spona plaste
-- **Utratit zetony pro:** Sifra, Dvojity agent, Spionaz, Padelovani, Infiltrace, Inception (zasad myslenku do mysli NPC), Vyslech
+- **Počáteční talenty:** převlek, padělování dokumentů, naslouchání, hledání, tichý pohyb
+- **Znak cechu:** chapadlová spona pláště
+- **Utratit žetony pro:** Šifra (zakóduj zprávu tak, aby ji rozuměla jen vybraná postava), Dvojitý agent (odhal, že vedlejší NPC je tajný agent Nexu, připraven pomoci), Špionáž (zjisti přesné místo pobytu osoby nebo předmětu), Padělání (nauč se rukopis nebo podpis NPC pouhým pozorováním), Infiltrace (získej informace z místa beze stop), Vštípení (zasaď myšlenku do mysli vedlejšího NPC; v rozumné míře), Výslech (polož otázku vedlejšímu NPC; Vypravěč musí odpovědět pravdivě)
