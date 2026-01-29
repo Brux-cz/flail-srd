@@ -154,19 +154,55 @@ Vyber jednu při tvorbě postavy pro přivolávání při Sklízení duchů. Lou
 
 ---
 
-## Přehled deníku postavy
+## Deník postavy
 
-**Duch (Spirit):** Sleduj aktuální hodnotu pomocí k20. Maximum = INT.
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ JMÉNO A PŘÍBĚH: __________________________________________________________ │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ SPECIÁLNÍ DOVEDNOSTI                                           ┌─────────┐ │
+│ Temná umění: utrať ducha k seslání kouzel                      │  DUCH   │ │
+│ Sklízení duchů: obnovuj ducha zabíjením; přivolej nemrtvého    │  ____   │ │
+│ Oživení mrtvých: utrať ducha + hoď INT k oživení mrtvoly       │ max=INT │ │
+│ Rozmluva s mrtvými: polož mrtvole jednu ano-ne otázku          └─────────┘ │
+├───────────┬───────────┬───────────┬───────────┬───────────┬────────────────┤
+│    SÍL    │    OBR    │    CHA    │    INT    │  ŠTĚSTÍ   │   ÚROVEŇ       │
+│   __/__   │   __/__   │   __/__   │   __/__   │   __/__   │ ○1 ○2 ○3 ○4 ○5 │
+│ Základ/Akt│ Základ/Akt│ Základ/Akt│ Základ/Akt│ Základ/Akt│                │
+├───────────┴───────────┼───────────┴───────────┴───────────┴────────────────┤
+│  BŽ: [12] ___/___     │              POVĚST                                │
+│  MINCE: ______ (max250)│  ○-5 ○-4 ○-3 ○-2 ○-1 ●0 ○+1 ○+2 ○+3 ○+4 ○+5       │
+├───────────────────────┴────────────────────────────────────────────────────┤
+│ TĚLO (6 slotů)              │ BRAŠNA (odemyká se SÍL 10, 12)               │
+│ ┌─────┐┌─────┐┌─────┐       │ ┌─────────────┐ ┌─────────────┐              │
+│ │  1  ││  2  ││  3  │       │ │ odemkni při │ │ odemkni při │              │
+│ └─────┘└─────┘└─────┘       │ │   SÍL 10    │ │   SÍL 12    │              │
+│ ┌─────┐┌─────┐┌─────┐       │ └─────────────┘ └─────────────┘              │
+│ │  4  ││  5  ││  6  │       │                                              │
+│ └─────┘└─────┘└─────┘       │ Uložené: 1 akce k vybavení                   │
+│ Nošené: rychle k použití    │                                              │
+├─────────────────────────────┴──────────────────────────────────────────────┤
+│ VEDLEJŠÍ RUKA   │ PRSTENY/AMULETY        │ LUCERNA DUCHA (hlavní předmět)  │
+│ ┌─────────────┐ │ ┌─────┐ ┌─────┐        │ ┌─────────────────────────────┐ │
+│ │      1      │ │ │     │ │     │        │ │ Vždy svítí, pokud duch > 0  │ │
+│ └─────────────┘ │ └─────┘ └─────┘        │ └─────────────────────────────┘ │
+├─────────────────┴────────────────────────┴─────────────────────────────────┤
+│ ZNÁMÁ KOUZLA (2 za úroveň)         │ NEMRTVÁ LOUTKA                        │
+│ 1. _____________________ 6. _____  │ Typ: ________________                 │
+│ 2. _____________________ 7. _____  │ BŽ: _____ Morálka: _____              │
+│ 3. _____________________ 8. _____  │ Hody: _____ HZ: _____ POŠ: _____      │
+│ 4. _____________________ 9. _____  │                                       │
+│ 5. _____________________ 10. ____  │ Úroveň 3-4: _____________________     │
+│                                    │ Úroveň 5: _______________________     │
+└────────────────────────────────────┴───────────────────────────────────────┘
+```
 
-**Speciální dovednosti (zkráceně):**
+**Příklad vyplnění:**
 
-- **Temná umění:** Utrať ducha k seslání kouzel
-- **Sklízení duchů:** Obnovuj ducha zabíjením; přivolej nemrtvého při dvou párech
-- **Oživení mrtvých:** Utrať ducha + hoď INT k oživení mrtvoly jako spojence
-- **Rozmluva s mrtvými:** Polož mrtvole jednu ano-ne otázku
-
-**Známá kouzla:** Zaznamenej až 10 kouzel (2 za úroveň).
-
-**Nemrtvá loutka:** Zaznamenej typ, bž, morálku, HZ a POŠ.
-
-> **Příklad postavy:** *Velka Shroude, lidský upír pohřbený zaživa – smí použít Netopýří podobu od Druida*
+> **Velka Shroude** - *Lidský upír pohřbený zaživa – smí použít Netopýří podobu od Druida*
+>
+> SÍL 8, OBR 8, CHA 10, INT 12, ŠTĚSTÍ 9 | BŽ: 12 | Duch: 12
+>
+> Známá kouzla: Vysátí života, Oběť
+>
+> Nemrtvá loutka: Ghúl (6 bž, Morálka 10, HZ 4, POŠ 2)
