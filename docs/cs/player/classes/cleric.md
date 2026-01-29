@@ -1,124 +1,124 @@
 # Klerik
 
-**Maximum bodu zivotu:** 12
+**Maximum bodů životů:** 12
 
-**Specializace zbrani:** zavisi na nabozenstvi.
+**Specializace zbraní:** závisí na náboženství.
 
-**Hlavni predmet:** svaty symbol (zavisi na nabozenstvi).
+**Hlavní předmět:** svatý symbol (závisí na náboženství).
 
-**Zbroj:** zavisi na nabozenstvi.
+**Zbroj:** závisí na náboženství.
 
-**Pocatecni vybava:** jidlo, pochodne, svaty symbol, zbran, k6 minci.
+**Počáteční výbava:** jídlo, pochodně, svatý symbol, zbraň, k6 mincí.
 
 ---
 
-## Okamzity pribeh
+## Okamžitý příběh
 
-| k6 | Pribeh |
+| k6 | Příběh |
 |----|--------|
-| 1 | Lidsky sakristan, jehoz chram byl ocisten kralem po podvodne sukcesi. *Zacni s +1 STESTI a Prilbou odvahy.* |
-| 2 | Trpaslici odpadlik, ktery prijal novy kult pote, co byl zaziva upalen carodejnici. *Zacni s -1 CHA a jednou modlitbou dle vyberu z jineho nabozenstvi.* |
-| 3 | Lidsky sirotek vychovany bojovymi mnichy, kteri prisahali vystavet chram v pohanskych zemich. *HZ 5, POS 2 pri utoku holyma rukama.* |
-| 4 | Elfi saman, ktery obdrzel bozske vize vedouci ho k zivotu oddanosti. *Zacni s videnim ve tme a Naslouchanim (Hrdlorez); nemuze nosit zelezo.* |
-| 5 | Clovek poslany matkou do chramu pote, co byla svedkem udajneho zazraku. *Zacni s -1 STESTI; ignoruj prvni 6 pri provadeni Volani zazraku.* |
-| 6 | Lidsky valecnik, ktery se stal zboznym po bozskem zjeveni, ktere odhalilo tajemstvi na vrcholu stromu. *Zacni s jednim zakladnim bojovym talentem dle vyberu (Valecnik).* |
+| 1 | Lidský sakristán, jehož chrám byl očištěn králem po podvodné sukcesi. *Začni s +1 ŠTĚSTÍ a Přilbou odvahy.* |
+| 2 | Trpasličí odpadlík, který přijal nový kult poté, co byl zaživa upálen čarodějnicí. *Začni s -1 CHA a jednou modlitbou dle výběru z jiného náboženství.* |
+| 3 | Lidský sirotek vychovaný bojovými mnichy, kteří přísahali vystavět chrám v pohanských zemích. *HZ 5, POŠ 2 při útoku holýma rukama.* |
+| 4 | Elfí šaman, který obdržel božské vize vedoucí ho k životu oddanosti. *Začni s viděním ve tmě a Nasloucháním (Hrdlořez); nemůže nosit železo.* |
+| 5 | Člověk poslaný matkou do chrámu poté, co byla svědkem údajného zázraku. *Začni s -1 ŠTĚSTÍ; ignoruj první 6 při provádění Volání zázraku.* |
+| 6 | Lidský válečník, který se stal zbožným po božském zjevení, které odhalilo tajemství na vrcholu stromu. *Začni s jedním základním bojovým talentem dle výběru (Válečník).* |
 
 ---
 
-## Specialni dovednosti
+## Speciální dovednosti
 
-### Vkladani rukou
+### Vkládání rukou
 
-Klerikove mohou lecit jine postavy stravenim kola jejich dotykem a provedenim hodu STESTI. Pri uspechu obnovi pocet bodu zivotu rovny **k6 + aktualni uroven Klerika**. Pri kritickem neuspechu utrpi dusledky dle nabozenstvi Klerika.
+Klerikové mohou léčit jiné postavy strávením kola jejich dotykem a provedením hodu ŠTĚSTÍ. Při úspěchu obnoví počet bodů životů rovný **k6 + aktuální úroveň Klerika**. Při kritickém neúspěchu utrpí důsledky dle náboženství Klerika.
 
-### Volani zazraku
+### Volání zázraku
 
-**Jednou za sezeni** mohou Klerikove prosit sveho Boha o zazrak. Musi vyslovit jedno prani nahlas, tematicky vhodne pro sve bozstvo. Pak hod k6 rovnych poctu slov pouzitych pri verbalizaci prani.
+**Jednou za sezení** mohou Klerikové prosit svého Boha o zázrak. Musí vyslovit jedno přání nahlas, tématicky vhodné pro své božstvo. Pak hoď k6 rovných počtu slov použitých při verbalizaci přání.
 
-Zazrak se vzdy stane, ale Klerik musi hodit na **Bozi hnev** za kazdou hozenou 6. Vypravec je povzbuzen interpretovat prani necekanymi zpusoby.
+Zázrak se vždy stane, ale Klerik musí hodit na **Boží hněv** za každou hozenou 6. Vypravěč je povzbuzen interpretovat přání nečekanými způsoby.
 
-### Nebeska pomoc
+### Nebeská pomoc
 
-Pokud Klerikove hodi **full house** v hodu na zasah (bez ohledu na zasah protivnika), jejich Buh se zjevi a udeli bozskou pomoc. Vyber jednu:
+Pokud Klerikové hodí **full house** v hodu na zásah (bez ohledu na zásah protivníka), jejich Bůh se zjeví a udělí božskou pomoc. Vyber jednu:
 
-| Moznost | Efekt |
+| Možnost | Efekt |
 |---------|-------|
-| **Svaty paprsek** | Zpusobi k20 poskozeni jednomu cili |
-| **Plne pozehnani** | Vyleci sebe NEBO vsechny spojence na plne zdravi |
-| **Litanie jasnosti** | Resetuj rozsah kritickeho neuspechu |
+| **Svatý paprsek** | Způsobí k20 poškození jednomu cíli |
+| **Plné požehnání** | Vyléčí sebe NEBO všechny spojence na plné zdraví |
+| **Litanie jasnosti** | Resetuj rozsah kritického neúspěchu |
 
-### Bozske modlitby
+### Božské modlitby
 
-Klerikove maji pristup ke vsem modlitbam sveho nabozenstvi. K seslani musi nest (nebo nosit) svuj svaty symbol a provest hod STESTI.
+Klerikové mají přístup ke všem modlitbám svého náboženství. K seslání musí nést (nebo nosit) svůj svatý symbol a provést hod ŠTĚSTÍ.
 
-| Vysledek | Efekt |
+| Výsledek | Efekt |
 |----------|-------|
-| **Uspech** | Modlitba ucinkuje |
-| **Neuspech** | Modlitba selze a sance na kriticky neuspech se zvysi o 1 dokud neni proveden dlouhy odpocinek |
-| **Kriticky neuspech** | Hod na Bozi hnev |
+| **Úspěch** | Modlitba účinkuje |
+| **Neúspěch** | Modlitba selže a šance na kritický neúspěch se zvýší o 1 dokud není proveden dlouhý odpočinek |
+| **Kritický neúspěch** | Hoď na Boží hněv |
 
 ---
 
-## Nabozenstvi
+## Náboženství
 
-*Ikonoklaste rikaji, ze uctivani je jen uplatek s kadidlem - ale je to tak?*
+*Ikonoklasté říkají, že uctívání je jen úplatek s kadidlem - ale je to tak?*
 
-### Bratrstvo svateho Zebraka
+### Bratrstvo svatého Žebráka
 
-*Popularni ve mestech a obavane obchodniky, jeho knezi vedou asketicky zivot.*
+*Populární ve městech a obávané obchodníky, jeho kněží vedou asketický život.*
 
-- **Zbrane:** kyj, hul, prak, bic
-- **Svaty symbol:** maly dreveny kriz
-- **Zbroj:** zadna zbroj, prilba ani boty
-- **Vkladani rukou (kriticky neuspech):** spojenec "ztrati" k10 minci nebo je zabaven nahodny predmet
-- **Modlitby:** Vylecit nemoc, Vylecit zraneni, Odhalit chamtivost, Prst smrti, Ticho, Zahnat nemrtve
+- **Zbraně:** kyj, hůl, prak, bič
+- **Svatý symbol:** malý dřevěný kříž
+- **Zbroj:** žádná zbroj, přilba ani boty
+- **Vkládání rukou (kritický neúspěch):** spojenec "ztratí" k10 mincí nebo je zabaven náhodný předmět
+- **Modlitby:** Vyléčit nemoc, Vyléčit zranění, Odhalit chamtivost, Prst smrti, Ticho, Zahnat nemrtvé
 
-### Krizova vyprava Berančího kalichu
+### Křížová výprava Beránčího kalichu
 
-*Tisic let hledaji Vlnaty gral.*
+*Tisíc let hledají Vlnatý grál.*
 
-- **Zbrane:** palcat, kladivo, valecne kladivo
-- **Buh:** Mee, Beranek poznani
-- **Svaty symbol:** tunika s beranclm erbem (lze nosit pres zbroj)
-- **Zbroj:** vsechny zbroje
-- **Vkladani rukou (kriticky neuspech):** 1-z-6 sance, ze je spojenec trvale promenen v beranka
-- **Modlitby:** Pozehnani, Rozhovor s bohem, Svaty stit, Najit predmet, Ukol, Navrat
+- **Zbraně:** palcát, kladivo, válečné kladivo
+- **Bůh:** Meh, Beránek poznání
+- **Svatý symbol:** tunika s beránčím erbem (lze nosit přes zbroj)
+- **Zbroj:** všechny zbroje
+- **Vkládání rukou (kritický neúspěch):** 1-z-6 šance, že je spojenec trvale proměněn v beránka
+- **Modlitby:** Požehnání, Rozhovor s bohem, Svatý štít, Najít předmět, Úkol, Návrat
 
-### Kult Stinoveho demona
+### Kult Stínového démona
 
-*Jeho knezi vsichni pochazeji z Chramu stinu na Hore Sera.*
+*Jeho kněží všichni pocházejí z Chrámu stínů na Hoře Šera.*
 
-- **Zbrane:** remdih, ranni hvezda, ostnaty retez
-- **Svaty symbol:** rohata prilba (lze pouzit jako zbroj)
-- **Zbroj:** vsechny zbroje
-- **Vkladani rukou (kriticky neuspech):** spojenec musi hodit na tabulku Bozi hnev
-- **Modlitby:** Mor, Zpusobit strach, Vyvolat demona, Kletba, Temnota, Uder
+- **Zbraně:** řemdih, ranní hvězda, ostnatý řetěz
+- **Svatý symbol:** rohatá přilba (lze použít jako zbroj)
+- **Zbroj:** všechny zbroje
+- **Vkládání rukou (kritický neúspěch):** spojenec musí hodit na tabulku Boží hněv
+- **Modlitby:** Mor, Způsobit strach, Vyvolat démona, Kletba, Temnota, Úder
 
-### Rad Zeleneho haje
+### Řád Zeleného háje
 
-*Ochranci prirody, strazci zvireciho zivota.*
+*Ochránci přírody, strážci zvířecího života.*
 
-- **Zbrane:** kuse, dyka, dlouhy luk, kratky luk, kopi, hul
-- **Svaty symbol:** medailon z duboveho listu
-- **Zbroj:** zakladni nebo lehka zbroj
-- **Vkladani rukou (kriticky neuspech):** spojenec je zamotan spontannimi lianami na k4 kol
-- **Modlitby:** Rust zvirete, Stvorit jidlo, Zamotani, Neutralizovat jed, Ocistit jidlo, Rozmluva s rostlinami
+- **Zbraně:** kuše, dýka, dlouhý luk, krátký luk, kopí, hůl
+- **Svatý symbol:** medailon z dubového listu
+- **Zbroj:** základní nebo lehká zbroj
+- **Vkládání rukou (kritický neúspěch):** spojenec je zamotán spontánními liánami na k4 kol
+- **Modlitby:** Růst zvířete, Stvořit jídlo, Zamotání, Neutralizovat jed, Očistit jídlo, Rozmluva s rostlinami
 
 ---
 
-## Bozi hnev (k10)
+## Boží hněv (k10)
 
-*Vzyvani Bohu je jen pro ty pripravene kat se.*
+*Vzývání Bohů je jen pro ty připravené kát se.*
 
 | k10 | Efekt |
 |-----|-------|
-| 1 | **Ztrata soustredeni:** ztrat pristi kolo boje |
-| 2 | **Pokani:** zpusob si k4 poskozeni |
-| 3 | **Bozske ticho:** nemuzes dnes seslat dalsi modlitby |
-| 4 | **Modlici se ruce:** nemuzes dnes nest zbrane |
-| 5 | **Kajicny dar:** odhod jeden nahodny predmet |
-| 6 | **Ztuhnuti litosti:** nemuzes se pohybovat po k6 kol |
-| 7 | **Odcineni:** zpusob si k8 poskozeni |
-| 8 | **Fanatismus:** musis okamzite zautocit na nejblizsiho spojence |
-| 9 | **Oslepujici svetlo:** nevidis po k6 kol |
-| 10 | **Bozske povolani:** hod na tabulku Smrti |
+| 1 | **Ztráta soustředění:** ztráť příští kolo boje |
+| 2 | **Pokání:** způsob si k4 poškození |
+| 3 | **Božské ticho:** nemůžeš dnes seslat další modlitby |
+| 4 | **Modlící se ruce:** nemůžeš dnes nést zbraně |
+| 5 | **Kajícný dar:** odhoď jeden náhodný předmět |
+| 6 | **Ztuhlost lítosti:** nemůžeš se pohybovat po k6 kol |
+| 7 | **Odčinění:** způsob si k8 poškození |
+| 8 | **Fanatismus:** musíš okamžitě zaútočit na nejbližšího spojence |
+| 9 | **Oslepující světlo:** nevidíš po k6 kol |
+| 10 | **Božské povolání:** hoď na tabulku Smrti |
