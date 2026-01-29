@@ -16,7 +16,7 @@
         :root {
             --black: #111;
             --white: #fff;
-            --gray: #666;
+            --gray: #888;
             --light-gray: #e5e5e5;
         }
 
@@ -24,11 +24,11 @@
             font-family: 'Segoe UI', Arial, sans-serif;
             background: var(--light-gray);
             padding: 20px;
-            font-size: 12px;
+            font-size: 11px;
         }
 
         .toolbar {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto 15px;
             display: flex;
             gap: 10px;
@@ -43,26 +43,19 @@
             padding: 8px 16px;
             cursor: pointer;
             font-size: 12px;
-            font-family: inherit;
         }
 
-        .toolbar button:hover {
-            background: #333;
-        }
-
-        .toolbar button.danger {
-            background: #666;
-        }
-
+        .toolbar button:hover { background: #333; }
+        .toolbar button.danger { background: #666; }
         .file-input { display: none; }
 
         .sheet {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             background: var(--white);
             border: 3px solid var(--black);
             padding: 15px;
-            box-shadow: 5px 5px 0 var(--black);
+            box-shadow: 4px 4px 0 var(--black);
         }
 
         /* Header */
@@ -70,14 +63,12 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             border-bottom: 2px solid var(--black);
-            padding-bottom: 10px;
+            padding-bottom: 8px;
         }
 
-        .name-block {
-            flex: 1;
-        }
+        .name-block { flex: 1; }
 
         .name-label {
             font-size: 9px;
@@ -89,9 +80,9 @@
             width: 100%;
             border: none;
             border-bottom: 2px solid var(--black);
-            font-size: 14px;
+            font-size: 13px;
             font-style: italic;
-            padding: 5px 0;
+            padding: 4px 0;
             background: transparent;
             font-family: 'Special Elite', monospace;
         }
@@ -103,49 +94,47 @@
 
         .logo {
             font-family: 'Oswald', sans-serif;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
             letter-spacing: 2px;
             margin-left: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
 
-        .logo-bug {
-            font-size: 24px;
-        }
+        .logo-bug { font-size: 22px; }
 
-        /* Special Skills Box */
+        /* Special Skills */
         .skills-box {
             border: 3px solid var(--black);
-            padding: 10px;
-            margin-bottom: 12px;
-            background: var(--white);
+            padding: 8px 10px;
+            margin-bottom: 10px;
         }
 
         .skills-title {
             font-family: 'Oswald', sans-serif;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 700;
             border-bottom: 3px solid var(--black);
-            padding-bottom: 3px;
-            margin-bottom: 8px;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
         }
 
         .skill-line {
-            margin-bottom: 4px;
-            font-size: 11px;
+            font-size: 10px;
             line-height: 1.4;
+            margin-bottom: 2px;
         }
 
-        .skill-name {
-            font-weight: bold;
-        }
+        .skill-name { font-weight: bold; }
 
         /* Stats Row */
         .stats-row {
             display: grid;
             grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-            margin-bottom: 12px;
+            gap: 6px;
+            margin-bottom: 10px;
         }
 
         .stat-box {
@@ -157,28 +146,27 @@
             background: var(--black);
             color: var(--white);
             font-family: 'Oswald', sans-serif;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 700;
-            padding: 3px;
+            padding: 2px;
         }
 
         .stat-body {
-            padding: 8px 5px;
+            padding: 5px 3px;
             display: flex;
             justify-content: center;
             align-items: baseline;
-            gap: 3px;
+            gap: 2px;
         }
 
         .stat-input {
-            width: 35px;
-            font-size: 22px;
+            width: 32px;
+            font-size: 20px;
             font-weight: bold;
             text-align: center;
             border: none;
             border-bottom: 2px solid var(--black);
             background: transparent;
-            font-family: inherit;
         }
 
         .stat-input:focus {
@@ -187,78 +175,78 @@
         }
 
         .stat-sep {
-            font-size: 22px;
+            font-size: 18px;
             color: var(--gray);
         }
 
         .stat-labels {
             display: flex;
             justify-content: space-around;
-            font-size: 8px;
+            font-size: 7px;
             color: var(--gray);
-            padding: 0 5px 5px;
+            padding: 0 3px 3px;
         }
 
-        /* Main Grid */
-        .main-grid {
+        /* === MAIN INVENTORY GRID === */
+        .inventory-section {
             display: grid;
-            grid-template-columns: 200px 1fr 1fr;
-            gap: 10px;
+            grid-template-columns: 180px 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 8px;
         }
 
         @media (max-width: 700px) {
-            .main-grid {
+            .inventory-section {
                 grid-template-columns: 1fr;
             }
         }
 
-        /* Left Column */
+        /* Left Column - Level, HP, Reputation, Rings, Carried/Worn */
         .left-col {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
         }
 
         /* Level Box */
         .level-box {
             border: 3px solid var(--black);
-            padding: 8px;
-        }
-
-        .level-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
+            padding: 6px;
         }
 
         .level-title {
             font-family: 'Oswald', sans-serif;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 12px;
             border-bottom: 2px solid var(--black);
         }
 
         .level-subtitle {
-            font-size: 8px;
+            font-size: 7px;
             color: var(--gray);
+        }
+
+        .level-content {
+            display: flex;
+            gap: 8px;
+            margin-top: 5px;
         }
 
         .level-grid {
             display: grid;
             grid-template-columns: auto 1fr 1fr;
             gap: 2px;
-            margin-top: 5px;
-            font-size: 11px;
+            font-size: 10px;
         }
 
         .level-num {
             font-weight: bold;
-            padding-right: 5px;
+            width: 14px;
         }
 
         .level-check {
-            width: 16px;
-            height: 16px;
+            width: 14px;
+            height: 14px;
             border: 2px solid var(--black);
             border-radius: 50%;
             appearance: none;
@@ -273,31 +261,34 @@
         /* HP/Coins */
         .hp-coins {
             display: flex;
-            gap: 10px;
-            margin-top: 8px;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;
         }
 
         .resource-box {
-            flex: 1;
             text-align: center;
+            border: 2px solid var(--black);
+            padding: 3px 8px;
+            border-radius: 20px;
         }
 
-        .resource-icon {
-            font-size: 20px;
+        .resource-box.hp {
+            background: var(--white);
         }
 
         .resource-label {
             font-family: 'Oswald', sans-serif;
             font-weight: 700;
-            font-size: 12px;
+            font-size: 10px;
         }
 
         .resource-input {
-            width: 50px;
-            font-size: 24px;
+            width: 40px;
+            font-size: 20px;
             font-weight: bold;
             text-align: center;
-            border: 2px solid var(--black);
+            border: none;
             background: transparent;
         }
 
@@ -307,95 +298,92 @@
         }
 
         .resource-sub {
-            font-size: 8px;
+            font-size: 7px;
             color: var(--gray);
         }
 
         /* Reputation */
         .reputation-box {
             border: 3px solid var(--black);
-            padding: 8px;
+            padding: 5px;
         }
+
+        .rep-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 4px;
+        }
+
+        .rep-arrow { font-size: 12px; }
 
         .rep-title {
             font-family: 'Oswald', sans-serif;
             font-weight: 700;
-            font-size: 12px;
-            text-align: center;
-            margin-bottom: 5px;
+            font-size: 11px;
         }
 
         .rep-track {
             display: flex;
-            align-items: center;
+            flex-wrap: wrap;
             justify-content: center;
             gap: 2px;
-            flex-wrap: wrap;
-        }
-
-        .rep-arrow {
-            font-size: 14px;
         }
 
         .rep-circle {
-            width: 18px;
-            height: 18px;
+            width: 16px;
+            height: 16px;
             border: 2px solid var(--black);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 8px;
+            font-size: 7px;
             cursor: pointer;
             background: var(--white);
         }
 
-        .rep-circle:hover {
-            background: var(--light-gray);
-        }
-
+        .rep-circle:hover { background: var(--light-gray); }
         .rep-circle.active {
             background: var(--black);
             color: var(--white);
         }
-
-        .rep-circle.center {
-            background: var(--light-gray);
-        }
-
-        .rep-circle.center.active {
-            background: var(--black);
-            color: var(--white);
-        }
+        .rep-circle.center { background: var(--light-gray); }
 
         /* Ring Slots */
-        .ring-slot {
-            border: 2px solid var(--black);
-            padding: 6px;
-            margin-bottom: 5px;
+        .ring-row {
             display: flex;
-            align-items: center;
             gap: 5px;
         }
 
+        .ring-slot {
+            flex: 1;
+            border: 2px solid var(--black);
+            padding: 5px;
+            text-align: center;
+            min-height: 50px;
+        }
+
         .ring-icon {
-            font-size: 20px;
-            min-width: 25px;
+            font-size: 24px;
+            line-height: 1;
         }
 
         .ring-label {
-            font-size: 8px;
+            font-size: 7px;
             color: var(--gray);
             font-style: italic;
         }
 
         .ring-input {
-            flex: 1;
+            width: 100%;
             border: none;
             border-bottom: 1px solid var(--gray);
-            font-size: 10px;
-            padding: 2px;
+            font-size: 9px;
+            text-align: center;
             background: transparent;
+            margin-top: 3px;
         }
 
         .ring-input:focus {
@@ -403,46 +391,52 @@
             background: #fffef0;
         }
 
-        /* Equipment Slots */
-        .equip-slot {
-            border: 3px solid var(--black);
-            padding: 8px;
-            margin-bottom: 5px;
+        /* Equipment Slots - Carried/Worn */
+        .equip-row {
             display: flex;
-            align-items: center;
-            gap: 8px;
+            gap: 5px;
+        }
+
+        .equip-slot {
+            flex: 1;
+            border: 3px solid var(--black);
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
         }
 
         .equip-slot.worn {
             background: var(--light-gray);
         }
 
-        .equip-label {
+        .equip-header {
+            background: var(--black);
+            color: var(--white);
             font-family: 'Oswald', sans-serif;
-            font-weight: 700;
-            font-size: 11px;
-            min-width: 60px;
+            font-size: 9px;
+            padding: 2px 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .equip-num {
+            font-size: 14px;
+            font-weight: bold;
         }
 
         .equip-input {
             flex: 1;
             border: none;
-            border-bottom: 2px solid var(--black);
-            font-size: 11px;
-            padding: 3px;
-            background: transparent;
+            padding: 4px;
+            font-size: 10px;
             font-family: 'Special Elite', monospace;
+            background: transparent;
+            resize: none;
         }
 
         .equip-input:focus {
             outline: none;
             background: #fffef0;
-        }
-
-        .equip-num {
-            font-family: 'Oswald', sans-serif;
-            font-weight: 700;
-            font-size: 14px;
         }
 
         /* Middle Column - Body Slots */
@@ -454,35 +448,36 @@
 
         .body-slot {
             border: 3px solid var(--black);
-            min-height: 65px;
-            position: relative;
+            flex: 1;
             display: flex;
             flex-direction: column;
+            min-height: 55px;
         }
 
         .body-header {
             background: var(--black);
             color: var(--white);
             font-family: 'Oswald', sans-serif;
-            font-weight: 700;
-            font-size: 11px;
+            font-size: 9px;
             padding: 2px 5px;
             display: flex;
             justify-content: space-between;
+            align-items: center;
         }
 
         .body-num {
-            font-size: 20px;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         .body-input {
             flex: 1;
             border: none;
-            padding: 5px;
-            font-size: 11px;
-            resize: none;
+            padding: 4px;
+            font-size: 10px;
             font-family: 'Special Elite', monospace;
             background: transparent;
+            resize: none;
         }
 
         .body-input:focus {
@@ -490,7 +485,7 @@
             background: #fffef0;
         }
 
-        /* Right Column - Stashed */
+        /* Right Column - Stashed Slots */
         .stash-col {
             display: flex;
             flex-direction: column;
@@ -499,31 +494,41 @@
 
         .stash-slot {
             border: 3px dashed var(--black);
-            min-height: 65px;
-            position: relative;
+            flex: 1;
             display: flex;
             flex-direction: column;
-            background: repeating-linear-gradient(
-                45deg,
-                transparent,
-                transparent 10px,
-                rgba(0,0,0,0.02) 10px,
-                rgba(0,0,0,0.02) 20px
-            );
+            min-height: 55px;
+            position: relative;
         }
 
         .stash-slot.locked {
-            opacity: 0.5;
+            background: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 5px,
+                rgba(0,0,0,0.03) 5px,
+                rgba(0,0,0,0.03) 10px
+            );
+        }
+
+        .stash-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
         }
 
         .stash-input {
-            flex: 1;
+            width: 100%;
+            height: 100%;
             border: none;
-            padding: 5px;
-            font-size: 11px;
-            resize: none;
+            padding: 4px;
+            font-size: 10px;
             font-family: 'Special Elite', monospace;
             background: transparent;
+            resize: none;
+            text-align: center;
         }
 
         .stash-input:focus {
@@ -531,31 +536,42 @@
             background: #fffef0;
         }
 
-        .unlock-label {
+        .stash-unlock {
             font-size: 8px;
             color: var(--gray);
             text-align: center;
             padding: 3px;
             border-top: 1px dashed var(--gray);
+            background: rgba(255,255,255,0.8);
         }
 
         /* Legend */
-        .legend {
-            display: flex;
-            justify-content: space-around;
-            font-size: 9px;
+        .legend-row {
+            display: grid;
+            grid-template-columns: 180px 1fr 1fr;
+            gap: 8px;
+            font-size: 8px;
             color: var(--gray);
-            margin: 10px 0;
-            padding: 5px 0;
+            margin-bottom: 10px;
+        }
+
+        .legend-item {
+            text-align: center;
             border-top: 1px solid var(--light-gray);
-            border-bottom: 1px solid var(--light-gray);
+            padding-top: 3px;
+        }
+
+        @media (max-width: 700px) {
+            .legend-row {
+                grid-template-columns: 1fr;
+            }
         }
 
         /* Instruments Section */
         .instruments-section {
             border: 3px solid var(--black);
-            padding: 10px;
-            margin-top: 10px;
+            padding: 8px;
+            margin-bottom: 10px;
         }
 
         .inst-header {
@@ -564,36 +580,34 @@
             align-items: baseline;
             border-bottom: 3px solid var(--black);
             padding-bottom: 3px;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .inst-title {
             font-family: 'Oswald', sans-serif;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .inst-note {
-            font-size: 9px;
+            font-size: 8px;
             font-style: italic;
             color: var(--gray);
         }
 
         .inst-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: 1fr 1fr 1fr;
             gap: 8px;
         }
 
         @media (max-width: 600px) {
-            .inst-grid {
-                grid-template-columns: 1fr;
-            }
+            .inst-grid { grid-template-columns: 1fr; }
         }
 
         .inst-slot {
             border: 3px solid var(--black);
-            min-height: 70px;
+            min-height: 65px;
             display: flex;
             flex-direction: column;
         }
@@ -607,7 +621,7 @@
             background: var(--black);
             color: var(--white);
             font-family: 'Oswald', sans-serif;
-            font-size: 10px;
+            font-size: 9px;
             padding: 2px 5px;
             text-align: center;
         }
@@ -616,10 +630,10 @@
             flex: 1;
             border: none;
             padding: 5px;
-            font-size: 11px;
-            resize: none;
+            font-size: 10px;
             font-family: 'Special Elite', monospace;
             background: transparent;
+            resize: none;
         }
 
         .inst-input:focus {
@@ -630,8 +644,7 @@
         /* Jack of All Trades */
         .jack-section {
             border: 3px solid var(--black);
-            padding: 10px;
-            margin-top: 10px;
+            padding: 8px;
         }
 
         .jack-header {
@@ -640,13 +653,13 @@
             align-items: baseline;
             border-bottom: 3px solid var(--black);
             padding-bottom: 3px;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
         .jack-title {
             font-family: 'Oswald', sans-serif;
             font-weight: 700;
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .jack-used {
@@ -657,14 +670,14 @@
         .jack-entries {
             display: flex;
             flex-direction: column;
-            gap: 5px;
+            gap: 4px;
         }
 
         .jack-entry {
             display: flex;
             align-items: center;
-            gap: 8px;
-            padding: 5px;
+            gap: 6px;
+            padding: 4px 6px;
             background: var(--light-gray);
             border: 1px solid var(--black);
         }
@@ -673,8 +686,8 @@
             flex: 1;
             border: none;
             border-bottom: 1px solid var(--black);
-            font-size: 11px;
-            padding: 3px;
+            font-size: 10px;
+            padding: 2px;
             background: transparent;
             font-family: 'Special Elite', monospace;
         }
@@ -685,8 +698,8 @@
         }
 
         .jack-check {
-            width: 18px;
-            height: 18px;
+            width: 16px;
+            height: 16px;
             border: 2px solid var(--black);
             appearance: none;
             cursor: pointer;
@@ -697,79 +710,50 @@
             background: var(--black);
         }
 
-        .jack-check:checked::after {
-            content: '✓';
-            color: var(--white);
-            display: flex;
-            justify-content: center;
-            font-size: 12px;
-        }
-
         .remove-btn {
             background: none;
             border: none;
-            font-size: 16px;
+            font-size: 14px;
             cursor: pointer;
             color: var(--gray);
-            padding: 0 3px;
+            padding: 0 2px;
         }
 
-        .remove-btn:hover {
-            color: var(--black);
-        }
+        .remove-btn:hover { color: var(--black); }
 
         .add-btn {
             width: 100%;
-            padding: 8px;
+            padding: 6px;
             border: 2px dashed var(--black);
             background: transparent;
             cursor: pointer;
-            font-size: 11px;
-            margin-top: 5px;
+            font-size: 10px;
+            margin-top: 4px;
         }
 
-        .add-btn:hover {
-            background: var(--light-gray);
-        }
+        .add-btn:hover { background: var(--light-gray); }
 
-        /* Print Styles */
+        /* Print */
         @media print {
-            body {
-                background: white;
-                padding: 0;
-            }
-
-            .toolbar {
-                display: none !important;
-            }
-
-            .sheet {
-                box-shadow: none;
-                border-width: 2px;
-                max-width: 100%;
-            }
-
-            .add-btn, .remove-btn {
-                display: none !important;
-            }
+            body { background: white; padding: 0; }
+            .toolbar { display: none !important; }
+            .sheet { box-shadow: none; max-width: 100%; }
+            .add-btn, .remove-btn { display: none !important; }
         }
 
-        /* Saved Notice */
         .saved-notice {
             position: fixed;
             bottom: 20px;
             right: 20px;
             background: var(--black);
             color: var(--white);
-            padding: 12px 20px;
+            padding: 10px 18px;
             font-weight: bold;
             opacity: 0;
             transition: opacity 0.3s;
         }
 
-        .saved-notice.show {
-            opacity: 1;
-        }
+        .saved-notice.show { opacity: 1; }
     </style>
 </head>
 <body>
@@ -786,11 +770,9 @@
         <div class="header">
             <div class="name-block">
                 <div class="name-label">jméno a příběh</div>
-                <input type="text" class="name-input" id="charName" placeholder="Jméno, rasa, povolání – speciální bonus z příběhu...">
+                <input type="text" class="name-input" id="charName" placeholder="Pippo Twisplegs, půlčík akrobat – Výhoda na OBR hody pro akrobacii atd.">
             </div>
-            <div class="logo">
-                <span class="logo-bug">🪲</span> FLAIL
-            </div>
+            <div class="logo">FLAIL</div>
         </div>
 
         <!-- Special Skills -->
@@ -851,55 +833,54 @@
             </div>
         </div>
 
-        <!-- Main Grid -->
-        <div class="main-grid">
+        <!-- === MAIN INVENTORY SECTION === -->
+        <div class="inventory-section">
             <!-- Left Column -->
             <div class="left-col">
-                <!-- Level Box -->
+                <!-- Level + HP/Coins -->
                 <div class="level-box">
-                    <div class="level-header">
-                        <div>
-                            <div class="level-title">Úroveň</div>
-                            <div class="level-subtitle">Označ vše v řadě pro postup</div>
+                    <div class="level-title">Úroveň</div>
+                    <div class="level-subtitle">Označ vše v řadě pro postup</div>
+                    <div class="level-content">
+                        <div class="level-grid">
+                            <span class="level-num">①</span>
+                            <input type="checkbox" class="level-check" data-level="1" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="1" data-pos="2">
+                            <span class="level-num">②</span>
+                            <input type="checkbox" class="level-check" data-level="2" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="2" data-pos="2">
+                            <span class="level-num">③</span>
+                            <input type="checkbox" class="level-check" data-level="3" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="3" data-pos="2">
+                            <span class="level-num">④</span>
+                            <input type="checkbox" class="level-check" data-level="4" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="4" data-pos="2">
+                            <span class="level-num">⑤</span>
+                            <input type="checkbox" class="level-check" data-level="5" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="5" data-pos="2">
                         </div>
-                    </div>
-                    <div class="level-grid">
-                        <span class="level-num">①</span>
-                        <input type="checkbox" class="level-check" data-level="1" data-pos="1">
-                        <input type="checkbox" class="level-check" data-level="1" data-pos="2">
-                        <span class="level-num">②</span>
-                        <input type="checkbox" class="level-check" data-level="2" data-pos="1">
-                        <input type="checkbox" class="level-check" data-level="2" data-pos="2">
-                        <span class="level-num">③</span>
-                        <input type="checkbox" class="level-check" data-level="3" data-pos="1">
-                        <input type="checkbox" class="level-check" data-level="3" data-pos="2">
-                        <span class="level-num">④</span>
-                        <input type="checkbox" class="level-check" data-level="4" data-pos="1">
-                        <input type="checkbox" class="level-check" data-level="4" data-pos="2">
-                        <span class="level-num">⑤</span>
-                        <input type="checkbox" class="level-check" data-level="5" data-pos="1">
-                        <input type="checkbox" class="level-check" data-level="5" data-pos="2">
-                    </div>
-
-                    <div class="hp-coins">
-                        <div class="resource-box">
-                            <div class="resource-icon">♥</div>
-                            <div class="resource-label">ŽIV</div>
-                            <input type="number" class="resource-input" id="hp" value="9" min="0">
-                            <div class="resource-sub">Základ / Aktuální</div>
-                        </div>
-                        <div class="resource-box">
-                            <div class="resource-icon">💰</div>
-                            <div class="resource-label">Mince</div>
-                            <input type="number" class="resource-input" id="coins" value="20" min="0" max="250">
-                            <div class="resource-sub">Max 250</div>
+                        <div class="hp-coins">
+                            <div class="resource-box hp">
+                                <div class="resource-label">ŽIV</div>
+                                <input type="number" class="resource-input" id="hp" value="9" min="0">
+                                <div class="resource-sub">Základ / Aktuální</div>
+                            </div>
+                            <div class="resource-box">
+                                <div class="resource-label">Mince</div>
+                                <input type="number" class="resource-input" id="coins" value="20" min="0" max="250">
+                                <div class="resource-sub">Max 250</div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Reputation -->
                 <div class="reputation-box">
-                    <div class="rep-title">◄─── Reputace ───►</div>
+                    <div class="rep-header">
+                        <span class="rep-arrow">◄━━</span>
+                        <span class="rep-title">Reputace</span>
+                        <span class="rep-arrow">━━►</span>
+                    </div>
                     <div class="rep-track">
                         <div class="rep-circle" data-rep="-6">-6</div>
                         <div class="rep-circle" data-rep="-5">-5</div>
@@ -918,35 +899,41 @@
                 </div>
 
                 <!-- Ring Slots -->
-                <div class="ring-slot">
-                    <span class="ring-icon">💍</span>
-                    <div style="flex:1">
+                <div class="ring-row">
+                    <div class="ring-slot">
+                        <div class="ring-icon">○</div>
                         <div class="ring-label">prsten, amulet, pečeť, talisman</div>
                         <input type="text" class="ring-input" id="ring1">
                     </div>
-                </div>
-                <div class="ring-slot">
-                    <span class="ring-icon">💍</span>
-                    <div style="flex:1">
+                    <div class="ring-slot">
+                        <div class="ring-icon">○</div>
                         <div class="ring-label">prsten, amulet, pečeť, talisman</div>
                         <input type="text" class="ring-input" id="ring2">
                     </div>
                 </div>
 
-                <!-- Equipment -->
-                <div class="equip-slot">
-                    <span class="equip-label">Vedl. ruka</span>
-                    <input type="text" class="equip-input" id="offhand">
-                    <span class="equip-num">1</span>
+                <!-- Off-hand + Weapon -->
+                <div class="equip-row">
+                    <div class="equip-slot">
+                        <div class="equip-header">
+                            <span>Vedl. ruka</span>
+                            <span class="equip-num">1</span>
+                        </div>
+                        <textarea class="equip-input" id="offhand"></textarea>
+                    </div>
                 </div>
-                <div class="equip-slot worn">
-                    <span class="equip-label">Zbraň</span>
-                    <input type="text" class="equip-input" id="weapon" placeholder="Krátký meč HZ 5 POŠ 3">
-                    <span class="equip-num">2</span>
+                <div class="equip-row">
+                    <div class="equip-slot worn">
+                        <div class="equip-header">
+                            <span>Zbraň</span>
+                            <span class="equip-num">2</span>
+                        </div>
+                        <textarea class="equip-input" id="weapon" placeholder="Krátký meč&#10;HZ 5 POŠ 3"></textarea>
+                    </div>
                 </div>
             </div>
 
-            <!-- Middle Column - Body -->
+            <!-- Middle Column - Body Slots -->
             <div class="body-col">
                 <div class="body-slot">
                     <div class="body-header">
@@ -981,26 +968,35 @@
             <!-- Right Column - Stashed -->
             <div class="stash-col">
                 <div class="stash-slot">
-                    <textarea class="stash-input" id="stash1" placeholder="Jídlo"></textarea>
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash1" placeholder="Jídlo"></textarea>
+                    </div>
                 </div>
                 <div class="stash-slot">
-                    <textarea class="stash-input" id="stash2" placeholder="Lucerna"></textarea>
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash2" placeholder="Lucerna"></textarea>
+                    </div>
                 </div>
-                <div class="stash-slot" id="stashSlot3">
-                    <textarea class="stash-input" id="stash3"></textarea>
-                    <div class="unlock-label">Odemkne se při SÍL 10</div>
+                <div class="stash-slot locked" id="stashSlot3">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash3"></textarea>
+                    </div>
+                    <div class="stash-unlock">Odemkne se při SÍL 10</div>
                 </div>
-                <div class="stash-slot" id="stashSlot4">
-                    <textarea class="stash-input" id="stash4"></textarea>
-                    <div class="unlock-label">Odemkne se při SÍL 12</div>
+                <div class="stash-slot locked" id="stashSlot4">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash4"></textarea>
+                    </div>
+                    <div class="stash-unlock">Odemkne se při SÍL 12</div>
                 </div>
             </div>
         </div>
 
-        <div class="legend">
-            <span>▪ Neseno: připraveno k použití</span>
-            <span>▪ Oblečeno: rychle připravitelné</span>
-            <span>▪ Uloženo: akce k vybavení</span>
+        <!-- Legend -->
+        <div class="legend-row">
+            <div class="legend-item">Neseno: připraveno k použití ▪ Oblečeno: rychle připravitelné</div>
+            <div class="legend-item">Tělo: standardní inventář</div>
+            <div class="legend-item">Uloženo: akce k vybavení</div>
         </div>
 
         <!-- Instruments -->
@@ -1033,12 +1029,12 @@
             </div>
             <div class="jack-entries" id="jackEntries">
                 <div class="jack-entry">
-                    <input type="text" class="jack-input" placeholder="Talent / vynález / kouzlo...">
+                    <input type="text" class="jack-input" placeholder="Spánek (kouzlo čaroděje)">
                     <input type="checkbox" class="jack-check">
                     <button class="remove-btn" onclick="removeJack(this)">×</button>
                 </div>
             </div>
-            <button class="add-btn" onclick="addJack()">+ Přidat</button>
+            <button class="add-btn" onclick="addJack()">+ Přidat talent / vynález / kouzlo</button>
         </div>
     </div>
 
@@ -1055,7 +1051,7 @@
             });
         });
 
-        // Level checks - unlock instruments
+        // Level checks
         document.querySelectorAll('.level-check').forEach(check => {
             check.addEventListener('change', updateLocks);
         });
@@ -1067,6 +1063,7 @@
                 if (Array.from(checks).every(c => c.checked)) level = l;
             }
 
+            // Instruments
             const inst2 = document.getElementById('inst2');
             const inst3 = document.getElementById('inst3');
             const slot2 = document.getElementById('instSlot2');
@@ -1115,6 +1112,7 @@
         // Save/Load
         function gatherData() {
             const data = {
+                class: 'bard',
                 name: document.getElementById('charName').value,
                 stats: {},
                 hp: document.getElementById('hp').value,
@@ -1144,17 +1142,9 @@
                 data.levelChecks[`${c.dataset.level}-${c.dataset.pos}`] = c.checked;
             });
 
-            for (let i = 3; i <= 6; i++) {
-                data.body.push(document.getElementById('body' + i).value);
-            }
-
-            for (let i = 1; i <= 4; i++) {
-                data.stash.push(document.getElementById('stash' + i).value);
-            }
-
-            for (let i = 1; i <= 3; i++) {
-                data.instruments.push(document.getElementById('inst' + i).value);
-            }
+            for (let i = 3; i <= 6; i++) data.body.push(document.getElementById('body' + i).value);
+            for (let i = 1; i <= 4; i++) data.stash.push(document.getElementById('stash' + i).value);
+            for (let i = 1; i <= 3; i++) data.instruments.push(document.getElementById('inst' + i).value);
 
             document.querySelectorAll('.jack-entry').forEach(e => {
                 data.jack.push({
@@ -1205,26 +1195,20 @@
             document.getElementById('offhand').value = data.offhand || '';
             document.getElementById('weapon').value = data.weapon || '';
 
-            if (data.body) {
-                data.body.forEach((v, i) => {
-                    const el = document.getElementById('body' + (i + 3));
-                    if (el) el.value = v || '';
-                });
-            }
+            if (data.body) data.body.forEach((v, i) => {
+                const el = document.getElementById('body' + (i + 3));
+                if (el) el.value = v || '';
+            });
 
-            if (data.stash) {
-                data.stash.forEach((v, i) => {
-                    const el = document.getElementById('stash' + (i + 1));
-                    if (el) el.value = v || '';
-                });
-            }
+            if (data.stash) data.stash.forEach((v, i) => {
+                const el = document.getElementById('stash' + (i + 1));
+                if (el) el.value = v || '';
+            });
 
-            if (data.instruments) {
-                data.instruments.forEach((v, i) => {
-                    const el = document.getElementById('inst' + (i + 1));
-                    if (el) el.value = v || '';
-                });
-            }
+            if (data.instruments) data.instruments.forEach((v, i) => {
+                const el = document.getElementById('inst' + (i + 1));
+                if (el) el.value = v || '';
+            });
 
             if (data.jack && data.jack.length > 0) {
                 const container = document.getElementById('jackEntries');
@@ -1248,7 +1232,7 @@
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
             const name = data.name || 'bard';
-            a.download = `${name.replace(/[^a-zA-Z0-9áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ ]/g, '')}.json`;
+            a.download = `${name.replace(/[^a-zA-Z0-9áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ\- ]/g, '')}.json`;
             a.click();
             URL.revokeObjectURL(a.href);
             showNotice();
