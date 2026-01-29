@@ -64,7 +64,7 @@ Druhá základní mechanika je hodit hrst k6 v konfliktu a snažit se získat co
 
 ### Svět
 
-Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená mytologie – co existuje, je vytvořeno hraním. Hra se přiklání k drsnému, syrovému fantasy, kde divná kouzla, směšně epické meče a podivní tvorové jsou normou. Ať už to začíná v rozpadajícím se městě, nebezpečné pustině nebo ospalé vesnici, svět se bude vyvíjet prostřednictvím činů a představivosti postav.
+Svět FLAILu je tu k utváření. Není tu žádná pevná mapa ani ustálená mytologie – co existuje, je vytvořeno hraním. Hra se přiklání k drsnému, acid fantasy, kde divná kouzla, směšně epické meče a podivní tvorové jsou normou. Ať už to začíná v rozpadajícím se městě, nebezpečné pustině nebo ospalé vesnici, svět se bude vyvíjet prostřednictvím činů a představivosti postav.
 
 ### Čas
 
