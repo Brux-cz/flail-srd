@@ -97,6 +97,8 @@ nav:
     - NPC: resources/npcs.md
     - Jména: resources/names.md
     - Ostatní: resources/misc.md
+  - Deníky postav:
+    - Bard: sheets/bard.html
 
 extra:
   social:
