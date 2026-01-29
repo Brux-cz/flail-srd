@@ -49,9 +49,9 @@ Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují *
 |--------|-----------|----------|
 | Akrobacie | OBR | včetně šplhání |
 | Ocenění | INT | zjistí hodnotu předmětu |
-| Převlek | CHA | Vypravěč hází, odhalí úspěch pouze když je relevantní |
+| Převlek | CHA | Vypravěč hází v tajnosti; výsledek odhalí jen když je to podstatné |
 | Zneškodnění pasti | OBR | musí použít náčiní |
-| Padělování dokumentů | INT | Vypravěč hází, odhalí úspěch pouze když je relevantní |
+| Padělování dokumentů | INT | Vypravěč hází v tajnosti; výsledek odhalí jen když je to podstatné |
 | Schování ve stínech | OBR | hrdlořez nemůže být zasažen dokud se neukáže |
 | Naslouchání | ŠTĚSTÍ | |
 | Otevření zámku | OBR | musí použít náčiní |
@@ -72,7 +72,7 @@ Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují *
 
 - **Počáteční talenty:** převlek, schování ve stínech, naslouchání, otevření zámku, tichý pohyb
 - **Znak cechu:** karmínová mince
-- **Utratit žetony pro:** Útok zezadu (+2 HZ na nevědomý cíl zezadu), Maskování (neviditelný dokud neudělá náhlou akci), Smrtící překvapení (volné kolo boje před iniciativou), Úhybné manévry (sníží jeden zásah), Práce s jedem, Tichá likvidace, Rychlé nohy (dvě akce v jednom kole)
+- **Utratit žetony pro:** Útok zezadu (+2 HZ na nevědomý cíl zezadu), Maskování (neviditelný dokud neudělá náhlou akci), Smrtící překvapení (volné kolo boje před iniciativou), Úhybné manévry (sníží jeden zásah o stupeň), Práce s jedem (vytvoř jed, který zabije člověka po vypití), Tichá likvidace (okamžitě zabij zranitelný cíl - omráčený, ležící atd.), Rychlé nohy (dvě akce v jednom kole)
 
 ### Stínové arkánum
 
@@ -80,7 +80,7 @@ Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují *
 
 - **Počáteční talenty:** převlek, naslouchání, hledání, tichý pohyb, čtení jazyků
 - **Znak cechu:** mrkající oční prsten
-- **Utratit žetony pro:** Ošálit smrt (hoď k4 místo k8 na tabulce Smrti), Familiár, Hokus pokus (zapamatuj viděné kouzlo), Mystický převlek, Nekrotická čepel (+k6 poškození), Stínový krok (teleport mezi stíny), Okultní znalosti
+- **Utratit žetony pro:** Ošálit smrt (hoď k4 místo k8 na tabulce Smrti), Familiár (požádej o laskavost noční tvor - kočku, sovu, netopýra atd.), Hokus pokus (zapamatuj viděné kouzlo; hoď ŠTĚSTÍ pro jeho seslání se stejnými KOSTKAMI), Mystický převlek (vytvoř iluzorního dvojníka; trvá jedno kolo), Nekrotická čepel (+k6 poškození), Stínový krok (teleportuj se mezi dvěma stíny v Dalekém dosahu), Okultní znalosti (zjisti přesné vlastnosti jednoho magického předmětu)
 
 ### Liga spravedlnosti
 
@@ -88,12 +88,12 @@ Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují *
 
 - **Počáteční talenty:** akrobacie, otevření zámku, kapesní krádež, hledání, tichý pohyb
 - **Znak cechu:** brož ve tvaru ruky
-- **Utratit žetony pro:** Bezedný měšec, Úniková cesta, Ne dnes (ignoruj stav Zraněný), Otevřít zámek (bez hodu), Okrást bohaté, Věrný následovník, Radar bohatství
+- **Utratit žetony pro:** Bezedný měšec (nenos mince ve slotech do konce sezení), Úniková cesta (opusť boj okamžitě bez pronásledování), Ne dnes (ignoruj stav Zraněný při jeho obdržení), Otevřít zámek (bez hodu; nevztahuje se na magicky zapečetěné), Okrást bohaté (ukradni předmět bohatému šlechtici, aristokratovi nebo duchovnímu), Věrný následovník (získej zdarma oddaného najatce; jednou za město), Čich na bohatství (zjisti info o Unikátním předmětu šlechtice; jednou za město)
 
-### Octopus Nexus
+### Nexus chobotnice
 
 *Chapadlovitá síť tajných agentů a mistrů špionáže.*
 
 - **Počáteční talenty:** převlek, padělování dokumentů, naslouchání, hledání, tichý pohyb
 - **Znak cechu:** chapadlová spona pláště
-- **Utratit žetony pro:** Šifra, Dvojitý agent, Špionáž, Padělování, Infiltrace, Inception (zasaď myšlenku do mysli NPC), Výslech
+- **Utratit žetony pro:** Šifra (zakóduj zprávu tak, aby ji rozuměla jen vybraná postava), Dvojitý agent (odhal, že vedlejší NPC je tajný agent Nexu, připraven pomoci), Špionáž (zjisti přesné místo pobytu osoby nebo předmětu), Padělání (nauč se rukopis nebo podpis NPC pouhým pozorováním), Infiltrace (získej informace z místa beze stop), Vštípení (zasaď myšlenku do mysli vedlejšího NPC; v rozumné míře), Výslech (polož otázku vedlejšímu NPC; Vypravěč musí odpovědět pravdivě)
