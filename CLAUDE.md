@@ -184,6 +184,54 @@ Co-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>
 
 ---
 
+### 🔗 Vytvoření Pull Requestu
+
+**Když uživatel řekne "udělej PR", "vytvoř PR", "pull request":**
+
+1. Zjisti commity v branchi: `git log --oneline origin/master..HEAD`
+2. Vytvoř předvyplněný odkaz s URL parametry:
+
+```bash
+# Šablona pro PR odkaz
+title="Titulek PR"
+body="## Summary
+- Bod 1
+- Bod 2
+
+## Test plan
+- [ ] Test 1
+
+https://claude.ai/code/SESSION_ID"
+
+# URL encode pomocí Python
+encoded_title=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$title'''))")
+encoded_body=$(python3 -c "import urllib.parse; print(urllib.parse.quote('''$body'''))")
+
+# Výsledný odkaz
+echo "https://github.com/Brux-cz/flail-srd/compare/master...$BRANCH?quick_pull=1&title=${encoded_title}&body=${encoded_body}"
+```
+
+3. Pošli uživateli **klikatelný odkaz** s předvyplněným titulkem a popisem
+
+**Formát PR popisu:**
+```markdown
+## Summary
+- [Stručný popis změn - bullet points]
+
+## Změny
+- **Kategorie:** detaily změn
+
+## Test plan
+- [ ] Zkontrolovat v MkDocs
+- [ ] Další testy...
+
+https://claude.ai/code/SESSION_ID
+```
+
+⚠️ **DŮLEŽITÉ:** `gh` příkaz NENÍ dostupný - vždy používej předvyplněný URL odkaz!
+
+---
+
 ### ⚠️ KRITICKÁ PRAVIDLA
 
 ✅ **VŽDY:**
