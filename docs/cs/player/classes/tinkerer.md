@@ -1,112 +1,158 @@
-# Kutilek
+# Kutílek
 
-**Maximum bodu zivotu:** 9
+**Maximum bodů životů:** 9
 
-**Specializace zbrani:** luky, foukacka, dyka, rucni sekera, kratky mec a podobne.
+**Specializace zbraní:** luky, foukačka, dýka, ruční sekera, krátký meč a podobné.
 
-**Hlavni predmet:** jiskra zivota (vloz do konstruktu).
+**Hlavní předmět:** jiskra života (vlož do konstruktu).
 
-**Zbroj:** zakladni, lehka zbroj.
+**Zbroj:** základní, lehká zbroj.
 
-**Pocatecni vybava:** jidlo, lucerna, zbran, zakladni zbroj, jiskra zivota, opasek s vynalezy, 6k6 minci.
+**Počáteční výbava:** žrádlo, lucerna, zbraň, základní zbroj, jiskra života, opasek s vynálezy, 6k6 mincí.
 
 ---
 
-## Okamzity pribeh
+## Okamžitý příběh
 
-| k6 | Pribeh |
+| k6 | Příběh |
 |----|--------|
-| 1 | Gnomi vynalezce, ktery utekl z Dumyslneho bodu kvuli pristroji, ktery se hrozne pokazil. *Zacni s dalsimi 3 body konstruktu.* |
-| 2 | Gnomi inzenyr, ktery nahradil sve selhavajici srdce hodinovym strojkem vlastni vyroby. *Imunni vuci stavu Vycerpany; musi pravidelne olejovat srdce.* |
-| 3 | Pulcicky zlodej z Mesta stinu, ktery ukradl konstrukta a naucil se kutilkovu remeslu. *Zacni se zlodejskym talentem dle vyberu (Hrdlorez).* |
-| 4 | Trpaslici zapasnik se zajmem o hodinove stroje a vse mechanicke. *Pridej bojove sekery ke specializaci zbrani a +2 max. bodu zivotu.* |
-| 5 | Byvaly bardsky gnom, ktery ztratil hlas a postavil konstrukta pro komunikaci. *Konstrukt zacina s reci a vestavénym bardskym nastrojem dle vyberu.* |
-| 6 | Pulcicky kovar zasazeny bleskem, ktery v nem probudil talent pro vynalézvání. *Zacni s Bzucicim voltem; polovicni poskozeni z elektrickych zdroju.* |
+| 1 | Gnómí vynálezce, který utekl z Důmyslného bodu kvůli přístroji, který se hrozně pokazil. *Začni s dalšími 3 body konstruktu.* |
+| 2 | Gnómí inženýr, který nahradil své selhávající srdce hodinovým strojkem vlastní výroby. *Imunní vůči stavu Vyčerpaný; musí pravidelně olejovat srdce.* |
+| 3 | Půlčický zloděj z Města stínů, který ukradl konstrukta a naučil se kutílkovu řemeslu. *Začni se zlodějským talentem dle výběru (Hrdlořez).* |
+| 4 | Trpasličí zápasník se zájmem o hodinové stroje a vše mechanické. *Přidej bojové sekery ke specializaci zbraní a +2 max. bodů životů.* |
+| 5 | Bývalý bardský gnóm, který ztratil hlas a postavil konstrukta pro komunikaci. *Konstrukt začíná s řečí a vestavěným bardským nástrojem dle výběru.* |
+| 6 | Půlčický kovář zasažený bleskem, který v něm probudil talent pro vynalézání. *Začni s Bzučícím voltem (viz str. 102); poloviční poškození z elektrických zdrojů.* |
 
 ---
 
-## Specialni dovednosti
+## Speciální dovednosti
 
-### Vynalevavost
+### Vynalézavost
 
-Kutilkove oznacuji pouzivani na vybave pouze pri **5-6** (misto 4-6). Mohou opravit pouzivani na ne-magickych predmetech provedením hodu OBR a oznacenim pouzivani na predmetu, ktery sdili podobne materialy.
+Kutílkové označují používání na výbavě pouze při **5–6** (místo 4–6). Mohou opravit používání na ne-magických předmětech provedením záchranného hodu OBR a označením používání na předmětu, který sdílí podobné materiály.
 
-### Rychle remeslo
+### Rychlé řemeslo
 
-Kutilkove mohou spichnout vynalez nebo past stravenim jednoho tahu. Musi odhodit vhodne predmety jako komponenty, deklarovat zamer s vynalezem a hodit OBR.
+Kutílkové mohou spíchnout vynález nebo past strávením jednoho tahu. Musí zahodit vhodné předměty jako komponenty, deklarovat záměr s vynálezem a hodit OBR.
 
-| Pocet odhozenych predmetu | Modifikator |
-|---------------------------|-------------|
-| Odhod 3 | hod OBR s nevyhodou |
-| Odhod 4 | hod OBR |
-| Odhod 5 | hod OBR s vyhodou |
-| Odhod 6 | hod OBR s dvojitou vyhodou |
+- **Zahoď 3:** hod OBR s nevýhodou
+- **Zahoď 4:** hod OBR
+- **Zahoď 5:** hod OBR s výhodou
+- **Zahoď 6:** hod OBR s dvojitou výhodou
 
-Pri uspechu vynalez funguje jak bylo deklarovano. Pri kritickem neuspechu pracuje proti hracskym postavam.
+Při úspěchu vynález funguje jak bylo deklarováno. Při kritickém neúspěchu pracuje proti hráčským postavám.
 
-### Opasek s vynalezy
+### Opasek s vynálezy
 
-Kutilkove zacinaji s opaskem drzicim **ctyri vynalezy** dle vyberu, jeden z kazdeho dostupneho typu. Pri postupu na vyssi uroven mohou pridat novy vynalez jakehokoliv typu.
+Kutílkové začínají s opaskem držícím **čtyři vynálezy** dle výběru, jeden z každého dostupného typu (viz další strana). Při postupu na vyšší úroveň mohou přidat nový vynález jakéhokoliv typu.
 
-K odpaleni vynalezu musi Kutilkove oznacit pouzivani na opasku. Kdykoli hodi trojici na uspesnem hodu na zasah, mohou jeden uvolnit **zdarma**.
+K odpalení vynálezu musí Kutílkové označit používání na opasku. Kdykoli hodí trojici na úspěšném hodu na zásah, mohou jeden uvolnit **zdarma**.
 
-### Konstruktovy spolecnik
+### Konstruktový společník
 
-Kutilkove maji konstruktoveho spojence. Na kazde urovni odemykaji **pet bodu konstruktu** k utraceni na vylepseni, vcetne prvni urovne. Je mozne utratit pouze dva body na stejne vylepseni za uroven.
+Kutílkové mají konstruktového spojence. Na každé úrovni odemykají **pět bodů konstruktu** k utracení na vylepšení, včetně první úrovně. Je možné utratit pouze dva body na stejné vylepšení za úroveň.
 
-Kutilek ovlada konstrukta dle libosti, ktery ho povazuje za sveho mistra. Konstrukt ozije pouze pokud je karta jiskry zivota v jednom z jeho slotu inventare.
+Kutílek ovládá konstrukta dle libosti, který ho považuje za svého mistra. Konstrukt ožije pouze pokud je karta jiskry života v jednom z jeho slotů inventáře.
 
 ---
 
-## Vylepseni konstruktu
+## Stavba konstruktu
 
-| Vylepseni | Cena v bodech | Maximum |
-|-----------|---------------|---------|
-| +1 HZ | 1 | max 8 |
-| +1 POS | 1 | max 5 |
-| +1 slot inventare | 1 | max 10 (zacina s 1) |
-| +2 bz | 1 | max 20 |
-| +1 Obrana | 1 | max 3 |
-| +1 Hody | 1 | max 16 (zacina na 6) |
-| Maskovani | 3 | |
-| Splhani | 3 | |
-| Videni ve tme | 3 | |
-| Zabi skoky | 3 | |
-| Osvetleni | 3 | |
-| Vnaseni | 4 | |
-| Plavani | 4 | |
-| Rec | 5 | |
+*Když magie selže, šrouby a nýty vytrvají.*
+
+### Vylepšení
+
+| Vylepšení | Cena v bodech |
+|-----------|---------------|
+| +1 HZ | 1 (max 8) |
+| +1 POS | 1 (max 5) |
+| +1 slot inventáře | 1 (max 10; začíná s 1) |
+| +2 bž | 1 (max 20) |
+| +1 Obrana | 1 (max 3) |
+| +1 Záchranné hody | 1 (max 16; začíná na 6) |
+| Maskování | 3 |
+| Šplhání | 3 |
+| Vidění ve tmě | 3 |
+| Žabí skoky | 3 |
+| Osvětlení | 3 |
+| Vznášení | 4 |
+| Plavání | 4 |
+| Řeč | 5 |
+
+!!! note "Poznámka"
+    Vylepšení, která neuvádějí +1, znamenají trvalé získání dané schopnosti.
+
+### Tvar a inventář
+
+Inventář konstruktu je rozdělen na dvě oblasti: **nesené** a **uschované**. Nesené předměty jsou připraveny k použití, zatímco uschované vyžadují jednu akci k vyzvednutí.
+
+Hráč rozhoduje o přesném tvaru, velikosti, pohybu (chůze, kutálení, klouzání) svého konstrukta a o tom, jak přenáší nebo ukládá předměty. Některé konstrukty mohou mít končetiny a ruce, jiné mohou mít neobvyklé tvary s výbavou připevněnou přímo na nich.
+
+Nakresli náčrt konstrukta, abys ho přivedl k životu.
+
+### Útočení
+
+Konstrukty mají hodnotu HZ a POS. Způsob útoku závisí na hráčově fantazii. Konstrukt může používat pouze zbraně, jejichž HZ je rovno nebo nižší než vlastní HZ konstruktu. POS je buď hodnota zbraně, nebo konstruktova vlastní hodnota.
+
+### Záchranné hody
+
+Použij tuto hodnotu, kdykoli musí konstrukt provést jakýkoliv záchranný hod vlastnosti.
+
+### Oprava
+
+Kutílkové mohou obnovit konstruktu dva body životů strávením tahu prací na něm a označením používání na dvou dalších vhodných předmětech. Musí provést záchranný hod OBR. Při neúspěchu je akce zcela promarněna.
+
+Alternativně mohou zahodit jeden předmět a okamžitě obnovit čtyři body životů bez nutnosti hodu.
+
+### Rozpadnutí
+
+Konstrukt, který přijde o všechny body životů, je rozbitý a trvale ztratí jedno vylepšení dle hráčova výběru. Kutílek musí strávit počet dní rovný bodům životů konstruktu, aby ho dal dohromady. Každý obnovený bod stojí 100 mincí v dílech a komponentech.
+
+### Přestavba
+
+Kutílek může trvale obětovat jeden bod konstruktu, aby celého konstrukta přetvořil. Každý přesunutý bod na jiné vylepšení stojí 100 mincí v náhradních dílech a komponentech.
+
+### Příklady konstruktů
+
+Úroveň 5, 14 bž, Záchranné hody 7, HZ 7, POS 5, Obrana 3, Sloty inventáře 3.
+*Bestie stvořená k boji, ne k nošení.*
+
+Úroveň 5, 6 bž, Záchranné hody 7, HZ 4, POS 2, Vznášení, Maskování, Sloty inventáře 9.
+*Létající stroj stvořený k nošení, ne k boji.*
+
+Úroveň 5, 10 bž, Záchranné hody 8, Vidění ve tmě, Maskování, Šplhání, Vznášení, Řeč, Slot inventáře 1.
+*Průzkumné zařízení stvořené ke slídění a hlášení.*
 
 ---
 
-## Vynalezy
+## Vynálezy
 
-*Pokud to jiskri, buci nebo vybuchuje, pravdepodobne to funguje.*
+*Pokud to jiskří, bručí nebo vybuchuje, pravděpodobně to funguje.*
 
-### Poskozujici
-- **Pilovy disk:** k6 poskozeni, vraci se
-- **Hodinova hracka:** exploduje po k4 kolech za 2k6 poskozeni
-- **Plamenomet:** 2k4 ohnive poskozeni v kuzelu
-- **Vystrel gelu:** znehybni cil lepkavym gelem
-- **Sokove bolas:** k4 elektricke poskozeni a omraceni
+### Poškozující vynálezy
+- **Pilový disk:** zasáhne cíl za k6 poškození. Na 6 se odrazí na další náhodný cíl.
+- **Hodinová hračka:** chodí chaoticky jedno kolo, pak exploduje za k8 poškození.
+- **Chrlič ohně:** vystřelí plamen v kuželu, k4 poškození až dvěma cílům Blízko.
+- **Výstřel gelu:** přilne k cíli; příští kolo exploduje za k8 poškození všem Blízko.
+- **Šokové bolas:** zasáhne cíl za k4 elektrické poškození. Na 4 je cíl omráčený.
 
-### Kontrolni
-- **Bleskovy granat:** oslepi vsechny Blizko na 1 kolo
-- **Magneticka koule:** pritahne kovove predmety
-- **Lepkava sit:** znehybni cil
-- **Kouřova clona:** zastini oblast
-- **Odpuzovaci vybuch:** odstrci vsechny Blizko
+### Kontrolní vynálezy
+- **Bleskový granát:** všichni tvorové Blízko musí provést záchranný hod, nebo oslepnou do konce svého příštího kola.
+- **Magnetická koule:** veškerý kov Vzdáleně je přitažen.
+- **Lepkavá síť:** vystřelíš Vzdáleně; cíl může ve svém kole provést záchranný hod k vyproštění.
+- **Kouřová clona:** vyplní místnost kouřem, usnadní plížení a zatemní výhled.
+- **Odpuzovací výbuch:** všichni Blízko musí provést záchranný hod, nebo jsou odtlačeni Vzdáleně.
 
-### Uzitkove
-- **Tekute lano:** vytvor lano z kapaliny
-- **Miniaturni vrtak:** prokopej se skrz zed
-- **Signalni raketa:** osvetli oblast
-- **Pavouci pruzkumnik:** maly pruskumny konstrukt
-- **Olejova kluzka:** pokryj podlahu olejem
+### Užitkové vynálezy
+- **Tekuté lano:** výhoda na šplhání; kapalina ztuhne na dvě minuty, pak se rozpustí.
+- **Miniaturní vrták:** vytvoří malý otvor ve zdech, dveřích nebo zámcích.
+- **Signální raketa:** vystřelí jasné světlo na oblohu.
+- **Pavoučí průzkumník:** pohybuje se tiše a bliká, pokud zachytí pohyb.
+- **Olejová kluzka:** rozlije kluzký a hořlavý olej na povrch Blízko.
 
-### Podpurne
-- **Adrenalinovy posilovac:** +2 k HZ na 2 kola
-- **Bleskova pasta:** rychle leceni k4 bz
-- **Lecivi injektor:** obnoví k6 bz
-- **Opravny dron:** oprav 1 pouzivani na predmetu
-- **Zatahovaci stit:** docasny stit s 5 bz
+### Podpůrné vynálezy
+- **Adrenalinový posilovač:** dočasně odstraní stav Zraněný nebo Vyčerpaný na dva tahy.
+- **Blesková pasta:** rychle zatmelí prasklinu nebo únik, drží jeden tah.
+- **Léčivý injektor:** vyléčí k4 bodů životů při aplikaci.
+- **Opravný dron:** obnoví libovolnému konstruktu Vzdáleně k4 bodů životů.
+- **Zatahovací štít:** pohltí až šest poškození z jednoho útoku, pak se roztříští.

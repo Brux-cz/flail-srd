@@ -1,121 +1,133 @@
-# Valecnik
+# Válečník
 
-**Maximum bodu zivotu:** 14
+**Maximum bodů životů:** 14
 
-**Specializace zbrani:** vsechny zbrane.
+**Specializace zbraní:** všechny zbraně.
 
-**Hlavni predmet:** zadny.
+**Hlavní předmět:** žádný.
 
-**Zdatnost zbroje:** vsechny zbroje.
+**Zdatnost zbroje:** všechny zbroje.
 
-**Pocatecni vybava:** jidlo, pochodne, zbran, zakladni zbroj, prilba, 3k6 minci.
+**Počáteční výbava:** žrádlo, pochodně, zbraň, základní zbroj, přilba, 3k6 mincí.
 
 ---
 
-## Okamzity pribeh
+## Okamžitý příběh
 
-| k6 | Pribeh |
+| k6 | Příběh |
 |----|--------|
-| 1 | Trpaslici knez hledajici svate kladivo k zachrane sveho rodneho Kamencova dolu. *Smi seslat modlitby Pozehnani a Najit predmet (Klerik) jednou denne.* |
-| 2 | Poloork, ktery prezil nelitostny najezd na vesnici zakernou goblini klikou. *Zacni s +1 SIL, +2 bz a projevovanou nenavisti ke goblinum.* |
-| 3 | Poloobr narozeny za pochybnych okolností s hlubokou neschopnosti spravne casovat slovesa. *Preved jakykoliv mnozstvi INT na body zivotu.* |
-| 4 | Lidsky zbrojnos, ktery videl sveho pana zabiteho Trollem a slozil prisahu pomsty. *Zacni s nahodnou Legendarni zbrani (od zesnuleho mistra); +2 HZ vs Trollove.* |
-| 5 | Lidsky vyhnanec ze vzdaleného kralovstvi, hledajici znovu ziskat svuj ztraceny trun. *Zacni s +50 mincemi a pecetnim prstenem (+1 CHA).* |
-| 6 | Pulcicky gladiatorsky sampion z Konce cesty, ktery nasel mapu k prastare arene v porazenem rivalovi. *Zacni s mapou a +2 CHA.* |
+| 1 | Trpasličí kněz hledající svaté kladivo k záchraně svého rodného Stonehall Deep. *Smí seslat modlitby Požehnání a Najít předmět (Klerik) jednou denně.* |
+| 2 | Poloork, který přežil nelítostný nájezd na vesnici zákeřnou gobliní klikou. *Začni s +1 SÍL, +2 bž a projevovanou nenávistí ke goblinům.* |
+| 3 | Poloobr narozený za pochybných okolností s hlubokou neschopností správně časovat slovesa. *Převeď jakékoliv množství INT na body životů.* |
+| 4 | Lidský zbrojnoš, který viděl svého pána zabitého Trollem a složil přísahu pomsty. *Začni s náhodnou Legendární zbraní (od zesnulého mistra); +2 HZ vs Trollové.* |
+| 5 | Lidský vyhnanec ze vzdáleného království, hledající znovu získat svůj ztracený trůn. *Začni s +50 mincemi a pečetním prstenem (+1 CHA).* |
+| 6 | Půlčický gladiátorský šampion z Konce cesty, který našel mapu k prastaré aréně v poraženém rivalovi. *Začni s mapou a +2 CHA.* |
 
 ---
 
-## Specialni dovednosti
+## Speciální dovednosti
 
-### Mimoradny cin
+### Mimořádný čin
 
-**Jednou za boj** mohou Valecnici pokusit se o cin, jako utnout hlavu prisere nebo se zhoupnout na lustru a srazit protivnika.
+**Jednou za boj** mohou Válečníci pokusit se o čin, jako utnout hlavu příšeře nebo se zhoupnout na lustru a srazit protivníka.
 
-1. Popiš svuj cil
-2. Vyjednej s Vypravecem obtiznost a proporcionalni dusledek za selhani
-3. Hod k20, pricti svuj atribut SIL plus aktualni uroven
-4. Pokud je obtiznost prekonana, uspejes
+1. Popiš svůj cíl
+2. Vyjednej s Vypravěčem obtížnost a proporcionální důsledek za selhání
+3. Hoď k20, přičti svůj atribut SÍL plus aktuální úroveň
+4. Pokud je obtížnost překonána, uspěješ. Při neúspěchu musíš přijmout vyjednaný důsledek.
 
-| Obtiznost | DC | Dusledek za selhani |
+| Obtížnost | DC | Důsledek za selhání |
 |-----------|----|--------------------|
-| **Lehka** | 15-20 | Drobne dusledky, jako oznaceni pouzivani na predmetu |
-| **Prumerna** | 20-25 | Zavaznejsi dusledky, jako jeden nebo dva stavy |
-| **Mocna** | 25-30 | Velke dusledky, jako hod na tabulku Smrti |
+| **Lehká** | 15–20 | Drobné důsledky, jako označení používání na předmětu |
+| **Průměrná** | 20–25 | Závažnější důsledky, jako jeden nebo dva stavy |
+| **Mocná** | 25–30 | Velké důsledky, jako hod na Tabulku smrti |
 
-### Otuzily
+### Otužilý
 
-**Jednou za sezení** mohou Valecnici ignorovat jeden stav (vyjma magických nebo prokletych stavu).
+**Jednou za sezení** mohou Válečníci ignorovat jeden stav (vyjma magických nebo prokletých stavů).
 
-### Tezke zvedani
+### Těžké zvedání
 
-Valecnici maji **vyhodu v hodech SIL** zahrnujících fyzickou silu, jako vyrazeni dveri nebo vlaceni tezkych predmetu.
+Válečníci mají **výhodu v záchranných hodech SÍL** zahrnujících fyzickou sílu, jako vyražení dveří nebo vláčení těžkých předmětů.
 
-### Bojove talenty
+### Bojové talenty
 
-Valecnici ziskavaji **jeden talent za uroven**. Na prvni urovni musi zvolit zakladni. Pri postupu na dalsi urovne mohou buď vybrat novy zakladni talent z jineho stromu, nebo postupovat v drive zvolenem vybérem expertniho talentu. Mistrovsky talent lze ziskat pouze pokud je odpovidajici expertni dovednost jiz odemcena.
+Válečníci získávají **jeden talent za úroveň**. Na první úrovni musí zvolit základní. Při postupu na další úrovně mohou buď vybrat nový základní talent z jiného stromu, nebo postupovat v dříve zvoleném výběrem expertního talentu. Mistrovský talent lze získat pouze pokud je odpovídající expertní dovednost již odemčena.
 
 ---
 
-## Stromy bojovych talentu
+## Stromy bojových talentů
 
-### Rvac s obourucaky
+*Násilí přichází v mnoha stylech, ačkoliv jemnost mezi nimi bývá zřídka.*
 
-*Pouze pro obourucni zbrane*
+### Šermíř
 
-**Zakladni - Surova sila:** Pri trojicich na uspesnem hodu na zasah zpusob extra poskozeni rovne cislu trojice.
+*Pouze pro jednoruční zbraně*
 
-**Expertni:**
-- **Vir:** Utok na vsechny Blizko
-- **Machnuti:** Rozdel kostky mezi cile
-- **Titansky uchop:** Obourucni jednoruöne
-- **Lamec kosti:** +k6 poskozeni pri velkych zasazích
+**Základní – Čisté řezy:** při sekvenci tří čísel na úspěšném hodu na zásah způsob extra poškození rovné nejvyššímu číslu sekvence.
 
-**Mistrovsky:**
-- **Mocne sevreni:** Prehod jednu kostku
-- **Drtivý uder:** +2 HZ jednou za boj
+**Mistrovský:**
 
-### Mistr bojovych umeni
+- **Boj dvěma zbraněmi:** dva útoky za kolo; vedlejší ruka má nevýhodu.
+- **Šermířovo štěstí:** dvakrát za boj přehoď neúspěšný hod na zásah.
 
-*Pouze hole ruce*
+**Expertní:**
 
-**Zakladni - Zelezna pest:** HZ 5, POS 2 holyma rukama.
+- **Křížový sek:** zasáhnutí protivníka dvakrát ve stejném kole způsobí dodatečné k4 poškození.
+- **Krvavý řez:** po zásahu protivníci utrpí +k4 poškození ve všech následujících kolech.
+- **Oportunista:** když protivník kriticky neuspěje na blízko proti tobě, okamžitě proveď volný útok.
+- **Hrobař:** trojice dvojek se také počítají jako smrtící údery.
 
-**Expertni:**
-- **Soustredena sila:** +k3 za kazdy par
-- **Omracujici uder:** Cil musi hodit nebo je omracen
-- **Odrazeni:** Hod OBR k uhnuti strelne zbrani
-- **Reflexy:** Extra utok pri zasahu
+### Rvač s obouručáky
 
-**Mistrovsky:**
-- **Zaplava uderu:** Dva utoky za kolo
-- **Rovnovaha:** Dvakrat za boj zrus jednu 1 z hodu na zasah proti tobe
+*Pouze pro obouruční zbraně*
 
-### Mistr stitu
+**Základní – Surová síla:** při trojici na úspěšném hodu na zásah způsob extra poškození rovné číslu trojice (např. trojice čtyřek = 4 extra poškození).
 
-*Pouze se stitem*
+**Mistrovský:**
 
-**Zakladni - Stitova zed:** +1 Obrana navic ke stitu.
+- **Mocné sevření:** přehoď jednu kostku dle výběru na všech hodech na zásah.
+- **Drtivý úder:** jednou za boj přidej +2 k hodu na zásah na jeden útok.
 
-**Expertni:**
-- **Stitovy uder:** Utok stitem HZ 4, POS 2
-- **Kryt:** Chran spojence Blizko
-- **Odraz:** Vrat strely utocnikovi
+**Expertní:**
 
-**Mistrovsky:**
-- **Neprobojna zed:** +2 Obrana navic
-- **Stitovy taraň:** Sraz cil k zemi
+- **Vír:** jednou za boj zaútoč na všechny protivníky Blízko ve stejném kole.
+- **Máchnutí:** na hodech na zásah můžeš rozdělit kostky mezi Blízké cíle.
+- **Titánský úchop:** můžeš používat obouruční zbraně jednou rukou.
+- **Lamač kostí:** při silném zásahu musí cíl provést záchranný hod, nebo utrpí dodatečné k6 poškození.
 
-### Mistr zbrani
+### Mistr lukostřelby
 
-*S jakoukoli zbrani*
+*Pouze pro luky*
 
-**Zakladni - Zbrojni zdatnost:** +1 HZ s vybranou zbrani.
+**Základní – Přesná značka:** při dvou párech na úspěšném hodu na zásah se cíl stane označeným. Další útok proti němu má +2 k hodu na zásah.
 
-**Expertni:**
-- **Kriticky oko:** Kriticky zasah na 1-2
-- **Rychly utok:** Dva utoky za kolo s postihém -2 HZ
-- **Presny zasah:** +2 POS jednou za boj
+**Mistrovský:**
 
-**Mistrovsky:**
-- **Smrtici presnost:** Smrtici uder na dve jednicky
-- **Mistr zbrane:** +2 HZ a +1 POS s vybranou zbrani
+- **Rychlý výstřel:** dvakrát za boj proveď extra útok v jednom bojovém kole.
+- **Šípařské umění:** při hodu na používání označ toulec pouze na 6.
+
+**Expertní:**
+
+- **Dvojitý výstřel:** jednou za boj jediný hod na zásah zasáhne dva blízké cíle (deklaruj před hodem).
+- **Smrtící míření:** všechny úspěšné útoky způsobí extra poškození rovné aktuální úrovni.
+- **Odstřelovačovo soustředění:** stůj nehybně jedno kolo a získej +2 k hodu na zásah v příštím kole boje.
+- **Průrazný výstřel:** vždy ignoruj Obranu cíle.
+
+### Mistr bojových umění
+
+*Pouze holé ruce*
+
+**Základní – Železná pěst:** HZ 5, POS 2 při útoku holýma rukama. Získáš +1 POS při postupu na expertní talent a +1 HZ při získání mistrovského talentu.
+
+**Mistrovský:**
+
+- **Záplava úderů:** dva útoky holýma rukama za bojové kolo.
+- **Rovnováha:** dvakrát za boj zruš jednu 1 z jakéhokoliv hodu na zásah proti tobě.
+
+**Expertní:**
+
+- **Soustředěná síla:** způsob extra +k3 poškození za každý pár na jakémkoliv útoku.
+- **Omračující úder:** při zásahu musí cíl provést záchranný hod, nebo je omráčený.
+- **Odražení:** při zásahu střelnou zbraní proveď záchranný hod OBR k úplnému uhnutí útoku.
+- **Reflexy:** při zásahu na blízko okamžitě proveď extra útok jako volnou akci.

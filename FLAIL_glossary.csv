@@ -3,7 +3,6 @@ Saving throw,Záchranný hod
 Hit roll,Hod na zásah
 Advantage,Výhoda
 Disadvantage,Nevýhoda
-Health points,Body životů
 Bone Whisperer,Šeptač kostí
 Cutthroat,Hrdlořez
 Tinkerer,Kutílek
@@ -83,7 +82,7 @@ Spellcasting,Sesílání kouzel
 Spellcaster,Sesilatel kouzel
 Mana,Mana
 Temple,Chrám
-Inn,Hospoda
+Inn,Hostinec
 Tavern,Hospoda
 Village,Vesnice
 City,Město
@@ -135,7 +134,7 @@ Healing,Léčení
 Condition,Stav
 Exhausted,Vyčerpaný
 Poisoned,Otrávený
-Petrified,Zkameněly
+Petrified,Zkamenělý
 Stunned,Omráčený
 Blind,Slepý
 Deaf,Hluchý
@@ -231,3 +230,32 @@ Silver Tongue,Stříbrný jazyk
 Witness Me!,Pohleď na mě!
 Musical Talents,Hudební talenty
 Instant Backstory,Okamžitý příběh
+Primal Gifts,Prvotní dary
+Shapeshifting,Proměna
+Animal Handling,Zacházení se zvířaty
+Nature Adept,Přírodní zdatnost
+Beast Shape,Bestí podoba
+Drained,Vysátý
+Death Blow,Smrtící úder
+Major Hit,Silný zásah
+Grub,Žrádlo
+Resourcefulness,Vynalézavost
+Quick Craft,Rychlé řemeslo
+Gadget Belt,Opasek s vynálezy
+Construct Companion,Konstruktový společník
+Construct Build,Stavba konstruktu
+Gadgets,Vynálezy
+Sparkle of Life,Jiskra života
+Fixing,Oprava
+Breaking Down,Rozpadnutí
+Reassembling,Přestavba
+Construct,Konstrukt
+Injured,Zraněný
+Extraordinary Feat,Mimořádný čin
+Weathered,Otužilý
+Heavy Lifting,Těžké zvedání
+Combat Talents,Bojové talenty
+Blade Freak,Šermíř
+Brawler Mauler,Rvač s obouručáky
+Archer Master,Mistr lukostřelby
+Martial Artist,Mistr bojových umění
