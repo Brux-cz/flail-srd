@@ -8,7 +8,7 @@
 
 **Zdatnost zbroje:** žádná zbroj.
 
-**Počáteční výbava:** jídlo, pochodně, zbraň, bylina, náhodný zvířecí společník, k6 mincí.
+**Počáteční výbava:** žrádlo, pochodně, zbraň, bylina, náhodný zvířecí společník, k6 mincí.
 
 ---
 
