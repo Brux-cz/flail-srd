@@ -78,7 +78,7 @@ Hrdlořezové začínají s pěti talenty dle svého cechu. Talenty poskytují *
 
 *Cech esoterických zlodějů specializovaných na okultno.*
 
-- **Počáteční talenty:** převlek, naslouchání, hledání, tichý pohyb, čtení jazyků
+- **Počáteční talenty:** ocenění, padělování dokumentů, schování ve stínech, naslouchání, čtení jazyků
 - **Znak cechu:** mrkající oční prsten
 - **Utratit žetony pro:** Ošálit smrt (hoď k4 místo k8 na tabulce Smrti), Familiár (požádej o laskavost noční tvor - kočku, sovu, netopýra atd.), Hokus pokus (zapamatuj viděné kouzlo; hoď ŠTĚSTÍ pro jeho seslání se stejnými KOSTKAMI), Mystický převlek (vytvoř iluzorního dvojníka; trvá jedno kolo), Nekrotická čepel (+k6 poškození), Stínový krok (teleportuj se mezi dvěma stíny v Dalekém dosahu), Okultní znalosti (zjisti přesné vlastnosti jednoho magického předmětu)
 

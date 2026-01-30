@@ -16,7 +16,7 @@
 
 | k6 | Příběh |
 |----|--------|
-| 1 | Člověk vychovaný divokým vlčím stádem v odlehlých Šiškovitých vrcholcích. *Začni se dvěma savčími prvotními dary, +1 OBŘ a vlčím společníkem.* |
+| 1 | Člověk vychovaný divokým vlčím stádem v odlehlých Šiškových vrcholů. *Začni se dvěma savčími prvotními dary, +1 OBŘ a vlčím společníkem.* |
 | 2 | Elfí dítě ztracené v mystické mlze, vracející se po letech se zapomenutými druidskými znalostmi. *Smí léčit sebe nebo jiné k4 bž obklopeni přírodou, dvakrát denně.* |
 | 3 | Poloobr vychovaný prastarými stromovci, který složil přísahu chránit les. *Začni s +2 SÍL; smí seslat modlitbu Rozmluva s rostlinami (Klerik).* |
 | 4 | Lidský botanik, který vypěstoval malou vnímající masožravou rostlinu. *Začni s rostlinou jako společníkem (bž, HZ, poš rovné úrovni Druida + 3).* |
@@ -33,7 +33,7 @@ Druidi začínají se **dvěma prvotními dary** z jakéhokoliv zvířecího kr�
 
 Každý dar lze aktivovat **jednou denně** bez nutnosti hodu a trvá počet tahů až do aktuální úrovně Druida. Nelze je kumulovat s proměnou.
 
-### Zacházení se zvířaty
+### Ovládání zvířat
 
 Druidi mohou spřátelit, zkrotit nebo osedlat divoká zvířata provedením hodu CHA. Pokud zvíře odpovídá království s nejvíce prvotními dary, **házej s výhodou**.
 
@@ -50,7 +50,7 @@ Druidi mohou strávit kolo proměnou v bestii ze zvířecího království, ve k
 
 Jinak se vrátí se stejnými body životů jako měl před proměnou.
 
-### Přírodní zdatnost
+### Znalec přírody
 
 Druidi mohou manipulovat s malým množstvím ohně, vody, země nebo vzduchu provedením hodu CHA, ale při neúspěchu obdrží stav Vysátý.
 
@@ -65,7 +65,7 @@ Druidi se nikdy neztratí v prostředích spojených se zvířecími královstv�
 ### Savci
 - **Býložravec:** listy a rostliny zasytí hlad jako jídlo
 - **Křečí podoba:** proměň se v malého křečka
-- **Čich stopaciho psa:** získej bystrý čich
+- **Lovecký čich:** získej bystrý čich
 - **Gepardí rychlost:** vždy útočíš první v boji
 - **Smečková mentalita:** +1 HZ pokud je spojenec Blízko
 
@@ -101,9 +101,9 @@ Druidi se nikdy neztratí v prostředích spojených se zvířecími královstv�
 
 ---
 
-## Bestí podoby
+## Zvířecí podoby
 
-*Hranice mezi člověkem a bestií byla vždy tenká.*
+*Hranice mezi člověkem a zvířetem byla vždy tenká.*
 
 ### Grizzly
 
@@ -111,12 +111,12 @@ Druidi se nikdy neztratí v prostředích spojených se zvířecími královstv�
 
 **18 bž | Obrana 2 | Pohyb A**
 
-- **Tlapa:** HZ 6, POŠ 4. *Smrtící úder: sežer cíl; nepotřebuješ jídlo k6 dní.*
+- **Kousnutí:** HZ 6, POŠ 4. *Smrtící úder: sežer cíl; nepotřebuješ jídlo k6 dní.*
 - **Drápy:** HZ 7, POŠ 3. *Jakýkoli zásah: při sekvenci čtyř čísel způsob dodatečných k10 poškození.*
 
 ### Zelená anakonda
 
-*Známá svými formidabilními objetími.*
+*Známá svými drtivými objetími.*
 
 **20 bž | Obrana 0 | Pohyb A**
 
