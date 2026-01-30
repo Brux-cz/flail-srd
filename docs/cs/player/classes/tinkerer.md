@@ -138,21 +138,21 @@ Kutílek může trvale obětovat jeden bod konstruktu, aby celého konstrukta p�
 
 ### Kontrolní vynálezy
 - **Bleskový granát:** všichni tvorové Blízko musí provést záchranný hod, nebo oslepnou do konce svého příštího kola.
-- **Magnetická koule:** veškerý kov ve Vzdálené vzdálenosti je přitažen.
-- **Lepkavá síť:** vystřelíš na Vzdálenou vzdálenost; cíl může ve svém kole provést záchranný hod k vyproštění.
+- **Magnetická koule:** veškerý kov Vzdáleně je přitažen.
+- **Lepkavá síť:** vystřelíš Vzdáleně; cíl může ve svém kole provést záchranný hod k vyproštění.
 - **Kouřová clona:** vyplní místnost kouřem, usnadní plížení a zatemní výhled.
-- **Odpuzovací výbuch:** všichni Blízko musí provést záchranný hod, nebo jsou odtlačeni na Vzdálenou vzdálenost.
+- **Odpuzovací výbuch:** všichni Blízko musí provést záchranný hod, nebo jsou odtlačeni Vzdáleně.
 
 ### Užitkové vynálezy
 - **Tekuté lano:** výhoda na šplhání; kapalina ztuhne na dvě minuty, pak se rozpustí.
 - **Miniaturní vrták:** vytvoří malý otvor ve zdech, dveřích nebo zámcích.
 - **Signální raketa:** vystřelí jasné světlo na oblohu.
 - **Pavoučí průzkumník:** pohybuje se tiše a bliká, pokud zachytí pohyb.
-- **Olejová kluzka:** rozlije kluzký a hořlavý olej na Blízký povrch.
+- **Olejová kluzka:** rozlije kluzký a hořlavý olej na povrch Blízko.
 
 ### Podpůrné vynálezy
 - **Adrenalinový posilovač:** dočasně odstraní stav Zraněný nebo Vyčerpaný na dva tahy.
 - **Blesková pasta:** rychle zatmelí prasklinu nebo únik, drží jeden tah.
 - **Léčivý injektor:** vyléčí k4 bodů životů při aplikaci.
-- **Opravný dron:** obnoví libovolnému konstruktu ve Vzdálené vzdálenosti k4 bodů životů.
+- **Opravný dron:** obnoví libovolnému konstruktu Vzdáleně k4 bodů životů.
 - **Zatahovací štít:** pohltí až šest poškození z jednoho útoku, pak se roztříští.

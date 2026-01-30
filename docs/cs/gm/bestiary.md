@@ -84,7 +84,7 @@
 
 **CHIMÉRA** — Úroveň 8 | 30 bz | Hody 14 | Obrana 1 | HZ 6-7, POS 2-3 (tři útoky)
 
-**MEDÚZA** — Úroveň 7 | 23 bz | Hody 13 | HZ 7, POS 4. *Silný zásah: stav Zkameněly.*
+**MEDÚZA** — Úroveň 7 | 23 bz | Hody 13 | HZ 7, POS 4. *Silný zásah: stav Zkamenělý.*
 
 ## Slizové
 
@@ -96,7 +96,7 @@
 
 ## Plazi
 
-**BAZILIŠEK** — Úroveň 7 | 25 bz | Hody 12 | HZ 8, POS 2. *Silný zásah: stav Zkameněly.*
+**BAZILIŠEK** — Úroveň 7 | 25 bz | Hody 12 | HZ 8, POS 2. *Silný zásah: stav Zkamenělý.*
 
 **HYDRA** — Úroveň 10 | 10 bz na hlavu (×5) | Hody 15 | Obrana 2 | HZ 8, POS 5. *Útoků za kolo = počet hlav.*
 
