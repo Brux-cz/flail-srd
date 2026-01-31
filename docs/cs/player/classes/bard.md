@@ -8,7 +8,7 @@
 
 **Zdatnost zbroje:** základní zbroj.
 
-**Počáteční výbava:** jídlo, lucerna, krátký meč, nástroj, 4k6 mincí.
+**Počáteční výbava:** žrádlo, lucerna, krátký meč, nástroj, 4k6 mincí.
 
 ---
 

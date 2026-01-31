@@ -8,7 +8,7 @@
 
 **Zbroj:** závisí na náboženství.
 
-**Počáteční výbava:** jídlo, pochodně, svatý symbol, zbraň, k6 mincí.
+**Počáteční výbava:** žrádlo, pochodně, svatý symbol, zbraň, k6 mincí.
 
 ---
 
@@ -29,7 +29,7 @@
 
 ### Vkládání rukou
 
-Klerikové mohou léčit jiné postavy strávením kola jejich dotykem a provedením hodu ŠTĚSTÍ. Při úspěchu obnoví počet bodů životů rovný **k6 + aktuální úroveň Klerika**. Při kritickém neúspěchu utrpí důsledky dle náboženství Klerika.
+Klerikové mohou léčit jiné postavy strávením kola jejich dotykem a provedením hodu ŠTĚSTÍ. Při úspěchu obnoví počet bodů životů rovný **k6 + aktuální úroveň Klerika**. Při kritickém neúspěchu utrpí důsledky dle náboženství Klerika. (Vkládání rukou se pro účely kritického neúspěchu počítá jako Božská modlitba.)
 
 ### Volání zázraku
 
@@ -57,6 +57,8 @@ Klerikové mají přístup ke všem modlitbám svého náboženství. K seslán�
 | **Neúspěch** | Modlitba selže a šance na kritický neúspěch se zvýší o 1 dokud není proveden dlouhý odpočinek |
 | **Kritický neúspěch** | Hoď na Boží hněv |
 
+(Př: po třech neúspěšných modlitbách nastane kritický neúspěch na hodu 17–20 místo jen 20.)
+
 ---
 
 ## Náboženství
@@ -68,41 +70,79 @@ Klerikové mají přístup ke všem modlitbám svého náboženství. K seslán�
 *Populární ve městech a obávané obchodníky, jeho kněží vedou asketický život.*
 
 - **Zbraně:** kyj, hůl, prak, bič
+- **Bůh:** Sheezuz, Bůh Spravedlnosti — Dítě uctívané skrze askezi a obětiny vystrašenými šlechtici.
 - **Svatý symbol:** malý dřevěný kříž
 - **Zbroj:** žádná zbroj, přilba ani boty
 - **Vkládání rukou (kritický neúspěch):** spojenec "ztratí" k10 mincí nebo je zabaven náhodný předmět
-- **Modlitby:** Vyléčit nemoc, Vyléčit zranění, Odhalit chamtivost, Prst smrti, Ticho, Zahnat nemrtvé
+
+**Božské modlitby:**
+
+- **Vyléčit nemoc:** odstraní stav Nemocný; použij pouze [ÚROVEŇ]-krát za sezení.
+- **Vyléčit zranění:** odstraní stav Zraněný; použij pouze [ÚROVEŇ]-krát denně.
+- **Odhalit chamtivost:** všichni Blízko nesoucí 30+ mincí začnou zářit.
+- **Prst smrti:** zničí rouhačský, okázalý cíl; cíl má nárok na záchranný hod.
+- **Ticho:** veškerý zvuk v dosahu Vzdáleně ustane na [ÚROVEŇ] kol.
+- **Zahnat nemrtvé:** až [ÚROVEŇ] nemrtvých tvorů Blízko musí provést záchranný hod, nebo utečou a utrpí k6 poškození.
 
 ### Křížová výprava Beránčího kalichu
 
 *Tisíc let hledají Vlnatý grál.*
 
 - **Zbraně:** palcát, kladivo, válečné kladivo
-- **Bůh:** Meh, Beránek poznání
+- **Bůh:** Meh, Beránek poznání — udržovaný mysticismem, jeho klerici přísahali vykopat jeho relikvie.
 - **Svatý symbol:** tunika s beránčím erbem (lze nosit přes zbroj)
 - **Zbroj:** všechny zbroje
 - **Vkládání rukou (kritický neúspěch):** 1-z-6 šance, že je spojenec trvale proměněn v beránka
-- **Modlitby:** Požehnání, Rozhovor s bohem, Svatý štít, Najít předmět, Úkol, Návrat
+
+**Božské modlitby:**
+
+- **Požehnání:** [ÚROVEŇ] spojenců Blízko získá +1 k hodu na zásah v příštím kole boje.
+- **Rozhovor s bohem:** polož Bohu jednu ano-ne otázku; použij pouze [ÚROVEŇ]-krát za sezení.
+- **Svatý štít:** [ÚROVEŇ] spojenců Blízko získá zářivý energetický štít s 2k4 body životů.
+- **Najít předmět:** vycítí polohu dříve dotknutého předmětu.
+- **Úkol:** přikaž někomu stejné (nebo nižší) úrovně vykonat konkrétní úkol.
+- **Návrat:** označ místo; smíš se teleportovat na tyto souřadnice do [ÚROVEŇ] + 2 tahů.
 
 ### Kult Stínového démona
 
 *Jeho kněží všichni pocházejí z Chrámu stínů na Hoře Šera.*
 
 - **Zbraně:** řemdih, ranní hvězda, ostnatý řetěz
+- **Bůh:** Zor'Vol, Pán Chaosu — démon uklidňovaný skrze oběti a hédonismus.
 - **Svatý symbol:** rohatá přilba (lze použít jako zbroj)
 - **Zbroj:** všechny zbroje
 - **Vkládání rukou (kritický neúspěch):** spojenec musí hodit na tabulku Boží hněv
-- **Modlitby:** Mor, Způsobit strach, Vyvolat démona, Kletba, Temnota, Úder
+
+**Božské modlitby:**
+
+- **Mor:** [ÚROVEŇ] protivníků Blízko obdrží postih -1 k hodu na zásah v příštím kole.
+- **Způsobit strach:** vynutí hod na morálku u cíle úrovně [ÚROVEŇ] + 2 (nebo méně).
+- **Vyvolat démona:** trvá jeden tah; bž = k6 + [ÚROVEŇ], HZ = k3 + [ÚROVEŇ], POŠ = [ÚROVEŇ].
+- **Kletba:** všechny záchranné hody zvoleného cíle automaticky selžou na [ÚROVEŇ] kol.
+- **Temnota:** vytvoří auru tmy kolem sesilatele na až [ÚROVEŇ] tahů.
+- **Úder:** magicky očaruje zbraň na +1 HZ/+[ÚROVEŇ] POŠ na jedno kolo.
 
 ### Řád Zeleného háje
 
 *Ochránci přírody, strážci zvířecího života.*
 
 - **Zbraně:** kuše, dýka, dlouhý luk, krátký luk, kopí, hůl
+- **Bůh:** Tul, Bůh Přírody — bere na sebe podobu divokých zvířat a vyžaduje ochranu přírody.
 - **Svatý symbol:** medailon z dubového listu
 - **Zbroj:** základní nebo lehká zbroj
 - **Vkládání rukou (kritický neúspěch):** spojenec je zamotán spontánními liánami na k4 kol
-- **Modlitby:** Růst zvířete, Stvořit jídlo, Zamotání, Neutralizovat jed, Očistit jídlo, Rozmluva s rostlinami
+
+**Božské modlitby:**
+
+- **Růst zvířete:** zvětší jedno dotknuté zvíře; trvá [ÚROVEŇ] tahů.
+- **Stvořit jídlo:** vytvoří [ÚROVEŇ] karet žrádla.
+- **Zamotání:** přivolá liány a kořeny, které spoutají až [ÚROVEŇ] cílů na [ÚROVEŇ] kol.
+- **Neutralizovat jed:** odstraní stav Otrávený; použij pouze [ÚROVEŇ]-krát denně.
+- **Očistit jídlo:** očistí až [ÚROVEŇ] kusů žrádla dotykem.
+- **Rozmluva s rostlinami:** smí získat informace o událostech až [ÚROVEŇ] dní v minulosti.
+
+!!! note "Poznámka"
+    Nahraď všechny odkazy na [ÚROVEŇ] za aktuální úroveň Klerika.
 
 ---
 
