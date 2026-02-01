@@ -6,6 +6,7 @@ Každá postava má stejný počet slotů, rozdělených do tří hlavních obla
 
 - **Ozdoba:** speciální slot pouze pro prsteny, amulety a podobné. Jsou považovány za nošené. Nelze zaplnit stavy.
 - **Ruce:** předměty nesené v hlavní a vedlejší ruce. Obouruční předměty zabírají oba sloty. Jsou považovány za nesené a mohou být použity kdykoli.
+- **Tělo:** předměty nošené na těle. Lze je použít na zbroj, helmu, boty, opasek, toulec nebo jakékoli další předměty/zbraně připravené k rychlému použití. Nošené předměty lze vyměnit za nesené jako volnou akci.
 - **Brašna:** předměty v brašně jsou uložené. Během konfliktu mohou být vyzvednuty za cenu jedné akce — vyměň nesený předmět za uložený. Dva sloty se odemykají pouze pokud má postava příslušné hodnoty SÍL (10 a 12).
 
 ## Používání
