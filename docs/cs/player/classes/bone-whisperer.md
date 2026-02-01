@@ -8,7 +8,7 @@
 
 **Zbroj:** základní zbroj.
 
-**Počáteční výbava:** jídlo, lucerna ducha, náhodný svitek, zbraň, 3k6 mincí.
+**Počáteční výbava:** žrádlo, lucerna ducha, náhodný svitek, zbraň, 3k6 mincí.
 
 ---
 
