@@ -1,16 +1,16 @@
-# Najatci
+# Pomocníci
 
-Postavy se mohou pokusit najmout služebníky, kteří se k nim připojí na cestách a výpravách. Ve vesnicích nebo malých sídlech hoď k20 dvakrát, abys určil, které typy jsou dostupné. Při hodu 15–20 není nikdo k dispozici. Pokud padne stejné číslo dvakrát, cena žoldu je snížena na polovinu. Ve velkých městech jsou dostupní všichni najatci.
+Postavy se mohou pokusit najmout služebníky, kteří se k nim připojí na cestách a výpravách. Ve vesnicích nebo malých sídlech hoď k20 dvakrát, abys určil, které typy jsou dostupné. Při hodu 15–20 není nikdo k dispozici. Pokud padne stejné číslo dvakrát, cena žoldu je snížena na polovinu. Ve velkých městech jsou dostupní všichni pomocníci.
 
 ## Žold
 
-Najatci musí obdržet svůj žold v okamžiku najímání a na začátku každého následujícího herního sezení. Pokud nejsou k dispozici prostředky, najatec odejde.
+Najatci musí obdržet svůj žold v okamžiku najímání a na začátku každého následujícího herního sezení. Pokud nejsou k dispozici prostředky, pomocník odejde.
 
 ## Statistiky
 
-Najatci začínají s 6 body životů, hodnotou 6 ve všech vlastnostech a osmi sloty inventáře, které mohou být používány jako u jakékoli postavy. Nejsou vybaveni, pokud není uvedeno jinak. Když postava, která je najala, postoupí o úroveň, postoupí i oni. Při každé úrovni najatci získají 1 bod ke třem vlastnostem dle výběru plus 1 k maximálním bodům životů.
+Najatci začínají s 6 body životů, hodnotou 6 ve všech vlastnostech a osmi sloty inventáře, které mohou být používány jako u jakékoli postavy. Nejsou vybaveni, pokud není uvedeno jinak. Když postava, která je najala, postoupí o úroveň, postoupí i oni. Při každé úrovni pomocníci získají 1 bod ke třem vlastnostem dle výběru plus 1 k maximálním bodům životů.
 
-## Typy najatců
+## Typy pomocníků
 
 | # | Typ | Schopnost | Žold |
 |---|-----|-----------|------|
@@ -31,8 +31,8 @@ Najatci začínají s 6 body životů, hodnotou 6 ve všech vlastnostech a osmi 
 
 ## Smrt
 
-Pokud postava zemře, její hráč může pokračovat ve hře přeobsazením svého najatce jako postavy 1. úrovně povolání dle vlastního výběru, přičemž si najatec ponechá hodnoty vlastností a maximální body životů, které měl v danou chvíli.
+Pokud postava zemře, její hráč může pokračovat ve hře přeobsazením svého pomocníka jako postavy 1. úrovně povolání dle vlastního výběru, přičemž si pomocník ponechá hodnoty vlastností a maximální body životů, které měl v danou chvíli.
 
 ## Morálka
 
-Kdykoli je najatec vystaven potenciálně nebezpečné situaci, neobdrží podíl z kořisti z nedávné výpravy nebo není řádně nakrmen, jeho patron musí hodit záchranný hod na CHA. Při neúspěchu najatec uprchne a vezme s sebou veškerou nesenou a uloženou výbavu.
+Kdykoli je pomocník vystaven potenciálně nebezpečné situaci, neobdrží podíl z kořisti z nedávné výpravy nebo není řádně nakrmen, jeho patron musí hodit záchranný hod na CHA. Při neúspěchu pomocník uprchne a vezme s sebou veškerou nesenou a uloženou výbavu.

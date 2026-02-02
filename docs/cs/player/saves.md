@@ -9,7 +9,7 @@ Kdykoli postava provádí akci s šancí na neúspěch — a riskantními důsle
 - **Síla:** vyražení dveří, ohnutí mříží, nesení obelisku, táhnutí jiné postavy.
 - **Obratnost:** šplhání po hladkých površích, přeskočení jámy, manipulace s jemnými předměty, plavání, chycení letícího předmětu.
 - **Inteligence:** vzpomenutí si na důležitou informaci, hledání skrytých dveří, čtení a výklad jazyků, rozpoznání architektury budovy.
-- **Charisma:** burcování lidí k věci, najímání a udržení najatců, manipulace nebo svádění jiných postav.
+- **Charisma:** burcování lidí k věci, najímání a udržení pomocníků, manipulace nebo svádění jiných postav.
 - **Štěstí:** určení, jak příznivá nebo nepříznivá je situace, setkání se správnou osobou ve správný čas, vyhnutí se zatoulanému šípu.
 
 ## Výhoda a nevýhoda

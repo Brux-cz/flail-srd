@@ -30,6 +30,6 @@ Pověst je škála od **-6** do **+6**. Akce postav ovlivňují jejich pověst:
 |------|-------|
 | Hrdinské činy | +1 pověst |
 | Zlé činy | -1 pověst |
-| Smrt najatce | -1 pověst |
+| Smrt pomocníka | -1 pověst |
 
 Pověst ovlivňuje jak NPC reagují na postavu.
