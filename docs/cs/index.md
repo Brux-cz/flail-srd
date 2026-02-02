@@ -54,7 +54,7 @@ Každá kombinace má jiný efekt podle vašeho povolání, výbavy a dovednost�
 - [Inventář](player/inventory.md) - Ruce, tělo, brašna
 - [Záchranné hody](player/saves.md) - Roll under mechanika
 - [Boj](player/combat.md) - Poker dice a kombinace
-- [Najatci](player/hirelings.md) - Společníci a pomocníci
+- [Pomocníci](player/hirelings.md) - Společníci a pomocníci
 - [Kampaň](player/campaign.md) - Dlouhodobá hra
 
 ### [Pravidla pro GM](gm/running.md)

@@ -4,11 +4,11 @@ Postavy se mohou pokusit najmout služebníky, kteří se k nim připojí na ces
 
 ## Žold
 
-Najatci musí obdržet svůj žold v okamžiku najímání a na začátku každého následujícího herního sezení. Pokud nejsou k dispozici prostředky, pomocník odejde.
+Pomocníci musí obdržet svůj žold v okamžiku najímání a na začátku každého následujícího herního sezení. Pokud nejsou k dispozici prostředky, pomocník odejde.
 
 ## Statistiky
 
-Najatci začínají s 6 body životů, hodnotou 6 ve všech vlastnostech a osmi sloty inventáře, které mohou být používány jako u jakékoli postavy. Nejsou vybaveni, pokud není uvedeno jinak. Když postava, která je najala, postoupí o úroveň, postoupí i oni. Při každé úrovni pomocníci získají 1 bod ke třem vlastnostem dle výběru plus 1 k maximálním bodům životů.
+Pomocníci začínají s 6 body životů, hodnotou 6 ve všech vlastnostech a osmi sloty inventáře, které mohou být používány jako u jakékoli postavy. Nejsou vybaveni, pokud není uvedeno jinak. Když postava, která je najala, postoupí o úroveň, postoupí i oni. Při každé úrovni pomocníci získají 1 bod ke třem vlastnostem dle výběru plus 1 k maximálním bodům životů.
 
 ## Typy pomocníků
 
