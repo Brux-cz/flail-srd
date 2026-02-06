@@ -1,57 +1,69 @@
-# Scenare vyprav
+# Scénáře výprav
 
-Scenare vyprav jsou navrzeny pro akcne nabite jednorazovky, kde postavy maji jasny cil a cas na jeho splneni.
+Scénáře výprav jsou navrženy pro akčně nabité jednorázovky, kde postavy mají jasný cíl a čas na jeho splnění.
 
 ---
 
-## Tvorba scenare
+## Tvorba scénáře
 
-### 1. Tema
+### 1. Téma
 
-Vyber hlavni cil z tabulky, upresni ho zodpovezenim souvisejici otazky a vytvor klicovy zvrat. Udělej vypravu **casove omezenou**: dobra jednorazovka ma pocit nalehavosti. Mezi jednim a dvema tydny je dobry odhad.
+Vyberte hlavní cíl z tabulky, upřesněte ho zodpovězením související otázky a vytvořte klíčový zvrat pomocí těch uvedených jako inspirace. Udělejte výpravu **časově omezenou**: dobrá jednorázovka má pocit naléhavosti, který hráče drží v tempu. Mezi jedním a dvěma týdny je dobrý odhad.
 
-### 2. Vytvor mapu
+### 2. Vytvořte mapu
 
-Vytiskni prazdnou mrizku s 20-25 hexy. Vypln polovinu z nich lokaci nebo orientacnim bodem. Napis jeden nebo dva radky ke kazdemu. Propoj nektere z nich s cilem vypravy.
+Vytiskněte prázdnou mřížku s 20–25 hexy. Vyplňte polovinu z nich lokací nebo orientačním bodem (nebo vyberte dílky z Hexcrawl Toolboxu). Napište jeden nebo dva řádky ke každému, jako byste to udělali pro běžný hexcrawl, a použijte tabulky z kapitoly Hexcrawl k vygenerování obsahu. Propojte některé z nich s cílem výpravy.
 
-### 3. Stretnuti
+### 3. Střetnutí
 
-Vytvor tabulku k6 stretnuti. Pouzij tvory odpovidajici tematu a pridej k nim variabilitu.
+Vytvořte tabulku k6 střetnutí. Propojte několik z nich s tématem výpravy. Příklady: pokud je cílem zastavit rituál, přidejte potulného kultistu hledajícího chybějící ingredienci; pokud je cílem přepravit zboží, přidejte soupeřící obchodnický gang; pokud je cílem najít konkrétní lokaci, přidejte piráta s mapou pokladu.
 
-### 4. Udalosti (volitelne)
+### 4. Události (volitelné)
 
-Vytvor tematickou tabulku udalosti s vlastnimi pravidly. Priklady: pokud je cilem zastavit ritual, pridej udalosti, ktere ho posouvaji; pokud je cilem zachranit vesnici, pridej udalosti, ktere posouvaji zkazu vesnice.
+Vytvořte tematickou tabulku událostí s vlastními pravidly. Mohou sahat od událostí, které se dějí každý den, po jiné, které se spouštějí jako v běžném hexcrawlu. Příklady: pokud je cílem zastavit rituál, přidejte události, které ho posouvají; pokud je cílem zachránit vesnici, přidejte události, které posouvají zkázu vesnice.
 
-### 5. Specialni pravidla (volitelna)
+### 5. Speciální pravidla (volitelná)
 
-Pridej vlastni sadu pravidel, ktera dela scenar jedinecnym.
+Přidejte vlastní sadu pravidel, která dělá scénář jedinečným. Příklady: u scénáře s přírodní katastrofou navrhněte pravidla pro to, kdy je hex zasažen; u lovecké výpravy vytvořte pravidla pro prozkoumání označené lokace. Podívejte se na předpřipravené scénáře výprav pro inspiraci.
 
 ### 6. Poklad
 
-Oznac mezi tremi a sesti lokacemi jako mista s legendarnim pokladem. Pokud jsou uspesne prozkoumany, odmen hrace Unikatnim predmetem.
+Označte mezi třemi a šesti lokacemi jako místa s legendárním pokladem. Pokud jsou úspěšně prozkoumány, odměňte hráče unikátním předmětem (strana 98).
 
-### 7. Vyprava
+### 7. Výprava
 
-Dej hracum ukol a hraj, abys zjistil, zda uspeji!
+Dejte hráčům úkol a hrajte, abyste zjistili, zda uspějí!
 
 ---
 
-## Seznam temat
+!!! info "Vedení scénářů"
 
-| Cil | Otazka | Zvrat |
+    Určete startovní hex pro postavy. Veďte scénáře jako běžné hexcrawly, s výjimkou vlastních událostí a speciálních pravidel. Jelikož tento herní mód nenavrhuje rozšiřovat lokace na dobrodružná místa, jednoduše vyprávějte obsah lokace a využijte reakce hráčů — nebo se jich ptejte — a stavějte na jejich zpětné vazbě. Pamatujte, že tyto lokace nepotřebují víc než celkový popis, překážku, případně střetnutí a nějakou odměnu.
+
+---
+
+## Seznam témat
+
+*Tyto položky je třeba číst po řádcích*
+
+| Cíl | Otázka | Zvrat |
 |-----|--------|-------|
-| **Najdi nekoho** | Koho? (1) odsouzeny bard, (2) uprchlý vezen, (3) prosluly kovar, (4) uprchlý zlodej | Pridej imitatory ke stretnutim |
-| **Zachran nekoho** | Koho? (1) ztraceny knez, (2) bohaty syn, (3) slechtic, (4) unesene dite | Nemusi nutne chtit byt zachranen |
-| **Doprovod nekoho** | Koho? (1) krale, (2) vezne, (3) vestce, (4) zajatou priseru | Doprovazenä osoba je nekdo jiny |
-| **Najdi poklad** | Co? (1) legendarni zbran, (2) magicky prsten, (3) mocny amulet | Lokace je neznama |
-| **Najdi lokaci** | Kterou? (1) starobylá svatyne, (2) pachnouci kobka, (3) zabezpecene vezeni | Lokace se pomalu hrouti |
-| **Vyplundruj lokaci** | Kterou? (1) obri vez, (2) opusteny chram, (3) strasidelne jeskyne | Pridej nadprirozenou entitu |
-| **Zastav ritual** | Jaky? (1) privolani prisery, (2) otevreni portalu, (3) vzbuzeni armady nemrtvych | Krajina se meni udalostmi |
-| **Unikni katastrofe** | Jake? (1) sopka, (2) zemetreseni, (3) tsunami, (4) pozar | Krajina se meni udalostmi |
-| **Pronasieduj priseru** | Jakou? (1) drak, (2) kyklop, (3) chimera, (4) hydra | Prisera roste |
-| **Eliminuj cil** | Koho? (1) vojevudce, (2) zleho kneze, (3) excentrikeho maga | Cil ma vice identit |
-| **Zachran vesnici** | Jake nebezpeci? (1) invaze, (2) prirodni katastrofa, (3) zly vladce | Pridej moralni dilemata |
-| **Preprav zbozi** | Co? (1) pasovaie zbozi, (2) nastrazenou bombu, (3) vnimajici mec | Postavy nevedi, co je obsahem |
+| Najít někoho, kdo se skrývá na mapě | *Koho?* (1) odsouzený bard, (2) uprchlý vězeň, (3) proslulý kovář, (4) uprchlý zloděj, (5) slavný zabiják, (6) vyhnaný čaroděj | Přidejte imitátory ke střetnutím; přidejte extrémní počasí k událostem |
+| Zachránit někoho na mapě | *Koho?* (1) ztracený kněz, (2) bohatý syn, (3) šlechtic, (4) unesené dítě, (5) prokletý učenec, (6) velmi bohatý obchodník | Nemusí nutně chtít být zachráněn; cíl je držen v zajetí mocnými protivníky |
+| Doprovodit někoho mezi dvěma lokacemi | *Koho?* (1) král, (2) vězeň, (3) věštec, (4) zajatá příšera, (5) prokletý rytíř, (6) cizí špion | Doprovázená osoba je ve skutečnosti někdo jiný; přidejte frakci, která je chce unést |
+| Najít konkrétní poklad nebo předmět | *Co?* (1) legendární zbraň, (2) magický prsten, (3) mocný amulet, (4) ztracený svitek, (5) mýtická zbroj, (6) prastará maska | Lokace předmětu je neznámá; přidejte soupeře, kteří ho také hledají |
+| Najít konkrétní lokaci na mapě | *Kterou?* (1) starobylá svatyně, (2) páchnoucí kobka, (3) zabezpečené vězení, (4) stará pokladnice, (5) královské hrobky, (6) prokleté krypty | Přidejte události pro dění v lokaci; lokace se pomalu hroutí |
+| Vyplundrovat lokaci | *Kterou?* (1) obří věž, (2) opuštěný chrám, (3) strašidelné jeskyně, (4) stoky, (5) opuštěná pevnost, (6) pochybná krčma | Hráči nevědí, kde lokace je; přidejte nadpřirozenou entitu, která ji také hledá |
+| Zastavit rituál | *Jaký?* (1) přivolání příšery, (2) otevření portálu, (3) vzbuzení armády nemrtvých, (4) nanebevstoupení temného boha | Přidejte události, které posouvají rituál; krajina se mění událostmi |
+| Uniknout přírodní katastrofě | *Jaké?* (1) sopka, (2) zemětřesení, (3) tsunami, (4) požár, (5) arkánní tornádo, (6) masivní sesuv půdy | Přidejte události spouštěné katastrofou; krajina se mění událostmi |
+| Pronásledovat a zabít příšeru | *Jakou?* (1) drak, (2) kyklop, (3) chiméra, (4) jednorožec, (5) létající oko, (6) hydra | Příšera roste; místní nechtějí, aby byla bestie zabita |
+| Eliminovat cíl | *Koho?* (1) vojevůdce, (2) zlý kněz, (3) soupeřící zloděj, (4) excentrický mág, (5) posedlý vládce, (6) královna | Cíl je chráněn loajalisty nebo příšerou; cíl má více identit |
+| Zachránit vesnici před blížící se katastrofou | *Jaké nebezpečí?* (1) invaze, (2) přírodní katastrofa, (3) zlý vládce, (4) temný kult, (5) příšera, (6) mor | Přidejte události, které posouvají katastrofu; poskytněte hráčům morální dilemata |
+| Přepravit zboží mezi dvěma lokacemi | *Co?* (1) pašované zboží, (2) nastražená bomba, (3) vnímající legendární meč, (4) fůra zlatých cihel, (5) prokletý artefakt, (6) posvátná relikvie | Přepravujte náklad mezi hexy uprostřed válečné zóny; postavy nevědí, co je obsahem |
+
+!!! info "Předpřipravené scénáře výprav"
+
+    Hexcrawl Toolbox obsahuje čtyři hrací scénáře výprav: Doprovod krále (přepracován v této příručce), Útěk z Vulkánového ostrova, Nájezdy na pouštní hrobky a Zastavte mimozemšťany. Vyzkoušejte je zdarma.
 
 ---
 
