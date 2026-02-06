@@ -71,14 +71,14 @@ Od chvíle, kdy se postava stane slavnou nebo neslavnou, jsou všechny následn�
 - Bezplatné ubytování a jídlo ve městě
 - Snadné přijetí u místních úřadů
 - Získání doporučení od místního kněze
-- Najatí pomocníka zdarma – loajálního a ctnostného
+- Najmutí pomocníka zdarma – loajálního a ctnostného
 - Obdržení vzácného daru
 
 #### Utrácení tokenů neslavnosti
 
 - Navázání kontaktu s podsvětím kvůli zvěstem
 - Získání pomoci od kultu nebo zlodějského cechu
-- Najatí pomocníka zdarma – protivného a zlomyslného
+- Najmutí pomocníka zdarma – protivného a zlomyslného
 - Vzbuzení strachu, odrazení lidí od útoku
 - Donucení soupeřů záměrně prohrát v hazardu
 
@@ -86,6 +86,6 @@ Od chvíle, kdy se postava stane slavnou nebo neslavnou, jsou všechny následn�
 
 Jakmile se postava stane slavnou nebo neslavnou, přestane být takto vnímána pouze po návratu na nulovou pověst. Tokeny však získává pouze tehdy, pokud její pověst zůstává na -6 nebo 6. Body pověsti by měly být udělovány pouze jednou až dvakrát za sezení, aby jim trvalo, než se ve hře projeví.
 
-*„Potřebuješ s tím pomoc? Moment... Ne, počkat, moment. Proč utíkáš?"*
+*„Potřebuješ s tím pomoc? Nech mě mrknout... Ne, počkat, nech mě mrknout. Proč utíkáš?"*
 
 — Specializovaný kovář s velmi pochybnou pověstí
