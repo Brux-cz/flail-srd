@@ -272,7 +272,7 @@ Když narazíte na tvora nebo osoby, jejichž reakce je nejistá, použijte nás
 
 ### Morálka
 
-Když je protivník na začátku svého kola v jasné nevýhodě, musí hodit na morálku. Při neúspěchu prchá nebo se vzdá.
+Když je protivník na začátku svého kola v jasné nevýhodě, musí hodit záchranný hod na morálku. Při neúspěchu prchá nebo se vzdá.
 
 ### Počasí
 
