@@ -156,7 +156,9 @@ Každý úsvit hoď na mutaci. Každá postava musí uspět v záchranném hodu 
 
 ## Příklad: Doprovod krále
 
-*Výprava: doprovoď krále z bodu A do bodu B za sedm dní.*
+*Výprava: bezpečně doprovoď krále z vesnice Herthall do Královského hradu.*
+
+Král jede v Královském palankynu, který postavy musí nést nebo „najít" pomocníky, kteří to udělají za ně. Palankýn přepravuje šperky a mince v hodnotě 1 000 mincí. Král musí dorazit do hradu na opačné straně mapy za maximálně 12 dní. Postavy se mohou pohybovat a prozkoumávat jak chtějí, ale král bude trvat na tom, aby šly rychleji. Jeho Veličenstvo má velmi vyhraněné názory na nejlepší trasu. Pokud bude král zdržen, zraněn nebo zemře, královna nebude nadšená.
 
 ### Události — Královy nálady (k6)
 
