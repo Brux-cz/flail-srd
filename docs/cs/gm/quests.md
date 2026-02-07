@@ -67,65 +67,173 @@ Dejte hráčům úkol a hrajte, abyste zjistili, zda uspějí!
 
 ---
 
-## Priklad: Kletba carodejnice z Desivych mocalu
+## Příklad: Kletba čarodějnice z Děsivých močálů
 
-**Vyprava:** sesbírej pet ingredienci a uvar elixir pro sejmuti kletby.
+*Výprava: sesbírej pět ingrediencí a uvař elixír pro sejmutí kletby.*
 
-Druzina narazila na doupe carodejnice z Desivych mocalu a ted trpi nasledky. Byla na ne uvrzena prokletí, ktere pomalu prekrucuje jejich tela. Maji **sedm dni** na sehnani vzacnych ingredienci a uvareni ocistneho elixiru. Jinak se z nich stanou bazinate obludy navěky.
+Postavy neukradly jen tak ledajakou kočku — vzaly si milovaného familiára Mireldy, čarodějnice z Děsivých močálů — a pak ho prodaly Kazmoře, Sběrateli (facepalm). Čarodějnice je samozřejmě proklela Děsivou močálovou nákazou, která pomalu překrucuje jejich těla v odraz bažiny samotné — kosti praskají jako staré stromy, kůže puká jako zaschlé bláto a hlasy bublají jako hlubiny močálu. Jejich jedinou nadějí je sesbírat pět vzácných ingrediencí a uvařit očistný elixír. Dokážou to, než se z nich stanou bažinné zrůdy?
+
+!!! note "Poznámka"
+
+    Hráči by měli vědět, které ingredience potřebují a kde se nacházejí. Ale ne nutně jak je získat nebo jak uvařit elixír.
+
+Každý úsvit hoď na mutaci. Každá postava musí uspět v záchranném hodu na SÍL. Při neúspěchu získá příslušný stav. Při šesti stavech se promění v Bažinnou zrůdu. Elixír odstraní všechny stavy.
 
 ### Mutace (k6)
 
 | k6 | Mutace |
 |----|--------|
-| 1 | **Rosolovite nohy:** -2 OBR; zabere extra straz pro presun do noveho hexu |
-| 2 | **Chapadlova paze:** ziskej jeden extra slot pro neseni vybavy |
-| 3 | **Bahennl dech:** nevyhoda k mluvení, sesilani modliteb |
-| 4 | **Krehke kosti:** dostanes stav Zraneny pokazde, kdyz utrpis poskozeni |
-| 5 | **Velke houbove bolaky:** produkuj jednu kartu inventare s larvou denne |
-| 6 | **Pijavci srdce:** kazdy neuspesny zachranny hod zpusobi 1 bod poskozeni |
+| 1 | **Rosolovité nohy:** -2 OBR; zabere extra stráž pro přesun do nového hexu. |
+| 2 | **Chapadlová paže:** získej jeden extra slot pro nesení výbavy (předměty umístěné na tuto kartu se počítají jako nesené). |
+| 3 | **Bahenní dech:** nevýhoda k mluvení, sesílání modliteb a všem hodům zahrnujícím slovní komunikaci. |
+| 4 | **Křehké kosti:** dostaneš stav Zraněný pokaždé, když utrpíš poškození. |
+| 5 | **Velké houbové boláky:** produkuj jednu kartu inventáře se žrádlem denně. |
+| 6 | **Pijavčí srdce:** každý neúspěšný záchranný hod způsobí 1 bod poškození. |
 
-### Lokace na mape
+### Lokace na mapě
 
-1. **Mireldina chyse** — carodejnice vari lektvary. Elixir funguje pouze pokud je uvaren zde.
-2. **Prastare zriceniny** — kobka s peti mistnostmi
-3. **Mrsina** — tesakov kost je *ingredience*
-4. **Vezicky** — starobyle hrobky
-5. **Vrak lodi** — poklad a svitek s ritualem
-6. **Krokodyli chram** — strezeno Tyranskymi krokodyly
-7. **Houbovy prerost** — platek houby je *ingredience*
-8. **Bahenni vesnice** — krvavý okvetni listek je *ingredience*
-9. **Lebecní oltar** — provede ritual ocisteni
-10. **Pavouci strom** — oko pavouka je *ingredience*
-11. **Strasildelny obelisk** — prach z prizraka je *ingredience*
+**1: Mireldina chýše** — Mirelda osnuje a vaří lektvary ve svém kotli, obklopena čtyřmi Pavouky s lebčí hlavou. Elixír funguje pouze pokud je uvařen zde.
+
+**2: Prastaré zříceniny** — Vygenerujte kobku s pěti místnostmi s pastí, hádankou, překážkou, střetnutím a pokladem (viz strana 78).
+
+**3: Mršina** — Pozůstatky pravěké bestie. Její tesáková kost je *ingredience*.
+
+**4: Věžičky** — Starobylé hrobky ukrývající Sběratele přízraků (HZ 6, POŠ 4; *Speciální: +2 HZ proti přízrakům*).
+
+**5: Vrak lodi** — Ukrývá poklad a svitek s rituálem očištění u lebčního oltáře. Hoď na střetnutí.
+
+**6: Krokodýlí chrám** — Střežen dvojicí Tyranských krokodýlů. Uvnitř je poklad a vůdce Bahenní vesnice, bezmocně uvězněný.
+
+**7: Houbový přerost** — Plný psychoaktivních spor. Postavy, které je vdechnou, musí uspět v záchranném hodu na SÍL, nebo dostanou mutaci. Plátek houby je *ingredience*.
+
+**8: Bahenní vesnice** — Obývaná bahenním lidem, který vymění krvavý okvětní lístek za záchranu jejich vůdce z Krokodýlího chrámu. Krvavý okvětní lístek je *ingredience*.
+
+**9: Lebční oltář** — Provedení rituálu očištění zde odstraní dvě mutace. Oltáři musí být nabídnuta živá oběť.
+
+**10: Pavoučí strom** — Pokrytý lepivými pavučinami a obývaný čtyřmi Pavouky s lebčí hlavou. Oko pavouka je *ingredience*.
+
+**11: Strašidelný obelisk** — Kouzla seslaná proti obelisku uvolní počet přízraků rovný utracené maně/duchu. Prach z přízraka je *ingredience*.
+
+### Příšery
+
+**MIRELDA, ČARODĚJNICE** — *Mrzutá, pomstychtivá, truchlící*
+
+Úroveň 7 | 17 bz | Hody 17 | Obrana 1 | Pohyb B | Morálka 18 | Mana 18 | Člověk
+
+- **Čarodějné koště:** HZ 7, POŠ 3.
+- **Hůlka z lebek:** HZ 5, POŠ 2. *Silný zásah: může seslat dvě kouzla jako volnou akci okamžitě.*
+- **Známá kouzla:** zmámení, let, znehybnění osoby, vysátí života, výbuch lebek.
 
 ---
 
-## Priklad: Doprovod krale
+**HNIJÍCÍ ZRŮDA** — *Z rozkladu se množí*
 
-**Vyprava:** doprovod krale z bodu A do bodu B za sedm dni.
+Úroveň 9 | 30 bz | Hody 14 | Obrana 2 | Pohyb B | Morálka 15 | Monstrozita
 
-### Udalosti (k6)
+- **Hnijící dotyk:** HZ 8, POŠ 5. *Silný zásah: způsobí náhodnou mutaci.*
+- **Speciální:** při zásahu odloupne k3 **Poskoky** (5 bz, HZ 4, POŠ 2).
 
-| k6 | Udalost |
+---
+
+**PAVOUK S LEBČÍ HLAVOU** — *Pevné sítě tkané prázdnýma očima*
+
+Úroveň 3 | 9 bz | Hody 8 | Obrana 0 | Pohyb B | Morálka 9 | Nemrtvý
+
+- **Pavučiny hrůzy:** HZ 5, POŠ 2. *Jakýkoli zásah: při dvou párech znehybní cíl v pavučině.*
+
+### Střetnutí (k6)
+
+| k6 | Střetnutí |
+|----|-----------|
+| 1 | **Sběratel** (Druid úrovně 5), hledá také ingredienci. |
+| 2 | **k6 Přízraků**, vznášejících se zpět k Obelisku, rozpouštějících se v jeho povrchu, jak se přibližují. |
+| 3 | **k4 Bahenního lidu**, hledají svého vůdce nebo připravují nájezd na Krokodýlí chrám. |
+| 4 | **k4 Pavouků s lebčí hlavou**, špehují pro svou paní Mireldu. |
+| 5 | **Bažinná zrůda**, s rosolovitými končetinami, chapadlem, strašlivým dechem, houbovými boláky atd. |
+| 6 | **Hnijící zrůda**, strašící. |
+
+---
+
+## Příklad: Doprovod krále
+
+*Výprava: doprovoď krále z bodu A do bodu B za sedm dní.*
+
+### Události — Královy nálady (k6)
+
+| k6 | Událost |
 |----|---------|
-| 1 | **Nemoc:** kral je nemocný; potrebuje sehnat lekarske osetreni nebo zemre za 2k3 dny |
-| 2 | **Nuda:** kral potrebuje zabavu a je o tom velmi hlasity |
-| 3 | **Zmena srdce:** kral pozaduje okamzite cestovat jinou trasou |
-| 4 | **Dvojnik:** kralovo vyhnane dvojce se objevi |
-| 5 | **Predzvest:** vrany zlovestne krouzi na nebi; kral pozaduje kostel k modlení |
-| 6 | **Kralovsky souboj:** uchazec o trun se objevi a pozaduje souboj s kralem |
+| 1 | **Nemoc:** král je nemocný; potřebuje sehnat lékařské ošetření nebo zemře za 2k3 dny. |
+| 2 | **Nuda:** král potřebuje zábavu a je o tom velmi hlasitý. |
+| 3 | **Změna srdce:** král požaduje okamžitě cestovat jinou trasou. |
+| 4 | **Dvojník:** královo vyhnané dvojče se objeví a pokusí se zaujmout místo Jeho Veličenstva. |
+| 5 | **Předzvěst:** vrány zlověstně krouží na nebi; král požaduje kostel k modlení. |
+| 6 | **Královský souboj:** uchazeč o trůn se objeví a požaduje souboj s králem. |
 
-### Lokace na mape
+### Lokace na mapě
 
-1. **Velke jezero** — Zluty had spi hluboko v jeho vodach
-2. **Zchatraly kostel** — nedavno se nastehoval nekromant
-3. **Prastare zriceniny** — kobka s peti mistnostmi
-4. **Obri zelva** — da se s ni vyjednavat
-5. **Prizracny vrak** — poklad uvnitr, strezeny Obrim krabem
-6. **Zamrzle jezero** — led muze prasknout
-7. **Mesto Winterholme** — prijemne misto k odpocinku
-8. **Zaplavene ruiny** — kobka s peti mistnostmi
-9. **Ocarovane jeskyne** — nahodna jeskyne
-10. **Hostinec** — najatý vrah dorazi za 2k6 hodin
-11. **Pokroucena vez** — alchymistka vari elixiry
-12. **Kralovsky hrad** — Jste v bezpeci!
+**1: Velké jezero** — Žlutý had spí hluboko v jeho vodách. Jeho šupiny jsou nejcennější odměnou alchymisty.
+
+**2: Zchátralý kostel** — Nedávno se nastěhoval nekromant. Chce mrtvoly. Mrtví bloudí v noci. Často příliš daleko.
+
+**3: Prastaré zříceniny** — Improvizujte kobku s pěti místnostmi s překážkou, pastí, hádankou, střetnutím a pokladem (viz strana 78).
+
+**4: Obří želva** — Dá se s ní vyjednávat, aby vzala partu celou cestu na sever. Nedaleko plavou duchové utonulých.
+
+**5: Přízračný vrak** — Poklad uvnitř, střežený Obřím krabem.
+
+**6: Zamrzlé jezero** — Vysoká šance, že led praskne, pokud je neseno příliš mnoho výbavy, což vede k smrti mrazem!
+
+**7: Město Winterholme** — Vesničané vítají svého krále. Příjemné místo k odpočinku.
+
+**8: Zaplavené ruiny** — Improvizujte kobku s pěti místnostmi s překážkou, pastí, hádankou, střetnutím a pokladem (viz strana 78).
+
+**9: Očarované jeskyně** — Vygenerujte náhodnou jeskyni (viz strana 84).
+
+**10: Hostinec** — Méně příjemné místo k odpočinku. Uchazeč o trůn podplatil majitele, aby zdržoval krále. Najatý vrah dorazí za 2k6 hodin.
+
+**11: Pokroucená věž** — Domov Isolde, alchymistky (Čarodějka úrovně 7), která vaří podivné elixíry. Vymění šupiny Žlutého hada za unikátní předmět.
+
+**12: Královský hrad** — Jste v bezpečí!
+
+### Příšery
+
+**ŽLUTÝ JEZERNÍ HAD** — *Nemá rád ty, co se koupou nazí*
+
+Úroveň 8 | 35 bz | Hody 14 | Obrana 1 | Pohyb R | Morálka 12 | Plaz
+
+- **Drtivé sevření:** HZ 8, POŠ 4. *Silný zásah: způsobí stav Zraněný.*
+
+---
+
+**MECHOVÝ MEDVĚD** — *Pohled, který si nikdo nepřeje spatřit*
+
+Úroveň 6 | 22 bz | Hody 11 | Obrana 2 | Pohyb B | Morálka 15 | Zvíře
+
+- **Drápy:** HZ 7, POŠ 3. *Jakýkoli zásah: při trojici způsobí k6 poškození dalšímu cíli Blízko.*
+
+---
+
+**KOZLÍ DÉMON** — *Smlouvá nejtvrdší úmluvy*
+
+Úroveň 5 | 18 bz | Hody 11 | Obrana 2 | Pohyb B | Morálka 8 | Démon
+
+- **Kostěná flétna:** HZ 4, POŠ 1. *Jakýkoli zásah: všichni na doslech musí uspět v záchranném hodu, nebo usnou.*
+
+---
+
+**MAJESTÁTNÍ ANTI-JELEN** — *Jeho paroží vyzařuje anti-magii*
+
+Úroveň 9 | 40 bz | Hody 18 | Obrana 3 | Pohyb B | Morálka 17 | Zvíře
+
+- **Parožní útok:** HZ 9, POŠ 4. *Jakýkoli zásah: při dvou párech se stane imunní vůči magii do dalšího kola.*
+
+### Střetnutí (k6)
+
+| k6 | Střetnutí |
+|----|-----------|
+| 1 | **Lesní bandité** (2k4 hrdlořezů), chtějí oloupit krále a rozdat peníze chudým. |
+| 2 | **Cirkusová společnost** (vedená Bardem úrovně 4), snaží se zapůsobit na krále a být za to štědře zaplacena. |
+| 3 | **Horda nemrtvých** (3k6 kostlivců), potulují se a hledají Zchátralý kostel. |
+| 4 | **Kozlí démon**, chce s králem uzavřít ďábelskou úmluvu. |
+| 5 | **Mechový medvěd**, vypadá neuvěřitelně hladově po dlouhém spánku. |
+| 6 | **Majestátní Anti-jelen**, král opravdu chce jeho trofejní paroží, „Prosím, děkuji". |
