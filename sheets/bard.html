@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAIL - Deník Barda</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Oswald:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --black: #111;
+            --white: #fff;
+            --gray: #888;
+            --light-gray: #e5e5e5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: var(--light-gray);
+            padding: 20px;
+            font-size: 11px;
+        }
+
+        .toolbar {
+            max-width: 850px;
+            margin: 0 auto 15px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .toolbar button {
+            background: var(--black);
+            color: var(--white);
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .toolbar button:hover { background: #333; }
+        .toolbar button.danger { background: #666; }
+        .file-input { display: none; }
+
+        .sheet {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--white);
+            border: 3px solid var(--black);
+            padding: 15px;
+            box-shadow: 4px 4px 0 var(--black);
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            border-bottom: 2px solid var(--black);
+            padding-bottom: 8px;
+        }
+
+        .name-block { flex: 1; }
+
+        .name-label {
+            font-size: 9px;
+            color: var(--gray);
+            font-style: italic;
+        }
+
+        .name-input {
+            width: 100%;
+            border: none;
+            border-bottom: 2px solid var(--black);
+            font-size: 13px;
+            font-style: italic;
+            padding: 4px 0;
+            background: transparent;
+            font-family: 'Special Elite', monospace;
+        }
+
+        .name-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        .logo {
+            font-family: 'Oswald', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-left: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .logo-bug { font-size: 22px; }
+
+        /* Special Skills */
+        .skills-box {
+            border: 3px solid var(--black);
+            padding: 8px 10px;
+            margin-bottom: 10px;
+        }
+
+        .skills-title {
+            font-family: 'Oswald', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            border-bottom: 3px solid var(--black);
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+        }
+
+        .skill-line {
+            font-size: 10px;
+            line-height: 1.4;
+            margin-bottom: 2px;
+        }
+
+        .skill-name { font-weight: bold; }
+
+        /* Stats Row */
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+
+        .stat-box {
+            border: 3px solid var(--black);
+            text-align: center;
+        }
+
+        .stat-header {
+            background: var(--black);
+            color: var(--white);
+            font-family: 'Oswald', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 2px;
+        }
+
+        .stat-body {
+            padding: 5px 3px;
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            gap: 2px;
+        }
+
+        .stat-input {
+            width: 32px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            border-bottom: 2px solid var(--black);
+            background: transparent;
+        }
+
+        .stat-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        .stat-sep {
+            font-size: 18px;
+            color: var(--gray);
+        }
+
+        .stat-labels {
+            display: flex;
+            justify-content: space-around;
+            font-size: 7px;
+            color: var(--gray);
+            padding: 0 3px 3px;
+        }
+
+        /* === MAIN INVENTORY GRID === */
+        .inventory-section {
+            display: grid;
+            grid-template-columns: 180px 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 700px) {
+            .inventory-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Left Column - Level, HP, Reputation, Rings, Carried/Worn */
+        .left-col {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        /* Level Box */
+        .level-box {
+            border: 3px solid var(--black);
+            padding: 6px;
+        }
+
+        .level-title {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            border-bottom: 2px solid var(--black);
+        }
+
+        .level-subtitle {
+            font-size: 7px;
+            color: var(--gray);
+        }
+
+        .level-content {
+            display: flex;
+            gap: 8px;
+            margin-top: 5px;
+        }
+
+        .level-grid {
+            display: grid;
+            grid-template-columns: auto 1fr 1fr;
+            gap: 2px;
+            font-size: 10px;
+        }
+
+        .level-num {
+            font-weight: bold;
+            width: 14px;
+        }
+
+        .level-check {
+            width: 14px;
+            height: 14px;
+            border: 2px solid var(--black);
+            border-radius: 50%;
+            appearance: none;
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .level-check:checked {
+            background: var(--black);
+        }
+
+        /* HP/Coins */
+        .hp-coins {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .resource-box {
+            text-align: center;
+            border: 2px solid var(--black);
+            padding: 3px 8px;
+            border-radius: 20px;
+        }
+
+        .resource-box.hp {
+            background: var(--white);
+        }
+
+        .resource-label {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 10px;
+        }
+
+        .resource-input {
+            width: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            background: transparent;
+        }
+
+        .resource-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        .resource-sub {
+            font-size: 7px;
+            color: var(--gray);
+        }
+
+        /* Reputation */
+        .reputation-box {
+            border: 3px solid var(--black);
+            padding: 5px;
+        }
+
+        .rep-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            margin-bottom: 4px;
+        }
+
+        .rep-arrow { font-size: 12px; }
+
+        .rep-title {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 11px;
+        }
+
+        .rep-track {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2px;
+        }
+
+        .rep-circle {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--black);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 7px;
+            cursor: pointer;
+            background: var(--white);
+        }
+
+        .rep-circle:hover { background: var(--light-gray); }
+        .rep-circle.active {
+            background: var(--black);
+            color: var(--white);
+        }
+        .rep-circle.center { background: var(--light-gray); }
+
+        /* Ring Slots */
+        .ring-row {
+            display: flex;
+            gap: 5px;
+        }
+
+        .ring-slot {
+            flex: 1;
+            border: 2px solid var(--black);
+            padding: 5px;
+            text-align: center;
+            min-height: 50px;
+        }
+
+        .ring-icon {
+            font-size: 24px;
+            line-height: 1;
+        }
+
+        .ring-label {
+            font-size: 7px;
+            color: var(--gray);
+            font-style: italic;
+        }
+
+        .ring-input {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid var(--gray);
+            font-size: 9px;
+            text-align: center;
+            background: transparent;
+            margin-top: 3px;
+        }
+
+        .ring-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        /* Equipment Slots - Carried/Worn */
+        .equip-row {
+            display: flex;
+            gap: 5px;
+        }
+
+        .equip-slot {
+            flex: 1;
+            border: 3px solid var(--black);
+            min-height: 60px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .equip-slot.worn {
+            background: var(--light-gray);
+        }
+
+        .equip-header {
+            background: var(--black);
+            color: var(--white);
+            font-family: 'Oswald', sans-serif;
+            font-size: 9px;
+            padding: 2px 4px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .equip-num {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .equip-input {
+            flex: 1;
+            border: none;
+            padding: 4px;
+            font-size: 10px;
+            font-family: 'Special Elite', monospace;
+            background: transparent;
+            resize: none;
+        }
+
+        .equip-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        /* Middle Column - Body Slots */
+        .body-col {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .body-slot {
+            border: 3px solid var(--black);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 55px;
+        }
+
+        .body-header {
+            background: var(--black);
+            color: var(--white);
+            font-family: 'Oswald', sans-serif;
+            font-size: 9px;
+            padding: 2px 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .body-num {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .body-input {
+            flex: 1;
+            border: none;
+            padding: 4px;
+            font-size: 10px;
+            font-family: 'Special Elite', monospace;
+            background: transparent;
+            resize: none;
+        }
+
+        .body-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        /* Right Column - Stashed Slots */
+        .stash-col {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .stash-slot {
+            border: 3px dashed var(--black);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 55px;
+            position: relative;
+        }
+
+        .stash-slot.locked {
+            background: repeating-linear-gradient(
+                -45deg,
+                transparent,
+                transparent 5px,
+                rgba(0,0,0,0.03) 5px,
+                rgba(0,0,0,0.03) 10px
+            );
+        }
+
+        .stash-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .stash-input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 4px;
+            font-size: 10px;
+            font-family: 'Special Elite', monospace;
+            background: transparent;
+            resize: none;
+            text-align: center;
+        }
+
+        .stash-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        .stash-unlock {
+            font-size: 8px;
+            color: var(--gray);
+            text-align: center;
+            padding: 3px;
+            border-top: 1px dashed var(--gray);
+            background: rgba(255,255,255,0.8);
+        }
+
+        /* Legend */
+        .legend-row {
+            display: grid;
+            grid-template-columns: 180px 1fr 1fr;
+            gap: 8px;
+            font-size: 8px;
+            color: var(--gray);
+            margin-bottom: 10px;
+        }
+
+        .legend-item {
+            text-align: center;
+            border-top: 1px solid var(--light-gray);
+            padding-top: 3px;
+        }
+
+        @media (max-width: 700px) {
+            .legend-row {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Instruments Section */
+        .instruments-section {
+            border: 3px solid var(--black);
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+
+        .inst-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 3px solid var(--black);
+            padding-bottom: 3px;
+            margin-bottom: 6px;
+        }
+
+        .inst-title {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        .inst-note {
+            font-size: 8px;
+            font-style: italic;
+            color: var(--gray);
+        }
+
+        .inst-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .inst-grid { grid-template-columns: 1fr; }
+        }
+
+        .inst-slot {
+            border: 3px solid var(--black);
+            min-height: 65px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inst-slot.locked {
+            border-style: dashed;
+            opacity: 0.6;
+        }
+
+        .inst-slot-header {
+            background: var(--black);
+            color: var(--white);
+            font-family: 'Oswald', sans-serif;
+            font-size: 9px;
+            padding: 2px 5px;
+            text-align: center;
+        }
+
+        .inst-input {
+            flex: 1;
+            border: none;
+            padding: 5px;
+            font-size: 10px;
+            font-family: 'Special Elite', monospace;
+            background: transparent;
+            resize: none;
+        }
+
+        .inst-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        /* Jack of All Trades */
+        .jack-section {
+            border: 3px solid var(--black);
+            padding: 8px;
+        }
+
+        .jack-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            border-bottom: 3px solid var(--black);
+            padding-bottom: 3px;
+            margin-bottom: 6px;
+        }
+
+        .jack-title {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        .jack-used {
+            font-size: 9px;
+            color: var(--gray);
+        }
+
+        .jack-entries {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .jack-entry {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 6px;
+            background: var(--light-gray);
+            border: 1px solid var(--black);
+        }
+
+        .jack-input {
+            flex: 1;
+            border: none;
+            border-bottom: 1px solid var(--black);
+            font-size: 10px;
+            padding: 2px;
+            background: transparent;
+            font-family: 'Special Elite', monospace;
+        }
+
+        .jack-input:focus {
+            outline: none;
+            background: #fffef0;
+        }
+
+        .jack-check {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--black);
+            appearance: none;
+            cursor: pointer;
+            background: var(--white);
+        }
+
+        .jack-check:checked {
+            background: var(--black);
+        }
+
+        .remove-btn {
+            background: none;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            color: var(--gray);
+            padding: 0 2px;
+        }
+
+        .remove-btn:hover { color: var(--black); }
+
+        .add-btn {
+            width: 100%;
+            padding: 6px;
+            border: 2px dashed var(--black);
+            background: transparent;
+            cursor: pointer;
+            font-size: 10px;
+            margin-top: 4px;
+        }
+
+        .add-btn:hover { background: var(--light-gray); }
+
+        /* Print */
+        @media print {
+            body { background: white; padding: 0; }
+            .toolbar { display: none !important; }
+            .sheet { box-shadow: none; max-width: 100%; }
+            .add-btn, .remove-btn { display: none !important; }
+        }
+
+        .saved-notice {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--black);
+            color: var(--white);
+            padding: 10px 18px;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .saved-notice.show { opacity: 1; }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="saveToFile()">💾 Uložit</button>
+        <button onclick="document.getElementById('loadFile').click()">📂 Načíst</button>
+        <input type="file" id="loadFile" class="file-input" accept=".json" onchange="loadFromFile(event)">
+        <button onclick="window.print()">🖨️ Tisk</button>
+        <button class="danger" onclick="if(confirm('Reset?')) location.reload()">🗑️ Reset</button>
+    </div>
+
+    <div class="sheet">
+        <!-- Header -->
+        <div class="header">
+            <div class="name-block">
+                <div class="name-label">jméno a příběh</div>
+                <input type="text" class="name-input" id="charName" placeholder="Pippo Twisplegs, půlčík akrobat – Výhoda na OBR hody pro akrobacii atd.">
+            </div>
+            <div class="logo">FLAIL</div>
+        </div>
+
+        <!-- Special Skills -->
+        <div class="skills-box">
+            <div class="skills-title">Speciální dovednosti</div>
+            <div class="skill-line"><span class="skill-name">Všeuměl:</span> na každé úrovni si vezmi talent Hrdlořeza, vynález Kutílka nebo kouzlo Čaroděje.</div>
+            <div class="skill-line"><span class="skill-name">Stříbrný jazyk:</span> výhoda na CHA hody zahrnující sociální dovednosti, jako flirtování, přesvědčování nebo manipulaci.</div>
+            <div class="skill-line"><span class="skill-name">Všichni se dívejte!:</span> při hození tripletů na Zásah způsob extra k6 poškození a dej spojencům +1 HZ (příští kolo).</div>
+            <div class="skill-line"><span class="skill-name">Hudební talenty:</span> hoď CHA záchranný hod pro hraní na nesený nástroj, pak hoď na tabulku nástroje.</div>
+        </div>
+
+        <!-- Stats Row -->
+        <div class="stats-row">
+            <div class="stat-box">
+                <div class="stat-header">SÍL</div>
+                <div class="stat-body">
+                    <input type="number" class="stat-input" id="strBase" value="7" min="1" max="20">
+                    <span class="stat-sep">/</span>
+                    <input type="number" class="stat-input" id="strCurr" placeholder="—" min="0" max="20">
+                </div>
+                <div class="stat-labels"><span>Základ</span><span>Aktuální</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-header">OBR</div>
+                <div class="stat-body">
+                    <input type="number" class="stat-input" id="dexBase" value="10" min="1" max="20">
+                    <span class="stat-sep">/</span>
+                    <input type="number" class="stat-input" id="dexCurr" placeholder="—" min="0" max="20">
+                </div>
+                <div class="stat-labels"><span>Základ</span><span>Aktuální</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-header">CHA</div>
+                <div class="stat-body">
+                    <input type="number" class="stat-input" id="chaBase" value="11" min="1" max="20">
+                    <span class="stat-sep">/</span>
+                    <input type="number" class="stat-input" id="chaCurr" placeholder="—" min="0" max="20">
+                </div>
+                <div class="stat-labels"><span>Základ</span><span>Aktuální</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-header">INT</div>
+                <div class="stat-body">
+                    <input type="number" class="stat-input" id="intBase" value="8" min="1" max="20">
+                    <span class="stat-sep">/</span>
+                    <input type="number" class="stat-input" id="intCurr" placeholder="—" min="0" max="20">
+                </div>
+                <div class="stat-labels"><span>Základ</span><span>Aktuální</span></div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-header">ŠTĚ</div>
+                <div class="stat-body">
+                    <input type="number" class="stat-input" id="luckBase" value="10" min="1" max="20">
+                    <span class="stat-sep">/</span>
+                    <input type="number" class="stat-input" id="luckCurr" placeholder="—" min="0" max="20">
+                </div>
+                <div class="stat-labels"><span>Základ</span><span>Aktuální</span></div>
+            </div>
+        </div>
+
+        <!-- === MAIN INVENTORY SECTION === -->
+        <div class="inventory-section">
+            <!-- Left Column -->
+            <div class="left-col">
+                <!-- Level + HP/Coins -->
+                <div class="level-box">
+                    <div class="level-title">Úroveň</div>
+                    <div class="level-subtitle">Označ vše v řadě pro postup</div>
+                    <div class="level-content">
+                        <div class="level-grid">
+                            <span class="level-num">①</span>
+                            <input type="checkbox" class="level-check" data-level="1" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="1" data-pos="2">
+                            <span class="level-num">②</span>
+                            <input type="checkbox" class="level-check" data-level="2" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="2" data-pos="2">
+                            <span class="level-num">③</span>
+                            <input type="checkbox" class="level-check" data-level="3" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="3" data-pos="2">
+                            <span class="level-num">④</span>
+                            <input type="checkbox" class="level-check" data-level="4" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="4" data-pos="2">
+                            <span class="level-num">⑤</span>
+                            <input type="checkbox" class="level-check" data-level="5" data-pos="1">
+                            <input type="checkbox" class="level-check" data-level="5" data-pos="2">
+                        </div>
+                        <div class="hp-coins">
+                            <div class="resource-box hp">
+                                <div class="resource-label">ŽIV</div>
+                                <input type="number" class="resource-input" id="hp" value="9" min="0">
+                                <div class="resource-sub">Základ / Aktuální</div>
+                            </div>
+                            <div class="resource-box">
+                                <div class="resource-label">Mince</div>
+                                <input type="number" class="resource-input" id="coins" value="20" min="0" max="250">
+                                <div class="resource-sub">Max 250</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reputation -->
+                <div class="reputation-box">
+                    <div class="rep-header">
+                        <span class="rep-arrow">◄━━</span>
+                        <span class="rep-title">Reputace</span>
+                        <span class="rep-arrow">━━►</span>
+                    </div>
+                    <div class="rep-track">
+                        <div class="rep-circle" data-rep="-6">-6</div>
+                        <div class="rep-circle" data-rep="-5">-5</div>
+                        <div class="rep-circle" data-rep="-4">-4</div>
+                        <div class="rep-circle" data-rep="-3">-3</div>
+                        <div class="rep-circle" data-rep="-2">-2</div>
+                        <div class="rep-circle" data-rep="-1">-1</div>
+                        <div class="rep-circle center active" data-rep="0">☠</div>
+                        <div class="rep-circle" data-rep="1">+1</div>
+                        <div class="rep-circle" data-rep="2">+2</div>
+                        <div class="rep-circle" data-rep="3">+3</div>
+                        <div class="rep-circle" data-rep="4">+4</div>
+                        <div class="rep-circle" data-rep="5">+5</div>
+                        <div class="rep-circle" data-rep="6">+6</div>
+                    </div>
+                </div>
+
+                <!-- Ring Slots -->
+                <div class="ring-row">
+                    <div class="ring-slot">
+                        <div class="ring-icon">○</div>
+                        <div class="ring-label">prsten, amulet, pečeť, talisman</div>
+                        <input type="text" class="ring-input" id="ring1">
+                    </div>
+                    <div class="ring-slot">
+                        <div class="ring-icon">○</div>
+                        <div class="ring-label">prsten, amulet, pečeť, talisman</div>
+                        <input type="text" class="ring-input" id="ring2">
+                    </div>
+                </div>
+
+                <!-- Off-hand + Weapon -->
+                <div class="equip-row">
+                    <div class="equip-slot">
+                        <div class="equip-header">
+                            <span>Vedl. ruka</span>
+                            <span class="equip-num">1</span>
+                        </div>
+                        <textarea class="equip-input" id="offhand"></textarea>
+                    </div>
+                </div>
+                <div class="equip-row">
+                    <div class="equip-slot worn">
+                        <div class="equip-header">
+                            <span>Zbraň</span>
+                            <span class="equip-num">2</span>
+                        </div>
+                        <textarea class="equip-input" id="weapon" placeholder="Krátký meč&#10;HZ 5 POŠ 3"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Middle Column - Body Slots -->
+            <div class="body-col">
+                <div class="body-slot">
+                    <div class="body-header">
+                        <span>Tělo</span>
+                        <span class="body-num">3</span>
+                    </div>
+                    <textarea class="body-input" id="body3"></textarea>
+                </div>
+                <div class="body-slot">
+                    <div class="body-header">
+                        <span>Tělo</span>
+                        <span class="body-num">4</span>
+                    </div>
+                    <textarea class="body-input" id="body4"></textarea>
+                </div>
+                <div class="body-slot">
+                    <div class="body-header">
+                        <span>Tělo</span>
+                        <span class="body-num">5</span>
+                    </div>
+                    <textarea class="body-input" id="body5"></textarea>
+                </div>
+                <div class="body-slot">
+                    <div class="body-header">
+                        <span>Tělo</span>
+                        <span class="body-num">6</span>
+                    </div>
+                    <textarea class="body-input" id="body6"></textarea>
+                </div>
+            </div>
+
+            <!-- Right Column - Stashed -->
+            <div class="stash-col">
+                <div class="stash-slot">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash1" placeholder="Jídlo"></textarea>
+                    </div>
+                </div>
+                <div class="stash-slot">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash2" placeholder="Lucerna"></textarea>
+                    </div>
+                </div>
+                <div class="stash-slot locked" id="stashSlot3">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash3"></textarea>
+                    </div>
+                    <div class="stash-unlock">Odemkne se při SÍL 10</div>
+                </div>
+                <div class="stash-slot locked" id="stashSlot4">
+                    <div class="stash-content">
+                        <textarea class="stash-input" id="stash4"></textarea>
+                    </div>
+                    <div class="stash-unlock">Odemkne se při SÍL 12</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend-row">
+            <div class="legend-item">Neseno: připraveno k použití ▪ Oblečeno: rychle připravitelné</div>
+            <div class="legend-item">Tělo: standardní inventář</div>
+            <div class="legend-item">Uloženo: akce k vybavení</div>
+        </div>
+
+        <!-- Instruments -->
+        <div class="instruments-section">
+            <div class="inst-header">
+                <span class="inst-title">Nástroje</span>
+                <span class="inst-note">Předměty v těchto slotech jsou oblečené a rychle připravitelné</span>
+            </div>
+            <div class="inst-grid">
+                <div class="inst-slot">
+                    <div class="inst-slot-header">Úroveň 1</div>
+                    <textarea class="inst-input" id="inst1" placeholder="Povzbuzující loutna"></textarea>
+                </div>
+                <div class="inst-slot locked" id="instSlot2">
+                    <div class="inst-slot-header">Odemkne se na úrovni 3</div>
+                    <textarea class="inst-input" id="inst2" disabled></textarea>
+                </div>
+                <div class="inst-slot locked" id="instSlot3">
+                    <div class="inst-slot-header">Odemkne se na úrovni 5</div>
+                    <textarea class="inst-input" id="inst3" disabled></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jack of All Trades -->
+        <div class="jack-section">
+            <div class="jack-header">
+                <span class="jack-title">Všeuměl</span>
+                <span class="jack-used">použito dnes?</span>
+            </div>
+            <div class="jack-entries" id="jackEntries">
+                <div class="jack-entry">
+                    <input type="text" class="jack-input" placeholder="Spánek (kouzlo čaroděje)">
+                    <input type="checkbox" class="jack-check">
+                    <button class="remove-btn" onclick="removeJack(this)">×</button>
+                </div>
+            </div>
+            <button class="add-btn" onclick="addJack()">+ Přidat talent / vynález / kouzlo</button>
+        </div>
+    </div>
+
+    <div class="saved-notice" id="savedNotice">✓ Uloženo!</div>
+
+    <script>
+        // Reputation
+        let currentRep = 0;
+        document.querySelectorAll('.rep-circle').forEach(c => {
+            c.addEventListener('click', () => {
+                document.querySelectorAll('.rep-circle').forEach(x => x.classList.remove('active'));
+                c.classList.add('active');
+                currentRep = parseInt(c.dataset.rep);
+            });
+        });
+
+        // Level checks
+        document.querySelectorAll('.level-check').forEach(check => {
+            check.addEventListener('change', updateLocks);
+        });
+
+        function updateLocks() {
+            let level = 1;
+            for (let l = 2; l <= 5; l++) {
+                const checks = document.querySelectorAll(`.level-check[data-level="${l-1}"]`);
+                if (Array.from(checks).every(c => c.checked)) level = l;
+            }
+
+            // Instruments
+            const inst2 = document.getElementById('inst2');
+            const inst3 = document.getElementById('inst3');
+            const slot2 = document.getElementById('instSlot2');
+            const slot3 = document.getElementById('instSlot3');
+
+            if (level >= 3) {
+                inst2.disabled = false;
+                slot2.classList.remove('locked');
+                slot2.querySelector('.inst-slot-header').textContent = 'Úroveň 3';
+            } else {
+                inst2.disabled = true;
+                slot2.classList.add('locked');
+                slot2.querySelector('.inst-slot-header').textContent = 'Odemkne se na úrovni 3';
+            }
+
+            if (level >= 5) {
+                inst3.disabled = false;
+                slot3.classList.remove('locked');
+                slot3.querySelector('.inst-slot-header').textContent = 'Úroveň 5';
+            } else {
+                inst3.disabled = true;
+                slot3.classList.add('locked');
+                slot3.querySelector('.inst-slot-header').textContent = 'Odemkne se na úrovni 5';
+            }
+        }
+
+        // Jack of All Trades
+        function addJack() {
+            const container = document.getElementById('jackEntries');
+            const entry = document.createElement('div');
+            entry.className = 'jack-entry';
+            entry.innerHTML = `
+                <input type="text" class="jack-input" placeholder="Talent / vynález / kouzlo...">
+                <input type="checkbox" class="jack-check">
+                <button class="remove-btn" onclick="removeJack(this)">×</button>
+            `;
+            container.appendChild(entry);
+        }
+
+        function removeJack(btn) {
+            if (document.querySelectorAll('.jack-entry').length > 1) {
+                btn.closest('.jack-entry').remove();
+            }
+        }
+
+        // Save/Load
+        function gatherData() {
+            const data = {
+                class: 'bard',
+                name: document.getElementById('charName').value,
+                stats: {},
+                hp: document.getElementById('hp').value,
+                coins: document.getElementById('coins').value,
+                reputation: currentRep,
+                levelChecks: {},
+                rings: [
+                    document.getElementById('ring1').value,
+                    document.getElementById('ring2').value
+                ],
+                offhand: document.getElementById('offhand').value,
+                weapon: document.getElementById('weapon').value,
+                body: [],
+                stash: [],
+                instruments: [],
+                jack: []
+            };
+
+            ['str', 'dex', 'cha', 'int', 'luck'].forEach(s => {
+                data.stats[s] = {
+                    base: document.getElementById(s + 'Base').value,
+                    curr: document.getElementById(s + 'Curr').value
+                };
+            });
+
+            document.querySelectorAll('.level-check').forEach(c => {
+                data.levelChecks[`${c.dataset.level}-${c.dataset.pos}`] = c.checked;
+            });
+
+            for (let i = 3; i <= 6; i++) data.body.push(document.getElementById('body' + i).value);
+            for (let i = 1; i <= 4; i++) data.stash.push(document.getElementById('stash' + i).value);
+            for (let i = 1; i <= 3; i++) data.instruments.push(document.getElementById('inst' + i).value);
+
+            document.querySelectorAll('.jack-entry').forEach(e => {
+                data.jack.push({
+                    text: e.querySelector('.jack-input').value,
+                    used: e.querySelector('.jack-check').checked
+                });
+            });
+
+            return data;
+        }
+
+        function applyData(data) {
+            document.getElementById('charName').value = data.name || '';
+            document.getElementById('hp').value = data.hp || 9;
+            document.getElementById('coins').value = data.coins || 0;
+
+            if (data.stats) {
+                ['str', 'dex', 'cha', 'int', 'luck'].forEach(s => {
+                    if (data.stats[s]) {
+                        document.getElementById(s + 'Base').value = data.stats[s].base || '';
+                        document.getElementById(s + 'Curr').value = data.stats[s].curr || '';
+                    }
+                });
+            }
+
+            if (data.reputation !== undefined) {
+                currentRep = data.reputation;
+                document.querySelectorAll('.rep-circle').forEach(c => {
+                    c.classList.remove('active');
+                    if (parseInt(c.dataset.rep) === currentRep) c.classList.add('active');
+                });
+            }
+
+            if (data.levelChecks) {
+                Object.keys(data.levelChecks).forEach(key => {
+                    const [lv, pos] = key.split('-');
+                    const check = document.querySelector(`.level-check[data-level="${lv}"][data-pos="${pos}"]`);
+                    if (check) check.checked = data.levelChecks[key];
+                });
+                updateLocks();
+            }
+
+            if (data.rings) {
+                document.getElementById('ring1').value = data.rings[0] || '';
+                document.getElementById('ring2').value = data.rings[1] || '';
+            }
+
+            document.getElementById('offhand').value = data.offhand || '';
+            document.getElementById('weapon').value = data.weapon || '';
+
+            if (data.body) data.body.forEach((v, i) => {
+                const el = document.getElementById('body' + (i + 3));
+                if (el) el.value = v || '';
+            });
+
+            if (data.stash) data.stash.forEach((v, i) => {
+                const el = document.getElementById('stash' + (i + 1));
+                if (el) el.value = v || '';
+            });
+
+            if (data.instruments) data.instruments.forEach((v, i) => {
+                const el = document.getElementById('inst' + (i + 1));
+                if (el) el.value = v || '';
+            });
+
+            if (data.jack && data.jack.length > 0) {
+                const container = document.getElementById('jackEntries');
+                container.innerHTML = '';
+                data.jack.forEach(j => {
+                    const entry = document.createElement('div');
+                    entry.className = 'jack-entry';
+                    entry.innerHTML = `
+                        <input type="text" class="jack-input" value="${j.text || ''}" placeholder="Talent / vynález / kouzlo...">
+                        <input type="checkbox" class="jack-check" ${j.used ? 'checked' : ''}>
+                        <button class="remove-btn" onclick="removeJack(this)">×</button>
+                    `;
+                    container.appendChild(entry);
+                });
+            }
+        }
+
+        function saveToFile() {
+            const data = gatherData();
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            const name = data.name || 'bard';
+            a.download = `${name.replace(/[^a-zA-Z0-9áčďéěíňóřšťúůýžÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ\- ]/g, '')}.json`;
+            a.click();
+            URL.revokeObjectURL(a.href);
+            showNotice();
+        }
+
+        function loadFromFile(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = e => {
+                try {
+                    applyData(JSON.parse(e.target.result));
+                    showNotice('Načteno!');
+                } catch (err) {
+                    alert('Chyba při načítání');
+                }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
+        }
+
+        function showNotice(text = '✓ Uloženo!') {
+            const n = document.getElementById('savedNotice');
+            n.textContent = text;
+            n.classList.add('show');
+            setTimeout(() => n.classList.remove('show'), 2000);
+        }
+    </script>
+</body>
+</html>
