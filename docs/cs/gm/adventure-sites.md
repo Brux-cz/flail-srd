@@ -145,7 +145,7 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 - Hoď k6 pro určení, který vchod je použit.
 - k4 **Mořských hadů** číhá v kanálech a loví kořist.
-- Proveď **záchranný hod na SÍL** za každou stráž strávenou ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
+- Proveď **záchranný hod na SÍL** za každé kolo strávené ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
 
 **2: Opuštěné ubikace** — *Nádherná duhová stopa mizí do těsného průlezu, slabě zářící.*
 
@@ -167,12 +167,12 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 - **Ruce soch** (označené hvězdou) ukazují na sever a jih. Pokud jsou otočeny směrem k tajným dveřím v chodbě, dveře se otevřou. *(Hádanka k řešení)*
 - **Slabé výkřiky** jsou slyšet ze Síně duší skrz zdi.
 
-**6: Obří muchomůrky** — *Mrtvola hnijí uprostřed přerostlé houbové zahrady.*
+**6: Obří muchomůrky** — *Mrtvola hnije uprostřed přerostlé houbové zahrady.*
 
 - Pokud jsou houby uříznuty, **uvolní toxiny.** Záchranný hod na SÍL, nebo stav Otrávený. *(Podivná anomálie)*
 - **Mrtvola** nese dýku, lano, krumpáč, improvizovanou masku a 2k20 mincí.
 
-**7: Bandití úkryt** — *Dveře jsou zamčené.*
+**7: Banditský úkryt** — *Dveře jsou zamčené.*
 
 - **Opuštěná skrýš** zrezivělých zbraní, padělaných mincí (záchranný hod na INT k ohodnocení) a provizorních lůžek.
 - **Skrýš mincí** (6k100) ukrytá pod falešnou podlahovou deskou banditů, předtím než byli zajati a sklizeni Lichým králem. *(Něco, co se pravděpodobně nenajde)*
@@ -195,47 +195,54 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 ## Čarodějovy věže
 
-*Hoď čtyři k10 pro určení obecného tématu*
+*Hoďte čtyři k10 pro určení obecného tématu*
 
 | k10 | Tvar | Obyvatel | Reakce | Cíl |
 |-----|------|----------|--------|-----|
 | 1 | Obří hodinová věž | Pyromant | Zabít postavy | Vládnout světu |
-| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Vzbudit armádu |
+| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Vybudovat armádu |
 | 3 | Arkánní obelisk | Vyvolávač | Spřátelit se | Otevřít portál |
 | 4 | Opuštěný maják | Iluzionista | Najmout postavy | Rozšířit kletbu |
 | 5 | Dutý strom | Černokněžník | Pomoci postavám | Přivolat příšeru |
-| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit předmět |
+| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit magický předmět |
 | 7 | Očarovaný větrný mlýn | Čaroděj | Uvěznit postavy | Rozpoutat kataklyzma |
 | 8 | Skleněná věžička | Thaumaturg | Teleportovat postavy | Vychovat učedníky |
 | 9 | Kamenná věž | Chronomant | Proměnit postavy | Provést rituál |
-| 10 | Kostěná pevnůstka | Geomant | Ukrást postavám | Být nechán na pokoji |
+| 10 | Kostěná pevnůstka | Geomant | Okrást postavy | Být nechán na pokoji |
 
 ### Postup tvorby
 
-#### 1. Vygeneruj čaroděje
+#### 1. Vygenerujte čaroděje
 
-Vytvoř čaroděje nastavením jeho úrovně mezi 6 a 10 (pouze mocní mágové mají vlastní věže), stejně jako body životů (10–20), hodnotu hodů, morálku a manu (20–30). Zvol pět vhodných kouzel a jméno.
+Vytvořte čaroděje nastavením jeho úrovně mezi 6 a 10 (pouze mocní mágové mají vlastní věže), stejně jako body životů (10–20), hodnotu hodů, morálku a manu (20–30). Zvolte pět vhodných kouzel a jméno.
 
-#### 2. Postav věž
+#### 2. Postavte věž
 
-Hoď hrstku k6 (mezi čtyřmi a šesti, podle toho kolik pater chceš) a naskládej je na sebe bez dívání. Hoď k4 a přidej ho na vrchol. Toto je věž.
+Hoďte hrstku k6 (mezi čtyřmi a šesti, podle toho kolik pater chcete) a naskládejte je na sebe bez dívání. Hoďte k4 a přidejte ho na vrchol. Toto je věž.
 
 #### 3. Fasáda
 
-Zvol fasádu a zkontroluj čísla na každém patře, která představují obecný typ patra. Poté hoď k4 pro každé individuálně, abys určil přesnou povahu patra. Nakonec napiš pár klíčových prvků nebo výrazných objektů, které postavy mohou na každém patře najít nebo s nimi interagovat.
+Zvolte fasádu a zkontrolujte čísla na každém patře, která představují obecný typ patra. Poté hoďte k4 pro každé individuálně, abyste určili přesnou povahu patra. Nakonec napište pár klíčových prvků nebo výrazných objektů, které postavy mohou na každém patře najít nebo s nimi interagovat.
 
 | Číslo | Typ patra | Možnosti |
 |-------|-----------|----------|
 | 1 | Komnata | (1) ložnice, (2) démonská kobka, (3) svatyně, (4) herní místnost |
 | 2 | Sál | (1) zbrojnice, (2) pokladnice, (3) hrobka, (4) jídelna |
-| 3 | Laboratoř | (1) dílna konstruktů, (2) lékařská laboratoř, (3) studio magických předmětů, (4) laboratoř lektvarů |
+| 3 | Laboratoř | (1) dílna konstruktů, (2) lékařská laboratoř, (3) studio magických předmětů, (4) varna lektvarů |
 | 4 | Knihovna | (1) knihy kouzel, (2) podivné vynálezy, (3) kuchařky, (4) okultní svazky |
 | 5 | Galerie | (1) obrazy, (2) sochy, (3) trofeje, (4) kabinet kuriozit |
 | 6 | Volný čas | (1) arboretum, (2) snový salon, (3) hudební komnata, (4) reptiliárium |
 
 #### 4. Horní patro
 
-Zkontroluj číslo na k4 na vrcholu. Horní patro je zvláštní — může být observatoří, přivolávacím kruhem, tajemnou vyhlídkou nebo experimentální komnatou.
+Zkontrolujte číslo na k4 na vrcholu. Horní patro je:
+
+1. Astronomická observatoř
+2. Meditační komora
+3. Světelný prizmatický maják
+4. Tajemná vyhlídka
+
+Zapište si jeho účel.
 
 ---
 
