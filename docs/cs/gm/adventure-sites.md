@@ -1,12 +1,12 @@
 # Místa dobrodružství
 
-Použij tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně pro oživení herního světa kampaně nebo jako jednorázovku místo Scénářů výprav pro session zaměřenou na průzkum kobek. Místa dobrodružství jsou navržena pro hraní mezi jednou a dvěma hodinami.
+Použijte tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně pro oživení herního světa kampaně nebo jako jednorázovku místo Scénářů výprav pro session zaměřenou na průzkum kobek. Místa dobrodružství jsou navržena pro hraní mezi jednou a dvěma hodinami.
 
 ---
 
 ## Kobky
 
-*Hoď pět k6 pro určení obecného tématu*
+*Hoďte pět k6 pro určení obecného tématu*
 
 | k6 | Příchuť | Typ | Lokace | Klíčový prvek | Tvorové |
 |----|---------|-----|--------|---------------|---------|
@@ -14,7 +14,7 @@ Použij tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně pr
 | 2 | Hnisající | Klenby | Skryté ve starém chrámu | Kostmi obložené zdi | Slizové |
 | 3 | Strašidelné | Hrobky | Uvnitř hluboké studny | Jedovaté výpary | Plazi |
 | 4 | Mlžné | Katakomby | V černé pevnosti | Závoj pavučin | Obři |
-| 5 | Rozpadlé | Stoky | Pod zříceným hradem | Kapaný strop | Hmyz |
+| 5 | Rozpadlé | Stoky | Pod zříceným hradem | Kapající stropy | Hmyz |
 | 6 | Prokleté | Sklep | Pod prastarými ruinami | Visící řetězy | Démoni |
 
 ### Postup tvorby
@@ -49,10 +49,10 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 - **Něco, co postavy mohou zabít:** slabé střetnutí odpovídající hozenému tématu (může být už v tabulce střetnutí).
 - **Něco, co může zabít postavy:** silný protivník (může být stejný z tabulky střetnutí). Nabídněte hráčům šanci utéct nebo se vyhnout.
 - **Někdo k setkání:** mluvící socha, přízrak, soupeřící gang, ztracený čaroděj, gobliní vězeň. Někdo, s kým mohou hráči interagovat nebo smlouvat.
-- **Hádanka k řešení:** hoď na tabulku.
-- **Překážka k překonání:** hoď na tabulku.
-- **Past k vyhnutí:** hoď na tabulku.
-- **Podivná anomálie:** hoď na tabulku.
+- **Hádanka k řešení:** hoďte na tabulku.
+- **Překážka k překonání:** hoďte na tabulku.
+- **Past k vyhnutí:** hoďte na tabulku.
+- **Podivná anomálie:** hoďte na tabulku.
 
 ---
 
@@ -79,10 +79,10 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 | 2 | Zamčené dveře. Klíč je skrytý někde u vchodu do kobky nebo v první místnosti. |
 | 3 | Tunel nebo chodba zaplavená vodou, obývaná teritoriálním mořským tvorem. |
 | 4 | Most, který vzplane, když ho postavy překračují. |
-| 5 | Strmá puklina s řekou roztavené lávy, sálající horkými fumarolami a nestabilním dřevěným mostem. |
+| 5 | Strmá puklina s řekou roztavené lávy, dýmající horkými fumarolami a nestabilním dřevěným mostem. |
 | 6 | Rituál probíhající, když postavy vstoupí do místnosti. Musí být zastaven pro pokračování. |
 | 7 | Velká jáma rozdělující místnost, hemžící se nemrtvými tvory dole. |
-| 8 | Svislý strmý povrch. Nutí ke strmému výstupu do další místnosti. |
+| 8 | Kolmá hladká stěna. Nutí ke strmému výstupu do další místnosti. |
 | 9 | Zřícený strop a sutiny. Těžké projít s plným inventářem. |
 | 10 | Magnetický strop. Postavy s kovovými předměty jsou násilně přitahovány. |
 
@@ -90,7 +90,7 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 
 | k10 | Past |
 |-----|------|
-| 1 | Zakopávací drát aktivuje salvu šípů vystřelených ze zdi. |
+| 1 | Nástražný drát aktivuje salvu šípů vystřelených ze zdi. |
 | 2 | Falešná dlaždice spustí kutálející se balvan sjíždějící vysokou rychlostí. |
 | 3 | Falešné dveře jsou napružené k uvolnění masivní drtící zbraně. |
 | 4 | Smrtící hrotová jáma, skrytá padacími dveřmi, leží hned za krátkou puklinou. |
@@ -108,7 +108,7 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 | 1 | Přerostlé podivnými houbami. |
 | 2 | Hromada čistých kosterních pozůstatků. |
 | 3 | Nepřirozeně teplé/studené. |
-| 4 | Kořeny praskající ze zdí. |
+| 4 | Kořeny prorážející zdi. |
 | 5 | Shluk neškodného hmyzu. |
 | 6 | Podlaha pokrytá kluzkými řasami. |
 | 7 | Stopy nedávné exploze. |
@@ -286,7 +286,7 @@ Zkontroluj číslo na k4 na vrcholu. Horní patro je zvláštní — může být
 
 ## Jeskyně
 
-*Hoď pět k6 pro určení obecného tématu*
+*Hoďte pět k6 pro určení obecného tématu*
 
 | k6 | Příchuť | Typ | Lokace | Klíčový prvek | Tvorové |
 |----|---------|-----|--------|---------------|---------|
