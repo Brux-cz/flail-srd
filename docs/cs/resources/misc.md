@@ -15,9 +15,9 @@ Postavy se mohou sprátelit se zviraty. Vyzaduje ctyři zachranne hody behem jed
 | Havran | Prinesé lesklý kovový predmet denne |
 | Holub | Dorucuje zpravy |
 | Krysa | Zna nejrychlejsi cestu ven |
-| Had | 6 bz, Jedovaté kousnuti: HZ 4, POS 2 |
+| Had | 6 bz, Jedovaté kousnuti: HZ 4, POŠ 2 |
 | Pavouk | Zneskodni past jednou denne |
-| Vlk | 12 bz, Kousnuti: HZ 5, POS 3 |
+| Vlk | 12 bz, Kousnuti: HZ 5, POŠ 3 |
 
 ---
 
@@ -83,7 +83,7 @@ K vytvoreni lektvarů smichej 3-5 ingredienci:
 |-----|---------|-------|
 | 1 | Lektvar reflexu | 3 utoky v jednom kole |
 | 2 | Tonikum viry | Jeden hod automaticky uspeje |
-| 3 | Elixir sily | +4 POS na boj |
+| 3 | Elixir sily | +4 POŠ na boj |
 | 4 | Svrchovane lepidlo | Slepi cokoli navzdy |
 | 5 | Lektvar many | 2k4 many (Carodejove) |
 | 6 | Falesna smrt | "Zemres" na 30 minut |

@@ -100,7 +100,7 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 | 4 | **Oko:** Na Čarodějově těle vyroste extra oko: (1) čelo, (2) hrudník, (3) dlaň, (4) zátylek. Pokud Čaroděj získá více než dvě nová oka, dostane postih k hodu na zásah rovný počtu očí. Je příliš matoucí vidět rovně. |
 | 5 | **Kyselinová událost:** Na Čarodějově těle se otevře k6+1 děr stříkajících proudy kyseliny. Každá způsobí 1 bod poškození Čarodějovi a všem cílům Blízko. Pokud Čaroděj přežije tři takové události, stane se imunním vůči kyselině. |
 | 6 | **Drsná kůže:** Čarodějova kůže ztvrdne jako krunýř želvy. Získá +1 Obranu, ale musí získat stav Vyčerpaný po každé náročné fyzické činnosti. Pokud Čaroděj získá druhou drsnou kůži, získá další +1 Obranu, ale musí získat dva stavy Vyčerpaný. |
-| 7 | **Krabí klepeto:** Jedna z Čarodějových paží se přetvoří v obří klepeto; proces trvá k6 dní. Čaroděj může od teď používat pouze jeden slot paží, ale klepeto se počítá jako zbraň HZ 5, POS 3. Pokud Čaroděj získá druhé klepeto, nemůže již používat sloty paží, ale může útočit dvakrát za kolo svými klepety. Pokud získá třetí klepeto, prorazí hlavu nebo trup – Čaroděj je mrtvý. |
+| 7 | **Krabí klepeto:** Jedna z Čarodějových paží se přetvoří v obří klepeto; proces trvá k6 dní. Čaroděj může od teď používat pouze jeden slot paží, ale klepeto se počítá jako zbraň HZ 5, POŠ 3. Pokud Čaroděj získá druhé klepeto, nemůže již používat sloty paží, ale může útočit dvakrát za kolo svými klepety. Pokud získá třetí klepeto, prorazí hlavu nebo trup – Čaroděj je mrtvý. |
 | 8 | **Anomálie proměny:** Náhodný spojenec je proměněn v: (1) ropuchu, (2) komára, (3) kuře, (4) medvěda, (5) gorilu, (6) draka. Efekt trvá počet tahů rovný úrovni sesilatele. |
 | 9 | **Jejda portál:** Z hrudi Čaroděje se otevře mimorozměrný portál, vystřelí z něj náhodnou příšeru dvojnásobné úrovně sesilatele a pak se složí sám do sebe. |
 | 10 | **Mozková porucha:** Okamžitě hoď na tabulku Smrti. |
@@ -117,7 +117,7 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 
 Úroveň 6 | 10 bž | Záchrana 16 | Morálka 13 | Mana 20 | Člověk
 
-**• Žaroprut:** HZ 5, POS 2. *Jakýkoliv zásah: při dvou párech vystřelí ohnivou střelu na jakýkoliv cíl za k6 poškození.*
+**• Žaroprut:** HZ 5, POŠ 2. *Jakýkoliv zásah: při dvou párech vystřelí ohnivou střelu na jakýkoliv cíl za k6 poškození.*
 
 **Známá kouzla:**
 
@@ -133,7 +133,7 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 
 Úroveň 7 | 12 bž | Záchrana 13 | Morálka 16 | Mana 22 | Temný elf
 
-**• Nočsvijecí hůl:** HZ 6, POS 2. *Jakýkoliv zásah: smí se okamžitě přesunout do jakéhokoliv stínu v dohledu.*
+**• Nočsvijecí hůl:** HZ 6, POŠ 2. *Jakýkoliv zásah: smí se okamžitě přesunout do jakéhokoliv stínu v dohledu.*
 
 **Známá kouzla:**
 
@@ -150,12 +150,12 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 
 Úroveň 7 | 13 bž | Záchrana 17 | Morálka 15 | Mana 22 | Člověk-Sliz
 
-**• Slizožezlo:** HZ 6, POS 2. *Jakýkoliv zásah: smí okamžitě seslat kouzlo jako volnou akci.*
+**• Slizožezlo:** HZ 6, POŠ 2. *Jakýkoliv zásah: smí okamžitě seslat kouzlo jako volnou akci.*
 
 **Známá kouzla:**
 
 - **Asimilace špíny:** sesilatel může absorbovat blízký kal, mrtvoly nebo odpad a obnovit polovinu [SOUČET] many.
-- **Armáda blobů:** přivolá [SOUČET] mentálně ovládaných mini slizů (1 bž, plivou žíravou kyselinu HZ 2, POS 1); rozptýlí se, pokud je sesilatel zasažen nebo provede jinou akci.
+- **Armáda blobů:** přivolá [SOUČET] mentálně ovládaných mini slizů (1 bž, plivou žíravou kyselinu HZ 2, POŠ 1); rozptýlí se, pokud je sesilatel zasažen nebo provede jinou akci.
 - **Zrosolovatění:** donutí cíl úrovně [KOSTKY] provést záchranný hod, nebo se promění v rosolovitou hmotu.
 - **Rosolovitý nepořádek:** přivolá Rosolovitou krychli (viz bestiář), která jedná dle vlastní vůle po [KOSTKY] tahů.
 - **Lepivé sevření:** cíl úrovně [SOUČET] nebo méně je znehybněn hustým kalem.
@@ -167,7 +167,7 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 
 Úroveň 8 | 15 bž | Záchrana 19 | Morálka 12 | Mana 30 | Půlčík
 
-**• Stínozubá dýka:** HZ 5, POS 3. *Jakýkoliv zásah: smí okamžitě seslat kouzlo jako volnou akci.*
+**• Stínozubá dýka:** HZ 5, POŠ 3. *Jakýkoliv zásah: smí okamžitě seslat kouzlo jako volnou akci.*
 
 **Známá kouzla:**
 
@@ -175,5 +175,5 @@ Pokud Čarodějové hodí pár při sesílání kouzel, obnoví manu stejné hod
 - **Francouzský trik:** nechá se objevit [KOSTKY] mincí.
 - **Maškaráda:** sesilatel může být vnímán jako jiná osoba dle vlastního výběru na [KOSTKY] tahů.
 - **Neviditelnost:** učiní nehybný cíl/předmět neviditelným na [KOSTKY] tahů.
-- **Přízračná síla:** přivolá ovladatelného iluzorního tvora s [SOUČET] bž, [KOSTKY] HZ a POS.
+- **Přízračná síla:** přivolá ovladatelného iluzorního tvora s [SOUČET] bž, [KOSTKY] HZ a POŠ.
 - **Břichomluvectví:** hlas sesilatele se zdá vycházet z jiné osoby nebo předmětu na [SOUČET] kol.

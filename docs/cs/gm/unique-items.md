@@ -43,10 +43,10 @@ Postavy musi hazet na pouziti za kazdou zbran po boji. Pro vymazani tecek musi n
 
 ## Legendární zbrane (jednosiotove)
 
-| Zbran | HZ | POS | Efekt |
+| Zbran | HZ | POŠ | Efekt |
 |-------|----|----|-------|
 | **Planouci ostri** | 5 | 3 | *Silny zasah: zapali cil za +2 ohnive poskozeni/kolo* |
-| **Krvavý tesak** | 5 | 2 | *+1 POS za kazdy po sobe jdouci zasah* |
+| **Krvavý tesak** | 5 | 2 | *+1 POŠ za kazdy po sobe jdouci zasah* |
 | **Bzucivy volt** | 6 | 2 | *Kazda 2 = extra bod elektrickeho poskozeni* |
 | **Nebeska hvezda** | 5 | 2 | *Uživatel je imunni vuci magii* |
 | **Vysavac zivota** | 6 | 3 | *Obnov bz rovne zpusobenému poskozeni* |
@@ -56,7 +56,7 @@ Postavy musi hazet na pouziti za kazdou zbran po boji. Pro vymazani tecek musi n
 
 ## Legendární zbrane (dvousiotove)
 
-| Zbran | HZ | POS | Efekt |
+| Zbran | HZ | POŠ | Efekt |
 |-------|----|----|-------|
 | **Kladivo O** | 6 | 2 | *Silny zasah: omraci cil* |
 | **Nocni znec** | 6 | 3 | *+2 HZ proti Nemrtvym* |

@@ -118,7 +118,7 @@ Válečníci získávají **jeden talent za úroveň**. Na první úrovni musí 
 
 *Pouze holé ruce*
 
-**Základní – Železná pěst:** HZ 5, POS 2 při útoku holýma rukama. Získáš +1 POS při postupu na expertní talent a +1 HZ při získání mistrovského talentu.
+**Základní – Železná pěst:** HZ 5, POŠ 2 při útoku holýma rukama. Získáš +1 POŠ při postupu na expertní talent a +1 HZ při získání mistrovského talentu.
 
 **Mistrovský:**
 
