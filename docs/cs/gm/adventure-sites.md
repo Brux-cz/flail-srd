@@ -145,7 +145,7 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 - Hoď k6 pro určení, který vchod je použit.
 - k4 **Mořských hadů** číhá v kanálech a loví kořist.
-- Proveď **záchranný hod na SÍL** za každou stráž strávenou ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
+- Proveď **záchranný hod na SÍL** za každé kolo strávené ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
 
 **2: Opuštěné ubikace** — *Nádherná duhová stopa mizí do těsného průlezu, slabě zářící.*
 
@@ -193,18 +193,18 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 ---
 
-## Čarodějovy věže
+## Čarodějské věže
 
 *Hoď čtyři k10 pro určení obecného tématu*
 
 | k10 | Tvar | Obyvatel | Reakce | Cíl |
 |-----|------|----------|--------|-----|
 | 1 | Obří hodinová věž | Pyromant | Zabít postavy | Vládnout světu |
-| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Vzbudit armádu |
+| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Shromáždit armádu |
 | 3 | Arkánní obelisk | Vyvolávač | Spřátelit se | Otevřít portál |
 | 4 | Opuštěný maják | Iluzionista | Najmout postavy | Rozšířit kletbu |
 | 5 | Dutý strom | Černokněžník | Pomoci postavám | Přivolat příšeru |
-| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit předmět |
+| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit magický předmět |
 | 7 | Očarovaný větrný mlýn | Čaroděj | Uvěznit postavy | Rozpoutat kataklyzma |
 | 8 | Skleněná věžička | Thaumaturg | Teleportovat postavy | Vychovat učedníky |
 | 9 | Kamenná věž | Chronomant | Proměnit postavy | Provést rituál |
