@@ -112,46 +112,46 @@ Při proměně do bestí podoby získáš statistiky zvířete z království, v
 
 *Některé lekce se nejlépe učí rozdrápáním někoho na půl.*
 
-18 bž | Obrana 2 | Pohyb A
+18 bž | Obrana 2 | Pohyb B
 
-- **Kousnutí:** HZ 6, POS 4. *Smrtící úder: sežere cíl; nepotřebuje jídlo po k6 dní.*
-- **Drápy:** HZ 7, POS 3. *Při zásahu: na sekvenci čtyř čísel způsobí dodatečné k10 poškození.*
+- **Kousnutí:** HZ 6, POŠ 4. *Smrtící úder: sežere cíl; nepotřebuje jídlo po k6 dní.*
+- **Drápy:** HZ 7, POŠ 3. *Při zásahu: na sekvenci čtyř čísel způsobí dodatečné k10 poškození.*
 
 ### Zelená anakonda
 
 *Známá svými zdrcujícími objetími.*
 
-20 bž | Obrana 0 | Pohyb A
+20 bž | Obrana 0 | Pohyb B
 
-- **Kousnutí:** HZ 7, POS 4. *Při zásahu: na tři páry způsobí dodatečné 2k6 poškození.*
-- **Škrcení:** HZ 8, POS 2. *Při zásahu: škrtí cíl; cíl může na začátku svého tahu provést záchranný hod k vyproštění, nebo utrpí k4 poškození a přijde o tah; může útočit na nové cíle a škrtit až dva najednou.*
+- **Kousnutí:** HZ 7, POŠ 4. *Při zásahu: na tři páry způsobí dodatečné 2k6 poškození.*
+- **Škrcení:** HZ 8, POŠ 2. *Při zásahu: škrtí cíl; cíl může na začátku svého tahu provést záchranný hod k vyproštění, nebo utrpí k4 poškození a přijde o tah; může útočit na nové cíle a škrtit až dva najednou.*
 
 ### Pštros
 
 *Když nemůžeš létat, běž naplno.*
 
-17 bž | Obrana 1 | Pohyb A
+17 bž | Obrana 1 | Pohyb B
 
-- **Pošlapání:** HZ 7, POS 4. *Při zásahu: na sekvenci čtyř čísel přeběhne dva Blízké cíle za k10 poškození.*
-- **Zobák:** HZ 7, POS 3. *Silný zásah: vynutí okamžitý hod na morálku u spojence cíle.*
+- **Pošlapání:** HZ 7, POŠ 4. *Při zásahu: na sekvenci čtyř čísel přeběhne dva Blízké cíle za k10 poškození.*
+- **Zobák:** HZ 7, POŠ 3. *Silný zásah: vynutí okamžitý hod na morálku u spojence cíle.*
 
 ### Obří mlok
 
 *Jed je způsob, jakým příroda vytyčuje hranice.*
 
-15 bž | Obrana 0 | Pohyb A
+15 bž | Obrana 0 | Pohyb B
 
-- **Kyselé plivnutí:** HZ 6, POS 3. *Při zásahu: cíl obdrží žeton jedu; na třetím žetonu umírá.*
-- **Kousnutí:** HZ 7, POS 4. *Smrtící úder: může se vrátit do lidské podoby bez obvyklého % hodu.*
+- **Kyselé plivnutí:** HZ 6, POŠ 3. *Při zásahu: cíl obdrží žeton jedu; na třetím žetonu umírá.*
+- **Kousnutí:** HZ 7, POŠ 4. *Smrtící úder: může se vrátit do lidské podoby bez obvyklého % hodu.*
 
 ### Žralok kladivoun
 
 *Zná pouze řeč kousanců.*
 
-20 bž | Obrana 1 | Pohyb A
+20 bž | Obrana 1 | Pohyb B
 
-- **Kousnutí:** HZ 8, POS 5. *Při zásahu: na trojici způsobí dodatečné k10 poškození.*
-- **Úder ocasem:** HZ 6, POS 3. *Speciální: může zasáhnout dva Blízké cíle jedním útokem.*
+- **Kousnutí:** HZ 8, POŠ 5. *Při zásahu: na trojici způsobí dodatečné k10 poškození.*
+- **Úder ocasem:** HZ 6, POŠ 3. *Speciální: může zasáhnout dva Blízké cíle jedním útokem.*
 
 !!! danger "Důležité"
     Nezapomeň na % hod při návratu do lidské podoby!

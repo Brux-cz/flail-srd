@@ -1,6 +1,6 @@
 # Místa dobrodružství
 
-Použijte tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně pro oživení herního světa kampaně nebo jako jednorázovku místo Scénářů výprav pro session zaměřenou na průzkum kobek. Místa dobrodružství jsou navržena pro hraní mezi jednou a dvěma hodinami.
+Použijte tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně pro oživení herního světa kampaně nebo jako jednorázovku místo Scénářů výprav pro sezení zaměřené na průzkum kobek. Místa dobrodružství jsou navržena pro hraní mezi jednou a dvěma hodinami.
 
 ---
 
@@ -21,7 +21,7 @@ Použijte tyto pokyny k rozpracování kobky, čarodějovy věže nebo jeskyně 
 
 #### 1. Mapa
 
-Vytvořte pozadí s háčky pro hráče. Nakreslete nebo najděte neklíčovanou mapu s 8–12 místnostmi odpovídající tématu. Alternativně nakreslete deset čtverců na kus papíru, rozmístěte je po stránce. Spojte je čarami a zajistěte, aby alespoň tři měly více spojení pro vytvoření různorodých cest k průzkumu.
+Vymyslete příběh na pozadí a zápletky pro hráče. Nakreslete nebo najděte neklíčovanou mapu s 8–12 místnostmi odpovídající tématu. Alternativně nakreslete deset čtverců na kus papíru, rozmístěte je po stránce. Spojte je čarami a zajistěte, aby alespoň tři měly více spojení pro vytvoření různorodých cest k průzkumu.
 
 #### 2. Střetnutí a poklady
 
@@ -42,12 +42,12 @@ Vytvořte tabulku střetnutí k6. Kdykoli vstoupíte do místnosti, hoďte k6. N
 
 #### 3. Klíčování oblastí
 
-Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slepé uličky, očíslujte je od jedné do deseti — jednička je vchod a desítka velké finále. Naplňte každou oblast jedním z následujících konceptů, opakujte ten, který se hodí nejvíce:
+Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slepé uličky, očíslujte je od jedné do deseti — jednička je vchod a desítka velké finále. Každé oblasti přiřaďte jeden z následujících konceptů — ten, který se hodí, klidně zopakujte:
 
 - **Něco k ukradení:** zvolte unikátní předmět (strana 98) jako klíčovou odměnu kobky. Přidejte komplikaci k jeho zajištění, jako past, střetnutí nebo malou hádanku.
 - **Něco, co se pravděpodobně nenajde:** podivný magický předmět, kniha kouzel nebo skrýš zlata schovaná v tajné místnosti, kterou je těžké najít.
 - **Něco, co postavy mohou zabít:** slabé střetnutí odpovídající hozenému tématu (může být už v tabulce střetnutí).
-- **Něco, co může zabít postavy:** silný protivník (může být stejný z tabulky střetnutí). Nabídněte hráčům šanci utéct nebo se vyhnout.
+- **Něco, co může zabít postavy:** silný protivník (může být stejný z tabulky střetnutí). Nabídněte hráčům šanci utéct nebo se střetu vyhnout.
 - **Někdo k setkání:** mluvící socha, přízrak, soupeřící gang, ztracený čaroděj, gobliní vězeň. Někdo, s kým mohou hráči interagovat nebo smlouvat.
 - **Hádanka k řešení:** hoďte na tabulku.
 - **Překážka k překonání:** hoďte na tabulku.
@@ -62,12 +62,12 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 |-----|---------|
 | 1 | Tři páky v neutrální pozici. Uspořádej do pozice nahoru-dolů-dolů pro otevření dveří. |
 | 2 | Klika se odemkne pouze pokud je otočena nemrtvým tvorem. |
-| 3 | Truhla ze skla je přilepena ke dnu studny, obsahující klíč ze soli. |
+| 3 | Skleněná truhla je přilepená ke dnu studny a obsahuje klíč ze soli. |
 | 4 | Křišťálový klíč visí z vysokého stropu, zapletený v hustých pavučinách. Snadno se rozbije. |
-| 5 | Elektrifikovaná komora. Dotyk podlahy nebo zdí při nošení/nesení kovu způsobí k8 poškození. |
+| 5 | Elektrifikovaná komora. Dotyk podlahy nebo zdí způsobí k8 poškození každému, kdo má na sobě nebo u sebe kovové předměty. |
 | 6 | Dvě sochy ukazují náhodným směrem. Otoč je, aby směřovaly ke dveřím pro odemčení. |
 | 7 | Dveře se čtyřmi odemčenými klíčovými dírkami. Všechny musí být zamčeny pro otevření dveří. |
-| 8 | Zdi pokryté neviditelným inkoustem. Teplo musí být použito pro odhalení skryté zprávy. |
+| 8 | Zdi pokryté neviditelným inkoustem. K odhalení skryté zprávy je třeba použít teplo. |
 | 9 | Čtyři obrazy zobrazující čtyři roční období. Uspořádej je v pořadí pro odhalení průchodu. |
 | 10 | Fontána se zelenou tekutinou. Všichni přítomní musí pít pro postup vpřed. |
 
@@ -80,7 +80,7 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 | 3 | Tunel nebo chodba zaplavená vodou, obývaná teritoriálním mořským tvorem. |
 | 4 | Most, který vzplane, když ho postavy překračují. |
 | 5 | Strmá puklina s řekou roztavené lávy, dýmající horkými fumarolami a nestabilním dřevěným mostem. |
-| 6 | Rituál probíhající, když postavy vstoupí do místnosti. Musí být zastaven pro pokračování. |
+| 6 | V místnosti právě probíhá rituál. Postavy ho musí zastavit, aby mohly pokračovat dál. |
 | 7 | Velká jáma rozdělující místnost, hemžící se nemrtvými tvory dole. |
 | 8 | Kolmá hladká stěna. Nutí ke strmému výstupu do další místnosti. |
 | 9 | Zřícený strop a sutiny. Těžké projít s plným inventářem. |
@@ -91,13 +91,13 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 | k10 | Past |
 |-----|------|
 | 1 | Nástražný drát aktivuje salvu šípů vystřelených ze zdi. |
-| 2 | Falešná dlaždice spustí kutálející se balvan sjíždějící vysokou rychlostí. |
-| 3 | Falešné dveře jsou napružené k uvolnění masivní drtící zbraně. |
+| 2 | Falešná dlaždice spustí balvan, který se řítí dolů velkou rychlostí. |
+| 3 | Falešné dveře — po otevření uvolní masivní drtící zbraň. |
 | 4 | Smrtící hrotová jáma, skrytá padacími dveřmi, leží hned za krátkou puklinou. |
 | 5 | Mince září uvnitř obří skleněné koule. Uvnitř je ve skutečnosti Rosolovitá kostka. |
 | 6 | Dveře do další místnosti mají kliku ve tvaru hada se skrytou jedovatou jehlou. |
 | 7 | Tři sochy medúzy hledící jinam. Jedna z nich ožije, pokud se na ni zadíváte. |
-| 8 | Truhla s pokladem s nastraženým zámkem. Otevření spustí kývající sekeru ze stropu. |
+| 8 | Truhla s pokladem a nastraženým zámkem. Otevření spustí sekeru kývající se ze stropu. |
 | 9 | Prastará socha s drahokamovýma očima. Zaútočí, pokud jsou drahokamy odstraněny. |
 | 10 | Police se zaprášenými svazky. Jejich otevření uvolní uvězněné zlé duchy. |
 
@@ -124,7 +124,7 @@ Oklíčujte deset oblastí. Identifikujte výrazné místnosti, chodby nebo slep
 
 ### Co se děje?
 
-Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství pod svými rušnými ulicemi. Zatímco obchodníci prodávají koření a velbloudáři procházejí kolem, šepoty o zlověstné úmluvě se nesou uličkami — prý sultán krmí obyvatele města příšeře číhající ve stokách. Pověsti mluví o nevyčíslitelném bohatství uprostřed páchnoucích vod a jedovatých výparů. Jste dost pošetilí, abyste se tam odvážili?
+Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství pod svými rušnými ulicemi. Zatímco obchodníci prodávají koření a velbloudáři procházejí kolem, šepoty o zlověstné úmluvě se nesou uličkami — prý sultán předhazuje obyvatele města příšeře číhající ve stokách. Pověsti mluví o nevyčíslitelném bohatství uprostřed páchnoucích vod a jedovatých výparů. Jste dost pošetilí, abyste se tam odvážili?
 
 ### Střetnutí (k6)
 
@@ -145,7 +145,7 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 - Hoď k6 pro určení, který vchod je použit.
 - k4 **Mořských hadů** číhá v kanálech a loví kořist.
-- Proveď **záchranný hod na SÍL** za každou stráž strávenou ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
+- Proveď **záchranný hod na SÍL** za každé kolo strávené ve stokových vodách. Při neúspěchu získáš stav Nevolnost (odstranění: zvracení a ztráta 1 SÍL do dalšího dne). *(Překážka k překonání)*
 
 **2: Opuštěné ubikace** — *Nádherná duhová stopa mizí do těsného průlezu, slabě zářící.*
 
@@ -160,14 +160,14 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 **4: Ghúlí kasárna** — *Ghúlí zvuky se rozléhají všude kolem.*
 
-- k4 **Ghúlů** v každé místnosti, bezcílně se potulujících a čekajících na rozkazy. *(Něco, co postavy mohou zabít)*
+- k4 **Ghúlů** v každé místnosti — bezcílně se potulují a čekají na rozkazy. *(Něco, co postavy mohou zabít)*
 
 **5: Kostlivčí sochy** — *Dvě symetrické sochy korunovaných kostlivců se tyčí uprostřed výparů.*
 
 - **Ruce soch** (označené hvězdou) ukazují na sever a jih. Pokud jsou otočeny směrem k tajným dveřím v chodbě, dveře se otevřou. *(Hádanka k řešení)*
 - **Slabé výkřiky** jsou slyšet ze Síně duší skrz zdi.
 
-**6: Obří muchomůrky** — *Mrtvola hnijí uprostřed přerostlé houbové zahrady.*
+**6: Obří muchomůrky** — *Mrtvola hnije uprostřed přerostlé houbové zahrady.*
 
 - Pokud jsou houby uříznuty, **uvolní toxiny.** Záchranný hod na SÍL, nebo stav Otrávený. *(Podivná anomálie)*
 - **Mrtvola** nese dýku, lano, krumpáč, improvizovanou masku a 2k20 mincí.
@@ -175,7 +175,7 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 **7: Bandití úkryt** — *Dveře jsou zamčené.*
 
 - **Opuštěná skrýš** zrezivělých zbraní, padělaných mincí (záchranný hod na INT k ohodnocení) a provizorních lůžek.
-- **Skrýš mincí** (6k100) ukrytá pod falešnou podlahovou deskou banditů, předtím než byli zajati a sklizeni Lichým králem. *(Něco, co se pravděpodobně nenajde)*
+- **Skrýš mincí** (6k100), kterou bandité ukryli pod falešnou podlahovou deskou, než je zajal a sklidil Lichý král. *(Něco, co se pravděpodobně nenajde)*
 
 **8: Síň duší** — *Lidské kosti pokrývají zdi, obklopující impozantní trůn z lebek.*
 
@@ -189,22 +189,22 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 **10: Královský žalář** — *Zamčené dveře; zevnitř se ozývají volání o pomoc.*
 
 - **Otočení klikou** uvolní přízračnou ruku, která vysaje 2k4 bodů životů a přenese je Lichému králi, pokud je stále naživu. *(Past k vyhnutí)*
-- Uvnitř **zajatí občané** čekají na svůj osud, nevědomi si, že mají být obětováni sultánově chamtivosti. Okamžitě se stanou spojenci, pokud jim bude slíbena svoboda.
+- Uvnitř čekají **zajatí občané** na svůj osud. Netuší, že mají být obětováni kvůli sultánově chamtivosti. Okamžitě se stanou spojenci, pokud jim bude slíbena svoboda.
 
 ---
 
-## Čarodějovy věže
+## Čarodějské věže
 
 *Hoď čtyři k10 pro určení obecného tématu*
 
 | k10 | Tvar | Obyvatel | Reakce | Cíl |
 |-----|------|----------|--------|-----|
 | 1 | Obří hodinová věž | Pyromant | Zabít postavy | Vládnout světu |
-| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Vzbudit armádu |
+| 2 | Křišťálový výrůstek | Kryomant | Ošálit postavy | Shromáždit armádu |
 | 3 | Arkánní obelisk | Vyvolávač | Spřátelit se | Otevřít portál |
 | 4 | Opuštěný maják | Iluzionista | Najmout postavy | Rozšířit kletbu |
 | 5 | Dutý strom | Černokněžník | Pomoci postavám | Přivolat příšeru |
-| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit předmět |
+| 6 | Pokroucená špice | Nekromant | Nalákat postavy | Vytvořit magický předmět |
 | 7 | Očarovaný větrný mlýn | Čaroděj | Uvěznit postavy | Rozpoutat kataklyzma |
 | 8 | Skleněná věžička | Thaumaturg | Teleportovat postavy | Vychovat učedníky |
 | 9 | Kamenná věž | Chronomant | Proměnit postavy | Provést rituál |
@@ -212,17 +212,17 @@ Pulzující město Thul-Zurein, ráj pro cestovatele, skrývá temné tajemství
 
 ### Postup tvorby
 
-#### 1. Vygeneruj čaroděje
+#### 1. Vygenerujte čaroděje
 
-Vytvoř čaroděje nastavením jeho úrovně mezi 6 a 10 (pouze mocní mágové mají vlastní věže), stejně jako body životů (10–20), hodnotu hodů, morálku a manu (20–30). Zvol pět vhodných kouzel a jméno.
+Vytvořte čaroděje — nastavte mu úroveň mezi 6 a 10 (vlastní věže mají jen mocní mágové), body životů (10–20), hodnotu hodů, morálku a manu (20–30). Zvolte pět vhodných kouzel a jméno.
 
-#### 2. Postav věž
+#### 2. Postavte věž
 
-Hoď hrstku k6 (mezi čtyřmi a šesti, podle toho kolik pater chceš) a naskládej je na sebe bez dívání. Hoď k4 a přidej ho na vrchol. Toto je věž.
+Hoďte hrstku k6 (čtyři až šest, podle toho, kolik pater chcete) a naskladejte je na sebe, aniž byste se dívali. Hoďte k4 a přidejte ji na vrchol. To je vaše věž.
 
 #### 3. Fasáda
 
-Zvol fasádu a zkontroluj čísla na každém patře, která představují obecný typ patra. Poté hoď k4 pro každé individuálně, abys určil přesnou povahu patra. Nakonec napiš pár klíčových prvků nebo výrazných objektů, které postavy mohou na každém patře najít nebo s nimi interagovat.
+Zvolte fasádu a zkontrolujte čísla na každém patře — ta představují obecný typ patra. Poté hoďte k4 pro každé patro zvlášť a určete jeho přesnou povahu. Nakonec ke každému patru zapište pár klíčových prvků nebo výrazných objektů, které tam postavy mohou najít nebo s nimiž mohou jednat.
 
 | Číslo | Typ patra | Možnosti |
 |-------|-----------|----------|
@@ -235,7 +235,7 @@ Zvol fasádu a zkontroluj čísla na každém patře, která představují obecn
 
 #### 4. Horní patro
 
-Zkontroluj číslo na k4 na vrcholu. Horní patro je zvláštní — může být observatoří, přivolávacím kruhem, tajemnou vyhlídkou nebo experimentální komnatou.
+Zkontrolujte číslo na k4 na vrcholu. Horní patro je zvláštní — může být observatoří, přivolávacím kruhem, tajemnou vyhlídkou nebo experimentální komnatou.
 
 ---
 
@@ -301,16 +301,16 @@ Zkontroluj číslo na k4 na vrcholu. Horní patro je zvláštní — může být
 
 #### 1. Rozložení
 
-Shoď hrst k6 na stránku. Nakresli kruh kolem každé kostky a čáry je spojující. Kruhy představují komory, čáry tunely. Zajisti, aby alespoň dvě komory měly dva tunely pro vytvoření více průzkumných cest. Spoj dvě nesousedící komory delším tunelem. Nakresli mapu, pokud chceš.
+Shoďte hrst k6 na stránku. Kolem každé kostky nakreslete kruh a spojte je čarami. Kruhy představují komory, čáry tunely. Zajistěte, aby alespoň dvě komory měly dva tunely — vzniknou tak různé cesty k průzkumu. Spojte dvě nesousedící komory delším tunelem. Pokud chcete, nakreslete mapu.
 
 - **Vchod:** kostka nejblíže okraji papíru je vchod.
 - **Jádro:** kostka nejblíže středu stránky je největší komora.
-- **Skrytá:** kostka, která spadla mimo papír, představuje tajnou komoru přístupnou drsnějšími průchody (hoď dvakrát na krok 3). Obsahuje ztracený poklad navíc k ostatním prvkům.
+- **Skrytá:** kostka, která spadla mimo papír, představuje tajnou komoru přístupnou drsnějšími průchody (hoďte dvakrát na krok 3). Kromě ostatních prvků obsahuje i ztracený poklad.
 - **Shluk:** kostky, které spadly blízko sebe a sdílejí stejné číslo, tvoří seskupenou oblast.
 
 #### 2. Naplnění komor
 
-Použij čísla na každé kostce k určení obsahu komory. Napiš jeden řádek rozvíjející hozený výsledek.
+Použijte čísla na každé kostce k určení obsahu komory. Ke každému výsledku napište jeden řádek, který ho rozvede.
 
 | k6 | Obsah |
 |----|-------|
@@ -323,7 +323,7 @@ Použij čísla na každé kostce k určení obsahu komory. Napiš jeden řádek
 
 #### 3. Nebezpečné tunely
 
-Když postavy vstoupí do tunelu, hoď k6. Na 5–6 hoď dalším k6 na střetnutí:
+Když postavy vstoupí do tunelu, hoďte k6. Na 5–6 hoďte dalším k6 na střetnutí:
 
 | k6 | Střetnutí v tunelu |
 |----|---------------------|
@@ -331,7 +331,7 @@ Když postavy vstoupí do tunelu, hoď k6. Na 5–6 hoď dalším k6 na střetnu
 | 2 | **Putující příšera:** náhodné střetnutí s tvorem odpovídajícím tématu. |
 | 3 | **Podivná anomálie:** hoď nebo vyber vhodnou anomálii z kobky (strana 79). |
 | 4 | **Mrtvola:** (1) mince a pochodně, (2) horolezecká výbava, (3) lebka příšery, (4) náhodná zbraň. |
-| 5 | **Značky:** (1) jeskynní malby, (2) primitivní otisky rukou, (3) prastaré proroctví, (4) bestií stopy. |
+| 5 | **Značky:** (1) jeskynní malby, (2) primitivní otisky rukou, (3) prastaré proroctví, (4) stopy bestií. |
 | 6 | **Děsivé zvuky:** (1) vrčení, (2) vzdálené bubnování, (3) skřípavá ozvěna, (4) šepoty. |
 
 ---
@@ -354,7 +354,7 @@ Když postavy vstoupí do tunelu, hoď k6. Na 5–6 hoď dalším k6 na střetnu
 
 Úroveň 3 | 9 bz | Hody 10 | Obrana 0 | Pohyb B | Morálka 8 | Obojživelník
 
-- **Mrazivý plivnutí:** HZ 5, POŠ 2.
+- **Mrazivé plivnutí:** HZ 5, POŠ 2.
 
 ### Komora C
 

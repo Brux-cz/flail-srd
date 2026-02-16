@@ -65,7 +65,7 @@ Kutílek ovládá konstrukta dle libosti, který ho považuje za svého mistra. 
 | Vylepšení | Cena v bodech |
 |-----------|---------------|
 | +1 HZ | 1 (max 8) |
-| +1 POS | 1 (max 5) |
+| +1 POŠ | 1 (max 5) |
 | +1 slot inventáře | 1 (max 10; začíná s 1) |
 | +2 bž | 1 (max 20) |
 | +1 Obrana | 1 (max 3) |
@@ -92,7 +92,7 @@ Nakresli náčrt konstrukta, abys ho přivedl k životu.
 
 ### Útočení
 
-Konstrukty mají hodnotu HZ a POS. Způsob útoku závisí na hráčově fantazii. Konstrukt může používat pouze zbraně, jejichž HZ je rovno nebo nižší než vlastní HZ konstruktu. POS je buď hodnota zbraně, nebo konstruktova vlastní hodnota.
+Konstrukty mají hodnotu HZ a POŠ. Způsob útoku závisí na hráčově fantazii. Konstrukt může používat pouze zbraně, jejichž HZ je rovno nebo nižší než vlastní HZ konstruktu. POŠ je buď hodnota zbraně, nebo konstruktova vlastní hodnota.
 
 ### Záchranné hody
 
@@ -114,10 +114,10 @@ Kutílek může trvale obětovat jeden bod konstruktu, aby celého konstrukta p�
 
 ### Příklady konstruktů
 
-Úroveň 5, 14 bž, Záchranné hody 7, HZ 7, POS 5, Obrana 3, Sloty inventáře 3.
+Úroveň 5, 14 bž, Záchranné hody 7, HZ 7, POŠ 5, Obrana 3, Sloty inventáře 3.
 *Bestie stvořená k boji, ne k nošení.*
 
-Úroveň 5, 6 bž, Záchranné hody 7, HZ 4, POS 2, Vznášení, Maskování, Sloty inventáře 9.
+Úroveň 5, 6 bž, Záchranné hody 7, HZ 4, POŠ 2, Vznášení, Maskování, Sloty inventáře 9.
 *Létající stroj stvořený k nošení, ne k boji.*
 
 Úroveň 5, 10 bž, Záchranné hody 8, Vidění ve tmě, Maskování, Šplhání, Vznášení, Řeč, Slot inventáře 1.
