@@ -456,7 +456,7 @@ Pokud chcete, aby byl FLAIL pro postavy obzvláště smrtící, zvyšte všem tv
 
 ### Silní
 
-**VNÁŠEJÍCÍ SE OKULUS** — *„Dívá se na mě?"*
+**VZNÁŠEJÍCÍ SE OKULUS** — *„Dívá se na mě?"*
 
 Úroveň 9 | 30 bz | Hody 14 | Obrana 1 | Pohyb B | Morálka 15 | Sliz
 
