@@ -1,42 +1,44 @@
-# Jmena
+# Jména
 
-## Lidska jmena (k12)
+*Hoď k12 v každém sloupci (jméno + příjmení)*
 
-| k12 | Jmeno | Prijmeni |
+## Lidská jména (k12)
+
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
-| 1 | Alda | Dutomir |
-| 2 | Brant | Cervenobazina |
-| 3 | Harl | Slanych poli |
-| 4 | Tessa | Soumracna |
-| 5 | Mira | Dalekolesi |
-| 6 | Torren | Sedobrazdny |
-| 7 | Jarl | Vrbovy |
-| 8 | Derin | Nakladac |
-| 9 | Sarn | Srdceduty |
-| 10 | Nora | Sirojezera |
-| 11 | Benn | Bazinopristav |
-| 12 | Kel | Smolnospoutany |
+| 1 | Alda | Dutomír |
+| 2 | Brant | Červenobažina |
+| 3 | Harl | Slanýchpolí |
+| 4 | Tessa | Soumračná |
+| 5 | Mira | Dalekoleší |
+| 6 | Torren | Šedobrázdný |
+| 7 | Jarl | Vrbový |
+| 8 | Derin | Nakladač |
+| 9 | Sarn | Srdcedutý |
+| 10 | Nora | Širojezerá |
+| 11 | Benn | Bažinopřístav |
+| 12 | Kel | Smolnospoutaný |
 
-## Trpaslici jmena (k12)
+## Trpasličí jména (k12)
 
-| k12 | Jmeno | Prijmeni |
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
-| 1 | Thrain | Zelezojho |
-| 2 | Brokkir | Krivdokous |
-| 3 | Gundrik | Kamenoskieb |
-| 4 | Maeldun | Skalodna |
-| 5 | Korgrim | Podhluboina |
-| 6 | Durven | Obocovous |
-| 7 | Helgaer | Kovadlinomoudry |
-| 8 | Rundal | Rudokopac |
+| 1 | Thrain | Železojhý |
+| 2 | Brokkir | Křivdokous |
+| 3 | Gundrik | Kamenošklebek |
+| 4 | Maeldun | Skalodná |
+| 5 | Korgrim | Podhlubočina |
+| 6 | Durven | Obočovous |
+| 7 | Helgaer | Kovadlinomoudrý |
+| 8 | Rundal | Rudokopáč |
 | 9 | Skeldor | Tvrdohlavice |
-| 10 | Baleric | Uhlozvykac |
+| 10 | Baleric | Uhložvýkač |
 | 11 | Thorlun | Kladivotvrz |
-| 12 | Granmir | Pivovarka |
+| 12 | Granmir | Pivovárka |
 
-## Elfi jmena (k12)
+## Elfí jména (k12)
 
-| k12 | Jmeno | Prijmeni |
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
 | 1 | Phelorna | Omabella |
 | 2 | Arryn | Ulafaren |
@@ -51,48 +53,48 @@
 | 11 | Eldrin | Thaelrun |
 | 12 | Tamnaeth | Lorynhael |
 
-## Gnomi jmena (k12)
+## Gnómí jména (k12)
 
-| k12 | Jmeno | Prijmeni |
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
-| 1 | Pimwick | Prevodapiskac |
-| 2 | Taelo | Lobblobkaminek |
-| 3 | Brindle | Veselozamek |
-| 4 | Fessit | Medokrcek |
-| 5 | Oriwyn | Koleckoplivac |
-| 6 | Pelno | Fidlifusek |
-| 7 | Grella | Vrteloslupka |
-| 8 | Nibbin | Drahokamcinkrdlo |
-| 9 | Vaskel | Suméloprsk |
-| 10 | Rillo | Louzeloudal |
+| 1 | Pimwick | Převodapískač |
+| 2 | Taelo | Lobblobkamínek |
+| 3 | Brindle | Veselozámek |
+| 4 | Fessit | Měďokrček |
+| 5 | Oriwyn | Kolečkopliváč |
+| 6 | Pelno | Fidlifůsek |
+| 7 | Grella | Vrtelobrázda |
+| 8 | Nibbin | Drahokamčinkrdlo |
+| 9 | Vaskel | Šuměloprsk |
+| 10 | Rillo | Louželoudal |
 | 11 | Tinkra | Bilnobetill |
 | 12 | Elmin | Borkump |
 
-## Pulcikova jmena (k12)
+## Půlčíková jména (k12)
 
-| k12 | Jmeno | Prijmeni |
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
-| 1 | Pippo | Malicek |
-| 2 | Pipin | Podkrovak |
-| 3 | Pip | Cajnicek |
-| 4 | Pipsey | Drobnopotek |
+| 1 | Pippo | Malíček |
+| 2 | Pipin | Podkrovák |
+| 3 | Pip | Čajníček |
+| 4 | Pipsey | Drobnopotůček |
 | 5 | Pipet | Palcosedlo |
-| 6 | Pipra | Kratkoknik |
-| 7 | Pipinessa | Dvojsnidane |
-| 8 | Pim | Kratickobrázda |
-| 9 | Peepa | Knoflikovrba |
-| 10 | Pryn | Malysoudek |
-| 11 | Pineelly | Uzobavac |
-| 12 | Prodo | Malepocasi |
+| 6 | Pipra | Krátkokník |
+| 7 | Pipinessa | Dvojsnídaně |
+| 8 | Pim | Kratičkobrázda |
+| 9 | Peepa | Knoflíkovrba |
+| 10 | Pryn | Malýsoudek |
+| 11 | Pineelly | Uzobaváč |
+| 12 | Prodo | Malépočasí |
 
-## Podivna jmena (k12)
+## Podivná jména (k12)
 
-| k12 | Jmeno | Prijmeni |
+| k12 | Jméno | Příjmení |
 |-----|-------|----------|
 | 1 | Orrilak | Zrunn |
 | 2 | Morxil | Kethraxx |
 | 3 | Yilgra | Vauloch |
-| 4 | O | z Drimothu |
+| 4 | Õ | z Drimothu |
 | 5 | Xu-xuth | Pallun |
 | 6 | Vrezka | de la Xevric |
 | 7 | Grthnkt | Morloch |
