@@ -1,0 +1,2687 @@
+
+<!doctype html>
+<html lang="cs" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="System Reference Document pro FLAIL - Old-school fantasy RPG">
+      
+      
+        <meta name="author" content="Andre Novoa">
+      
+      
+        <link rel="canonical" href="https://brux-cz.github.io/flail-srd/player/inventory/">
+      
+      
+        <link rel="prev" href="../classes/wizard/">
+      
+      
+        <link rel="next" href="../saves/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Inventář a výbava - FLAIL SRD</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#inventar-a-vybava" class="md-skip">
+          Přeskočit obsah
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Záhlaví">
+    <a href="../.." title="FLAIL SRD" class="md-header__button md-logo" aria-label="FLAIL SRD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FLAIL SRD
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Inventář a výbava
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="orange"  aria-label="Přepnout na světlý režim"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Přepnout na světlý režim" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="orange"  aria-label="Přepnout na tmavý režim"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Přepnout na tmavý režim" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Hledat" placeholder="Hledat" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Vyhledávání">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Vyčistit" aria-label="Vyčistit" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializace vyhledávání
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Karty" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Úvod
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../philosophy/" class="md-tabs__link">
+          
+  
+  
+  Pravidla pro hráče
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../gm/running/" class="md-tabs__link">
+          
+  
+  
+  Pravidla pro GM
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/cities/" class="md-tabs__link">
+          
+  
+  
+  Zdroje
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sheets/bard.html" class="md-tabs__link">
+          
+  
+  
+  Deníky postav
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigace" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FLAIL SRD" class="md-nav__button md-logo" aria-label="FLAIL SRD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    FLAIL SRD
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Úvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pravidla pro hráče
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pravidla pro hráče
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filozofie a zákony
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../character-creation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tvorba postavy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Povolání
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Povolání
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/bone-whisperer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Šeptač kostí
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Klerik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/cutthroat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hrdlořez
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/tinkerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kutílek
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/warrior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Válečník
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Čaroděj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventář a výbava
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventář a výbava
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Obsah">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Obsah
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sloty-inventare" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sloty inventáře
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pouzivani" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Používání
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stavy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stavy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zbrane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zbraně
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zbraně">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zbrane-na-blizko" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zbraně na blízko
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strelne-zbrane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Střelné zbraně
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zbroj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zbroj
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zbroj">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obrana-vs-zbroj" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Obrana vs. Zbroj
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#typy-poskozeni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Typy poškození
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zdatnost-se-zbroji" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zdatnost se zbrojí
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vybava" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Výbava
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Výbava">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#volitelne-pravidlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Volitelné pravidlo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nedostatek" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nedostatek
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cestovani-hexcrawling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cestování (hexcrawling)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pruzkum-dungeon-crawling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Průzkum (dungeon crawling)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trziste-k6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tržiště, k6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ruzne" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Různé
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ubytovani-a-zotaveni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ubytování a zotavení
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dopravni-prostredky" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dopravní prostředky
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preprava" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Přeprava
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Záchranné hody
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hirelings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Najatci
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../campaign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kampaň
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pravidla pro GM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pravidla pro GM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/running/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vedení FLAILu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/hexcrawl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hexcrawl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/sands-of-rebellion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Písky vzpoury
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/quests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scénáře výprav
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/adventure-sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Místa dobrodružství
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/bestiary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bestiář
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gm/unique-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unikátní předměty
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zdroje
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Zdroje
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/cities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Města
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/villages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vesnice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/inns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hospody
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/temples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chrámy a bohové
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/npcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/names/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jména
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/misc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ostatní
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deníky postav
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deníky postav
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sheets/bard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="inventar-a-vybava">Inventář a výbava<a class="headerlink" href="#inventar-a-vybava" title="Permanent link">&para;</a></h1>
+<h2 id="sloty-inventare">Sloty inventáře<a class="headerlink" href="#sloty-inventare" title="Permanent link">&para;</a></h2>
+<p>Každá postava má stejný počet slotů, rozdělených do tří hlavních oblastí: ruce, tělo a brašna. V závislosti na tom, kde se nacházejí, jsou předměty považovány za nesené, nošené nebo uložené. Předměty obvykle zabírají jeden slot, ale objemnější mohou zabírat více. Nelze nést více předmětů, než kolik je dostupných slotů.</p>
+<ul>
+<li><strong>Ozdoba:</strong> speciální slot pouze pro prsteny, amulety a podobné. Jsou považovány za nošené. Nelze zaplnit stavy.</li>
+<li><strong>Ruce:</strong> předměty nesené v hlavní a vedlejší ruce. Obouruční předměty zabírají oba sloty. Jsou považovány za nesené a mohou být použity kdykoli.</li>
+<li><strong>Tělo:</strong> předměty nošené na těle. Lze je použít na zbroj, helmu, boty, opasek, toulec nebo jakékoli další předměty/zbraně připravené k rychlému použití. Nošené předměty lze vyměnit za nesené jako volnou akci.</li>
+<li><strong>Brašna:</strong> předměty v brašně jsou uložené. Během konfliktu mohou být vyzvednuty za cenu jedné akce — vyměň nesený předmět za uložený. Dva sloty se odemykají pouze pokud má postava příslušné hodnoty SÍL (10 a 12).</li>
+</ul>
+<h2 id="pouzivani">Používání<a class="headerlink" href="#pouzivani" title="Permanent link">&para;</a></h2>
+<p>Předměty mají tečky používání, obvykle tři. Když jsou všechny označeny, předmět nelze použít, dokud není opraven. Tečky na zbroji a zbraních lze vyčistit za 20 % jejich původní ceny. Tečky na žrádle, munici, pochodních a podobných předmětech se nevyčišťují; musí se koupit nové.</p>
+<ul>
+<li><strong>Zbraně a munice:</strong> po boji hoď k6 za každý předmět, který byl použit. Při 4–6 označ tečku používání.</li>
+<li><strong>Zbroj:</strong> označ používání ke snížení nebo negování zásahů dle pravidel zbroje.</li>
+<li><strong>Hlavní předmět:</strong> neházej na používání. Tyto předměty by měly být vždy dostupné. Pokud je předmět z jakéhokoli důvodu ztracen nebo zničen, postava musí podstoupit výpravu za vhodnou náhradou.</li>
+<li><strong>Žrádlo:</strong> označ používání po jídle.</li>
+<li><strong>Světelné zdroje:</strong> označ používání každých šest tahů.</li>
+<li><strong>Ostatní výbava:</strong> pokud je použita způsobem, který by ji mohl poškodit, hoď k6. Při 4–6 označ používání.</li>
+</ul>
+<p><strong>Poznámka:</strong> postavy bez nošených předmětů jsou stále oblečeny dle přání hráče. Sloty na těle jsou abstraktní měnou, která omezuje množství výbavy pro účely hry a konfliktu. Hráči se mohou s Vypravěčem domluvit, jak jejich postavy nosí nebo nesou konkrétní předmět.</p>
+<h2 id="stavy">Stavy<a class="headerlink" href="#stavy" title="Permanent link">&para;</a></h2>
+<p>Stavy jsou negativní efekty, které postavy získávají během dobrodružství. Stejně jako výbava přicházejí v podobě inventářových karet a zabírají sloty inventáře. Při obdržení stavu musí hráč umístit kartu do slotu dle vlastního výběru. Pokud není žádný slot volný, musí odhodit předmět.</p>
+<ul>
+<li><strong>Efekty:</strong> stavy mohou mít trvalé efekty, například udělení nevýhody.</li>
+<li><strong>Odstranění:</strong> karty stavů lze odstranit pouze po splnění podmínky jejich vyčištění.</li>
+<li><strong>Umírání:</strong> pokud jsou všechny sloty pokryty stavy bez ohledu na jejich typ — postava zemře.</li>
+</ul>
+<p>Seznam základních stavů:</p>
+<ul>
+<li><strong>Vysátý:</strong> získán při mentálně náročných akcích, jako je sesílání kouzel.</li>
+<li><strong>Vyčerpaný:</strong> získán při náročných fyzických úkolech.</li>
+<li><strong>Zraněný:</strong> získán při obdržení 6+ poškození jedním zásahem nebo neúspěšným záchranným hodem.</li>
+<li><strong>Těžké zranění:</strong> získáno hodem na tabulku Smrti nebo z jiných herních situací, kde platí závažnější důsledky.</li>
+<li><strong>Otrávený:</strong> získán při otravě.</li>
+<li><strong>Vyhladovělý:</strong> získán při dvou dnech bez jídla. Za každé další dva dny získej další stav Vyhladovělý.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Stav</th>
+<th>Efekt</th>
+<th>Odstranění</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Vysátý</strong></td>
+<td>-1 INT</td>
+<td>Po dlouhém odpočinku</td>
+</tr>
+<tr>
+<td><strong>Vyčerpaný</strong></td>
+<td>Nevýhoda na všechny fyzické úkoly</td>
+<td>Po dlouhém odpočinku</td>
+</tr>
+<tr>
+<td><strong>Zraněný</strong></td>
+<td>-1 SÍL a OBR</td>
+<td>Po plném odpočinku</td>
+</tr>
+<tr>
+<td><strong>Těžké zranění</strong></td>
+<td>-1 SÍL a OBR</td>
+<td>Pouze magií / zázrakem</td>
+</tr>
+<tr>
+<td><strong>Otrávený</strong></td>
+<td>Další stav Otrávený každé ráno</td>
+<td>Lékařské ošetření</td>
+</tr>
+<tr>
+<td><strong>Vyhladovělý</strong></td>
+<td>—</td>
+<td>Po jídle</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="zbrane">Zbraně<a class="headerlink" href="#zbrane" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Hod na zásah (HZ):</strong> počet kostek hozených při pokusu zasáhnout protivníka — dovednosti povolání a omezení mohou přidávat bonusy nebo postihy.</li>
+<li><strong>Poškození (POŠ):</strong> množství poškození, které zbraň může způsobit, v závislosti na hodu na zásah. Hráči nehází na poškození — viz kapitola Boj.</li>
+</ul>
+<h3 id="zbrane-na-blizko">Zbraně na blízko<a class="headerlink" href="#zbrane-na-blizko" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>HZ</th>
+<th>POŠ</th>
+<th>Dosah</th>
+<th>Sloty</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sekera, bojová</td>
+<td>6</td>
+<td>4</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Sekera, ruční</td>
+<td>4</td>
+<td>3</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kyj</td>
+<td>4</td>
+<td>2</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Dýka</td>
+<td>4</td>
+<td>3</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Řemdih</td>
+<td>5</td>
+<td>4</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Garota</td>
+<td>4</td>
+<td>3</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Palcát</td>
+<td>5</td>
+<td>4</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Bojové kladivo (velké)</td>
+<td>6</td>
+<td>3</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Ranní hvězda</td>
+<td>5</td>
+<td>3</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Dřevcová zbraň</td>
+<td>4</td>
+<td>5</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Hůl</td>
+<td>5</td>
+<td>2</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Kosa</td>
+<td>6</td>
+<td>2</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>16</td>
+</tr>
+<tr>
+<td>Ostnatý řetěz</td>
+<td>4</td>
+<td>4</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Meč, velký</td>
+<td>6</td>
+<td>5</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Meč, krátký</td>
+<td>5</td>
+<td>3</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Válečné kladivo</td>
+<td>6</td>
+<td>4</td>
+<td>Blízko</td>
+<td>Obouruční</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Bič</td>
+<td>4</td>
+<td>2</td>
+<td>Blízko</td>
+<td>Jednoruční</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Poznámka:</strong> improvizované zbraně (kameny, klacky, pochodně) a boj holýma rukama mají HZ 3, POŠ 2. Při SÍL 12+ může Vypravěč rozhodnout, že jde o HZ 4, POŠ 3.</p>
+<h3 id="strelne-zbrane">Střelné zbraně<a class="headerlink" href="#strelne-zbrane" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>HZ</th>
+<th>POŠ</th>
+<th>Dosah</th>
+<th>Sloty</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foukačka</td>
+<td>5</td>
+<td>2</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Luk, dlouhý</td>
+<td>6</td>
+<td>4</td>
+<td>Vzdáleně, Daleko</td>
+<td>Obouruční</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Luk, krátký</td>
+<td>5</td>
+<td>3</td>
+<td>Blízko, Vzdáleně</td>
+<td>Obouruční**</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Kuše</td>
+<td>5</td>
+<td>4</td>
+<td>Blízko, Vzdáleně</td>
+<td>Obouruční**</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Šipky</td>
+<td>4</td>
+<td>2</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Toulec</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>Jeden slot</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Prak</td>
+<td>4</td>
+<td>2</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Kopí</td>
+<td>5</td>
+<td>4</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční***</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Vrhací nože</td>
+<td>4</td>
+<td>3</td>
+<td>Blízko, Vzdáleně</td>
+<td>Jednoruční</td>
+<td>10</td>
+</tr>
+</tbody>
+</table>
+<p>* Všechny luky vyžadují nošený toulec.</p>
+<p>** Krátké luky a kuše zabírají pouze jeden slot inventáře, ale vyžadují dvě ruce ke střelbě; vedlejší ruka musí být volná.</p>
+<p>*** Kopí zabírají dva sloty inventáře, ale jsou jednoruční. Jednoslotový předmět může být umístěn na kopí při nesení.</p>
+<hr />
+<h2 id="zbroj">Zbroj<a class="headerlink" href="#zbroj" title="Permanent link">&para;</a></h2>
+<p>Předměty počítané jako zbroj jsou označeny symbolem <strong>A</strong>. Postavy mohou označit používání na jakémkoli nošeném kusu zbroje k negování jedné 1 z hodu na zásah provedeného proti nim. Mohou označit stejný kus nebo více kusů libovolněkrát ve stejném kole k negování tolika jedniček, kolik si přejí.</p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Materiály</th>
+<th>Používání</th>
+<th>Sloty</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Základní zbroj</td>
+<td>Kůže, kožešina</td>
+<td>3</td>
+<td>1</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Lehká zbroj</td>
+<td>Šupinová, kroužková</td>
+<td>4</td>
+<td>1</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Těžká zbroj</td>
+<td>Plátová</td>
+<td>6</td>
+<td>2</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Štít</td>
+<td>Dřevo, kov</td>
+<td>2</td>
+<td>1</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Helma</td>
+<td>Kov</td>
+<td>2</td>
+<td>1</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<h4 id="obrana-vs-zbroj">Obrana vs. Zbroj<a class="headerlink" href="#obrana-vs-zbroj" title="Permanent link">&para;</a></h4>
+<p>Protivníci nepoužívají zbroj. Místo toho mají hodnotu Obrany, která snižuje obdržené poškození o uvedenou hodnotu při jakémkoli útoku. Obrana je plošná redukce poškození. Některé předměty/dovednosti mohou poskytnout hodnotu Obrany i postavám.</p>
+<h4 id="typy-poskozeni">Typy poškození<a class="headerlink" href="#typy-poskozeni" title="Permanent link">&para;</a></h4>
+<p>Zbroj chrání pouze proti fyzickému poškození. Proti ohni, elektřině, kyselině, magii a podobnému je neúčinná. Pokud postava čelí situaci, kde by zbroj mohla pomoci snížit poškození z jiného zdroje než hodu na zásah, může označit jedno používání k polovičnímu poškození nebo dvě používání k jeho úplné negaci.</p>
+<h4 id="zdatnost-se-zbroji">Zdatnost se zbrojí<a class="headerlink" href="#zdatnost-se-zbroji" title="Permanent link">&para;</a></h4>
+<p>Každé povolání má seznam zbroje, se kterou je zdatné. Při používání jiných typů má postava nevýhodu na všechny fyzické úkoly. Všechna povolání mohou používat štíty a helmy bez postihu. Postavy mohou nosit pouze jeden kus každého typu — nelze používat dvě helmy nebo dva kusy zbroje na těle.</p>
+<hr />
+<h2 id="vybava">Výbava<a class="headerlink" href="#vybava" title="Permanent link">&para;</a></h2>
+<p>Výbava není vázána na specifická pravidla. Umožňuje postavám provádět akce, které by jinak byly nemožné — například pozorování z dálky bez dalekohledu nebo lezení po hoře bez vhodného vybavení. Je součástí povinností hráče vyjednat s Vypravěčem, jak mohou předměty poskytnout situační výhody. Podobně může Vypravěč udělit nevýhodu, pokud jsou předměty použity nekonvenčním způsobem. Několik příkladů pro inspiraci:</p>
+<ul>
+<li><strong>Spacák:</strong> obnov další body životů při odpočinku.</li>
+<li><strong>Kompas:</strong> výhoda, aby ses neztratil v divočině.</li>
+<li><strong>Rybářské náčiní:</strong> nevýhoda k vylovení předmětu ze dna jezera.</li>
+<li><strong>Byliny a koření:</strong> označ používání a hoď ŠTĚSTÍ k obnově všech nebo části bodů životů.</li>
+<li><strong>Mapy:</strong> umísti 2k6 nových hexů na mapu (v hexcrawlových kampaních).</li>
+<li><strong>Lékařské ošetření:</strong> odstraní jeden stav Zraněný nebo Nemocný.</li>
+<li><strong>Krumpáč:</strong> výhoda ke kopání.</li>
+<li><strong>Přenosný vařič:</strong> hoď INT k vytvoření jedné inventářové karty žrádla.</li>
+</ul>
+<p><strong>Poznámka:</strong> pro výbavu a stavy, které se objeví během hry, použij prázdné kartičky předmětů.</p>
+<h4 id="volitelne-pravidlo">Volitelné pravidlo<a class="headerlink" href="#volitelne-pravidlo" title="Permanent link">&para;</a></h4>
+<p>Vypravěč může požádat o hod ŠTĚSTÍ k určení, zda má postava u sebe drobné běžné předměty, jako jsou kostky, mince nebo kus křídy. Představ si to jako něco, na co postava zapomněla v málokdy používané kapse.</p>
+<h4 id="nedostatek">Nedostatek<a class="headerlink" href="#nedostatek" title="Permanent link">&para;</a></h4>
+<p>Vesnice a malá sídla obvykle nabízejí pouze základní předměty, jako jednoduché nástroje, hrubé oblečení a další nezbytnosti. Specializovanou výbavu je třeba hledat ve městech.</p>
+<hr />
+<h3 id="cestovani-hexcrawling">Cestování (hexcrawling)<a class="headerlink" href="#cestovani-hexcrawling" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Předmět</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Medvědí past</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Spacák</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Klec, malá</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kompas</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Hrnce na vaření</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Rybářské náčiní</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Mapy</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Lopata</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Dalekohled</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Stan</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pruzkum-dungeon-crawling">Průzkum (dungeon crawling)<a class="headerlink" href="#pruzkum-dungeon-crawling" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Předmět</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bodce</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Řetěz</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Páčidlo</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Lahvička, prázdná</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Lahvička, olej</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Křesadlo</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Kotvička</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Kladivo</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Železné hřeby</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Žebřík, skládací</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Lucerna</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Pouta</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Kuličky</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Zrcátko</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Síť</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Krumpáč</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Lano</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Třímetrová tyč</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Pochodně</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Zlodějské náčiní</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="trziste-k6">Tržiště, k6<a class="headerlink" href="#trziste-k6" title="Permanent link">&para;</a></h3>
+<p><em>Hoď, když postavy vstoupí do nového města.</em></p>
+<table>
+<thead>
+<tr>
+<th>Hod</th>
+<th>Situace</th>
+<th>Ceny</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Válka</td>
+<td>Ztrojnásobeny</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Mor</td>
+<td>Zdvojnásobeny</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Špatná úroda</td>
+<td>Jídlo ztrojnásobeno</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Nájezdníci</td>
+<td>Zbraně zdvojnásobeny</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Mír</td>
+<td>Normální</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Hojnost</td>
+<td>Poloviční</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ruzne">Různé<a class="headerlink" href="#ruzne" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Předmět</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Zvonek</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Kniha</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Chemikálie (dávka)</td>
+<td>4k10</td>
+</tr>
+<tr>
+<td>Oblečení, chudé</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Oblečení, honosné</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Hry (kostky, karty aj.)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Byliny a koření</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Přesýpací hodiny</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Kadidlo</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Inkoust, brk a papír</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Truhla se zámkem</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Mikroskop</td>
+<td>250</td>
+</tr>
+<tr>
+<td>Hudební nástroj</td>
+<td>2k20</td>
+</tr>
+<tr>
+<td>Parfém</td>
+<td>22</td>
+</tr>
+<tr>
+<td>Dýmka</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Teleskop</td>
+<td>350</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ubytovani-a-zotaveni">Ubytování a zotavení<a class="headerlink" href="#ubytovani-a-zotaveni" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Předmět</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alkohol (pivo, víno aj.)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ubytování, levné</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Ubytování, okázalé</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Magické léčení (velmi vzácné)</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Lékařské ošetření</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Žrádlo (vč. vody)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Stáje</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dopravni-prostredky">Dopravní prostředky<a class="headerlink" href="#dopravni-prostredky" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Cena</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kárka (10 slotů)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Vůz (20 slotů)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Pes (2 sloty)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Osel (6 slotů, pomalý)</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Kůň (4 sloty, rychlý)</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<h3 id="preprava">Přeprava<a class="headerlink" href="#preprava" title="Permanent link">&para;</a></h3>
+<p><em>Typicky při hexcrawlování.</em></p>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Rychlost za den</th>
+<th>Cena za hex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vzducholoď</td>
+<td>3 hexy</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Loďka</td>
+<td>1 hex</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kárka</td>
+<td>1 hex</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kočár</td>
+<td>2 hexy</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Loď</td>
+<td>2 hexy</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Vůz</td>
+<td>1 hex</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Zpět na začátek
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Games Omnivorous - FLAIL by Andre Novoa
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Brux-cz/flail-srd" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Zkop\u00edrov\u00e1no do schr\u00e1nky", "clipboard.copy": "Kop\u00edrovat do schr\u00e1nky", "search.result.more.one": "1 dal\u0161\u00ed na t\u00e9to str\u00e1nce", "search.result.more.other": "# v\u00edce na t\u00e9to str\u00e1nce", "search.result.none": "Nenalezeny \u017e\u00e1dn\u00e9 dokumenty", "search.result.one": "Nalezen\u00fd dokument: 1", "search.result.other": "Nalezen\u00e9 dokumenty: #", "search.result.placeholder": "Pi\u0161te co se m\u00e1 vyhledat", "search.result.term.missing": "Chyb\u011bj\u00edc\u00ed", "select.version": "Vyberte verzi"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2865 @@
+
+<!doctype html>
+<html lang="cs" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="System Reference Document pro FLAIL - Old-school fantasy RPG">
+      
+      
+        <meta name="author" content="Andre Novoa">
+      
+      
+        <link rel="canonical" href="https://brux-cz.github.io/flail-srd/gm/hexcrawl/">
+      
+      
+        <link rel="prev" href="../running/">
+      
+      
+        <link rel="next" href="../sands-of-rebellion/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.2">
+    
+    
+      
+        <title>Hexcrawl - FLAIL SRD</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hexcrawl" class="md-skip">
+          Přeskočit obsah
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Záhlaví">
+    <a href="../.." title="FLAIL SRD" class="md-header__button md-logo" aria-label="FLAIL SRD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FLAIL SRD
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Hexcrawl
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="amber" data-md-color-accent="orange"  aria-label="Přepnout na světlý režim"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Přepnout na světlý režim" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="amber" data-md-color-accent="orange"  aria-label="Přepnout na tmavý režim"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Přepnout na tmavý režim" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Hledat" placeholder="Hledat" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Vyhledávání">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Vyčistit" aria-label="Vyčistit" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializace vyhledávání
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Karty" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Úvod
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../player/philosophy/" class="md-tabs__link">
+          
+  
+  
+  Pravidla pro hráče
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../running/" class="md-tabs__link">
+          
+  
+  
+  Pravidla pro GM
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../resources/cities/" class="md-tabs__link">
+          
+  
+  
+  Zdroje
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../sheets/bard.html" class="md-tabs__link">
+          
+  
+  
+  Deníky postav
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigace" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="FLAIL SRD" class="md-nav__button md-logo" aria-label="FLAIL SRD" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m6.2 2.44 11.9 11.9 2.12-2.12 1.41 1.41-2.47 2.47 3.18 3.18c.39.39.39 1.02 0 1.41l-.71.71a.996.996 0 0 1-1.41 0L17 18.23l-2.44 2.47-1.41-1.41 2.12-2.12-11.9-11.9V2.44zM15.89 10l4.74-4.74V2.44H17.8l-4.74 4.74zm-4.95 5-2.83-2.87-2.21 2.21-2.12-2.12-1.41 1.41 2.47 2.47-3.18 3.19a.996.996 0 0 0 0 1.41l.71.71c.39.39 1.02.39 1.41 0L7 18.23l2.44 2.47 1.41-1.41-2.12-2.12z"/></svg>
+
+    </a>
+    FLAIL SRD
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Úvod
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pravidla pro hráče
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pravidla pro hráče
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Filozofie a zákony
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/character-creation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tvorba postavy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Povolání
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Povolání
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/bard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/bone-whisperer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Šeptač kostí
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/cleric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Klerik
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/cutthroat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hrdlořez
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/druid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Druid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/tinkerer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kutílek
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/warrior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Válečník
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/classes/wizard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Čaroděj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/inventory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inventář a výbava
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/saves/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Záchranné hody
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boj
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/hirelings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Najatci
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player/campaign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kampaň
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pravidla pro GM
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Pravidla pro GM
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../running/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vedení FLAILu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hexcrawl
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hexcrawl
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Obsah">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Obsah
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tvorba-hexcrawlu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tvorba hexcrawlu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tvorba hexcrawlu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-vyplnte-hexy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Vyplňte hexy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mista-dobrodruzstvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Místa dobrodružství
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-povesti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Pověsti
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-udalosti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Události
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-frakce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Frakce
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-stretnuti" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Střetnutí
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-poklady" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Poklady
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lokace-k20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lokace, k20
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orientacni-body-k20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orientační body, k20
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#povesti-k20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pověsti, k20
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#udalosti-k20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Události, k20
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frakce-k20" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frakce, k20
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frakce, k20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prastare-probuzeni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prastaré probuzení
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sestry-zavoje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sestry závoje
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vedeni-hexcrawlu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vedení hexcrawlu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Vedení hexcrawlu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zaklady" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Základy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prechod-hexu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Přechod hexu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pruzkum-lokace" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Průzkum lokace
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sber-zasob" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sběr zásob
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#taboreni" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Táboření
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reakce" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reakce
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moralka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Morálka
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pocasi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Počasí
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rozsireni-kampane" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rozšíření kampaně
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rozšíření kampaně">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#postavy-v-duchodu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Postavy v důchodu
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sands-of-rebellion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Písky vzpoury
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quests/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scénáře výprav
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adventure-sites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Místa dobrodružství
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bestiary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bestiář
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../unique-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Unikátní předměty
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zdroje
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Zdroje
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/cities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Města
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/villages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vesnice
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/inns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hospody
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/temples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chrámy a bohové
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/npcs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/names/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jména
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/misc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ostatní
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deníky postav
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deníky postav
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sheets/bard.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="hexcrawl">Hexcrawl<a class="headerlink" href="#hexcrawl" title="Permanent link">&para;</a></h1>
+<p>Použijte tyto pokyny k vytvoření startovního hexcrawlu pro vaši kampaň. Pokud hrajete jednorázovku nebo jedno sezení, podívejte se na „Scénáře výprav".</p>
+<div class="admonition info">
+<p class="admonition-title">Hexcrawl Toolbox</p>
+<p>Mrkněte na Hexcrawl Toolbox — online aplikaci i fyzický boxset. Umožňuje vám postavit hexcrawl za pět minut se 150 hex-dlaždicemi na výběr.</p>
+</div>
+<hr />
+<h2 id="tvorba-hexcrawlu">Tvorba hexcrawlu<a class="headerlink" href="#tvorba-hexcrawlu" title="Permanent link">&para;</a></h2>
+<h3 id="1-vyplnte-hexy">1. Vyplňte hexy<a class="headerlink" href="#1-vyplnte-hexy" title="Permanent link">&para;</a></h3>
+<p>Vytiskněte prázdnou hex-květinu s 19 hexy. Vyplňte 12 z nich lokací nebo orientačním bodem (nebo vyberte z Hexcrawl Toolboxu). Napište jeden nebo dva řádky ke každému, jako byste popisovali místnosti v kobce: „prastaré ruiny" nepotřebují víc než stručný popis, překážku k překonání (příšera, past, hádanka) a odměnu, jako třeba poklad. Použijte tabulky napravo jako inspiraci. Zbylé hexy nechte prázdné. Ty se hodí k vynucení pravidel cestování a přežití v divočině.</p>
+<h3 id="2-mista-dobrodruzstvi">2. Místa dobrodružství<a class="headerlink" href="#2-mista-dobrodruzstvi" title="Permanent link">&para;</a></h3>
+<p>Rozšiřte jednu nebo dvě lokace/orientační body na Místa dobrodružství pomocí nástrojů v kapitole Místa dobrodružství – nebo si vyberte kompatibilní modul, který se vám líbí. Kolik jich rozšíříte závisí na počtu hodin, které plánujete pro úvodní sezení vaší kampaně.</p>
+<p><strong>Poznámka:</strong> většina skupin stráví deset minut na hex, když řeší střetnutí nebo plánují. Mapa s 19 hexy zabere přibližně tři hodiny průzkumu. Každé podrobně zpracované místo by mělo vygenerovat další jednu až dvě hodiny hry.</p>
+<h3 id="3-povesti">3. Pověsti<a class="headerlink" href="#3-povesti" title="Permanent link">&para;</a></h3>
+<p>Vytvořte tabulku k6 pověstí a představte je hráčům na začátku hry. Pověsti pohánějí průzkum a často se promění ve výpravy nebo zápletky. Nechte hráče najít si vlastní dobrodružství. Použijte tabulku na další stránce jako inspiraci.</p>
+<ul>
+<li>Položky 1–3 by měly být pravdivé</li>
+<li>Položky 4–5 by měly být částečně pravdivé</li>
+<li>Položka 6 by měla být lživá</li>
+</ul>
+<h3 id="4-udalosti">4. Události<a class="headerlink" href="#4-udalosti" title="Permanent link">&para;</a></h3>
+<p>Vytvořte seznam k4 událostí. Události jsou něco, co může změnit rovnováhu sil v regionu nebo výrazně ovlivnit postavy, jako posun moci nebo přírodní katastrofa. Buďte o nich k hráčům otevření. Použijte tabulku jako inspiraci k vytvoření dalších.</p>
+<h3 id="5-frakce">5. Frakce<a class="headerlink" href="#5-frakce" title="Permanent link">&para;</a></h3>
+<p>Vytvořte dvě frakce s pomocí tabulky. Každé dejte jasný cíl s významným dopadem na region a klíčový zdroj. Pokud hráčské postavy patří ke zlodějskému cechu nebo náboženskému řádu, zamyslete se, jak s nimi frakce mohou interagovat.</p>
+<h3 id="6-stretnuti">6. Střetnutí<a class="headerlink" href="#6-stretnuti" title="Permanent link">&para;</a></h3>
+<p>Vytvořte tabulku k8 střetnutí. Použijte je k zalidnění divočiny, vytváření protivenství a oživení lokací nepokrytých v kroku 2. Kombinujte tvory z bestiáře se střetnutími s frakcemi a skupinami cestujících.</p>
+<h3 id="7-poklady">7. Poklady<a class="headerlink" href="#7-poklady" title="Permanent link">&para;</a></h3>
+<p>Označte čtyři hexy jako místa s legendárním pokladem. Pokud jsou úspěšně prozkoumány, odměňte postavy unikátním předmětem. Průzkum ostatních lokací odměňte mincemi nebo obyčejným bohatstvím.</p>
+<hr />
+<h2 id="lokace-k20">Lokace, k20<a class="headerlink" href="#lokace-k20" title="Permanent link">&para;</a></h2>
+<p><em>Hoďte k20 na každý sloupec nebo vyberte kombinace</em></p>
+<table>
+<thead>
+<tr>
+<th>k20</th>
+<th>Lokace</th>
+<th>Biom</th>
+<th>Stav</th>
+<th>Klíčový prvek</th>
+<th>Obyvatel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Věž</td>
+<td>Poušť</td>
+<td>Opuštěná</td>
+<td>Arkánní runy</td>
+<td>Kult smrti</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Megalit</td>
+<td>Poušť</td>
+<td>Požehnaný</td>
+<td>Hodinový mechanismus</td>
+<td>Zlodějský cech</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hřbitov</td>
+<td>Stepi</td>
+<td>Vypleněný</td>
+<td>Magicky zapečetěný</td>
+<td>Bandité</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hospoda</td>
+<td>Stepi</td>
+<td>Strašidelná</td>
+<td>Zlaté obkládání</td>
+<td>Skupina dezertérů</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Chrám</td>
+<td>Hory</td>
+<td>Prastarý</td>
+<td>Kosmický portál</td>
+<td>Cech vrahů</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Pyramida</td>
+<td>Hory</td>
+<td>Pokřivená</td>
+<td>Ohnivý maják</td>
+<td>Bardská společnost</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Zříceniny</td>
+<td>Pastviny</td>
+<td>Znesvěcené</td>
+<td>Hromosvod</td>
+<td>Královská armáda</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hrad</td>
+<td>Pastviny</td>
+<td>Zhroucený</td>
+<td>Prvotní zdivo</td>
+<td>Kupecký cech</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Svatyně</td>
+<td>Pastviny</td>
+<td>Levitující</td>
+<td>Temné mraky</td>
+<td>Náboženský řád</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Obelisk</td>
+<td>Pastviny</td>
+<td>Zarostlý</td>
+<td>Podivné nory</td>
+<td>Pirátská posádka</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Město</td>
+<td>Les</td>
+<td>Dekadentní</td>
+<td>Skryté tunely</td>
+<td>Rytířský kruh</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Pevnost</td>
+<td>Les</td>
+<td>Odsouzená</td>
+<td>Větrné mlýny</td>
+<td>Léčitelský řád</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Vesnice</td>
+<td>Les</td>
+<td>Zakázaná</td>
+<td>Pulzující koule</td>
+<td>Společnost konstruktů</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Hrobky</td>
+<td>Les</td>
+<td>Zaplavené</td>
+<td>Vznášející se krystaly</td>
+<td>Nelegální bojový klub</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Observatoř</td>
+<td>Močál</td>
+<td>Prokletá</td>
+<td>Hluboká studna</td>
+<td>Žoldnéřská banda</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Knihovna</td>
+<td>Močál</td>
+<td>Zapomenutá</td>
+<td>Strážná sfinga</td>
+<td>Šílený vědec</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Tržiště</td>
+<td>Džungle</td>
+<td>Futuristické</td>
+<td>Socha chobotnice</td>
+<td>Obchodníci s artefakty</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Důl</td>
+<td>Džungle</td>
+<td>Zvětšený</td>
+<td>Obsidián</td>
+<td>Mocný čaroděj</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Klášter</td>
+<td>Tundra</td>
+<td>V karanténě</td>
+<td>Kolosální oko</td>
+<td>Cirkusová skupina</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Památník</td>
+<td>Tundra</td>
+<td>Hořící</td>
+<td>Varovné vlajky</td>
+<td>Náhodná příšera</td>
+</tr>
+</tbody>
+</table>
+<h2 id="orientacni-body-k20">Orientační body, k20<a class="headerlink" href="#orientacni-body-k20" title="Permanent link">&para;</a></h2>
+<p><em>Hoďte k20 na každý sloupec nebo vyberte kombinace</em></p>
+<table>
+<thead>
+<tr>
+<th>k20</th>
+<th>Bod</th>
+<th>Biom</th>
+<th>Stav</th>
+<th>Klíčový prvek</th>
+<th>Obyvatel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Jezero</td>
+<td>Poušť</td>
+<td>Zářící</td>
+<td>Fumaroly</td>
+<td>Horda nemrtvých</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sopka</td>
+<td>Poušť</td>
+<td>Radioaktivní</td>
+<td>Prastaré glyfy</td>
+<td>Děsivá zvířata</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Laguna</td>
+<td>Stepi</td>
+<td>Mrazivá</td>
+<td>Svítící houby</td>
+<td>Bludné přízraky</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Propadliště</td>
+<td>Stepi</td>
+<td>Doutnající</td>
+<td>Obří stopy</td>
+<td>Dračí kult</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Jeskyně</td>
+<td>Hory</td>
+<td>Toxická</td>
+<td>Mrtvý drak</td>
+<td>Plameňáci</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Vodopády</td>
+<td>Hory</td>
+<td>Zamořené</td>
+<td>Lávové žíly</td>
+<td>Trollí dvojčata</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Kaňon</td>
+<td>Pastviny</td>
+<td>Léčivý</td>
+<td>Vřící jezírka</td>
+<td>Uprchlá čarodějnice</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Gejzír</td>
+<td>Pastviny</td>
+<td>Magnetický</td>
+<td>Potopené ruiny</td>
+<td>Gobliní kmen</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Háj</td>
+<td>Pastviny</td>
+<td>Ozvěnový</td>
+<td>Vyřezávané totemy</td>
+<td>Nekromant</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Kráter</td>
+<td>Pastviny</td>
+<td>Bzučící</td>
+<td>Pravěké fosilie</td>
+<td>Šílený konstrukt</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Trhlina</td>
+<td>Les</td>
+<td>Sežehlý</td>
+<td>Cenné minerály</td>
+<td>Druidský kruh</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Kameny</td>
+<td>Les</td>
+<td>Zkrystalizovaný</td>
+<td>Hromady kostí</td>
+<td>Ptáci dodo</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Dehtová jáma</td>
+<td>Les</td>
+<td>Zkamenělý</td>
+<td>Pavučiny</td>
+<td>Poustevník-věštec</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Skalní výběžek</td>
+<td>Les</td>
+<td>Očarovaný</td>
+<td>Kostra zvířete</td>
+<td>Pašerácká klika</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Náhorní plošina</td>
+<td>Močál</td>
+<td>Éterická</td>
+<td>Obří mraveniště</td>
+<td>Mutantský klan</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Lom</td>
+<td>Močál</td>
+<td>Zkažený</td>
+<td>Pravěký oltář</td>
+<td>Přízrační rytíři</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Oáza</td>
+<td>Džungle</td>
+<td>Rozpraskaná</td>
+<td>Vznášející se skály</td>
+<td>Barbarská horda</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Farma</td>
+<td>Džungle</td>
+<td>Ohořelá</td>
+<td>Starobylé relikvie</td>
+<td>Ohnivci</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Doupě</td>
+<td>Tundra</td>
+<td>Krvácející</td>
+<td>Rozlomené sloupy</td>
+<td>Přátelský drak</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Tunel</td>
+<td>Tundra</td>
+<td>Duhový</td>
+<td>Obří koprolity</td>
+<td>Náhodná příšera</td>
+</tr>
+</tbody>
+</table>
+<h2 id="povesti-k20">Pověsti, k20<a class="headerlink" href="#povesti-k20" title="Permanent link">&para;</a></h2>
+<p><em>Vyberte nebo hoďte k20 šestkrát pro vytvoření tabulky k6</em></p>
+<table>
+<thead>
+<tr>
+<th>k20</th>
+<th>Pověst</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Mluvící husa byla spatřena v divočině, snáší vejce ze zlata.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Prokletá studna plní přání, ale za každé si vezme život.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Prastarý čaroděj byl pohřben zaživa a odmění ty, kdo ho vyhrabou.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Zlodějský cech zakopal královo výkupné v této oblasti, než byl dopaden a zabit.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Skupina tvaroměnců infiltruje místní šlechtické rodiny.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Léčitel v těchto krajích vyléčí jakoukoli nemoc výměnou za k6 dračích zubů.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Sabat čarodějnic vaří Konec světa.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Skrytá mapa pokladu je vytetovaná na zádech nechvalně proslulého piráta.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Strašidelné bojiště údajně ukrývá ztracené relikvie ze zapomenuté války.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Oblíbený místní kněz je ve skutečnosti nesmrtelný nekromant, křísící nemrtvé.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Místní farmář přísahá, že jeho prase je věštec.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Poustevník tvrdí, že zná pravého dědice království.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Obludný tvor se potuluje regionem a vyžaduje oběti každý úplněk.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Místní chrám je ve skutečnosti zástěrka pro nejobávanější cech vrahů na světě.</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Místní vládce tajně krmí své poddané [PŘÍŠEROU].</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Posvátné místo může udělit vize budoucnosti, pokud se k němu přijde za bezměsíčné noci.</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Démonem posedlý artefakt kazí zemi a způsobuje víry obrácené gravitace.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Svatyně zapomenutého božstva skrývá posvátný artefakt, který může přetvořit svět.</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Místní baron tajně shromažďuje armádu žoldnéřů pro povstání.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Prastarý zákon prohlašuje, že kdokoli zabije [PŘÍŠERU], má nárok na Trůn.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="udalosti-k20">Události, k20<a class="headerlink" href="#udalosti-k20" title="Permanent link">&para;</a></h2>
+<p><em>Vyberte nebo hoďte k20 čtyřikrát pro vytvoření tabulky k4</em></p>
+<table>
+<thead>
+<tr>
+<th>k20</th>
+<th>Událost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Zlé znamení:</strong> temný mrak pronásleduje družinu k6 dní a lije na ni prudký déšť.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Říční pohroma:</strong> zlý čaroděj ukradne všechny řeky a zanechá jen páchnoucí bahno.</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Válka o trůn:</strong> k12 × 100 vojáků vtrhne do regionu, počínaje náhodným vnějším hexem.</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Vlna zkamenění:</strong> mění živé tvory v kámen; šíří se do nového hexu každých k3 dní.</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Přízračná loď:</strong> loví náhodnou postavu a chce ji vzít do éterické říše.</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Ohnivý déšť:</strong> zapálí náhodný hex a zanechá za sebou podivné nerostné usazeniny.</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Šířící se požár:</strong> spálí náhodný hex, šíří se do k3 hexů denně.</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Mlha šílenství:</strong> všechny učiní nepřátelskými a nepředvídatelnými; šíří se do nového hexu každý den.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Exodus hmyzu:</strong> migrace mezi dvěma náhodnými hexy, ničí vše v cestě.</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Svatá pouť:</strong> průvod nesoucí posvátnou sochu začne procházet hexcrawlem.</td>
+</tr>
+<tr>
+<td>11</td>
+<td><strong>Věčná noc:</strong> na celý region padne tajemná tma trvající k6 dní.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Pád meteoritu:</strong> dopadne v náhodném hexu a otevře portál, z něhož se valí příšery.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><strong>Průvod:</strong> konvoj s významným vězněm začne procházet mapou z vnějšího hexu.</td>
+</tr>
+<tr>
+<td>14</td>
+<td><strong>Zkouška:</strong> místní vůdci začnou shromažďovat lidi a posílat je na lov příšer.</td>
+</tr>
+<tr>
+<td>15</td>
+<td><strong>Soumračný květ:</strong> v náhodném hexu rozkvetou tajemné květiny, přitahující vzácné tvory.</td>
+</tr>
+<tr>
+<td>16</td>
+<td><strong>Karavanní tržiště:</strong> tisíce obchodníků se sjede do náhodného hexu.</td>
+</tr>
+<tr>
+<td>17</td>
+<td><strong>Hladomor:</strong> špatná úroda a lov způsobí vysokou poptávku po jídle.</td>
+</tr>
+<tr>
+<td>18</td>
+<td><strong>Časová trhlina:</strong> veškerý život v náhodném hexu začne drasticky stárnout.</td>
+</tr>
+<tr>
+<td>19</td>
+<td><strong>Zakázaný rituál:</strong> kultisté se shromáždí v náhodném hexu, aby přivolali mocnou entitu.</td>
+</tr>
+<tr>
+<td>20</td>
+<td><strong>Přízračné pozemky:</strong> v náhodném hexu se vynoří přízraky a prohlásí ho za svou doménu.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="frakce-k20">Frakce, k20<a class="headerlink" href="#frakce-k20" title="Permanent link">&para;</a></h2>
+<p><em>Vyberte nebo hoďte k20 na každý sloupec pro vygenerování počátečních frakcí</em></p>
+<table>
+<thead>
+<tr>
+<th>k20</th>
+<th>Frakce</th>
+<th>Zdroj</th>
+<th>Cíl</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Náboženský řád</td>
+<td>Důležitý vězeň</td>
+<td>Vykopat mocný artefakt</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Zlodějský cech</td>
+<td>Legendární zbraň</td>
+<td>Provést nebezpečný rituál</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Okultní společnost</td>
+<td>Zajatý čaroděj</td>
+<td>Zkazit posvátnou relikvii</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Královská stráž</td>
+<td>Myslí ovládaná bestie</td>
+<td>Zabít vůdce jiné frakce</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Temný kult</td>
+<td>Magická vznášející se koule</td>
+<td>Otevřít mezidimenzionální portál</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Čarodějnický sabat</td>
+<td>Skrýš zlata</td>
+<td>Postavit obrovský stroj</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Žoldnéřská společnost</td>
+<td>Mocný magický prsten</td>
+<td>Oživit mumifikované božstvo</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Povstalci</td>
+<td>Grimoár temné magie</td>
+<td>Uvolnit smrtící kletbu</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Kupecký cech</td>
+<td>Křišťálová věštecká koule</td>
+<td>Probudit spící bestii</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Pirátská posádka</td>
+<td>Líhnoucí se dračí vejce</td>
+<td>Osvobodit se od kletby</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rytířský řád</td>
+<td>Mapa pokladu</td>
+<td>Vybudovat armádu nemrtvých</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Tajná inkvizice</td>
+<td>Královský dekret</td>
+<td>Vybudovat magickou pevnost</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Pašerácký kruh</td>
+<td>Mocný lektvar</td>
+<td>Vyvolat přírodní katastrofu</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Klan pánů zvířat</td>
+<td>Posvátná zapomenutá relikvie</td>
+<td>Vykovat vnímající zbraň</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Arkánní akademie</td>
+<td>Ztracená technologie</td>
+<td>Vzkřísit padlého hrdinu</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Legie nemrtvých</td>
+<td>Alchymistický vzorec</td>
+<td>Uklidnit mýtickou bestii</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Lovci odměn</td>
+<td>Ukradený konstrukt</td>
+<td>Vykovat temné spojenectví</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Čarodějský kabal</td>
+<td>Zapečetěné démonské srdce</td>
+<td>Stát se nesmrtelnými</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Stínoví vrazi</td>
+<td>Prokletý krvavý drahokam</td>
+<td>Vyhnat nesmrtelného nepřítele</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Vyhoštěná šlechta</td>
+<td>Spoutaný elementál</td>
+<td>Uzurpovat trůn</td>
+</tr>
+</tbody>
+</table>
+<p>Frakce představují síly, které uplatňují vliv nad řadou hexů nebo dokonce celou mapou. Hráči s nimi mohou interagovat různými způsoby – jako bránit jejich postupu, pomáhat jim nebo uzavírat dohody. Vygenerujte dvě frakce pomocí výše uvedené tabulky a dokončete je podle následujících pokynů:</p>
+<ul>
+<li><strong>Jméno:</strong> dejte každé frakci unikátní, zapamatovatelné jméno.</li>
+<li><strong>Základna:</strong> zvolte jeden hex jako základnu každé frakce.</li>
+<li><strong>Cíl:</strong> zeptejte se, jak může být cíl splněn, co ještě chybí, jaký je jeho konečný účel a kde může být dosažen. Navažte některé odpovědi na lokace na mapě.</li>
+<li><strong>Soupeření:</strong> nechte každou frakci soupeřit o jeden hex a zamyslete se proč.</li>
+</ul>
+<h3 id="prastare-probuzeni">Prastaré probuzení<a class="headerlink" href="#prastare-probuzeni" title="Permanent link">&para;</a></h3>
+<p><em>Čarodějský kabal</em></p>
+<p><strong>Základna:</strong> pokřivená věž <strong>Zdroj:</strong> ukradený konstrukt <strong>Cíl:</strong> oživit mumifikované božstvo</p>
+<ul>
+<li><em>Jak?</em> Prostřednictvím magického obřadu provedeného 12 mágy</li>
+<li><em>Co chybí?</em> Jeden svitek (ztracený v prastarých ruinách)</li>
+<li><em>Kde?</em> Obřad se musí konat v zapomenutém chrámu</li>
+<li><em>Účel?</em> Vzkřísit jejich prastarého mistra</li>
+</ul>
+<p><strong>Postupy:</strong> ○ ○ ○</p>
+<h3 id="sestry-zavoje">Sestry závoje<a class="headerlink" href="#sestry-zavoje" title="Permanent link">&para;</a></h3>
+<p><em>Čarodějnický sabat</em></p>
+<p><strong>Základna:</strong> temný kostel <strong>Zdroj:</strong> líhnoucí se dračí vejce <strong>Cíl:</strong> otevřít mezidimenzionální portál</p>
+<ul>
+<li><em>Jak?</em> Prostřednictvím temného rituálu za úplňku</li>
+<li><em>Co chybí?</em> Jedna sestra (uvězněná v chrámu)</li>
+<li><em>Kde?</em> Rituál se musí konat v prastarých ruinách</li>
+<li><em>Účel?</em> Pomstít padlé sestry</li>
+</ul>
+<p><strong>Postupy:</strong> ○ ○ ○</p>
+<hr />
+<h2 id="vedeni-hexcrawlu">Vedení hexcrawlu<a class="headerlink" href="#vedeni-hexcrawlu" title="Permanent link">&para;</a></h2>
+<h3 id="zaklady">Základy<a class="headerlink" href="#zaklady" title="Permanent link">&para;</a></h3>
+<p>Družina začíná v hexu dle vašeho výběru. Průzkum se dělí na <strong>tři stráže denně</strong> (ráno, odpoledne, večer) po osmi hodinách.</p>
+<h3 id="prechod-hexu">Přechod hexu<a class="headerlink" href="#prechod-hexu" title="Permanent link">&para;</a></h3>
+<p>Přesun z jednoho hexu do druhého zabere <strong>dvě stráže</strong>. Rychlá vozidla nebo jízdní zvířata to zkrátí na jednu stráž, zatímco pomalá vozidla nebo špatný terén (jako řeky, útesy nebo zaplavená území) přidají stráž navíc. Hoďte 2k6 při vstupu do nového hexu a aplikujte příslušný výsledek.</p>
+<table>
+<thead>
+<tr>
+<th>2k6</th>
+<th>Výsledek</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2–5</td>
+<td>Hoďte střetnutí.</td>
+</tr>
+<tr>
+<td>6–9</td>
+<td>Nic se neděje.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Ztraceni! Stráž je promarněna.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Špatná cesta! Přesun do jiného hexu.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Hoďte událost.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pruzkum-lokace">Průzkum lokace<a class="headerlink" href="#pruzkum-lokace" title="Permanent link">&para;</a></h3>
+<p>Pokud hex obsahuje lokaci, postavy ji mohou chtít prozkoumat. Průzkum zabere stráž, případně déle v závislosti na přístupu hráčů. Pokud lokace nebyla podrobně zpracována jako Místo dobrodružství, zvažte následující postupy:</p>
+<ul>
+<li><strong>Popis:</strong> improvizujte hmatatelné detaily a vymyslete překážku nebo interakci (příklad: „tyto Prastaré ruiny mají zapečetěné dveře pokryté glyfy," nebo „čaroděj v této Věži potřebuje uzavřít dohodu"). Využijte reakce hráčů nebo jim pokládejte otázky a pak rozviňte jejich zpětnou vazbu.</li>
+<li><strong>Město, Vesnice, Chrám:</strong> rozšiřte jakoukoli z těchto lokací podle procedur v kapitole Zdroje. Lze je použít za chodu.</li>
+<li><strong>Střetnutí:</strong> hoďte střetnutí k zalidnění obyvatel lokace nebo vytvoření konfliktu. Protivenství vede k dobrodružství.</li>
+<li><strong>Poklad:</strong> zvolte poklad jako odměnu za průzkum lokace; může dát nápady k tomu, proč je toto místo důležité.</li>
+<li><strong>Pověsti:</strong> oživte lokaci tím, že ji učiníte předmětem známé pověsti.</li>
+</ul>
+<h3 id="sber-zasob">Sběr zásob<a class="headerlink" href="#sber-zasob" title="Permanent link">&para;</a></h3>
+<p>Postavy mohou strávit stráž sbíráním jídla a spotřebního materiálu (jako přírodní medicína, reagencie, dřevo na šípy atd.). Hoďte k6. Při úspěchu najdou k6 zásob. Při 1 hoďte střetnutí.</p>
+<table>
+<thead>
+<tr>
+<th>Biom</th>
+<th>Úspěch, k6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Džungle, Les</td>
+<td>2–6.</td>
+</tr>
+<tr>
+<td>Pastviny, Stepi, Močál</td>
+<td>3–6.</td>
+</tr>
+<tr>
+<td>Hory</td>
+<td>4–6.</td>
+</tr>
+<tr>
+<td>Poušť, Oceán</td>
+<td>5–6.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="taboreni">Táboření<a class="headerlink" href="#taboreni" title="Permanent link">&para;</a></h3>
+<p>Postavy musí jednu stráž denně odpočívat, nebo získají stav Vyčerpaný.</p>
+<h3 id="reakce">Reakce<a class="headerlink" href="#reakce" title="Permanent link">&para;</a></h3>
+<p>Když narazíte na tvora nebo osoby, jejichž reakce je nejistá, použijte následující tabulku.</p>
+<table>
+<thead>
+<tr>
+<th>2k6</th>
+<th>Reakce</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2–5</td>
+<td>Okamžitě útočí</td>
+</tr>
+<tr>
+<td>6–9</td>
+<td>Nepřátelský, ale...</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Lze vyjednávat</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Přátelský, ale...</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Nápomocný</td>
+</tr>
+</tbody>
+</table>
+<h3 id="moralka">Morálka<a class="headerlink" href="#moralka" title="Permanent link">&para;</a></h3>
+<p>Když je protivník na začátku svého kola v jasné nevýhodě, musí hodit záchranný hod na morálku. Při neúspěchu prchá nebo se vzdá.</p>
+<h3 id="pocasi">Počasí<a class="headerlink" href="#pocasi" title="Permanent link">&para;</a></h3>
+<p>Hoďte 2k6 na počasí každý den. Upravte výsledek podle biomu (příklad: Nepříjemné v Poušti je vlna veder; v Horách ledový vítr atd.)</p>
+<table>
+<thead>
+<tr>
+<th>2k6</th>
+<th>Počasí</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td><strong>Katastrofální:</strong> mimo přístřeší hážete všechny záchranné hody s nevýhodou.</td>
+</tr>
+<tr>
+<td>3–5</td>
+<td><strong>Nepříjemné:</strong> stráž navíc na přechod.</td>
+</tr>
+<tr>
+<td>6–8</td>
+<td><strong>Typické:</strong> bez následků.</td>
+</tr>
+<tr>
+<td>9–11</td>
+<td><strong>Příjemné:</strong> postavy mají výhodu na první záchranný hod dne.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><strong>Dokonalé:</strong> sběr zásob je vždy úspěšný.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="rozsireni-kampane">Rozšíření kampaně<a class="headerlink" href="#rozsireni-kampane" title="Permanent link">&para;</a></h2>
+<p>Když jsou všechny (nebo většina) hexy prozkoumány, je čas rozšířit současný hexcrawl. Postupujte podle těchto procedur, nejlépe mezi sezeními:</p>
+<ul>
+<li><strong>Hexy:</strong> přidejte 12 nových hexů k současné mapě, zopakujte krok 1.</li>
+<li><strong>Místa dobrodružství:</strong> podrobněji zpracujte další lokace podle kroku 2.</li>
+<li><strong>Scénáře výprav:</strong> alternativně pošlete postavy na výpravy tím, že je NPC najme na misi.</li>
+<li><strong>Postup frakcí:</strong> pokud postavy frakci nezabránily, hoďte k6. Na 4–6 se frakce posune o krok blíže ke svému cíli. Po třech postupech uspěje. Upravte kampaň odpovídajícím způsobem, přidejte příslušné důsledky a změny ve světě. Poté frakci odstraňte ze hry. „Zvítězila."</li>
+<li><strong>Nové frakce:</strong> vytvořte nové frakce, jak rozšiřujete mapu novými hexy.</li>
+<li><strong>Střetnutí:</strong> vyměňte některá střetnutí za nová, aby průzkum zůstal nepředvídatelný.</li>
+<li><strong>Pověsti:</strong> vyměňte některé pověsti, se zaměřením na ty, které zajímají družinu, jak se kampaň vyvíjí.</li>
+<li><strong>Události:</strong> aktualizujte tabulku událostí novými, pokud byly všechny spuštěny.</li>
+</ul>
+<p>Svět se generuje, jak se hra hraje. Tento design povzbuzuje Vypravěče a hráče k vytváření vyvíjejícího se světa kombinací více hexcrawlů (nebo rozšiřováním původního), posíláním hráčů do nových regionů (s přidáním příslušných hexů), podrobnějším zpracováním dalších míst dobrodružství a posunem frakcí. Sledujte mapu. Prostředí se utváří, zatímco hráči hrají hru.</p>
+<h4 id="postavy-v-duchodu">Postavy v důchodu<a class="headerlink" href="#postavy-v-duchodu" title="Permanent link">&para;</a></h4>
+<p>Postavy jsou navrženy k odchodu do důchodu po dosažení úrovně 5. Stanou se důležitými NPC. Hra může pokračovat ve stejném světě/prostředí tím, že si hráči vytvoří nové postavy, začlení ty v důchodu jako klíčové NPC a budou pokračovat dál.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Zpět na začátek
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Games Omnivorous - FLAIL by Andre Novoa
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Brux-cz/flail-srd" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "toc.integrate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Zkop\u00edrov\u00e1no do schr\u00e1nky", "clipboard.copy": "Kop\u00edrovat do schr\u00e1nky", "search.result.more.one": "1 dal\u0161\u00ed na t\u00e9to str\u00e1nce", "search.result.more.other": "# v\u00edce na t\u00e9to str\u00e1nce", "search.result.none": "Nenalezeny \u017e\u00e1dn\u00e9 dokumenty", "search.result.one": "Nalezen\u00fd dokument: 1", "search.result.other": "Nalezen\u00e9 dokumenty: #", "search.result.placeholder": "Pi\u0161te co se m\u00e1 vyhledat", "search.result.term.missing": "Chyb\u011bj\u00edc\u00ed", "select.version": "Vyberte verzi"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
